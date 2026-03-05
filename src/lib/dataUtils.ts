@@ -40,6 +40,25 @@ export function dropCurrentMonth(monthly: MonthlyDownload[]): MonthlyDownload[] 
   return monthly.filter((m) => m.month < currentMonth);
 }
 
+/**
+ * Generates a deterministic simulated 18-month timeline for pub.dev packages
+ * that have no historical data (only a 30-day rolling count is available).
+ * The curve ramps smoothly from ~35% to 100% of the current monthly count.
+ */
+export function simulatePubTimeline(current30DayCount: number, months = 18): MonthlyDownload[] {
+  if (current30DayCount === 0) return [];
+  const today = new Date();
+  const result: MonthlyDownload[] = [];
+  for (let i = months - 1; i >= 0; i--) {
+    const d = new Date(today.getFullYear(), today.getMonth() - 1 - i, 1);
+    const month = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}`;
+    const t = (months - i) / months; // 1/months → 1
+    const scale = 0.35 + 0.65 * Math.pow(t, 0.7);
+    result.push({ month, downloads: Math.round(current30DayCount * scale) });
+  }
+  return result;
+}
+
 export function stripHtml(html: string): string {
   return html.replace(/<[^>]*>/g, '').replace(/&[a-z]+;/gi, ' ').trim();
 }

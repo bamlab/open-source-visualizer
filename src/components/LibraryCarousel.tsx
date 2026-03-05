@@ -1,10 +1,12 @@
 import { useRef } from 'react';
 import { LibraryCard } from './LibraryCard';
 import type { PackageData } from '../types';
+import type { EcosystemFilter } from '../store/ecosystemFilter';
 
 interface Props {
   packages: PackageData[];
   isLoading: boolean;
+  filter: EcosystemFilter;
 }
 
 function ArrowButton({ direction, onClick }: { direction: 'left' | 'right'; onClick: () => void }) {
@@ -27,12 +29,20 @@ function ArrowButton({ direction, onClick }: { direction: 'left' | 'right'; onCl
   );
 }
 
-export function LibraryCarousel({ packages, isLoading }: Props) {
+const FILTER_LABELS: Record<EcosystemFilter, string> = {
+  all: 'npm & pub.dev',
+  'react-native': 'npm',
+  flutter: 'pub.dev',
+};
+
+export function LibraryCarousel({ packages, isLoading, filter }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
 
   const scroll = (dir: 'left' | 'right') => {
     containerRef.current?.scrollBy({ left: dir === 'left' ? -320 : 320, behavior: 'smooth' });
   };
+
+  const visibleCount = packages.filter((p) => !p.notFound).length;
 
   return (
     <section className="w-full py-12 px-4 md:px-6">
@@ -40,7 +50,7 @@ export function LibraryCarousel({ packages, isLoading }: Props) {
         <div className="mb-6 px-2">
           <h2 className="text-2xl font-bold text-gray-900">Individual Packages</h2>
           <p className="text-sm text-gray-400 mt-1">
-            {isLoading ? 'Loading...' : `${packages.filter((p) => !p.notFound).length} packages on npm`}
+            {isLoading ? 'Loading...' : `${visibleCount} packages on ${FILTER_LABELS[filter]}`}
           </p>
         </div>
 

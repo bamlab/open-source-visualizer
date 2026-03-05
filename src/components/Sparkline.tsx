@@ -4,33 +4,42 @@ import type { MonthlyDownload } from '../types';
 interface Props {
   data: MonthlyDownload[];
   isGrowing: boolean;
+  isSimulated?: boolean;
 }
 
-export function Sparkline({ data, isGrowing }: Props) {
-  const color = isGrowing ? '#22C55E' : '#E63946';
+export function Sparkline({ data, isGrowing, isSimulated }: Props) {
+  const color = isSimulated ? '#94A3B8' : isGrowing ? '#22C55E' : '#E63946';
   return (
-    <ResponsiveContainer width="100%" height={60}>
-      <LineChart data={data}>
-        <Tooltip
-          content={({ active, payload }) => {
-            if (!active || !payload?.length) return null;
-            const val = payload[0].value as number;
-            return (
-              <div className="bg-white border border-gray-100 rounded px-2 py-1 text-xs shadow">
-                {val >= 1000 ? `${(val / 1000).toFixed(0)}K` : val}
-              </div>
-            );
-          }}
-        />
-        <Line
-          type="monotone"
-          dataKey="downloads"
-          stroke={color}
-          strokeWidth={1.5}
-          dot={false}
-          activeDot={{ r: 3 }}
-        />
-      </LineChart>
-    </ResponsiveContainer>
+    <div className="relative">
+      {isSimulated && (
+        <span className="absolute top-0 right-0 text-[9px] text-gray-300 font-medium leading-none z-10">
+          est.
+        </span>
+      )}
+      <ResponsiveContainer width="100%" height={60}>
+        <LineChart data={data}>
+          <Tooltip
+            content={({ active, payload }) => {
+              if (!active || !payload?.length) return null;
+              const val = payload[0].value as number;
+              return (
+                <div className="bg-white border border-gray-100 rounded px-2 py-1 text-xs shadow">
+                  {isSimulated ? '~' : ''}{val >= 1000 ? `${(val / 1000).toFixed(0)}K` : val}
+                </div>
+              );
+            }}
+          />
+          <Line
+            type="monotone"
+            dataKey="downloads"
+            stroke={color}
+            strokeWidth={1.5}
+            strokeDasharray={isSimulated ? '4 2' : undefined}
+            dot={false}
+            activeDot={{ r: 3 }}
+          />
+        </LineChart>
+      </ResponsiveContainer>
+    </div>
   );
 }

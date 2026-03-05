@@ -8,6 +8,8 @@ export interface MonthlyDownload {
   downloads: number;
 }
 
+export type Ecosystem = 'npm' | 'pub';
+
 export interface PackageData {
   name: string;
   totalDownloads: number;
@@ -17,6 +19,7 @@ export interface PackageData {
   stars: number | null;
   description: string | null;
   notFound: boolean;
+  ecosystem?: Ecosystem; // undefined = 'npm' for backward compat
 }
 
 export interface NpmDownloadResponse {

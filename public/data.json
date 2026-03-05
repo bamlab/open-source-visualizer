@@ -1,88 +1,16 @@
 {
-  "generatedAt": "2026-03-05T16:05:14.430Z",
+  "generatedAt": "2026-03-05T17:19:43.866Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
-      "totalDownloads": 3025343,
-      "monthlyDownloads": [
-        {
-          "month": "2024-09",
-          "downloads": 110424
-        },
-        {
-          "month": "2024-10",
-          "downloads": 125986
-        },
-        {
-          "month": "2024-11",
-          "downloads": 115925
-        },
-        {
-          "month": "2024-12",
-          "downloads": 108061
-        },
-        {
-          "month": "2025-01",
-          "downloads": 131076
-        },
-        {
-          "month": "2025-02",
-          "downloads": 133107
-        },
-        {
-          "month": "2025-03",
-          "downloads": 139155
-        },
-        {
-          "month": "2025-04",
-          "downloads": 144193
-        },
-        {
-          "month": "2025-05",
-          "downloads": 145800
-        },
-        {
-          "month": "2025-06",
-          "downloads": 162690
-        },
-        {
-          "month": "2025-07",
-          "downloads": 181320
-        },
-        {
-          "month": "2025-08",
-          "downloads": 166928
-        },
-        {
-          "month": "2025-09",
-          "downloads": 182357
-        },
-        {
-          "month": "2025-10",
-          "downloads": 199972
-        },
-        {
-          "month": "2025-11",
-          "downloads": 179812
-        },
-        {
-          "month": "2025-12",
-          "downloads": 172225
-        },
-        {
-          "month": "2026-01",
-          "downloads": 266987
-        },
-        {
-          "month": "2026-02",
-          "downloads": 311027
-        }
-      ],
-      "momGrowthPct": 16.495185158827958,
-      "isGrowing": true,
-      "stars": 1659,
+      "totalDownloads": 0,
+      "monthlyDownloads": [],
+      "momGrowthPct": null,
+      "isGrowing": false,
+      "stars": null,
       "description": "Rescale local images with React Native",
-      "notFound": false
+      "notFound": false,
+      "ecosystem": "npm"
     },
     {
       "name": "@bam.tech/react-navigation-visualizer-dev-plugin",
@@ -165,7 +93,8 @@
       "isGrowing": true,
       "stars": null,
       "description": "Visualization Tool based on Expo DevTools Plugin for React Navigation",
-      "notFound": false
+      "notFound": false,
+      "ecosystem": "npm"
     },
     {
       "name": "@bam.tech/react-native-app-security",
@@ -246,9 +175,10 @@
       ],
       "momGrowthPct": 166.19534993788085,
       "isGrowing": true,
-      "stars": 146,
+      "stars": null,
       "description": "Easily implement usual security measures in React Native Expo apps",
-      "notFound": false
+      "notFound": false,
+      "ecosystem": "npm"
     },
     {
       "name": "@bam.tech/react-native-make",
@@ -331,7 +261,8 @@
       "isGrowing": true,
       "stars": null,
       "description": "Everyday tools for simpler React Native development",
-      "notFound": false
+      "notFound": false,
+      "ecosystem": "npm"
     },
     {
       "name": "@bam.tech/eslint-plugin",
@@ -412,9 +343,10 @@
       ],
       "momGrowthPct": -3.036322360953462,
       "isGrowing": false,
-      "stars": 9,
+      "stars": null,
       "description": "eslint plugin for bam projects",
-      "notFound": false
+      "notFound": false,
+      "ecosystem": "npm"
     },
     {
       "name": "@bam.tech/react-native-config",
@@ -497,7 +429,8 @@
       "isGrowing": true,
       "stars": null,
       "description": "Expose config variables to React Native apps",
-      "notFound": false
+      "notFound": false,
+      "ecosystem": "npm"
     },
     {
       "name": "@bam.tech/react-native-keyevent-expo-config-plugin",
@@ -580,7 +513,8 @@
       "isGrowing": false,
       "stars": null,
       "description": "Config plugin to auto configure react-native-keyevent on prebuild",
-      "notFound": false
+      "notFound": false,
+      "ecosystem": "npm"
     },
     {
       "name": "@bam.tech/lrud",
@@ -661,9 +595,10 @@
       ],
       "momGrowthPct": 19.053117782909933,
       "isGrowing": true,
-      "stars": 2,
+      "stars": null,
       "description": "Left, Right, Up, Down. A spatial navigation library for devices with input via directional controls",
-      "notFound": false
+      "notFound": false,
+      "ecosystem": "npm"
     },
     {
       "name": "@bam.tech/flow-navigator",
@@ -746,7 +681,8 @@
       "isGrowing": false,
       "stars": null,
       "description": "A flow navigator for react-navigation",
-      "notFound": false
+      "notFound": false,
+      "ecosystem": "npm"
     },
     {
       "name": "@bam.tech/react-native-graphql-transformer",
@@ -829,7 +765,8 @@
       "isGrowing": true,
       "stars": null,
       "description": "Transform GraphQL source files with ReactNative",
-      "notFound": false
+      "notFound": false,
+      "ecosystem": "npm"
     },
     {
       "name": "@bam.tech/tanstack-query-detect-waterfall",
@@ -910,92 +847,21 @@
       ],
       "momGrowthPct": -17.015926236378874,
       "isGrowing": false,
-      "stars": 9,
+      "stars": null,
       "description": "Detect waterfall queries in TanStack",
-      "notFound": false
+      "notFound": false,
+      "ecosystem": "npm"
     },
     {
       "name": "@bam.tech/react-native-batch",
-      "totalDownloads": 5681,
-      "monthlyDownloads": [
-        {
-          "month": "2024-09",
-          "downloads": 62
-        },
-        {
-          "month": "2024-10",
-          "downloads": 13
-        },
-        {
-          "month": "2024-11",
-          "downloads": 48
-        },
-        {
-          "month": "2024-12",
-          "downloads": 64
-        },
-        {
-          "month": "2025-01",
-          "downloads": 50
-        },
-        {
-          "month": "2025-02",
-          "downloads": 125
-        },
-        {
-          "month": "2025-03",
-          "downloads": 146
-        },
-        {
-          "month": "2025-04",
-          "downloads": 65
-        },
-        {
-          "month": "2025-05",
-          "downloads": 21
-        },
-        {
-          "month": "2025-06",
-          "downloads": 1435
-        },
-        {
-          "month": "2025-07",
-          "downloads": 518
-        },
-        {
-          "month": "2025-08",
-          "downloads": 13
-        },
-        {
-          "month": "2025-09",
-          "downloads": 137
-        },
-        {
-          "month": "2025-10",
-          "downloads": 278
-        },
-        {
-          "month": "2025-11",
-          "downloads": 1766
-        },
-        {
-          "month": "2025-12",
-          "downloads": 724
-        },
-        {
-          "month": "2026-01",
-          "downloads": 115
-        },
-        {
-          "month": "2026-02",
-          "downloads": 99
-        }
-      ],
-      "momGrowthPct": -13.91304347826087,
+      "totalDownloads": 0,
+      "monthlyDownloads": [],
+      "momGrowthPct": null,
       "isGrowing": false,
       "stars": null,
       "description": "React Native integration of Batch.com SDK",
-      "notFound": false
+      "notFound": false,
+      "ecosystem": "npm"
     },
     {
       "name": "react-native-performance",
@@ -1078,7 +944,8 @@
       "isGrowing": false,
       "stars": null,
       "description": "Measure React Native performance",
-      "notFound": false
+      "notFound": false,
+      "ecosystem": "npm"
     },
     {
       "name": "react-native-image-resizer",
@@ -1159,9 +1026,10 @@
       ],
       "momGrowthPct": -10.444883402660267,
       "isGrowing": false,
-      "stars": 1659,
+      "stars": null,
       "description": "Rescale local images with React Native",
-      "notFound": false
+      "notFound": false,
+      "ecosystem": "npm"
     },
     {
       "name": "react-native-hide-with-keyboard",
@@ -1242,9 +1110,10 @@
       ],
       "momGrowthPct": -0.41029994340690434,
       "isGrowing": false,
-      "stars": 124,
+      "stars": null,
       "description": "Hide components when keyboard is shown",
-      "notFound": false
+      "notFound": false,
+      "ecosystem": "npm"
     },
     {
       "name": "react-native-image-header-scroll-view",
@@ -1325,9 +1194,10 @@
       ],
       "momGrowthPct": 1.295268305577584,
       "isGrowing": false,
-      "stars": 1021,
+      "stars": null,
       "description": "ScrollView with an image in header which become a navbar",
-      "notFound": false
+      "notFound": false,
+      "ecosystem": "npm"
     },
     {
       "name": "generator-rn-toolbox",
@@ -1410,7 +1280,8 @@
       "isGrowing": true,
       "stars": null,
       "description": "React-Native generators to kickstart your project",
-      "notFound": false
+      "notFound": false,
+      "ecosystem": "npm"
     },
     {
       "name": "react-native-make",
@@ -1491,9 +1362,10 @@
       ],
       "momGrowthPct": -21.546449100686075,
       "isGrowing": false,
-      "stars": 762,
+      "stars": null,
       "description": "Please see [@bam.tech/react-native-make](https://github.com/bamlab/react-native-make)",
-      "notFound": false
+      "notFound": false,
+      "ecosystem": "npm"
     },
     {
       "name": "redux-enhancer-react-native-appstate",
@@ -1574,9 +1446,10 @@
       ],
       "momGrowthPct": -1.6746960311998165,
       "isGrowing": false,
-      "stars": 89,
+      "stars": null,
       "description": "Connect your App State changes directly to your Redux store",
-      "notFound": false
+      "notFound": false,
+      "ecosystem": "npm"
     },
     {
       "name": "react-tv-space-navigation",
@@ -1657,9 +1530,10 @@
       ],
       "momGrowthPct": 19.554627696590117,
       "isGrowing": true,
-      "stars": 310,
+      "stars": null,
       "description": "![banner](./docs/banner.png)",
-      "notFound": false
+      "notFound": false,
+      "ecosystem": "npm"
     },
     {
       "name": "react-native-formik",
@@ -1740,9 +1614,10 @@
       ],
       "momGrowthPct": 28.697674418604652,
       "isGrowing": true,
-      "stars": 398,
+      "stars": null,
       "description": "Make the most of your React Native forms with Formik",
-      "notFound": false
+      "notFound": false,
+      "ecosystem": "npm"
     },
     {
       "name": "rn-camera-roll",
@@ -1823,9 +1698,10 @@
       ],
       "momGrowthPct": 95,
       "isGrowing": true,
-      "stars": 111,
+      "stars": null,
       "description": "Camera Roll for react native Android",
-      "notFound": false
+      "notFound": false,
+      "ecosystem": "npm"
     },
     {
       "name": "react-native-braintree-payments-drop-in",
@@ -1906,9 +1782,10 @@
       ],
       "momGrowthPct": -48.77049180327869,
       "isGrowing": false,
-      "stars": 35,
+      "stars": null,
       "description": "React Native integration of Braintree Drop-in",
-      "notFound": false
+      "notFound": false,
+      "ecosystem": "npm"
     },
     {
       "name": "react-native-form-idable",
@@ -1989,9 +1866,10 @@
       ],
       "momGrowthPct": 185,
       "isGrowing": true,
-      "stars": 13,
+      "stars": null,
       "description": "## Installation",
-      "notFound": false
+      "notFound": false,
+      "ecosystem": "npm"
     },
     {
       "name": "react-redux-toolbox",
@@ -2072,9 +1950,10 @@
       ],
       "momGrowthPct": -1.9455252918287937,
       "isGrowing": false,
-      "stars": 2,
+      "stars": null,
       "description": "Set of utils for React and Redux development",
-      "notFound": false
+      "notFound": false,
+      "ecosystem": "npm"
     },
     {
       "name": "react-native-debugger-utils",
@@ -2155,9 +2034,10 @@
       ],
       "momGrowthPct": 92.3076923076923,
       "isGrowing": true,
-      "stars": 1,
+      "stars": null,
       "description": "Utilities for React Native Debugger",
-      "notFound": false
+      "notFound": false,
+      "ecosystem": "npm"
     },
     {
       "name": "redux-async-actions-factory",
@@ -2240,7 +2120,8 @@
       "isGrowing": true,
       "stars": null,
       "description": "Automaticaly adds loading and error states to your API calls, and a reset store to each of yours Redux stores.",
-      "notFound": false
+      "notFound": false,
+      "ecosystem": "npm"
     },
     {
       "name": "react-native-photo-guideline-grid",
@@ -2321,9 +2202,10 @@
       ],
       "momGrowthPct": 50,
       "isGrowing": true,
-      "stars": 11,
+      "stars": null,
       "description": "A simple component to display a guideline grid according to Rule of thirds",
-      "notFound": false
+      "notFound": false,
+      "ecosystem": "npm"
     },
     {
       "name": "generator-module-react-native",
@@ -2404,9 +2286,10 @@
       ],
       "momGrowthPct": 23.076923076923077,
       "isGrowing": true,
-      "stars": 25,
+      "stars": null,
       "description": "Generate react-native android module boilerplate",
-      "notFound": false
+      "notFound": false,
+      "ecosystem": "npm"
     },
     {
       "name": "devicelab-bot",
@@ -2487,9 +2370,10 @@
       ],
       "momGrowthPct": 36.84210526315789,
       "isGrowing": true,
-      "stars": 6,
+      "stars": null,
       "description": "## Installation",
-      "notFound": false
+      "notFound": false,
+      "ecosystem": "npm"
     },
     {
       "name": "react-native-numberpicker-dialog",
@@ -2570,9 +2454,10 @@
       ],
       "momGrowthPct": -27.52808988764045,
       "isGrowing": false,
-      "stars": 25,
+      "stars": null,
       "description": "Show a dialog on Android, allowing to choose an option using NumberPicker",
-      "notFound": false
+      "notFound": false,
+      "ecosystem": "npm"
     },
     {
       "name": "cordova-camera-roll",
@@ -2653,9 +2538,10 @@
       ],
       "momGrowthPct": -30,
       "isGrowing": false,
-      "stars": 0,
+      "stars": null,
       "description": "The Cordova Camera Roll plugin makes it easy to read from the iOS camera roll.",
-      "notFound": false
+      "notFound": false,
+      "ecosystem": "npm"
     },
     {
       "name": "react-native-text-input",
@@ -2736,9 +2622,170 @@
       ],
       "momGrowthPct": 11.76470588235294,
       "isGrowing": true,
-      "stars": 15,
+      "stars": null,
       "description": "Provides Text Input component with colorization for password both on Android & iOS",
-      "notFound": false
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "adaptive_test",
+      "totalDownloads": 5677,
+      "monthlyDownloads": [
+        {
+          "month": "2026-03",
+          "downloads": 5677
+        }
+      ],
+      "momGrowthPct": null,
+      "isGrowing": false,
+      "stars": null,
+      "description": "A Flutter package to generate adaptive golden files during widget tests.",
+      "notFound": false,
+      "ecosystem": "pub"
+    },
+    {
+      "name": "riverpod_community_extensions",
+      "totalDownloads": 748,
+      "monthlyDownloads": [
+        {
+          "month": "2026-03",
+          "downloads": 748
+        }
+      ],
+      "momGrowthPct": null,
+      "isGrowing": false,
+      "stars": null,
+      "description": "Extends Riverpod ref types with additional helpers, to easily add common functionalities to your providers.",
+      "notFound": false,
+      "ecosystem": "pub"
+    },
+    {
+      "name": "theodo_analysis",
+      "totalDownloads": 945,
+      "monthlyDownloads": [
+        {
+          "month": "2026-03",
+          "downloads": 945
+        }
+      ],
+      "momGrowthPct": null,
+      "isGrowing": false,
+      "stars": null,
+      "description": "Lint and dcm rules for Dart and Flutter used internally at Theodo Apps.",
+      "notFound": false,
+      "ecosystem": "pub"
+    },
+    {
+      "name": "init",
+      "totalDownloads": 423,
+      "monthlyDownloads": [
+        {
+          "month": "2026-03",
+          "downloads": 423
+        }
+      ],
+      "momGrowthPct": null,
+      "isGrowing": false,
+      "stars": null,
+      "description": "Init widget to execute initialization methods declaratively",
+      "notFound": false,
+      "ecosystem": "pub"
+    },
+    {
+      "name": "riverpod_community_mutation",
+      "totalDownloads": 497,
+      "monthlyDownloads": [
+        {
+          "month": "2026-03",
+          "downloads": 497
+        }
+      ],
+      "momGrowthPct": null,
+      "isGrowing": false,
+      "stars": null,
+      "description": "A mutation implementation for the riverpod community - made by Theodo",
+      "notFound": false,
+      "ecosystem": "pub"
+    },
+    {
+      "name": "flutter_reach_five",
+      "totalDownloads": 343,
+      "monthlyDownloads": [
+        {
+          "month": "2026-03",
+          "downloads": 343
+        }
+      ],
+      "momGrowthPct": null,
+      "isGrowing": false,
+      "stars": null,
+      "description": "This package allows you to use the methods from the reachFive android and ios native sdks in Flutter",
+      "notFound": false,
+      "ecosystem": "pub"
+    },
+    {
+      "name": "flutter_lyra",
+      "totalDownloads": 266,
+      "monthlyDownloads": [
+        {
+          "month": "2026-03",
+          "downloads": 266
+        }
+      ],
+      "momGrowthPct": null,
+      "isGrowing": false,
+      "stars": null,
+      "description": "This package allows you to use the methods from the lyra android and ios native sdks in Flutter",
+      "notFound": false,
+      "ecosystem": "pub"
+    },
+    {
+      "name": "app_attest_integrity",
+      "totalDownloads": 100,
+      "monthlyDownloads": [
+        {
+          "month": "2026-03",
+          "downloads": 100
+        }
+      ],
+      "momGrowthPct": null,
+      "isGrowing": false,
+      "stars": null,
+      "description": "A Flutter plugin to assess an app integrity. Uses App attest on iOS and app Integrity on Android.",
+      "notFound": false,
+      "ecosystem": "pub"
+    },
+    {
+      "name": "http_cache_mmkv_store",
+      "totalDownloads": 74,
+      "monthlyDownloads": [
+        {
+          "month": "2026-03",
+          "downloads": 74
+        }
+      ],
+      "momGrowthPct": null,
+      "isGrowing": false,
+      "stars": null,
+      "description": "A DB cache store implementation with mmkv for dio_cache_interceptor and http_cache_client packages.",
+      "notFound": false,
+      "ecosystem": "pub"
+    },
+    {
+      "name": "equatable_lint",
+      "totalDownloads": 152,
+      "monthlyDownloads": [
+        {
+          "month": "2026-03",
+          "downloads": 152
+        }
+      ],
+      "momGrowthPct": null,
+      "isGrowing": false,
+      "stars": null,
+      "description": "This is a set of rules to make classes using Equatable more maintainable. We make sure here that every fields in an Equatable class is linked to the Equatable props getter.",
+      "notFound": false,
+      "ecosystem": "pub"
     }
   ]
 }
