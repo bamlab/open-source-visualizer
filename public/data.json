@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-06T00:13:12.722Z",
+  "generatedAt": "2026-03-06T06:11:03.294Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2791,11 +2791,11 @@
     },
     {
       "name": "riverpod_community_extensions",
-      "totalDownloads": 748,
+      "totalDownloads": 797,
       "monthlyDownloads": [
         {
           "month": "2026-02",
-          "downloads": 748
+          "downloads": 797
         }
       ],
       "momGrowthPct": null,
@@ -2807,11 +2807,11 @@
     },
     {
       "name": "theodo_analysis",
-      "totalDownloads": 945,
+      "totalDownloads": 1014,
       "monthlyDownloads": [
         {
           "month": "2026-02",
-          "downloads": 945
+          "downloads": 1014
         }
       ],
       "momGrowthPct": null,
@@ -2823,11 +2823,11 @@
     },
     {
       "name": "init",
-      "totalDownloads": 423,
+      "totalDownloads": 454,
       "monthlyDownloads": [
         {
           "month": "2026-02",
-          "downloads": 423
+          "downloads": 454
         }
       ],
       "momGrowthPct": null,
@@ -2839,11 +2839,11 @@
     },
     {
       "name": "riverpod_community_mutation",
-      "totalDownloads": 497,
+      "totalDownloads": 519,
       "monthlyDownloads": [
         {
           "month": "2026-02",
-          "downloads": 497
+          "downloads": 519
         }
       ],
       "momGrowthPct": null,
@@ -2871,11 +2871,11 @@
     },
     {
       "name": "flutter_lyra",
-      "totalDownloads": 266,
+      "totalDownloads": 292,
       "monthlyDownloads": [
         {
           "month": "2026-02",
-          "downloads": 266
+          "downloads": 292
         }
       ],
       "momGrowthPct": null,
@@ -2903,11 +2903,11 @@
     },
     {
       "name": "http_cache_mmkv_store",
-      "totalDownloads": 74,
+      "totalDownloads": 72,
       "monthlyDownloads": [
         {
           "month": "2026-02",
-          "downloads": 74
+          "downloads": 72
         }
       ],
       "momGrowthPct": null,
@@ -2919,11 +2919,11 @@
     },
     {
       "name": "equatable_lint",
-      "totalDownloads": 152,
+      "totalDownloads": 155,
       "monthlyDownloads": [
         {
           "month": "2026-02",
-          "downloads": 152
+          "downloads": 155
         }
       ],
       "momGrowthPct": null,
