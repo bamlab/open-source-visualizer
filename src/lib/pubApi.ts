@@ -71,3 +71,39 @@ export async function fetchPubScore(name: string): Promise<PubScoreResponse | nu
   if (!res.ok) return null;
   return res.json() as Promise<PubScoreResponse>;
 }
+
+export interface PubWeeklyDownloads {
+  /** ISO date (YYYY-MM-DD) of the last day of the most recent week */
+  endDate: string;
+  /** Up to 52 weekly download counts, index 0 = most recent week */
+  weeklyCounts: number[];
+}
+
+/**
+ * Fetches the weekly download sparkline embedded in the pub.dev package page HTML.
+ * The binary blob encodes: uint32LE end-timestamp, then up to 52 uint32LE weekly counts.
+ */
+export async function fetchPubWeeklyDownloads(name: string): Promise<PubWeeklyDownloads | null> {
+  const res = await fetch(`https://pub.dev/packages/${encodeURIComponent(name)}`);
+  if (!res.ok) return null;
+  const html = await res.text();
+  const match = html.match(/data-weekly-sparkline-points="([^"]+)"/);
+  if (!match) return null;
+
+  // Decode base64 using DataView (works in browser and bun/node)
+  const binary = atob(match[1]);
+  const bytes = new Uint8Array(binary.length);
+  for (let i = 0; i < binary.length; i++) bytes[i] = binary.charCodeAt(i);
+  if (bytes.length < 8) return null;
+
+  const view = new DataView(bytes.buffer);
+  const endTimestamp = view.getUint32(0, true); // little-endian
+  const endDate = new Date(endTimestamp * 1000).toISOString().slice(0, 10);
+
+  const weeklyCounts: number[] = [];
+  for (let i = 4; i + 3 < bytes.length; i += 4) {
+    weeklyCounts.push(view.getUint32(i, true));
+  }
+
+  return { endDate, weeklyCounts };
+}

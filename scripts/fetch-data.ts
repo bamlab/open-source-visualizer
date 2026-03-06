@@ -9,7 +9,7 @@
  * Set GITHUB_TOKEN env var for higher GitHub API rate limits (optional but recommended in CI).
  */
 
-import { writeFileSync, mkdirSync, readFileSync } from 'fs';
+import { writeFileSync, mkdirSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
@@ -27,6 +27,7 @@ import {
   fetchPubPublisherPackages,
   fetchPubPackageInfo,
   fetchPubScore,
+  fetchPubWeeklyDownloads,
 } from '../src/lib/pubApi';
 import type { PackageData, DataFile, MonthlyDownload } from '../src/types';
 
@@ -86,9 +87,25 @@ async function processNpmPackage(name: string): Promise<PackageData> {
   };
 }
 
-async function processPubPackage(name: string, existingMonthly: MonthlyDownload[]): Promise<PackageData> {
-  const [infoResult, scoreResult] = await Promise.allSettled([
+function weeklyToMonthly(endDate: string, weeklyCounts: number[]): MonthlyDownload[] {
+  const map = new Map<string, number>();
+  const endMs = new Date(endDate).getTime();
+  for (let i = 0; i < weeklyCounts.length; i++) {
+    // Midpoint of the week (3.5 days before the week end) determines the month
+    const weekMidMs = endMs - (i * 7 + 3.5) * 24 * 60 * 60 * 1000;
+    const d = new Date(weekMidMs);
+    const month = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}`;
+    map.set(month, (map.get(month) ?? 0) + weeklyCounts[i]);
+  }
+  return Array.from(map.entries())
+    .sort(([a], [b]) => a.localeCompare(b))
+    .map(([month, downloads]) => ({ month, downloads }));
+}
+
+async function processPubPackage(name: string): Promise<PackageData> {
+  const [infoResult, weeklyResult, scoreResult] = await Promise.allSettled([
     fetchPubPackageInfo(name),
+    fetchPubWeeklyDownloads(name),
     fetchPubScore(name),
   ]);
 
@@ -107,23 +124,22 @@ async function processPubPackage(name: string, existingMonthly: MonthlyDownload[
   }
 
   const info = infoResult.value;
+  const weekly = weeklyResult.status === 'fulfilled' ? weeklyResult.value : null;
   const score = scoreResult.status === 'fulfilled' ? scoreResult.value : null;
-  const count30d = score?.downloadCount30Days ?? 0;
 
-  // pub.dev only exposes a 30-day rolling count. Store it as the last complete month
-  // and merge with any previously accumulated months so history builds up over time.
-  const today = new Date();
-  const lastCompleteMonth = new Date(today.getFullYear(), today.getMonth() - 1, 1)
-    .toISOString()
-    .slice(0, 7);
-
-  const monthMap = new Map<string, number>(existingMonthly.map((m) => [m.month, m.downloads]));
-  if (count30d > 0) {
-    monthMap.set(lastCompleteMonth, count30d);
+  let monthlyDownloads: MonthlyDownload[];
+  if (weekly && weekly.weeklyCounts.length > 0) {
+    // Real weekly data: bucket into months, then drop the current (incomplete) month
+    monthlyDownloads = dropCurrentMonth(weeklyToMonthly(weekly.endDate, weekly.weeklyCounts));
+  } else {
+    // Fallback: use 30-day count as the last complete month
+    const count30d = score?.downloadCount30Days ?? 0;
+    const today = new Date();
+    const lastCompleteMonth = new Date(today.getFullYear(), today.getMonth() - 1, 1)
+      .toISOString()
+      .slice(0, 7);
+    monthlyDownloads = count30d > 0 ? [{ month: lastCompleteMonth, downloads: count30d }] : [];
   }
-  const monthlyDownloads: MonthlyDownload[] = Array.from(monthMap.entries())
-    .sort(([a], [b]) => a.localeCompare(b))
-    .map(([month, downloads]) => ({ month, downloads }));
 
   const totalDownloads = monthlyDownloads.reduce((sum, m) => sum + m.downloads, 0);
   const momGrowthPct = calcMoMGrowth(monthlyDownloads);
@@ -152,22 +168,8 @@ async function processPubPackage(name: string, existingMonthly: MonthlyDownload[
 }
 
 async function main() {
-  // Load existing data.json to preserve accumulated pub.dev monthly history
   const __dirname = dirname(fileURLToPath(import.meta.url));
   const outPath = join(__dirname, '../public/data.json');
-  let existingPubData = new Map<string, MonthlyDownload[]>();
-  try {
-    const raw = readFileSync(outPath, 'utf-8');
-    const existing: DataFile = JSON.parse(raw);
-    for (const pkg of existing.packages) {
-      if (pkg.ecosystem === 'pub' && pkg.monthlyDownloads.length > 0) {
-        existingPubData.set(pkg.name, pkg.monthlyDownloads);
-      }
-    }
-    console.log(`Loaded ${existingPubData.size} existing pub.dev package histories from data.json`);
-  } catch {
-    console.log('No existing data.json found — starting fresh');
-  }
 
   // Fetch pub.dev package list for bam.tech publisher
   console.log('Fetching pub.dev packages for bam.tech...');
@@ -210,7 +212,7 @@ async function main() {
   const pubResults = await Promise.all(
     pubPackages.map(async (name) => {
       try {
-        const result = await processPubPackage(name, existingPubData.get(name) ?? []);
+        const result = await processPubPackage(name);
         const status = result.notFound
           ? '✗ not found'
           : `✓ ${(result.totalDownloads / 1000).toFixed(0)}K downloads`;
