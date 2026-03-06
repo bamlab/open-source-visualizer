@@ -1676,8 +1676,8 @@
       ],
       "momGrowthPct": 19.554627696590117,
       "isGrowing": true,
-      "stars": null,
-      "description": null,
+      "stars": 310,
+      "description": "![banner](./docs/banner.png)",
       "notFound": false,
       "ecosystem": "npm"
     },
