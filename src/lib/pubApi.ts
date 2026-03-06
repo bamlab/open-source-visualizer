@@ -4,6 +4,7 @@ export interface PubPackageInfo {
   name: string;
   description: string | null;
   repositoryUrl: string | null;
+  publishedAt: string | null; // ISO date of the first version
 }
 
 interface PubSearchResponse {
@@ -19,6 +20,7 @@ interface PubPackageResponse {
       homepage?: string;
     };
   };
+  versions?: Array<{ version: string; published: string }>;
 }
 
 export interface PubScoreResponse {
@@ -49,10 +51,17 @@ export async function fetchPubPackageInfo(name: string): Promise<PubPackageInfo>
   if (!res.ok) throw new Error(`pub.dev package API error ${res.status} for ${name}`);
   const data: PubPackageResponse = await res.json();
   const pubspec = data.latest?.pubspec;
+  // Find the earliest published version to determine when the package was first released
+  const publishedDates = (data.versions ?? []).map((v) => v.published).filter(Boolean);
+  const publishedAt = publishedDates.length > 0
+    ? publishedDates.reduce((earliest, d) => (d < earliest ? d : earliest))
+    : null;
+
   return {
     name,
     description: pubspec?.description ?? null,
     repositoryUrl: pubspec?.repository ?? pubspec?.homepage ?? null,
+    publishedAt,
   };
 }
 

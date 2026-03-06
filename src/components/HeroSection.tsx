@@ -93,9 +93,11 @@ export function HeroSection({
               <AnimatedCounter target={totalDownloads} />
             </div>
             <p className="text-sm text-gray-400 mt-2">
-              {selectedPackageName
-                ? 'downloads in the last 18 months · click again to deselect'
-                : 'downloads in the last 18 months'}
+              {isSimulatedTimeline
+                ? 'estimated 18mo downloads · based on 30-day pub.dev data'
+                : selectedPackageName
+                  ? 'downloads in the last 18 months · click again to deselect'
+                  : 'downloads in the last 18 months'}
             </p>
           </div>
         )}

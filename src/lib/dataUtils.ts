@@ -70,6 +70,39 @@ export function parseGitHubOwnerRepo(url: string | undefined): { owner: string; 
   return { owner: match[1], repo: match[2].replace(/\.git$/, '') };
 }
 
+/**
+ * Estimates pub.dev package downloads over its actual lifetime (capped at 17mo to stay
+ * comparable with npm's 18-month window).
+ *
+ * Uses the package publish date to determine real age, skips the first (launch) month,
+ * then multiplies the current 30-day velocity by that age. Packages older than 19 months
+ * get ×18 (matching npm's window). Falls back to ×18 if no publish date is available.
+ */
+export function estimatePub18Mo(
+  totalDownloads: number,
+  monthlyDownloads: MonthlyDownload[],
+  publishedAt?: string | null,
+): { estimated: number; avgMonthly: number; effectiveMonths: number } {
+  // Most recent month = best proxy for current download velocity
+  const avgMonthly = monthlyDownloads.length > 0
+    ? monthlyDownloads[monthlyDownloads.length - 1].downloads
+    : totalDownloads;
+
+  let effectiveMonths = 18; // fallback when no publish date
+
+  if (publishedAt) {
+    const published = new Date(publishedAt);
+    const now = new Date();
+    const monthsSincePublish =
+      (now.getFullYear() - published.getFullYear()) * 12 +
+      (now.getMonth() - published.getMonth());
+    // Skip the first (launch) month; clamp between 1 and 18
+    effectiveMonths = Math.min(18, Math.max(1, monthsSincePublish - 1));
+  }
+
+  return { estimated: Math.round(avgMonthly * effectiveMonths), avgMonthly, effectiveMonths };
+}
+
 export function formatDownloads(n: number): string {
   if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1)}M`;
   if (n >= 1_000) return `${(n / 1_000).toFixed(0)}K`;

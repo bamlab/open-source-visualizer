@@ -20,6 +20,7 @@ export interface PackageData {
   description: string | null;
   notFound: boolean;
   ecosystem?: Ecosystem; // undefined = 'npm' for backward compat
+  publishedAt?: string | null; // pub.dev only: ISO date of first version
 }
 
 export interface NpmDownloadResponse {

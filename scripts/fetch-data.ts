@@ -147,6 +147,7 @@ async function processPubPackage(name: string, existingMonthly: MonthlyDownload[
     description: info.description,
     notFound: false,
     ecosystem: 'pub',
+    publishedAt: info.publishedAt,
   };
 }
 

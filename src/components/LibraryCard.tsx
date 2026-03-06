@@ -1,7 +1,7 @@
 import { GrowthBadge } from './GrowthBadge';
 import { Sparkline } from './Sparkline';
 import { LoadingSkeleton } from './LoadingSkeleton';
-import { formatDownloads, simulatePubTimeline } from '../lib/dataUtils';
+import { formatDownloads, simulatePubTimeline, estimatePub18Mo } from '../lib/dataUtils';
 import { useSelectedPackage } from '../store/selectedPackage';
 import type { PackageData } from '../types';
 
@@ -43,16 +43,20 @@ export function LibraryCard({ pkg, isLoading }: Props) {
   const isSelected = selectedPackage === pkg.name;
   const isPub = pkg.ecosystem === 'pub';
 
-  const hasRealHistory = pkg.monthlyDownloads.length > 0;
-  const sparklineData = hasRealHistory
+  // Need >1 point to draw a line; pub.dev only gives a single 30-day snapshot
+  const hasUsableHistory = pkg.monthlyDownloads.length > 1;
+  const sparklineData = hasUsableHistory
     ? pkg.monthlyDownloads
     : isPub && pkg.totalDownloads > 0
       ? simulatePubTimeline(pkg.totalDownloads)
-      : [];
-  const isSimulatedSparkline = !hasRealHistory && sparklineData.length > 0;
+      : pkg.monthlyDownloads;
+  const isSimulatedSparkline = !hasUsableHistory && isPub && pkg.totalDownloads > 0;
 
-  const downloadsLabel = isPub && !hasRealHistory
-    ? '30d downloads'
+  // Extrapolate pub packages using actual publish date to determine age
+  const pubEstimate = isPub ? estimatePub18Mo(pkg.totalDownloads, pkg.monthlyDownloads, pkg.publishedAt) : null;
+  const displayDownloads = isPub ? pubEstimate!.estimated : pkg.totalDownloads;
+  const downloadsLabel = isPub
+    ? `est. ${pubEstimate!.effectiveMonths}mo downloads`
     : `${pkg.monthlyDownloads.length > 0 ? pkg.monthlyDownloads.length : 18}mo downloads`;
 
   // For npm: strip @bam.tech/ prefix. For pub: use name as-is.
@@ -149,8 +153,13 @@ export function LibraryCard({ pkg, isLoading }: Props) {
       {/* Footer stats */}
       <div className="flex items-end justify-between pt-2 border-t border-gray-100">
         <div>
-          <p className="text-xl font-bold text-gray-900 leading-none">{formatDownloads(pkg.totalDownloads)}</p>
+          <p className="text-xl font-bold text-gray-900 leading-none">{formatDownloads(displayDownloads)}</p>
           <p className="text-xs text-gray-400 mt-1">{downloadsLabel}</p>
+          {isPub && pubEstimate && (
+            <p className="text-[10px] text-gray-400 mt-0.5">
+              *est. based on {formatDownloads(pubEstimate.avgMonthly)}/mo × {pubEstimate.effectiveMonths}
+            </p>
+          )}
         </div>
         <div className="flex items-center gap-2 pb-0.5">
           {pkg.stars !== null && (
