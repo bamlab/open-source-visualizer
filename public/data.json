@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T06:17:25.603Z",
+  "generatedAt": "2026-03-09T12:06:04.946Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -3328,27 +3328,27 @@
       "monthlyDownloads": [
         {
           "month": "2025-03",
-          "downloads": 707
+          "downloads": 522
         },
         {
           "month": "2025-04",
-          "downloads": 383
+          "downloads": 571
         },
         {
           "month": "2025-05",
-          "downloads": 698
+          "downloads": 696
         },
         {
           "month": "2025-06",
-          "downloads": 608
+          "downloads": 428
         },
         {
           "month": "2025-07",
-          "downloads": 476
+          "downloads": 656
         },
         {
           "month": "2025-08",
-          "downloads": 262
+          "downloads": 261
         },
         {
           "month": "2025-09",
@@ -3368,14 +3368,14 @@
         },
         {
           "month": "2026-01",
-          "downloads": 91
+          "downloads": 93
         },
         {
           "month": "2026-02",
-          "downloads": 148
+          "downloads": 146
         }
       ],
-      "momGrowthPct": 62.637362637362635,
+      "momGrowthPct": 56.98924731182796,
       "isGrowing": true,
       "stars": 6,
       "description": "This is a set of rules to make classes using Equatable more maintainable. We make sure here that every fields in an Equatable class is linked to the Equatable props getter.",
