@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-11T06:12:17.575Z",
+  "generatedAt": "2026-03-11T12:06:31.849Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -3019,7 +3019,7 @@
     },
     {
       "name": "riverpod_community_mutation",
-      "totalDownloads": 3889,
+      "totalDownloads": 3903,
       "monthlyDownloads": [
         {
           "month": "2025-03",
@@ -3031,46 +3031,46 @@
         },
         {
           "month": "2025-05",
-          "downloads": 252
+          "downloads": 277
         },
         {
           "month": "2025-06",
-          "downloads": 350
+          "downloads": 330
         },
         {
           "month": "2025-07",
-          "downloads": 480
+          "downloads": 479
         },
         {
           "month": "2025-08",
-          "downloads": 306
+          "downloads": 304
         },
         {
           "month": "2025-09",
-          "downloads": 275
+          "downloads": 287
         },
         {
           "month": "2025-10",
-          "downloads": 662
+          "downloads": 658
         },
         {
           "month": "2025-11",
-          "downloads": 367
+          "downloads": 374
         },
         {
           "month": "2025-12",
-          "downloads": 357
+          "downloads": 319
         },
         {
           "month": "2026-01",
-          "downloads": 357
+          "downloads": 380
         },
         {
           "month": "2026-02",
-          "downloads": 483
+          "downloads": 495
         }
       ],
-      "momGrowthPct": 35.294117647058826,
+      "momGrowthPct": 30.263157894736842,
       "isGrowing": true,
       "stars": 1,
       "description": "A mutation implementation for the riverpod community - made by Theodo",
@@ -3226,34 +3226,34 @@
         },
         {
           "month": "2025-08",
-          "downloads": 107
+          "downloads": 109
         },
         {
           "month": "2025-09",
-          "downloads": 177
+          "downloads": 178
         },
         {
           "month": "2025-10",
-          "downloads": 59
+          "downloads": 56
         },
         {
           "month": "2025-11",
-          "downloads": 36
+          "downloads": 38
         },
         {
           "month": "2025-12",
-          "downloads": 32
+          "downloads": 23
         },
         {
           "month": "2026-01",
-          "downloads": 216
+          "downloads": 225
         },
         {
           "month": "2026-02",
-          "downloads": 66
+          "downloads": 64
         }
       ],
-      "momGrowthPct": -69.44444444444444,
+      "momGrowthPct": -71.55555555555554,
       "isGrowing": false,
       "stars": 0,
       "description": "A Flutter plugin to assess an app integrity. Uses App attest on iOS and app Integrity on Android.",
@@ -3263,7 +3263,7 @@
     },
     {
       "name": "http_cache_mmkv_store",
-      "totalDownloads": 433,
+      "totalDownloads": 434,
       "monthlyDownloads": [
         {
           "month": "2025-03",
@@ -3291,30 +3291,30 @@
         },
         {
           "month": "2025-09",
-          "downloads": 32
+          "downloads": 35
         },
         {
           "month": "2025-10",
-          "downloads": 49
+          "downloads": 46
         },
         {
           "month": "2025-11",
-          "downloads": 34
+          "downloads": 36
         },
         {
           "month": "2025-12",
-          "downloads": 40
+          "downloads": 32
         },
         {
           "month": "2026-01",
-          "downloads": 24
+          "downloads": 30
         },
         {
           "month": "2026-02",
-          "downloads": 68
+          "downloads": 69
         }
       ],
-      "momGrowthPct": 183.33333333333331,
+      "momGrowthPct": 130,
       "isGrowing": true,
       "stars": 151,
       "description": "A DB cache store implementation with mmkv for dio_cache_interceptor and http_cache_client packages.",
