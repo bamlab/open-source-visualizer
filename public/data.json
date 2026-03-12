@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-12T00:07:41.628Z",
+  "generatedAt": "2026-03-12T06:13:40.032Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -3072,7 +3072,7 @@
       ],
       "momGrowthPct": 30.263157894736842,
       "isGrowing": true,
-      "stars": 1,
+      "stars": 2,
       "description": "A mutation implementation for the riverpod community - made by Theodo",
       "notFound": false,
       "ecosystem": "pub",
@@ -3324,59 +3324,59 @@
     },
     {
       "name": "equatable_lint",
-      "totalDownloads": 4160,
+      "totalDownloads": 4141,
       "monthlyDownloads": [
         {
           "month": "2025-03",
-          "downloads": 502
+          "downloads": 521
         },
         {
           "month": "2025-04",
-          "downloads": 500
+          "downloads": 475
         },
         {
           "month": "2025-05",
-          "downloads": 768
+          "downloads": 762
         },
         {
           "month": "2025-06",
-          "downloads": 439
+          "downloads": 461
         },
         {
           "month": "2025-07",
-          "downloads": 659
+          "downloads": 481
         },
         {
           "month": "2025-08",
-          "downloads": 226
+          "downloads": 377
         },
         {
           "month": "2025-09",
-          "downloads": 269
+          "downloads": 270
         },
         {
           "month": "2025-10",
-          "downloads": 164
+          "downloads": 161
         },
         {
           "month": "2025-11",
-          "downloads": 121
+          "downloads": 131
         },
         {
           "month": "2025-12",
-          "downloads": 205
+          "downloads": 247
         },
         {
           "month": "2026-01",
-          "downloads": 159
+          "downloads": 103
         },
         {
           "month": "2026-02",
-          "downloads": 148
+          "downloads": 152
         }
       ],
-      "momGrowthPct": -6.918238993710692,
-      "isGrowing": false,
+      "momGrowthPct": 47.57281553398058,
+      "isGrowing": true,
       "stars": 6,
       "description": "This is a set of rules to make classes using Equatable more maintainable. We make sure here that every fields in an Equatable class is linked to the Equatable props getter.",
       "notFound": false,
