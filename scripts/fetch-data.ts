@@ -13,8 +13,8 @@ import { writeFileSync, mkdirSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
-import { PACKAGES } from '../src/constants/packages';
-import { fetchDownloads, fetchRegistry, NotFoundError } from '../src/lib/npmApi';
+import { UNSCOPED_PACKAGES } from '../src/constants/packages';
+import { fetchDownloads, fetchRegistry, fetchScopedPackages, NotFoundError } from '../src/lib/npmApi';
 import { fetchStars } from '../src/lib/githubApi';
 import {
   bucketByMonth,
@@ -171,8 +171,21 @@ async function main() {
   const __dirname = dirname(fileURLToPath(import.meta.url));
   const outPath = join(__dirname, '../public/data.json');
 
+  // Fetch @bam.tech scoped packages dynamically
+  console.log('Fetching @bam.tech scoped npm packages...');
+  let scopedPackages: string[] = [];
+  try {
+    scopedPackages = await fetchScopedPackages('bam.tech');
+    console.log(`  Found ${scopedPackages.length} scoped npm packages`);
+  } catch (err) {
+    console.error(`  npm scope fetch failed: ${(err as Error).message}`);
+  }
+
+  // Combine scoped packages with unscoped packages
+  const npmPackages = [...scopedPackages, ...UNSCOPED_PACKAGES];
+
   // Fetch pub.dev package list for bam.tech publisher
-  console.log('Fetching pub.dev packages for bam.tech...');
+  console.log('\nFetching pub.dev packages for bam.tech...');
   let pubPackages: string[] = [];
   try {
     pubPackages = await fetchPubPublisherPackages('bam.tech');
@@ -181,9 +194,9 @@ async function main() {
     console.error(`  pub.dev publisher fetch failed: ${(err as Error).message}`);
   }
 
-  console.log(`\nFetching data for ${PACKAGES.length} npm packages...`);
+  console.log(`\nFetching data for ${npmPackages.length} npm packages...`);
   const npmResults = await Promise.all(
-    PACKAGES.map(async (name) => {
+    npmPackages.map(async (name) => {
       try {
         const result = await processNpmPackage(name);
         const status = result.notFound
