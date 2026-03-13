@@ -1,9 +1,18 @@
-/**
- * Unscoped npm packages maintained by BAM.
- * These cannot be discovered via the npm scope search API, so they are hardcoded.
- * Scoped @bam.tech/* packages are fetched dynamically.
- */
-export const UNSCOPED_PACKAGES = [
+export const PACKAGES = [
+  // Scoped @bam.tech packages
+  '@bam.tech/react-native-image-resizer',
+  '@bam.tech/react-navigation-visualizer-dev-plugin',
+  '@bam.tech/react-native-app-security',
+  '@bam.tech/react-native-make',
+  '@bam.tech/eslint-plugin',
+  '@bam.tech/react-native-config',
+  '@bam.tech/react-native-keyevent-expo-config-plugin',
+  '@bam.tech/lrud',
+  '@bam.tech/flow-navigator',
+  '@bam.tech/react-native-graphql-transformer',
+  '@bam.tech/tanstack-query-detect-waterfall',
+  '@bam.tech/react-native-batch',
+  // Unscoped packages
   'react-native-performance',
   'react-native-image-resizer',
   'react-native-hide-with-keyboard',
@@ -27,4 +36,4 @@ export const UNSCOPED_PACKAGES = [
   'react-native-text-input',
 ] as const;
 
-export type UnscopedPackageName = (typeof UNSCOPED_PACKAGES)[number];
+export type PackageName = (typeof PACKAGES)[number];

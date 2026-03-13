@@ -13,8 +13,8 @@ import { writeFileSync, mkdirSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
-import { UNSCOPED_PACKAGES } from '../src/constants/packages';
-import { fetchDownloads, fetchRegistry, fetchScopedPackages, NotFoundError } from '../src/lib/npmApi';
+import { PACKAGES } from '../src/constants/packages';
+import { fetchDownloads, fetchRegistry, NotFoundError } from '../src/lib/npmApi';
 import { fetchStars } from '../src/lib/githubApi';
 import {
   bucketByMonth,
@@ -33,28 +33,10 @@ import type { PackageData, DataFile, MonthlyDownload } from '../src/types';
 
 const githubToken = process.env.GITHUB_TOKEN;
 
-// Retry helper with exponential backoff
-async function withRetry<T>(
-  fn: () => Promise<T>,
-  retries = 3,
-  delayMs = 1000
-): Promise<T> {
-  for (let attempt = 0; attempt <= retries; attempt++) {
-    try {
-      return await fn();
-    } catch (err) {
-      if (attempt === retries) throw err;
-      const delay = delayMs * Math.pow(2, attempt);
-      await new Promise((r) => setTimeout(r, delay));
-    }
-  }
-  throw new Error('Unreachable');
-}
-
 async function processNpmPackage(name: string): Promise<PackageData> {
   const [dlResult, regResult] = await Promise.allSettled([
-    withRetry(() => fetchDownloads(name)),
-    withRetry(() => fetchRegistry(name)),
+    fetchDownloads(name),
+    fetchRegistry(name),
   ]);
 
   const notFound =
@@ -73,11 +55,6 @@ async function processNpmPackage(name: string): Promise<PackageData> {
       notFound: true,
       ecosystem: 'npm',
     };
-  }
-
-  // Log non-404 errors that slipped through
-  if (dlResult.status === 'rejected') {
-    console.warn(`  ⚠ ${name}: downloads fetch failed after retries: ${dlResult.reason}`);
   }
 
   const daily = dlResult.status === 'fulfilled' ? dlResult.value.downloads : [];
@@ -194,21 +171,8 @@ async function main() {
   const __dirname = dirname(fileURLToPath(import.meta.url));
   const outPath = join(__dirname, '../public/data.json');
 
-  // Fetch @bam.tech scoped packages dynamically
-  console.log('Fetching @bam.tech scoped npm packages...');
-  let scopedPackages: string[] = [];
-  try {
-    scopedPackages = await fetchScopedPackages('bam.tech');
-    console.log(`  Found ${scopedPackages.length} scoped npm packages`);
-  } catch (err) {
-    console.error(`  npm scope fetch failed: ${(err as Error).message}`);
-  }
-
-  // Combine scoped packages with unscoped packages
-  const npmPackages = [...scopedPackages, ...UNSCOPED_PACKAGES];
-
   // Fetch pub.dev package list for bam.tech publisher
-  console.log('\nFetching pub.dev packages for bam.tech...');
+  console.log('Fetching pub.dev packages for bam.tech...');
   let pubPackages: string[] = [];
   try {
     pubPackages = await fetchPubPublisherPackages('bam.tech');
@@ -217,43 +181,32 @@ async function main() {
     console.error(`  pub.dev publisher fetch failed: ${(err as Error).message}`);
   }
 
-  console.log(`\nFetching data for ${npmPackages.length} npm packages...`);
-  // Process in batches to avoid rate limiting
-  const BATCH_SIZE = 10;
-  const npmResults: PackageData[] = [];
-  for (let i = 0; i < npmPackages.length; i += BATCH_SIZE) {
-    const batch = npmPackages.slice(i, i + BATCH_SIZE);
-    const batchResults = await Promise.all(
-      batch.map(async (name) => {
-        try {
-          const result = await processNpmPackage(name);
-          const status = result.notFound
-            ? '✗ not found'
-            : `✓ ${(result.totalDownloads / 1000).toFixed(0)}K downloads`;
-          console.log(`  ${name}: ${status}`);
-          return result;
-        } catch (err) {
-          console.error(`  ${name}: ERROR — ${(err as Error).message}`);
-          return {
-            name,
-            totalDownloads: 0,
-            monthlyDownloads: [],
-            momGrowthPct: null,
-            isGrowing: false,
-            stars: null,
-            description: null,
-            notFound: true,
-            ecosystem: 'npm',
-          } satisfies PackageData;
-        }
-      })
-    );
-    npmResults.push(...batchResults);
-    // Small delay between batches to avoid rate limiting
-    if (i + BATCH_SIZE < npmPackages.length) {
-      await new Promise((r) => setTimeout(r, 100));
-    }
-  }
+  console.log(`\nFetching data for ${PACKAGES.length} npm packages...`);
+  const npmResults = await Promise.all(
+    PACKAGES.map(async (name) => {
+      try {
+        const result = await processNpmPackage(name);
+        const status = result.notFound
+          ? '✗ not found'
+          : `✓ ${(result.totalDownloads / 1000).toFixed(0)}K downloads`;
+        console.log(`  ${name}: ${status}`);
+        return result;
+      } catch (err) {
+        console.error(`  ${name}: ERROR — ${(err as Error).message}`);
+        return {
+          name,
+          totalDownloads: 0,
+          monthlyDownloads: [],
+          momGrowthPct: null,
+          isGrowing: false,
+          stars: null,
+          description: null,
+          notFound: true,
+          ecosystem: 'npm',
+        } satisfies PackageData;
+      }
+    })
+  );
 
   console.log(`\nFetching data for ${pubPackages.length} pub.dev packages...`);
   const pubResults = await Promise.all(
