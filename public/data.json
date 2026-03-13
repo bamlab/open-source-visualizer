@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-13T10:42:06.838Z",
+  "generatedAt": "2026-03-13T10:57:47.202Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2859,9 +2859,82 @@
     },
     {
       "name": "@bam.tech/jest-junit-reports-merger",
-      "totalDownloads": 0,
-      "monthlyDownloads": [],
-      "momGrowthPct": null,
+      "totalDownloads": 820,
+      "monthlyDownloads": [
+        {
+          "month": "2024-09",
+          "downloads": 24
+        },
+        {
+          "month": "2024-10",
+          "downloads": 33
+        },
+        {
+          "month": "2024-11",
+          "downloads": 22
+        },
+        {
+          "month": "2024-12",
+          "downloads": 118
+        },
+        {
+          "month": "2025-01",
+          "downloads": 184
+        },
+        {
+          "month": "2025-02",
+          "downloads": 44
+        },
+        {
+          "month": "2025-03",
+          "downloads": 48
+        },
+        {
+          "month": "2025-04",
+          "downloads": 26
+        },
+        {
+          "month": "2025-05",
+          "downloads": 48
+        },
+        {
+          "month": "2025-06",
+          "downloads": 99
+        },
+        {
+          "month": "2025-07",
+          "downloads": 30
+        },
+        {
+          "month": "2025-08",
+          "downloads": 23
+        },
+        {
+          "month": "2025-09",
+          "downloads": 29
+        },
+        {
+          "month": "2025-10",
+          "downloads": 17
+        },
+        {
+          "month": "2025-11",
+          "downloads": 11
+        },
+        {
+          "month": "2025-12",
+          "downloads": 8
+        },
+        {
+          "month": "2026-01",
+          "downloads": 34
+        },
+        {
+          "month": "2026-02",
+          "downloads": 17
+        }
+      ],
+      "momGrowthPct": -50,
       "isGrowing": false,
       "stars": 0,
       "description": "Merge multiple JUnit reports into one",
@@ -3290,82 +3363,9 @@
     },
     {
       "name": "@bam.tech/react-native-scrollable-tab-view",
-      "totalDownloads": 382,
-      "monthlyDownloads": [
-        {
-          "month": "2024-09",
-          "downloads": 4
-        },
-        {
-          "month": "2024-10",
-          "downloads": 12
-        },
-        {
-          "month": "2024-11",
-          "downloads": 6
-        },
-        {
-          "month": "2024-12",
-          "downloads": 36
-        },
-        {
-          "month": "2025-01",
-          "downloads": 35
-        },
-        {
-          "month": "2025-02",
-          "downloads": 39
-        },
-        {
-          "month": "2025-03",
-          "downloads": 28
-        },
-        {
-          "month": "2025-04",
-          "downloads": 14
-        },
-        {
-          "month": "2025-05",
-          "downloads": 12
-        },
-        {
-          "month": "2025-06",
-          "downloads": 29
-        },
-        {
-          "month": "2025-07",
-          "downloads": 14
-        },
-        {
-          "month": "2025-08",
-          "downloads": 5
-        },
-        {
-          "month": "2025-09",
-          "downloads": 34
-        },
-        {
-          "month": "2025-10",
-          "downloads": 29
-        },
-        {
-          "month": "2025-11",
-          "downloads": 13
-        },
-        {
-          "month": "2025-12",
-          "downloads": 18
-        },
-        {
-          "month": "2026-01",
-          "downloads": 26
-        },
-        {
-          "month": "2026-02",
-          "downloads": 24
-        }
-      ],
-      "momGrowthPct": -7.6923076923076925,
+      "totalDownloads": 0,
+      "monthlyDownloads": [],
+      "momGrowthPct": null,
       "isGrowing": false,
       "stars": 6952,
       "description": "[![npm version](https://badge.fury.io/js/react-native-scrollable-tab-view.svg)](https://badge.fury.io/js/react-native-scrollable-tab-view)",
@@ -3374,82 +3374,9 @@
     },
     {
       "name": "@bam.tech/react-native-credit-card-input",
-      "totalDownloads": 286,
-      "monthlyDownloads": [
-        {
-          "month": "2024-09",
-          "downloads": 2
-        },
-        {
-          "month": "2024-10",
-          "downloads": 13
-        },
-        {
-          "month": "2024-11",
-          "downloads": 3
-        },
-        {
-          "month": "2024-12",
-          "downloads": 17
-        },
-        {
-          "month": "2025-01",
-          "downloads": 22
-        },
-        {
-          "month": "2025-02",
-          "downloads": 27
-        },
-        {
-          "month": "2025-03",
-          "downloads": 10
-        },
-        {
-          "month": "2025-04",
-          "downloads": 11
-        },
-        {
-          "month": "2025-05",
-          "downloads": 12
-        },
-        {
-          "month": "2025-06",
-          "downloads": 15
-        },
-        {
-          "month": "2025-07",
-          "downloads": 13
-        },
-        {
-          "month": "2025-08",
-          "downloads": 4
-        },
-        {
-          "month": "2025-09",
-          "downloads": 17
-        },
-        {
-          "month": "2025-10",
-          "downloads": 17
-        },
-        {
-          "month": "2025-11",
-          "downloads": 16
-        },
-        {
-          "month": "2025-12",
-          "downloads": 20
-        },
-        {
-          "month": "2026-01",
-          "downloads": 31
-        },
-        {
-          "month": "2026-02",
-          "downloads": 24
-        }
-      ],
-      "momGrowthPct": -22.58064516129032,
+      "totalDownloads": 0,
+      "monthlyDownloads": [],
+      "momGrowthPct": null,
       "isGrowing": false,
       "stars": 1507,
       "description": "React native credit card input component",
@@ -3491,82 +3418,9 @@
     },
     {
       "name": "@bam.tech/jest-knex-mock",
-      "totalDownloads": 155,
-      "monthlyDownloads": [
-        {
-          "month": "2024-09",
-          "downloads": 0
-        },
-        {
-          "month": "2024-10",
-          "downloads": 6
-        },
-        {
-          "month": "2024-11",
-          "downloads": 8
-        },
-        {
-          "month": "2024-12",
-          "downloads": 17
-        },
-        {
-          "month": "2025-01",
-          "downloads": 11
-        },
-        {
-          "month": "2025-02",
-          "downloads": 19
-        },
-        {
-          "month": "2025-03",
-          "downloads": 8
-        },
-        {
-          "month": "2025-04",
-          "downloads": 10
-        },
-        {
-          "month": "2025-05",
-          "downloads": 6
-        },
-        {
-          "month": "2025-06",
-          "downloads": 5
-        },
-        {
-          "month": "2025-07",
-          "downloads": 6
-        },
-        {
-          "month": "2025-08",
-          "downloads": 1
-        },
-        {
-          "month": "2025-09",
-          "downloads": 14
-        },
-        {
-          "month": "2025-10",
-          "downloads": 7
-        },
-        {
-          "month": "2025-11",
-          "downloads": 2
-        },
-        {
-          "month": "2025-12",
-          "downloads": 6
-        },
-        {
-          "month": "2026-01",
-          "downloads": 18
-        },
-        {
-          "month": "2026-02",
-          "downloads": 7
-        }
-      ],
-      "momGrowthPct": -61.111111111111114,
+      "totalDownloads": 0,
+      "monthlyDownloads": [],
+      "momGrowthPct": null,
       "isGrowing": false,
       "stars": null,
       "description": null,
@@ -3608,82 +3462,9 @@
     },
     {
       "name": "@bam.tech/danger-plugin-todo",
-      "totalDownloads": 196,
-      "monthlyDownloads": [
-        {
-          "month": "2024-09",
-          "downloads": 1
-        },
-        {
-          "month": "2024-10",
-          "downloads": 9
-        },
-        {
-          "month": "2024-11",
-          "downloads": 6
-        },
-        {
-          "month": "2024-12",
-          "downloads": 13
-        },
-        {
-          "month": "2025-01",
-          "downloads": 18
-        },
-        {
-          "month": "2025-02",
-          "downloads": 22
-        },
-        {
-          "month": "2025-03",
-          "downloads": 10
-        },
-        {
-          "month": "2025-04",
-          "downloads": 13
-        },
-        {
-          "month": "2025-05",
-          "downloads": 10
-        },
-        {
-          "month": "2025-06",
-          "downloads": 13
-        },
-        {
-          "month": "2025-07",
-          "downloads": 5
-        },
-        {
-          "month": "2025-08",
-          "downloads": 3
-        },
-        {
-          "month": "2025-09",
-          "downloads": 17
-        },
-        {
-          "month": "2025-10",
-          "downloads": 5
-        },
-        {
-          "month": "2025-11",
-          "downloads": 6
-        },
-        {
-          "month": "2025-12",
-          "downloads": 7
-        },
-        {
-          "month": "2026-01",
-          "downloads": 28
-        },
-        {
-          "month": "2026-02",
-          "downloads": 8
-        }
-      ],
-      "momGrowthPct": -71.42857142857143,
+      "totalDownloads": 0,
+      "monthlyDownloads": [],
+      "momGrowthPct": null,
       "isGrowing": false,
       "stars": 15,
       "description": "Address your technical dept at some points",
@@ -3703,82 +3484,9 @@
     },
     {
       "name": "@bam.tech/danger-plugin-flow-coverage",
-      "totalDownloads": 155,
-      "monthlyDownloads": [
-        {
-          "month": "2024-09",
-          "downloads": 0
-        },
-        {
-          "month": "2024-10",
-          "downloads": 6
-        },
-        {
-          "month": "2024-11",
-          "downloads": 1
-        },
-        {
-          "month": "2024-12",
-          "downloads": 17
-        },
-        {
-          "month": "2025-01",
-          "downloads": 15
-        },
-        {
-          "month": "2025-02",
-          "downloads": 19
-        },
-        {
-          "month": "2025-03",
-          "downloads": 7
-        },
-        {
-          "month": "2025-04",
-          "downloads": 8
-        },
-        {
-          "month": "2025-05",
-          "downloads": 8
-        },
-        {
-          "month": "2025-06",
-          "downloads": 9
-        },
-        {
-          "month": "2025-07",
-          "downloads": 8
-        },
-        {
-          "month": "2025-08",
-          "downloads": 1
-        },
-        {
-          "month": "2025-09",
-          "downloads": 14
-        },
-        {
-          "month": "2025-10",
-          "downloads": 7
-        },
-        {
-          "month": "2025-11",
-          "downloads": 2
-        },
-        {
-          "month": "2025-12",
-          "downloads": 5
-        },
-        {
-          "month": "2026-01",
-          "downloads": 18
-        },
-        {
-          "month": "2026-02",
-          "downloads": 7
-        }
-      ],
-      "momGrowthPct": -61.111111111111114,
+      "totalDownloads": 0,
+      "monthlyDownloads": [],
+      "momGrowthPct": null,
       "isGrowing": false,
       "stars": 15,
       "description": "Display flow coverage",
@@ -3831,82 +3539,9 @@
     },
     {
       "name": "react-native-hide-with-keyboard",
-      "totalDownloads": 154521,
-      "monthlyDownloads": [
-        {
-          "month": "2024-09",
-          "downloads": 6005
-        },
-        {
-          "month": "2024-10",
-          "downloads": 12418
-        },
-        {
-          "month": "2024-11",
-          "downloads": 10670
-        },
-        {
-          "month": "2024-12",
-          "downloads": 6923
-        },
-        {
-          "month": "2025-01",
-          "downloads": 9449
-        },
-        {
-          "month": "2025-02",
-          "downloads": 10135
-        },
-        {
-          "month": "2025-03",
-          "downloads": 10153
-        },
-        {
-          "month": "2025-04",
-          "downloads": 7683
-        },
-        {
-          "month": "2025-05",
-          "downloads": 7172
-        },
-        {
-          "month": "2025-06",
-          "downloads": 8332
-        },
-        {
-          "month": "2025-07",
-          "downloads": 8318
-        },
-        {
-          "month": "2025-08",
-          "downloads": 8303
-        },
-        {
-          "month": "2025-09",
-          "downloads": 8352
-        },
-        {
-          "month": "2025-10",
-          "downloads": 7494
-        },
-        {
-          "month": "2025-11",
-          "downloads": 8980
-        },
-        {
-          "month": "2025-12",
-          "downloads": 7082
-        },
-        {
-          "month": "2026-01",
-          "downloads": 7068
-        },
-        {
-          "month": "2026-02",
-          "downloads": 7039
-        }
-      ],
-      "momGrowthPct": -0.41029994340690434,
+      "totalDownloads": 0,
+      "monthlyDownloads": [],
+      "momGrowthPct": null,
       "isGrowing": false,
       "stars": 124,
       "description": "Hide components when keyboard is shown",
