@@ -2,34 +2,6 @@ import type { NpmDownloadResponse, NpmRegistryResponse } from '../types';
 
 const DOWNLOADS_BASE = 'https://api.npmjs.org/downloads/range';
 const REGISTRY_BASE = 'https://registry.npmjs.org';
-const SEARCH_BASE = 'https://registry.npmjs.org/-/v1/search';
-
-interface NpmSearchResponse {
-  objects: Array<{ package: { name: string } }>;
-  total: number;
-}
-
-/**
- * Fetches all npm packages from a given scope (e.g., 'bam.tech' for @bam.tech/*)
- */
-export async function fetchScopedPackages(scope: string): Promise<string[]> {
-  const allNames: string[] = [];
-  let from = 0;
-  const size = 250; // npm search API max per page
-
-  while (true) {
-    const url = `${SEARCH_BASE}?text=scope:${encodeURIComponent(scope)}&size=${size}&from=${from}`;
-    const res = await fetch(url);
-    if (!res.ok) throw new Error(`npm search API error ${res.status} for scope ${scope}`);
-    const data: NpmSearchResponse = await res.json();
-    if (data.objects.length === 0) break;
-    allNames.push(...data.objects.map((o) => o.package.name));
-    from += data.objects.length;
-    if (from >= data.total) break;
-  }
-
-  return allNames;
-}
 
 // Fetch last 18 months of daily download data
 export async function fetchDownloads(packageName: string): Promise<NpmDownloadResponse> {

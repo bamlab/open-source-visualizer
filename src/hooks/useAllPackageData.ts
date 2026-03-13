@@ -1,5 +1,17 @@
 import { useQuery } from '@tanstack/react-query';
+import { PACKAGES } from '../constants/packages';
 import type { DataFile, PackageData } from '../types';
+
+const EMPTY_PACKAGES: PackageData[] = PACKAGES.map((name) => ({
+  name,
+  totalDownloads: 0,
+  monthlyDownloads: [],
+  momGrowthPct: null,
+  isGrowing: false,
+  stars: null,
+  description: null,
+  notFound: false,
+}));
 
 export function useAllPackageData(): { packages: PackageData[]; isLoading: boolean; generatedAt: string | null } {
   const { data, isLoading } = useQuery<DataFile>({
@@ -10,7 +22,7 @@ export function useAllPackageData(): { packages: PackageData[]; isLoading: boole
   });
 
   return {
-    packages: data?.packages ?? [],
+    packages: data?.packages ?? EMPTY_PACKAGES,
     isLoading,
     generatedAt: data?.generatedAt ?? null,
   };
