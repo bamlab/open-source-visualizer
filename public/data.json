@@ -1,84 +1,3817 @@
 {
-  "generatedAt": "2026-03-13T10:27:11.335Z",
+  "generatedAt": "2026-03-13T10:42:06.838Z",
   "packages": [
     {
-      "name": "react-native-performance",
-      "totalDownloads": 11110261,
+      "name": "@bam.tech/react-native-image-resizer",
+      "totalDownloads": 3071102,
       "monthlyDownloads": [
         {
           "month": "2024-09",
-          "downloads": 214011
+          "downloads": 73527
         },
         {
           "month": "2024-10",
-          "downloads": 414972
+          "downloads": 125986
         },
         {
           "month": "2024-11",
-          "downloads": 333236
+          "downloads": 115925
         },
         {
           "month": "2024-12",
-          "downloads": 232056
+          "downloads": 108061
         },
         {
           "month": "2025-01",
-          "downloads": 393197
+          "downloads": 131076
         },
         {
           "month": "2025-02",
-          "downloads": 528990
+          "downloads": 133107
         },
         {
           "month": "2025-03",
-          "downloads": 884084
+          "downloads": 139155
         },
         {
           "month": "2025-04",
-          "downloads": 660717
+          "downloads": 144193
         },
         {
           "month": "2025-05",
-          "downloads": 553350
+          "downloads": 145800
         },
         {
           "month": "2025-06",
-          "downloads": 472284
+          "downloads": 162690
         },
         {
           "month": "2025-07",
-          "downloads": 383152
+          "downloads": 181320
         },
         {
           "month": "2025-08",
-          "downloads": 464099
+          "downloads": 166928
         },
         {
           "month": "2025-09",
-          "downloads": 679637
+          "downloads": 182357
         },
         {
           "month": "2025-10",
-          "downloads": 716371
+          "downloads": 199972
         },
         {
           "month": "2025-11",
-          "downloads": 790431
+          "downloads": 179812
         },
         {
           "month": "2025-12",
-          "downloads": 878642
+          "downloads": 172225
         },
         {
           "month": "2026-01",
-          "downloads": 1022766
+          "downloads": 266987
         },
         {
           "month": "2026-02",
-          "downloads": 1096557
+          "downloads": 311027
         }
       ],
-      "momGrowthPct": 7.214846797801257,
+      "momGrowthPct": 16.495185158827958,
+      "isGrowing": true,
+      "stars": 1659,
+      "description": "Rescale local images with React Native",
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "@bam.tech/react-navigation-visualizer-dev-plugin",
+      "totalDownloads": 338155,
+      "monthlyDownloads": [
+        {
+          "month": "2024-09",
+          "downloads": 0
+        },
+        {
+          "month": "2024-10",
+          "downloads": 0
+        },
+        {
+          "month": "2024-11",
+          "downloads": 132
+        },
+        {
+          "month": "2024-12",
+          "downloads": 844
+        },
+        {
+          "month": "2025-01",
+          "downloads": 959
+        },
+        {
+          "month": "2025-02",
+          "downloads": 1269
+        },
+        {
+          "month": "2025-03",
+          "downloads": 805
+        },
+        {
+          "month": "2025-04",
+          "downloads": 873
+        },
+        {
+          "month": "2025-05",
+          "downloads": 2338
+        },
+        {
+          "month": "2025-06",
+          "downloads": 2677
+        },
+        {
+          "month": "2025-07",
+          "downloads": 4262
+        },
+        {
+          "month": "2025-08",
+          "downloads": 7742
+        },
+        {
+          "month": "2025-09",
+          "downloads": 20451
+        },
+        {
+          "month": "2025-10",
+          "downloads": 22817
+        },
+        {
+          "month": "2025-11",
+          "downloads": 20035
+        },
+        {
+          "month": "2025-12",
+          "downloads": 19289
+        },
+        {
+          "month": "2026-01",
+          "downloads": 36678
+        },
+        {
+          "month": "2026-02",
+          "downloads": 119423
+        }
+      ],
+      "momGrowthPct": 225.59845138775287,
+      "isGrowing": true,
+      "stars": 9,
+      "description": "Visualization Tool based on Expo DevTools Plugin for React Navigation",
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "@bam.tech/react-native-make",
+      "totalDownloads": 290895,
+      "monthlyDownloads": [
+        {
+          "month": "2024-09",
+          "downloads": 7530
+        },
+        {
+          "month": "2024-10",
+          "downloads": 14961
+        },
+        {
+          "month": "2024-11",
+          "downloads": 12486
+        },
+        {
+          "month": "2024-12",
+          "downloads": 12769
+        },
+        {
+          "month": "2025-01",
+          "downloads": 13669
+        },
+        {
+          "month": "2025-02",
+          "downloads": 16606
+        },
+        {
+          "month": "2025-03",
+          "downloads": 17468
+        },
+        {
+          "month": "2025-04",
+          "downloads": 15568
+        },
+        {
+          "month": "2025-05",
+          "downloads": 16867
+        },
+        {
+          "month": "2025-06",
+          "downloads": 26257
+        },
+        {
+          "month": "2025-07",
+          "downloads": 15405
+        },
+        {
+          "month": "2025-08",
+          "downloads": 11892
+        },
+        {
+          "month": "2025-09",
+          "downloads": 11042
+        },
+        {
+          "month": "2025-10",
+          "downloads": 16207
+        },
+        {
+          "month": "2025-11",
+          "downloads": 13073
+        },
+        {
+          "month": "2025-12",
+          "downloads": 16320
+        },
+        {
+          "month": "2026-01",
+          "downloads": 16459
+        },
+        {
+          "month": "2026-02",
+          "downloads": 25071
+        }
+      ],
+      "momGrowthPct": 52.323956497964645,
+      "isGrowing": true,
+      "stars": 762,
+      "description": "Everyday tools for simpler React Native development",
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "@bam.tech/eslint-plugin",
+      "totalDownloads": 127781,
+      "monthlyDownloads": [
+        {
+          "month": "2024-09",
+          "downloads": 2493
+        },
+        {
+          "month": "2024-10",
+          "downloads": 5810
+        },
+        {
+          "month": "2024-11",
+          "downloads": 6537
+        },
+        {
+          "month": "2024-12",
+          "downloads": 6021
+        },
+        {
+          "month": "2025-01",
+          "downloads": 6562
+        },
+        {
+          "month": "2025-02",
+          "downloads": 6477
+        },
+        {
+          "month": "2025-03",
+          "downloads": 5692
+        },
+        {
+          "month": "2025-04",
+          "downloads": 7355
+        },
+        {
+          "month": "2025-05",
+          "downloads": 7460
+        },
+        {
+          "month": "2025-06",
+          "downloads": 9614
+        },
+        {
+          "month": "2025-07",
+          "downloads": 9381
+        },
+        {
+          "month": "2025-08",
+          "downloads": 5427
+        },
+        {
+          "month": "2025-09",
+          "downloads": 7007
+        },
+        {
+          "month": "2025-10",
+          "downloads": 8366
+        },
+        {
+          "month": "2025-11",
+          "downloads": 9959
+        },
+        {
+          "month": "2025-12",
+          "downloads": 6619
+        },
+        {
+          "month": "2026-01",
+          "downloads": 7048
+        },
+        {
+          "month": "2026-02",
+          "downloads": 6834
+        }
+      ],
+      "momGrowthPct": -3.036322360953462,
+      "isGrowing": false,
+      "stars": 9,
+      "description": "eslint plugin for bam projects",
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "@bam.tech/react-native-app-security",
+      "totalDownloads": 220624,
+      "monthlyDownloads": [
+        {
+          "month": "2024-09",
+          "downloads": 246
+        },
+        {
+          "month": "2024-10",
+          "downloads": 1338
+        },
+        {
+          "month": "2024-11",
+          "downloads": 2130
+        },
+        {
+          "month": "2024-12",
+          "downloads": 2036
+        },
+        {
+          "month": "2025-01",
+          "downloads": 3062
+        },
+        {
+          "month": "2025-02",
+          "downloads": 6772
+        },
+        {
+          "month": "2025-03",
+          "downloads": 7849
+        },
+        {
+          "month": "2025-04",
+          "downloads": 10635
+        },
+        {
+          "month": "2025-05",
+          "downloads": 13172
+        },
+        {
+          "month": "2025-06",
+          "downloads": 9759
+        },
+        {
+          "month": "2025-07",
+          "downloads": 12709
+        },
+        {
+          "month": "2025-08",
+          "downloads": 13551
+        },
+        {
+          "month": "2025-09",
+          "downloads": 16658
+        },
+        {
+          "month": "2025-10",
+          "downloads": 15524
+        },
+        {
+          "month": "2025-11",
+          "downloads": 15453
+        },
+        {
+          "month": "2025-12",
+          "downloads": 13957
+        },
+        {
+          "month": "2026-01",
+          "downloads": 16903
+        },
+        {
+          "month": "2026-02",
+          "downloads": 44995
+        }
+      ],
+      "momGrowthPct": 166.19534993788085,
+      "isGrowing": true,
+      "stars": 147,
+      "description": "Easily implement usual security measures in React Native Expo apps",
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "@bam.tech/react-native-keyevent-expo-config-plugin",
+      "totalDownloads": 62152,
+      "monthlyDownloads": [
+        {
+          "month": "2024-09",
+          "downloads": 650
+        },
+        {
+          "month": "2024-10",
+          "downloads": 2244
+        },
+        {
+          "month": "2024-11",
+          "downloads": 2978
+        },
+        {
+          "month": "2024-12",
+          "downloads": 3328
+        },
+        {
+          "month": "2025-01",
+          "downloads": 3484
+        },
+        {
+          "month": "2025-02",
+          "downloads": 1707
+        },
+        {
+          "month": "2025-03",
+          "downloads": 1857
+        },
+        {
+          "month": "2025-04",
+          "downloads": 2321
+        },
+        {
+          "month": "2025-05",
+          "downloads": 3829
+        },
+        {
+          "month": "2025-06",
+          "downloads": 4240
+        },
+        {
+          "month": "2025-07",
+          "downloads": 4598
+        },
+        {
+          "month": "2025-08",
+          "downloads": 3851
+        },
+        {
+          "month": "2025-09",
+          "downloads": 4476
+        },
+        {
+          "month": "2025-10",
+          "downloads": 4009
+        },
+        {
+          "month": "2025-11",
+          "downloads": 4145
+        },
+        {
+          "month": "2025-12",
+          "downloads": 4861
+        },
+        {
+          "month": "2026-01",
+          "downloads": 4539
+        },
+        {
+          "month": "2026-02",
+          "downloads": 3141
+        }
+      ],
+      "momGrowthPct": -30.799735624586916,
+      "isGrowing": false,
+      "stars": 1,
+      "description": "Config plugin to auto configure react-native-keyevent on prebuild",
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "@bam.tech/flow-navigator",
+      "totalDownloads": 86561,
+      "monthlyDownloads": [
+        {
+          "month": "2024-09",
+          "downloads": 615
+        },
+        {
+          "month": "2024-10",
+          "downloads": 1208
+        },
+        {
+          "month": "2024-11",
+          "downloads": 956
+        },
+        {
+          "month": "2024-12",
+          "downloads": 815
+        },
+        {
+          "month": "2025-01",
+          "downloads": 1080
+        },
+        {
+          "month": "2025-02",
+          "downloads": 1102
+        },
+        {
+          "month": "2025-03",
+          "downloads": 2645
+        },
+        {
+          "month": "2025-04",
+          "downloads": 13841
+        },
+        {
+          "month": "2025-05",
+          "downloads": 15528
+        },
+        {
+          "month": "2025-06",
+          "downloads": 17841
+        },
+        {
+          "month": "2025-07",
+          "downloads": 5543
+        },
+        {
+          "month": "2025-08",
+          "downloads": 7922
+        },
+        {
+          "month": "2025-09",
+          "downloads": 4206
+        },
+        {
+          "month": "2025-10",
+          "downloads": 2854
+        },
+        {
+          "month": "2025-11",
+          "downloads": 2166
+        },
+        {
+          "month": "2025-12",
+          "downloads": 2387
+        },
+        {
+          "month": "2026-01",
+          "downloads": 2651
+        },
+        {
+          "month": "2026-02",
+          "downloads": 2007
+        }
+      ],
+      "momGrowthPct": -24.292719728404375,
+      "isGrowing": false,
+      "stars": 47,
+      "description": "A flow navigator for react-navigation",
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "@bam.tech/react-native-radiant",
+      "totalDownloads": 1684,
+      "monthlyDownloads": [
+        {
+          "month": "2024-09",
+          "downloads": 0
+        },
+        {
+          "month": "2024-10",
+          "downloads": 0
+        },
+        {
+          "month": "2024-11",
+          "downloads": 0
+        },
+        {
+          "month": "2024-12",
+          "downloads": 687
+        },
+        {
+          "month": "2025-01",
+          "downloads": 172
+        },
+        {
+          "month": "2025-02",
+          "downloads": 210
+        },
+        {
+          "month": "2025-03",
+          "downloads": 90
+        },
+        {
+          "month": "2025-04",
+          "downloads": 32
+        },
+        {
+          "month": "2025-05",
+          "downloads": 42
+        },
+        {
+          "month": "2025-06",
+          "downloads": 59
+        },
+        {
+          "month": "2025-07",
+          "downloads": 33
+        },
+        {
+          "month": "2025-08",
+          "downloads": 5
+        },
+        {
+          "month": "2025-09",
+          "downloads": 90
+        },
+        {
+          "month": "2025-10",
+          "downloads": 97
+        },
+        {
+          "month": "2025-11",
+          "downloads": 5
+        },
+        {
+          "month": "2025-12",
+          "downloads": 66
+        },
+        {
+          "month": "2026-01",
+          "downloads": 34
+        },
+        {
+          "month": "2026-02",
+          "downloads": 54
+        }
+      ],
+      "momGrowthPct": 58.82352941176471,
+      "isGrowing": true,
+      "stars": null,
+      "description": "@bam.tech/react-native-radiant is a React Native library to test your components using visual snapshots of your components.",
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "@bam.tech/tanstack-query-detect-waterfall",
+      "totalDownloads": 13619,
+      "monthlyDownloads": [
+        {
+          "month": "2024-09",
+          "downloads": 359
+        },
+        {
+          "month": "2024-10",
+          "downloads": 577
+        },
+        {
+          "month": "2024-11",
+          "downloads": 488
+        },
+        {
+          "month": "2024-12",
+          "downloads": 617
+        },
+        {
+          "month": "2025-01",
+          "downloads": 711
+        },
+        {
+          "month": "2025-02",
+          "downloads": 865
+        },
+        {
+          "month": "2025-03",
+          "downloads": 877
+        },
+        {
+          "month": "2025-04",
+          "downloads": 896
+        },
+        {
+          "month": "2025-05",
+          "downloads": 654
+        },
+        {
+          "month": "2025-06",
+          "downloads": 763
+        },
+        {
+          "month": "2025-07",
+          "downloads": 603
+        },
+        {
+          "month": "2025-08",
+          "downloads": 612
+        },
+        {
+          "month": "2025-09",
+          "downloads": 878
+        },
+        {
+          "month": "2025-10",
+          "downloads": 817
+        },
+        {
+          "month": "2025-11",
+          "downloads": 623
+        },
+        {
+          "month": "2025-12",
+          "downloads": 684
+        },
+        {
+          "month": "2026-01",
+          "downloads": 1193
+        },
+        {
+          "month": "2026-02",
+          "downloads": 990
+        }
+      ],
+      "momGrowthPct": -17.015926236378874,
+      "isGrowing": false,
+      "stars": 9,
+      "description": "Detect waterfall queries in TanStack",
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "@bam.tech/react-native-config",
+      "totalDownloads": 69677,
+      "monthlyDownloads": [
+        {
+          "month": "2024-09",
+          "downloads": 1206
+        },
+        {
+          "month": "2024-10",
+          "downloads": 2631
+        },
+        {
+          "month": "2024-11",
+          "downloads": 2282
+        },
+        {
+          "month": "2024-12",
+          "downloads": 2084
+        },
+        {
+          "month": "2025-01",
+          "downloads": 3515
+        },
+        {
+          "month": "2025-02",
+          "downloads": 3227
+        },
+        {
+          "month": "2025-03",
+          "downloads": 3415
+        },
+        {
+          "month": "2025-04",
+          "downloads": 3517
+        },
+        {
+          "month": "2025-05",
+          "downloads": 3005
+        },
+        {
+          "month": "2025-06",
+          "downloads": 6102
+        },
+        {
+          "month": "2025-07",
+          "downloads": 4352
+        },
+        {
+          "month": "2025-08",
+          "downloads": 2642
+        },
+        {
+          "month": "2025-09",
+          "downloads": 3226
+        },
+        {
+          "month": "2025-10",
+          "downloads": 3366
+        },
+        {
+          "month": "2025-11",
+          "downloads": 11396
+        },
+        {
+          "month": "2025-12",
+          "downloads": 3461
+        },
+        {
+          "month": "2026-01",
+          "downloads": 3568
+        },
+        {
+          "month": "2026-02",
+          "downloads": 4035
+        }
+      ],
+      "momGrowthPct": 13.088565022421525,
+      "isGrowing": true,
+      "stars": 3,
+      "description": "Expose config variables to React Native apps",
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "@bam.tech/lrud",
+      "totalDownloads": 40168,
+      "monthlyDownloads": [
+        {
+          "month": "2024-09",
+          "downloads": 1110
+        },
+        {
+          "month": "2024-10",
+          "downloads": 1507
+        },
+        {
+          "month": "2024-11",
+          "downloads": 1273
+        },
+        {
+          "month": "2024-12",
+          "downloads": 1280
+        },
+        {
+          "month": "2025-01",
+          "downloads": 1318
+        },
+        {
+          "month": "2025-02",
+          "downloads": 1081
+        },
+        {
+          "month": "2025-03",
+          "downloads": 1440
+        },
+        {
+          "month": "2025-04",
+          "downloads": 2215
+        },
+        {
+          "month": "2025-05",
+          "downloads": 2270
+        },
+        {
+          "month": "2025-06",
+          "downloads": 2406
+        },
+        {
+          "month": "2025-07",
+          "downloads": 3066
+        },
+        {
+          "month": "2025-08",
+          "downloads": 2434
+        },
+        {
+          "month": "2025-09",
+          "downloads": 2588
+        },
+        {
+          "month": "2025-10",
+          "downloads": 2825
+        },
+        {
+          "month": "2025-11",
+          "downloads": 2556
+        },
+        {
+          "month": "2025-12",
+          "downloads": 2450
+        },
+        {
+          "month": "2026-01",
+          "downloads": 2598
+        },
+        {
+          "month": "2026-02",
+          "downloads": 3093
+        }
+      ],
+      "momGrowthPct": 19.053117782909933,
+      "isGrowing": true,
+      "stars": 2,
+      "description": "Left, Right, Up, Down. A spatial navigation library for devices with input via directional controls",
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "@bam.tech/react-native-component-text",
+      "totalDownloads": 282,
+      "monthlyDownloads": [
+        {
+          "month": "2024-09",
+          "downloads": 5
+        },
+        {
+          "month": "2024-10",
+          "downloads": 7
+        },
+        {
+          "month": "2024-11",
+          "downloads": 5
+        },
+        {
+          "month": "2024-12",
+          "downloads": 24
+        },
+        {
+          "month": "2025-01",
+          "downloads": 23
+        },
+        {
+          "month": "2025-02",
+          "downloads": 27
+        },
+        {
+          "month": "2025-03",
+          "downloads": 19
+        },
+        {
+          "month": "2025-04",
+          "downloads": 14
+        },
+        {
+          "month": "2025-05",
+          "downloads": 10
+        },
+        {
+          "month": "2025-06",
+          "downloads": 8
+        },
+        {
+          "month": "2025-07",
+          "downloads": 12
+        },
+        {
+          "month": "2025-08",
+          "downloads": 4
+        },
+        {
+          "month": "2025-09",
+          "downloads": 37
+        },
+        {
+          "month": "2025-10",
+          "downloads": 15
+        },
+        {
+          "month": "2025-11",
+          "downloads": 12
+        },
+        {
+          "month": "2025-12",
+          "downloads": 16
+        },
+        {
+          "month": "2026-01",
+          "downloads": 27
+        },
+        {
+          "month": "2026-02",
+          "downloads": 10
+        }
+      ],
+      "momGrowthPct": -62.96296296296296,
+      "isGrowing": false,
+      "stars": 38,
+      "description": "## Installation ```bash yarn add @bam.tech/react-native-component-text ```",
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "@bam.tech/react-native-graphql-transformer",
+      "totalDownloads": 52594,
+      "monthlyDownloads": [
+        {
+          "month": "2024-09",
+          "downloads": 2031
+        },
+        {
+          "month": "2024-10",
+          "downloads": 5234
+        },
+        {
+          "month": "2024-11",
+          "downloads": 4986
+        },
+        {
+          "month": "2024-12",
+          "downloads": 3899
+        },
+        {
+          "month": "2025-01",
+          "downloads": 4818
+        },
+        {
+          "month": "2025-02",
+          "downloads": 3961
+        },
+        {
+          "month": "2025-03",
+          "downloads": 4880
+        },
+        {
+          "month": "2025-04",
+          "downloads": 2497
+        },
+        {
+          "month": "2025-05",
+          "downloads": 2225
+        },
+        {
+          "month": "2025-06",
+          "downloads": 2559
+        },
+        {
+          "month": "2025-07",
+          "downloads": 2389
+        },
+        {
+          "month": "2025-08",
+          "downloads": 2027
+        },
+        {
+          "month": "2025-09",
+          "downloads": 2045
+        },
+        {
+          "month": "2025-10",
+          "downloads": 1829
+        },
+        {
+          "month": "2025-11",
+          "downloads": 1902
+        },
+        {
+          "month": "2025-12",
+          "downloads": 1359
+        },
+        {
+          "month": "2026-01",
+          "downloads": 1457
+        },
+        {
+          "month": "2026-02",
+          "downloads": 1681
+        }
+      ],
+      "momGrowthPct": 15.374056280027453,
+      "isGrowing": true,
+      "stars": 22,
+      "description": "Transform GraphQL source files with ReactNative",
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "@bam.tech/appium-helper",
+      "totalDownloads": 6736,
+      "monthlyDownloads": [
+        {
+          "month": "2024-09",
+          "downloads": 321
+        },
+        {
+          "month": "2024-10",
+          "downloads": 279
+        },
+        {
+          "month": "2024-11",
+          "downloads": 247
+        },
+        {
+          "month": "2024-12",
+          "downloads": 612
+        },
+        {
+          "month": "2025-01",
+          "downloads": 1074
+        },
+        {
+          "month": "2025-02",
+          "downloads": 526
+        },
+        {
+          "month": "2025-03",
+          "downloads": 691
+        },
+        {
+          "month": "2025-04",
+          "downloads": 340
+        },
+        {
+          "month": "2025-05",
+          "downloads": 191
+        },
+        {
+          "month": "2025-06",
+          "downloads": 223
+        },
+        {
+          "month": "2025-07",
+          "downloads": 406
+        },
+        {
+          "month": "2025-08",
+          "downloads": 101
+        },
+        {
+          "month": "2025-09",
+          "downloads": 256
+        },
+        {
+          "month": "2025-10",
+          "downloads": 323
+        },
+        {
+          "month": "2025-11",
+          "downloads": 187
+        },
+        {
+          "month": "2025-12",
+          "downloads": 309
+        },
+        {
+          "month": "2026-01",
+          "downloads": 255
+        },
+        {
+          "month": "2026-02",
+          "downloads": 288
+        }
+      ],
+      "momGrowthPct": 12.941176470588237,
+      "isGrowing": true,
+      "stars": null,
+      "description": null,
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "@bam.tech/react-native-component-progress-bar",
+      "totalDownloads": 829,
+      "monthlyDownloads": [
+        {
+          "month": "2024-09",
+          "downloads": 102
+        },
+        {
+          "month": "2024-10",
+          "downloads": 117
+        },
+        {
+          "month": "2024-11",
+          "downloads": 60
+        },
+        {
+          "month": "2024-12",
+          "downloads": 44
+        },
+        {
+          "month": "2025-01",
+          "downloads": 87
+        },
+        {
+          "month": "2025-02",
+          "downloads": 95
+        },
+        {
+          "month": "2025-03",
+          "downloads": 65
+        },
+        {
+          "month": "2025-04",
+          "downloads": 19
+        },
+        {
+          "month": "2025-05",
+          "downloads": 20
+        },
+        {
+          "month": "2025-06",
+          "downloads": 108
+        },
+        {
+          "month": "2025-07",
+          "downloads": 14
+        },
+        {
+          "month": "2025-08",
+          "downloads": 2
+        },
+        {
+          "month": "2025-09",
+          "downloads": 27
+        },
+        {
+          "month": "2025-10",
+          "downloads": 20
+        },
+        {
+          "month": "2025-11",
+          "downloads": 3
+        },
+        {
+          "month": "2025-12",
+          "downloads": 8
+        },
+        {
+          "month": "2026-01",
+          "downloads": 22
+        },
+        {
+          "month": "2026-02",
+          "downloads": 9
+        }
+      ],
+      "momGrowthPct": -59.09090909090909,
+      "isGrowing": false,
+      "stars": 38,
+      "description": "## Installation ```bash yarn add @bam.tech/react-native-component-progress-bar ```",
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "@bam.tech/react-native-component-separator",
+      "totalDownloads": 242,
+      "monthlyDownloads": [
+        {
+          "month": "2024-09",
+          "downloads": 2
+        },
+        {
+          "month": "2024-10",
+          "downloads": 7
+        },
+        {
+          "month": "2024-11",
+          "downloads": 3
+        },
+        {
+          "month": "2024-12",
+          "downloads": 24
+        },
+        {
+          "month": "2025-01",
+          "downloads": 23
+        },
+        {
+          "month": "2025-02",
+          "downloads": 27
+        },
+        {
+          "month": "2025-03",
+          "downloads": 17
+        },
+        {
+          "month": "2025-04",
+          "downloads": 13
+        },
+        {
+          "month": "2025-05",
+          "downloads": 9
+        },
+        {
+          "month": "2025-06",
+          "downloads": 9
+        },
+        {
+          "month": "2025-07",
+          "downloads": 12
+        },
+        {
+          "month": "2025-08",
+          "downloads": 3
+        },
+        {
+          "month": "2025-09",
+          "downloads": 27
+        },
+        {
+          "month": "2025-10",
+          "downloads": 17
+        },
+        {
+          "month": "2025-11",
+          "downloads": 6
+        },
+        {
+          "month": "2025-12",
+          "downloads": 10
+        },
+        {
+          "month": "2026-01",
+          "downloads": 22
+        },
+        {
+          "month": "2026-02",
+          "downloads": 8
+        }
+      ],
+      "momGrowthPct": -63.63636363636363,
+      "isGrowing": false,
+      "stars": 38,
+      "description": "## Installation ```bash yarn add @bam.tech/react-native-component-separator ```",
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "@bam.tech/react-native-screen-sizer",
+      "totalDownloads": 10232,
+      "monthlyDownloads": [
+        {
+          "month": "2024-09",
+          "downloads": 12
+        },
+        {
+          "month": "2024-10",
+          "downloads": 508
+        },
+        {
+          "month": "2024-11",
+          "downloads": 979
+        },
+        {
+          "month": "2024-12",
+          "downloads": 491
+        },
+        {
+          "month": "2025-01",
+          "downloads": 594
+        },
+        {
+          "month": "2025-02",
+          "downloads": 595
+        },
+        {
+          "month": "2025-03",
+          "downloads": 284
+        },
+        {
+          "month": "2025-04",
+          "downloads": 329
+        },
+        {
+          "month": "2025-05",
+          "downloads": 276
+        },
+        {
+          "month": "2025-06",
+          "downloads": 367
+        },
+        {
+          "month": "2025-07",
+          "downloads": 810
+        },
+        {
+          "month": "2025-08",
+          "downloads": 510
+        },
+        {
+          "month": "2025-09",
+          "downloads": 784
+        },
+        {
+          "month": "2025-10",
+          "downloads": 463
+        },
+        {
+          "month": "2025-11",
+          "downloads": 883
+        },
+        {
+          "month": "2025-12",
+          "downloads": 981
+        },
+        {
+          "month": "2026-01",
+          "downloads": 576
+        },
+        {
+          "month": "2026-02",
+          "downloads": 548
+        }
+      ],
+      "momGrowthPct": -4.861111111111112,
+      "isGrowing": false,
+      "stars": 22,
+      "description": "A react native library to simulate different screen sizes on the same device.",
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "@bam.tech/help-me-ai",
+      "totalDownloads": 670,
+      "monthlyDownloads": [
+        {
+          "month": "2024-09",
+          "downloads": 0
+        },
+        {
+          "month": "2024-10",
+          "downloads": 0
+        },
+        {
+          "month": "2024-11",
+          "downloads": 0
+        },
+        {
+          "month": "2024-12",
+          "downloads": 0
+        },
+        {
+          "month": "2025-01",
+          "downloads": 0
+        },
+        {
+          "month": "2025-02",
+          "downloads": 0
+        },
+        {
+          "month": "2025-03",
+          "downloads": 0
+        },
+        {
+          "month": "2025-04",
+          "downloads": 0
+        },
+        {
+          "month": "2025-05",
+          "downloads": 0
+        },
+        {
+          "month": "2025-06",
+          "downloads": 0
+        },
+        {
+          "month": "2025-07",
+          "downloads": 0
+        },
+        {
+          "month": "2025-08",
+          "downloads": 0
+        },
+        {
+          "month": "2025-09",
+          "downloads": 0
+        },
+        {
+          "month": "2025-10",
+          "downloads": 0
+        },
+        {
+          "month": "2025-11",
+          "downloads": 0
+        },
+        {
+          "month": "2025-12",
+          "downloads": 0
+        },
+        {
+          "month": "2026-01",
+          "downloads": 245
+        },
+        {
+          "month": "2026-02",
+          "downloads": 230
+        }
+      ],
+      "momGrowthPct": -6.122448979591836,
+      "isGrowing": false,
+      "stars": 0,
+      "description": "CLI tool to discover and install AI coding assistant skills based on your project dependencies",
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "@bam.tech/react-native-component-circle-image",
+      "totalDownloads": 189,
+      "monthlyDownloads": [
+        {
+          "month": "2024-09",
+          "downloads": 2
+        },
+        {
+          "month": "2024-10",
+          "downloads": 7
+        },
+        {
+          "month": "2024-11",
+          "downloads": 2
+        },
+        {
+          "month": "2024-12",
+          "downloads": 16
+        },
+        {
+          "month": "2025-01",
+          "downloads": 18
+        },
+        {
+          "month": "2025-02",
+          "downloads": 18
+        },
+        {
+          "month": "2025-03",
+          "downloads": 9
+        },
+        {
+          "month": "2025-04",
+          "downloads": 11
+        },
+        {
+          "month": "2025-05",
+          "downloads": 10
+        },
+        {
+          "month": "2025-06",
+          "downloads": 8
+        },
+        {
+          "month": "2025-07",
+          "downloads": 7
+        },
+        {
+          "month": "2025-08",
+          "downloads": 2
+        },
+        {
+          "month": "2025-09",
+          "downloads": 16
+        },
+        {
+          "month": "2025-10",
+          "downloads": 11
+        },
+        {
+          "month": "2025-11",
+          "downloads": 6
+        },
+        {
+          "month": "2025-12",
+          "downloads": 6
+        },
+        {
+          "month": "2026-01",
+          "downloads": 29
+        },
+        {
+          "month": "2026-02",
+          "downloads": 6
+        }
+      ],
+      "momGrowthPct": -79.3103448275862,
+      "isGrowing": false,
+      "stars": 38,
+      "description": "## Installation ```bash yarn add @bam.tech/react-native-component-circle-image ```",
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "@bam.tech/react-native-component-map-clustering",
+      "totalDownloads": 5777,
+      "monthlyDownloads": [
+        {
+          "month": "2024-09",
+          "downloads": 23
+        },
+        {
+          "month": "2024-10",
+          "downloads": 43
+        },
+        {
+          "month": "2024-11",
+          "downloads": 52
+        },
+        {
+          "month": "2024-12",
+          "downloads": 86
+        },
+        {
+          "month": "2025-01",
+          "downloads": 80
+        },
+        {
+          "month": "2025-02",
+          "downloads": 58
+        },
+        {
+          "month": "2025-03",
+          "downloads": 228
+        },
+        {
+          "month": "2025-04",
+          "downloads": 217
+        },
+        {
+          "month": "2025-05",
+          "downloads": 204
+        },
+        {
+          "month": "2025-06",
+          "downloads": 248
+        },
+        {
+          "month": "2025-07",
+          "downloads": 934
+        },
+        {
+          "month": "2025-08",
+          "downloads": 459
+        },
+        {
+          "month": "2025-09",
+          "downloads": 618
+        },
+        {
+          "month": "2025-10",
+          "downloads": 760
+        },
+        {
+          "month": "2025-11",
+          "downloads": 605
+        },
+        {
+          "month": "2025-12",
+          "downloads": 301
+        },
+        {
+          "month": "2026-01",
+          "downloads": 124
+        },
+        {
+          "month": "2026-02",
+          "downloads": 359
+        }
+      ],
+      "momGrowthPct": 189.51612903225808,
+      "isGrowing": true,
+      "stars": 38,
+      "description": "## Installation",
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "@bam.tech/react-native-component-password-strength-indicator",
+      "totalDownloads": 239,
+      "monthlyDownloads": [
+        {
+          "month": "2024-09",
+          "downloads": 8
+        },
+        {
+          "month": "2024-10",
+          "downloads": 16
+        },
+        {
+          "month": "2024-11",
+          "downloads": 4
+        },
+        {
+          "month": "2024-12",
+          "downloads": 17
+        },
+        {
+          "month": "2025-01",
+          "downloads": 16
+        },
+        {
+          "month": "2025-02",
+          "downloads": 20
+        },
+        {
+          "month": "2025-03",
+          "downloads": 9
+        },
+        {
+          "month": "2025-04",
+          "downloads": 13
+        },
+        {
+          "month": "2025-05",
+          "downloads": 10
+        },
+        {
+          "month": "2025-06",
+          "downloads": 7
+        },
+        {
+          "month": "2025-07",
+          "downloads": 22
+        },
+        {
+          "month": "2025-08",
+          "downloads": 12
+        },
+        {
+          "month": "2025-09",
+          "downloads": 25
+        },
+        {
+          "month": "2025-10",
+          "downloads": 8
+        },
+        {
+          "month": "2025-11",
+          "downloads": 8
+        },
+        {
+          "month": "2025-12",
+          "downloads": 8
+        },
+        {
+          "month": "2026-01",
+          "downloads": 26
+        },
+        {
+          "month": "2026-02",
+          "downloads": 6
+        }
+      ],
+      "momGrowthPct": -76.92307692307693,
+      "isGrowing": false,
+      "stars": 38,
+      "description": "## Installation ```bash yarn add @bam.tech/react-native-component-password-strength-indicator @bam.tech/react-native-component-progress-bar ```",
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "@bam.tech/react-navigation-live-reload-on-screen",
+      "totalDownloads": 4113,
+      "monthlyDownloads": [
+        {
+          "month": "2024-09",
+          "downloads": 173
+        },
+        {
+          "month": "2024-10",
+          "downloads": 283
+        },
+        {
+          "month": "2024-11",
+          "downloads": 144
+        },
+        {
+          "month": "2024-12",
+          "downloads": 200
+        },
+        {
+          "month": "2025-01",
+          "downloads": 340
+        },
+        {
+          "month": "2025-02",
+          "downloads": 287
+        },
+        {
+          "month": "2025-03",
+          "downloads": 386
+        },
+        {
+          "month": "2025-04",
+          "downloads": 218
+        },
+        {
+          "month": "2025-05",
+          "downloads": 250
+        },
+        {
+          "month": "2025-06",
+          "downloads": 222
+        },
+        {
+          "month": "2025-07",
+          "downloads": 160
+        },
+        {
+          "month": "2025-08",
+          "downloads": 123
+        },
+        {
+          "month": "2025-09",
+          "downloads": 159
+        },
+        {
+          "month": "2025-10",
+          "downloads": 162
+        },
+        {
+          "month": "2025-11",
+          "downloads": 171
+        },
+        {
+          "month": "2025-12",
+          "downloads": 379
+        },
+        {
+          "month": "2026-01",
+          "downloads": 200
+        },
+        {
+          "month": "2026-02",
+          "downloads": 191
+        }
+      ],
+      "momGrowthPct": -4.5,
+      "isGrowing": false,
+      "stars": 2,
+      "description": "Make live reload to stay on current screen with react-navigation",
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "@bam.tech/parcel-plugin-handlebars-mock",
+      "totalDownloads": 2610,
+      "monthlyDownloads": [
+        {
+          "month": "2024-09",
+          "downloads": 6
+        },
+        {
+          "month": "2024-10",
+          "downloads": 14
+        },
+        {
+          "month": "2024-11",
+          "downloads": 20
+        },
+        {
+          "month": "2024-12",
+          "downloads": 60
+        },
+        {
+          "month": "2025-01",
+          "downloads": 63
+        },
+        {
+          "month": "2025-02",
+          "downloads": 145
+        },
+        {
+          "month": "2025-03",
+          "downloads": 223
+        },
+        {
+          "month": "2025-04",
+          "downloads": 158
+        },
+        {
+          "month": "2025-05",
+          "downloads": 72
+        },
+        {
+          "month": "2025-06",
+          "downloads": 79
+        },
+        {
+          "month": "2025-07",
+          "downloads": 235
+        },
+        {
+          "month": "2025-08",
+          "downloads": 227
+        },
+        {
+          "month": "2025-09",
+          "downloads": 303
+        },
+        {
+          "month": "2025-10",
+          "downloads": 185
+        },
+        {
+          "month": "2025-11",
+          "downloads": 234
+        },
+        {
+          "month": "2025-12",
+          "downloads": 369
+        },
+        {
+          "month": "2026-01",
+          "downloads": 70
+        },
+        {
+          "month": "2026-02",
+          "downloads": 102
+        }
+      ],
+      "momGrowthPct": 45.714285714285715,
+      "isGrowing": true,
+      "stars": null,
+      "description": "Parcel plugin to populate html during development.",
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "@bam.tech/kettle",
+      "totalDownloads": 673,
+      "monthlyDownloads": [
+        {
+          "month": "2024-09",
+          "downloads": 20
+        },
+        {
+          "month": "2024-10",
+          "downloads": 29
+        },
+        {
+          "month": "2024-11",
+          "downloads": 27
+        },
+        {
+          "month": "2024-12",
+          "downloads": 60
+        },
+        {
+          "month": "2025-01",
+          "downloads": 36
+        },
+        {
+          "month": "2025-02",
+          "downloads": 44
+        },
+        {
+          "month": "2025-03",
+          "downloads": 57
+        },
+        {
+          "month": "2025-04",
+          "downloads": 30
+        },
+        {
+          "month": "2025-05",
+          "downloads": 14
+        },
+        {
+          "month": "2025-06",
+          "downloads": 20
+        },
+        {
+          "month": "2025-07",
+          "downloads": 21
+        },
+        {
+          "month": "2025-08",
+          "downloads": 8
+        },
+        {
+          "month": "2025-09",
+          "downloads": 70
+        },
+        {
+          "month": "2025-10",
+          "downloads": 52
+        },
+        {
+          "month": "2025-11",
+          "downloads": 12
+        },
+        {
+          "month": "2025-12",
+          "downloads": 29
+        },
+        {
+          "month": "2026-01",
+          "downloads": 77
+        },
+        {
+          "month": "2026-02",
+          "downloads": 55
+        }
+      ],
+      "momGrowthPct": -28.57142857142857,
+      "isGrowing": false,
+      "stars": 5,
+      "description": "The templating engine tailored for boilerplates",
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "@bam.tech/typescript-config",
+      "totalDownloads": 1757,
+      "monthlyDownloads": [
+        {
+          "month": "2024-09",
+          "downloads": 43
+        },
+        {
+          "month": "2024-10",
+          "downloads": 85
+        },
+        {
+          "month": "2024-11",
+          "downloads": 81
+        },
+        {
+          "month": "2024-12",
+          "downloads": 130
+        },
+        {
+          "month": "2025-01",
+          "downloads": 165
+        },
+        {
+          "month": "2025-02",
+          "downloads": 129
+        },
+        {
+          "month": "2025-03",
+          "downloads": 105
+        },
+        {
+          "month": "2025-04",
+          "downloads": 113
+        },
+        {
+          "month": "2025-05",
+          "downloads": 96
+        },
+        {
+          "month": "2025-06",
+          "downloads": 76
+        },
+        {
+          "month": "2025-07",
+          "downloads": 73
+        },
+        {
+          "month": "2025-08",
+          "downloads": 89
+        },
+        {
+          "month": "2025-09",
+          "downloads": 142
+        },
+        {
+          "month": "2025-10",
+          "downloads": 61
+        },
+        {
+          "month": "2025-11",
+          "downloads": 31
+        },
+        {
+          "month": "2025-12",
+          "downloads": 66
+        },
+        {
+          "month": "2026-01",
+          "downloads": 208
+        },
+        {
+          "month": "2026-02",
+          "downloads": 44
+        }
+      ],
+      "momGrowthPct": -78.84615384615384,
+      "isGrowing": false,
+      "stars": null,
+      "description": "This project is just a simple package that exposes a tsconfig.json file that gathers the compiler options that should be used in any new BAM project.",
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "@bam.tech/nestjs-graphql-dataloader",
+      "totalDownloads": 7081,
+      "monthlyDownloads": [
+        {
+          "month": "2024-09",
+          "downloads": 0
+        },
+        {
+          "month": "2024-10",
+          "downloads": 0
+        },
+        {
+          "month": "2024-11",
+          "downloads": 0
+        },
+        {
+          "month": "2024-12",
+          "downloads": 0
+        },
+        {
+          "month": "2025-01",
+          "downloads": 682
+        },
+        {
+          "month": "2025-02",
+          "downloads": 953
+        },
+        {
+          "month": "2025-03",
+          "downloads": 533
+        },
+        {
+          "month": "2025-04",
+          "downloads": 1123
+        },
+        {
+          "month": "2025-05",
+          "downloads": 593
+        },
+        {
+          "month": "2025-06",
+          "downloads": 780
+        },
+        {
+          "month": "2025-07",
+          "downloads": 339
+        },
+        {
+          "month": "2025-08",
+          "downloads": 46
+        },
+        {
+          "month": "2025-09",
+          "downloads": 210
+        },
+        {
+          "month": "2025-10",
+          "downloads": 285
+        },
+        {
+          "month": "2025-11",
+          "downloads": 274
+        },
+        {
+          "month": "2025-12",
+          "downloads": 318
+        },
+        {
+          "month": "2026-01",
+          "downloads": 344
+        },
+        {
+          "month": "2026-02",
+          "downloads": 409
+        }
+      ],
+      "momGrowthPct": 18.8953488372093,
+      "isGrowing": true,
+      "stars": 0,
+      "description": "NestJS GraphQL Dataloader",
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "@bam.tech/react-native-msal",
+      "totalDownloads": 4229,
+      "monthlyDownloads": [
+        {
+          "month": "2024-09",
+          "downloads": 0
+        },
+        {
+          "month": "2024-10",
+          "downloads": 0
+        },
+        {
+          "month": "2024-11",
+          "downloads": 0
+        },
+        {
+          "month": "2024-12",
+          "downloads": 0
+        },
+        {
+          "month": "2025-01",
+          "downloads": 0
+        },
+        {
+          "month": "2025-02",
+          "downloads": 0
+        },
+        {
+          "month": "2025-03",
+          "downloads": 0
+        },
+        {
+          "month": "2025-04",
+          "downloads": 497
+        },
+        {
+          "month": "2025-05",
+          "downloads": 626
+        },
+        {
+          "month": "2025-06",
+          "downloads": 739
+        },
+        {
+          "month": "2025-07",
+          "downloads": 324
+        },
+        {
+          "month": "2025-08",
+          "downloads": 52
+        },
+        {
+          "month": "2025-09",
+          "downloads": 188
+        },
+        {
+          "month": "2025-10",
+          "downloads": 255
+        },
+        {
+          "month": "2025-11",
+          "downloads": 277
+        },
+        {
+          "month": "2025-12",
+          "downloads": 304
+        },
+        {
+          "month": "2026-01",
+          "downloads": 343
+        },
+        {
+          "month": "2026-02",
+          "downloads": 425
+        }
+      ],
+      "momGrowthPct": 23.9067055393586,
+      "isGrowing": true,
+      "stars": 0,
+      "description": "React Native wrapper for iOS and Android",
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "@bam.tech/react-native-component-google-signin",
+      "totalDownloads": 142,
+      "monthlyDownloads": [
+        {
+          "month": "2024-09",
+          "downloads": 0
+        },
+        {
+          "month": "2024-10",
+          "downloads": 5
+        },
+        {
+          "month": "2024-11",
+          "downloads": 2
+        },
+        {
+          "month": "2024-12",
+          "downloads": 15
+        },
+        {
+          "month": "2025-01",
+          "downloads": 13
+        },
+        {
+          "month": "2025-02",
+          "downloads": 20
+        },
+        {
+          "month": "2025-03",
+          "downloads": 7
+        },
+        {
+          "month": "2025-04",
+          "downloads": 7
+        },
+        {
+          "month": "2025-05",
+          "downloads": 6
+        },
+        {
+          "month": "2025-06",
+          "downloads": 5
+        },
+        {
+          "month": "2025-07",
+          "downloads": 9
+        },
+        {
+          "month": "2025-08",
+          "downloads": 1
+        },
+        {
+          "month": "2025-09",
+          "downloads": 14
+        },
+        {
+          "month": "2025-10",
+          "downloads": 6
+        },
+        {
+          "month": "2025-11",
+          "downloads": 2
+        },
+        {
+          "month": "2025-12",
+          "downloads": 5
+        },
+        {
+          "month": "2026-01",
+          "downloads": 18
+        },
+        {
+          "month": "2026-02",
+          "downloads": 4
+        }
+      ],
+      "momGrowthPct": -77.77777777777779,
+      "isGrowing": false,
+      "stars": 38,
+      "description": "## Installation ```bash yarn add @bam.tech/react-native-component-google-signin ```",
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "@bam.tech/teinte",
+      "totalDownloads": 594,
+      "monthlyDownloads": [
+        {
+          "month": "2024-09",
+          "downloads": 4
+        },
+        {
+          "month": "2024-10",
+          "downloads": 24
+        },
+        {
+          "month": "2024-11",
+          "downloads": 15
+        },
+        {
+          "month": "2024-12",
+          "downloads": 56
+        },
+        {
+          "month": "2025-01",
+          "downloads": 47
+        },
+        {
+          "month": "2025-02",
+          "downloads": 31
+        },
+        {
+          "month": "2025-03",
+          "downloads": 63
+        },
+        {
+          "month": "2025-04",
+          "downloads": 31
+        },
+        {
+          "month": "2025-05",
+          "downloads": 10
+        },
+        {
+          "month": "2025-06",
+          "downloads": 32
+        },
+        {
+          "month": "2025-07",
+          "downloads": 29
+        },
+        {
+          "month": "2025-08",
+          "downloads": 1
+        },
+        {
+          "month": "2025-09",
+          "downloads": 65
+        },
+        {
+          "month": "2025-10",
+          "downloads": 49
+        },
+        {
+          "month": "2025-11",
+          "downloads": 15
+        },
+        {
+          "month": "2025-12",
+          "downloads": 51
+        },
+        {
+          "month": "2026-01",
+          "downloads": 36
+        },
+        {
+          "month": "2026-02",
+          "downloads": 30
+        }
+      ],
+      "momGrowthPct": -16.666666666666664,
+      "isGrowing": false,
+      "stars": null,
+      "description": "A color interpolation library",
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "@bam.tech/react-native-root-siblings",
+      "totalDownloads": 3350,
+      "monthlyDownloads": [
+        {
+          "month": "2024-09",
+          "downloads": 170
+        },
+        {
+          "month": "2024-10",
+          "downloads": 138
+        },
+        {
+          "month": "2024-11",
+          "downloads": 201
+        },
+        {
+          "month": "2024-12",
+          "downloads": 269
+        },
+        {
+          "month": "2025-01",
+          "downloads": 142
+        },
+        {
+          "month": "2025-02",
+          "downloads": 172
+        },
+        {
+          "month": "2025-03",
+          "downloads": 158
+        },
+        {
+          "month": "2025-04",
+          "downloads": 208
+        },
+        {
+          "month": "2025-05",
+          "downloads": 74
+        },
+        {
+          "month": "2025-06",
+          "downloads": 192
+        },
+        {
+          "month": "2025-07",
+          "downloads": 243
+        },
+        {
+          "month": "2025-08",
+          "downloads": 202
+        },
+        {
+          "month": "2025-09",
+          "downloads": 150
+        },
+        {
+          "month": "2025-10",
+          "downloads": 205
+        },
+        {
+          "month": "2025-11",
+          "downloads": 149
+        },
+        {
+          "month": "2025-12",
+          "downloads": 173
+        },
+        {
+          "month": "2026-01",
+          "downloads": 142
+        },
+        {
+          "month": "2026-02",
+          "downloads": 261
+        }
+      ],
+      "momGrowthPct": 83.80281690140845,
+      "isGrowing": true,
+      "stars": 736,
+      "description": "react native root sibling elements manager",
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "@bam.tech/react-native-snackbar-dialog",
+      "totalDownloads": 2988,
+      "monthlyDownloads": [
+        {
+          "month": "2024-09",
+          "downloads": 177
+        },
+        {
+          "month": "2024-10",
+          "downloads": 134
+        },
+        {
+          "month": "2024-11",
+          "downloads": 169
+        },
+        {
+          "month": "2024-12",
+          "downloads": 184
+        },
+        {
+          "month": "2025-01",
+          "downloads": 138
+        },
+        {
+          "month": "2025-02",
+          "downloads": 154
+        },
+        {
+          "month": "2025-03",
+          "downloads": 160
+        },
+        {
+          "month": "2025-04",
+          "downloads": 197
+        },
+        {
+          "month": "2025-05",
+          "downloads": 68
+        },
+        {
+          "month": "2025-06",
+          "downloads": 194
+        },
+        {
+          "month": "2025-07",
+          "downloads": 233
+        },
+        {
+          "month": "2025-08",
+          "downloads": 198
+        },
+        {
+          "month": "2025-09",
+          "downloads": 143
+        },
+        {
+          "month": "2025-10",
+          "downloads": 189
+        },
+        {
+          "month": "2025-11",
+          "downloads": 121
+        },
+        {
+          "month": "2025-12",
+          "downloads": 163
+        },
+        {
+          "month": "2026-01",
+          "downloads": 131
+        },
+        {
+          "month": "2026-02",
+          "downloads": 137
+        }
+      ],
+      "momGrowthPct": 4.580152671755725,
+      "isGrowing": false,
+      "stars": 74,
+      "description": "A react native snackbar with dialog options",
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "@bam.tech/react-native-component-text-input",
+      "totalDownloads": 557,
+      "monthlyDownloads": [
+        {
+          "month": "2024-09",
+          "downloads": 4
+        },
+        {
+          "month": "2024-10",
+          "downloads": 12
+        },
+        {
+          "month": "2024-11",
+          "downloads": 11
+        },
+        {
+          "month": "2024-12",
+          "downloads": 27
+        },
+        {
+          "month": "2025-01",
+          "downloads": 34
+        },
+        {
+          "month": "2025-02",
+          "downloads": 33
+        },
+        {
+          "month": "2025-03",
+          "downloads": 77
+        },
+        {
+          "month": "2025-04",
+          "downloads": 15
+        },
+        {
+          "month": "2025-05",
+          "downloads": 8
+        },
+        {
+          "month": "2025-06",
+          "downloads": 63
+        },
+        {
+          "month": "2025-07",
+          "downloads": 51
+        },
+        {
+          "month": "2025-08",
+          "downloads": 2
+        },
+        {
+          "month": "2025-09",
+          "downloads": 53
+        },
+        {
+          "month": "2025-10",
+          "downloads": 39
+        },
+        {
+          "month": "2025-11",
+          "downloads": 23
+        },
+        {
+          "month": "2025-12",
+          "downloads": 42
+        },
+        {
+          "month": "2026-01",
+          "downloads": 32
+        },
+        {
+          "month": "2026-02",
+          "downloads": 22
+        }
+      ],
+      "momGrowthPct": -31.25,
+      "isGrowing": false,
+      "stars": 38,
+      "description": "## Installation",
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "@bam.tech/react-native-ssl-pinning",
+      "totalDownloads": 559,
+      "monthlyDownloads": [
+        {
+          "month": "2024-09",
+          "downloads": 24
+        },
+        {
+          "month": "2024-10",
+          "downloads": 17
+        },
+        {
+          "month": "2024-11",
+          "downloads": 28
+        },
+        {
+          "month": "2024-12",
+          "downloads": 35
+        },
+        {
+          "month": "2025-01",
+          "downloads": 29
+        },
+        {
+          "month": "2025-02",
+          "downloads": 50
+        },
+        {
+          "month": "2025-03",
+          "downloads": 40
+        },
+        {
+          "month": "2025-04",
+          "downloads": 20
+        },
+        {
+          "month": "2025-05",
+          "downloads": 18
+        },
+        {
+          "month": "2025-06",
+          "downloads": 22
+        },
+        {
+          "month": "2025-07",
+          "downloads": 23
+        },
+        {
+          "month": "2025-08",
+          "downloads": 1
+        },
+        {
+          "month": "2025-09",
+          "downloads": 65
+        },
+        {
+          "month": "2025-10",
+          "downloads": 25
+        },
+        {
+          "month": "2025-11",
+          "downloads": 37
+        },
+        {
+          "month": "2025-12",
+          "downloads": 30
+        },
+        {
+          "month": "2026-01",
+          "downloads": 51
+        },
+        {
+          "month": "2026-02",
+          "downloads": 23
+        }
+      ],
+      "momGrowthPct": -54.90196078431373,
+      "isGrowing": false,
+      "stars": 5,
+      "description": "SSLPinning config for expo",
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "@bam.tech/react-native-admob",
+      "totalDownloads": 661,
+      "monthlyDownloads": [
+        {
+          "month": "2024-09",
+          "downloads": 7
+        },
+        {
+          "month": "2024-10",
+          "downloads": 18
+        },
+        {
+          "month": "2024-11",
+          "downloads": 34
+        },
+        {
+          "month": "2024-12",
+          "downloads": 41
+        },
+        {
+          "month": "2025-01",
+          "downloads": 32
+        },
+        {
+          "month": "2025-02",
+          "downloads": 40
+        },
+        {
+          "month": "2025-03",
+          "downloads": 48
+        },
+        {
+          "month": "2025-04",
+          "downloads": 29
+        },
+        {
+          "month": "2025-05",
+          "downloads": 22
+        },
+        {
+          "month": "2025-06",
+          "downloads": 26
+        },
+        {
+          "month": "2025-07",
+          "downloads": 23
+        },
+        {
+          "month": "2025-08",
+          "downloads": 30
+        },
+        {
+          "month": "2025-09",
+          "downloads": 62
+        },
+        {
+          "month": "2025-10",
+          "downloads": 77
+        },
+        {
+          "month": "2025-11",
+          "downloads": 21
+        },
+        {
+          "month": "2025-12",
+          "downloads": 56
+        },
+        {
+          "month": "2026-01",
+          "downloads": 33
+        },
+        {
+          "month": "2026-02",
+          "downloads": 54
+        }
+      ],
+      "momGrowthPct": 63.63636363636363,
+      "isGrowing": true,
+      "stars": 1126,
+      "description": "A react-native component for Google AdMob banners and interstitials",
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "@bam.tech/jest-junit-reports-merger",
+      "totalDownloads": 0,
+      "monthlyDownloads": [],
+      "momGrowthPct": null,
+      "isGrowing": false,
+      "stars": 0,
+      "description": "Merge multiple JUnit reports into one",
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "@bam.tech/danger-plugin-flow",
+      "totalDownloads": 351,
+      "monthlyDownloads": [
+        {
+          "month": "2024-09",
+          "downloads": 37
+        },
+        {
+          "month": "2024-10",
+          "downloads": 27
+        },
+        {
+          "month": "2024-11",
+          "downloads": 14
+        },
+        {
+          "month": "2024-12",
+          "downloads": 21
+        },
+        {
+          "month": "2025-01",
+          "downloads": 29
+        },
+        {
+          "month": "2025-02",
+          "downloads": 27
+        },
+        {
+          "month": "2025-03",
+          "downloads": 21
+        },
+        {
+          "month": "2025-04",
+          "downloads": 22
+        },
+        {
+          "month": "2025-05",
+          "downloads": 10
+        },
+        {
+          "month": "2025-06",
+          "downloads": 19
+        },
+        {
+          "month": "2025-07",
+          "downloads": 11
+        },
+        {
+          "month": "2025-08",
+          "downloads": 1
+        },
+        {
+          "month": "2025-09",
+          "downloads": 27
+        },
+        {
+          "month": "2025-10",
+          "downloads": 16
+        },
+        {
+          "month": "2025-11",
+          "downloads": 4
+        },
+        {
+          "month": "2025-12",
+          "downloads": 17
+        },
+        {
+          "month": "2026-01",
+          "downloads": 29
+        },
+        {
+          "month": "2026-02",
+          "downloads": 12
+        }
+      ],
+      "momGrowthPct": -58.620689655172406,
+      "isGrowing": false,
+      "stars": 15,
+      "description": "Ensure adoption of flowtype",
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "@bam.tech/react-native-component-verification-code-input",
+      "totalDownloads": 292,
+      "monthlyDownloads": [
+        {
+          "month": "2024-09",
+          "downloads": 3
+        },
+        {
+          "month": "2024-10",
+          "downloads": 11
+        },
+        {
+          "month": "2024-11",
+          "downloads": 8
+        },
+        {
+          "month": "2024-12",
+          "downloads": 24
+        },
+        {
+          "month": "2025-01",
+          "downloads": 30
+        },
+        {
+          "month": "2025-02",
+          "downloads": 31
+        },
+        {
+          "month": "2025-03",
+          "downloads": 25
+        },
+        {
+          "month": "2025-04",
+          "downloads": 16
+        },
+        {
+          "month": "2025-05",
+          "downloads": 6
+        },
+        {
+          "month": "2025-06",
+          "downloads": 11
+        },
+        {
+          "month": "2025-07",
+          "downloads": 9
+        },
+        {
+          "month": "2025-08",
+          "downloads": 1
+        },
+        {
+          "month": "2025-09",
+          "downloads": 40
+        },
+        {
+          "month": "2025-10",
+          "downloads": 15
+        },
+        {
+          "month": "2025-11",
+          "downloads": 4
+        },
+        {
+          "month": "2025-12",
+          "downloads": 15
+        },
+        {
+          "month": "2026-01",
+          "downloads": 25
+        },
+        {
+          "month": "2026-02",
+          "downloads": 15
+        }
+      ],
+      "momGrowthPct": -40,
+      "isGrowing": false,
+      "stars": 38,
+      "description": "## Installation",
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "@bam.tech/react-native-text-highlight",
+      "totalDownloads": 225,
+      "monthlyDownloads": [
+        {
+          "month": "2024-09",
+          "downloads": 4
+        },
+        {
+          "month": "2024-10",
+          "downloads": 11
+        },
+        {
+          "month": "2024-11",
+          "downloads": 6
+        },
+        {
+          "month": "2024-12",
+          "downloads": 16
+        },
+        {
+          "month": "2025-01",
+          "downloads": 18
+        },
+        {
+          "month": "2025-02",
+          "downloads": 23
+        },
+        {
+          "month": "2025-03",
+          "downloads": 10
+        },
+        {
+          "month": "2025-04",
+          "downloads": 9
+        },
+        {
+          "month": "2025-05",
+          "downloads": 10
+        },
+        {
+          "month": "2025-06",
+          "downloads": 10
+        },
+        {
+          "month": "2025-07",
+          "downloads": 10
+        },
+        {
+          "month": "2025-08",
+          "downloads": 4
+        },
+        {
+          "month": "2025-09",
+          "downloads": 16
+        },
+        {
+          "month": "2025-10",
+          "downloads": 9
+        },
+        {
+          "month": "2025-11",
+          "downloads": 6
+        },
+        {
+          "month": "2025-12",
+          "downloads": 16
+        },
+        {
+          "month": "2026-01",
+          "downloads": 33
+        },
+        {
+          "month": "2026-02",
+          "downloads": 9
+        }
+      ],
+      "momGrowthPct": -72.72727272727273,
+      "isGrowing": false,
+      "stars": 11,
+      "description": "A react native module that hightlights given words in a text",
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "@bam.tech/react-native-fast-image",
+      "totalDownloads": 646,
+      "monthlyDownloads": [
+        {
+          "month": "2024-09",
+          "downloads": 13
+        },
+        {
+          "month": "2024-10",
+          "downloads": 19
+        },
+        {
+          "month": "2024-11",
+          "downloads": 26
+        },
+        {
+          "month": "2024-12",
+          "downloads": 49
+        },
+        {
+          "month": "2025-01",
+          "downloads": 39
+        },
+        {
+          "month": "2025-02",
+          "downloads": 42
+        },
+        {
+          "month": "2025-03",
+          "downloads": 48
+        },
+        {
+          "month": "2025-04",
+          "downloads": 35
+        },
+        {
+          "month": "2025-05",
+          "downloads": 23
+        },
+        {
+          "month": "2025-06",
+          "downloads": 15
+        },
+        {
+          "month": "2025-07",
+          "downloads": 19
+        },
+        {
+          "month": "2025-08",
+          "downloads": 12
+        },
+        {
+          "month": "2025-09",
+          "downloads": 62
+        },
+        {
+          "month": "2025-10",
+          "downloads": 49
+        },
+        {
+          "month": "2025-11",
+          "downloads": 49
+        },
+        {
+          "month": "2025-12",
+          "downloads": 30
+        },
+        {
+          "month": "2026-01",
+          "downloads": 72
+        },
+        {
+          "month": "2026-02",
+          "downloads": 41
+        }
+      ],
+      "momGrowthPct": -43.05555555555556,
+      "isGrowing": false,
+      "stars": 8442,
+      "description": "🚩 FastImage, performant React Native image component.",
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "@bam.tech/react-native-bluetooth-serial",
+      "totalDownloads": 307,
+      "monthlyDownloads": [
+        {
+          "month": "2024-09",
+          "downloads": 2
+        },
+        {
+          "month": "2024-10",
+          "downloads": 10
+        },
+        {
+          "month": "2024-11",
+          "downloads": 5
+        },
+        {
+          "month": "2024-12",
+          "downloads": 26
+        },
+        {
+          "month": "2025-01",
+          "downloads": 26
+        },
+        {
+          "month": "2025-02",
+          "downloads": 31
+        },
+        {
+          "month": "2025-03",
+          "downloads": 21
+        },
+        {
+          "month": "2025-04",
+          "downloads": 17
+        },
+        {
+          "month": "2025-05",
+          "downloads": 15
+        },
+        {
+          "month": "2025-06",
+          "downloads": 8
+        },
+        {
+          "month": "2025-07",
+          "downloads": 8
+        },
+        {
+          "month": "2025-08",
+          "downloads": 9
+        },
+        {
+          "month": "2025-09",
+          "downloads": 26
+        },
+        {
+          "month": "2025-10",
+          "downloads": 17
+        },
+        {
+          "month": "2025-11",
+          "downloads": 5
+        },
+        {
+          "month": "2025-12",
+          "downloads": 16
+        },
+        {
+          "month": "2026-01",
+          "downloads": 39
+        },
+        {
+          "month": "2026-02",
+          "downloads": 19
+        }
+      ],
+      "momGrowthPct": -51.28205128205128,
+      "isGrowing": false,
+      "stars": 483,
+      "description": "'Bluetooth serial for react native'",
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "@bam.tech/react-native-scrollable-tab-view",
+      "totalDownloads": 382,
+      "monthlyDownloads": [
+        {
+          "month": "2024-09",
+          "downloads": 4
+        },
+        {
+          "month": "2024-10",
+          "downloads": 12
+        },
+        {
+          "month": "2024-11",
+          "downloads": 6
+        },
+        {
+          "month": "2024-12",
+          "downloads": 36
+        },
+        {
+          "month": "2025-01",
+          "downloads": 35
+        },
+        {
+          "month": "2025-02",
+          "downloads": 39
+        },
+        {
+          "month": "2025-03",
+          "downloads": 28
+        },
+        {
+          "month": "2025-04",
+          "downloads": 14
+        },
+        {
+          "month": "2025-05",
+          "downloads": 12
+        },
+        {
+          "month": "2025-06",
+          "downloads": 29
+        },
+        {
+          "month": "2025-07",
+          "downloads": 14
+        },
+        {
+          "month": "2025-08",
+          "downloads": 5
+        },
+        {
+          "month": "2025-09",
+          "downloads": 34
+        },
+        {
+          "month": "2025-10",
+          "downloads": 29
+        },
+        {
+          "month": "2025-11",
+          "downloads": 13
+        },
+        {
+          "month": "2025-12",
+          "downloads": 18
+        },
+        {
+          "month": "2026-01",
+          "downloads": 26
+        },
+        {
+          "month": "2026-02",
+          "downloads": 24
+        }
+      ],
+      "momGrowthPct": -7.6923076923076925,
+      "isGrowing": false,
+      "stars": 6952,
+      "description": "[![npm version](https://badge.fury.io/js/react-native-scrollable-tab-view.svg)](https://badge.fury.io/js/react-native-scrollable-tab-view)",
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "@bam.tech/react-native-credit-card-input",
+      "totalDownloads": 286,
+      "monthlyDownloads": [
+        {
+          "month": "2024-09",
+          "downloads": 2
+        },
+        {
+          "month": "2024-10",
+          "downloads": 13
+        },
+        {
+          "month": "2024-11",
+          "downloads": 3
+        },
+        {
+          "month": "2024-12",
+          "downloads": 17
+        },
+        {
+          "month": "2025-01",
+          "downloads": 22
+        },
+        {
+          "month": "2025-02",
+          "downloads": 27
+        },
+        {
+          "month": "2025-03",
+          "downloads": 10
+        },
+        {
+          "month": "2025-04",
+          "downloads": 11
+        },
+        {
+          "month": "2025-05",
+          "downloads": 12
+        },
+        {
+          "month": "2025-06",
+          "downloads": 15
+        },
+        {
+          "month": "2025-07",
+          "downloads": 13
+        },
+        {
+          "month": "2025-08",
+          "downloads": 4
+        },
+        {
+          "month": "2025-09",
+          "downloads": 17
+        },
+        {
+          "month": "2025-10",
+          "downloads": 17
+        },
+        {
+          "month": "2025-11",
+          "downloads": 16
+        },
+        {
+          "month": "2025-12",
+          "downloads": 20
+        },
+        {
+          "month": "2026-01",
+          "downloads": 31
+        },
+        {
+          "month": "2026-02",
+          "downloads": 24
+        }
+      ],
+      "momGrowthPct": -22.58064516129032,
+      "isGrowing": false,
+      "stars": 1507,
+      "description": "React native credit card input component",
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "@bam.tech/moment-timezone",
+      "totalDownloads": 0,
+      "monthlyDownloads": [],
+      "momGrowthPct": null,
+      "isGrowing": false,
+      "stars": 3880,
+      "description": "Parse and display moments in any timezone.",
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "@bam.tech/react-native-camera",
+      "totalDownloads": 0,
+      "monthlyDownloads": [],
+      "momGrowthPct": null,
+      "isGrowing": false,
+      "stars": 9652,
+      "description": "A Camera component for React Native. Also reads barcodes.",
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "@bam.tech/lottie-react-native",
+      "totalDownloads": 0,
+      "monthlyDownloads": [],
+      "momGrowthPct": null,
+      "isGrowing": false,
+      "stars": 17135,
+      "description": "React Native bindings for Lottie (fork to fix xCode 10 waiting for upstream to release merged PR)",
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "@bam.tech/jest-knex-mock",
+      "totalDownloads": 155,
+      "monthlyDownloads": [
+        {
+          "month": "2024-09",
+          "downloads": 0
+        },
+        {
+          "month": "2024-10",
+          "downloads": 6
+        },
+        {
+          "month": "2024-11",
+          "downloads": 8
+        },
+        {
+          "month": "2024-12",
+          "downloads": 17
+        },
+        {
+          "month": "2025-01",
+          "downloads": 11
+        },
+        {
+          "month": "2025-02",
+          "downloads": 19
+        },
+        {
+          "month": "2025-03",
+          "downloads": 8
+        },
+        {
+          "month": "2025-04",
+          "downloads": 10
+        },
+        {
+          "month": "2025-05",
+          "downloads": 6
+        },
+        {
+          "month": "2025-06",
+          "downloads": 5
+        },
+        {
+          "month": "2025-07",
+          "downloads": 6
+        },
+        {
+          "month": "2025-08",
+          "downloads": 1
+        },
+        {
+          "month": "2025-09",
+          "downloads": 14
+        },
+        {
+          "month": "2025-10",
+          "downloads": 7
+        },
+        {
+          "month": "2025-11",
+          "downloads": 2
+        },
+        {
+          "month": "2025-12",
+          "downloads": 6
+        },
+        {
+          "month": "2026-01",
+          "downloads": 18
+        },
+        {
+          "month": "2026-02",
+          "downloads": 7
+        }
+      ],
+      "momGrowthPct": -61.111111111111114,
+      "isGrowing": false,
+      "stars": null,
+      "description": null,
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "@bam.tech/react-native-component-code-push-update-button",
+      "totalDownloads": 0,
+      "monthlyDownloads": [],
+      "momGrowthPct": null,
+      "isGrowing": false,
+      "stars": 38,
+      "description": "## Installation",
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "@bam.tech/danger-plugin-jest-coverage",
+      "totalDownloads": 0,
+      "monthlyDownloads": [],
+      "momGrowthPct": null,
+      "isGrowing": false,
+      "stars": 15,
+      "description": "Display Jest coverage",
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "@bam.tech/eact-native-bluetooth-serial",
+      "totalDownloads": 0,
+      "monthlyDownloads": [],
+      "momGrowthPct": null,
+      "isGrowing": false,
+      "stars": 483,
+      "description": "'Bluetooth serial for react native'",
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "@bam.tech/danger-plugin-todo",
+      "totalDownloads": 196,
+      "monthlyDownloads": [
+        {
+          "month": "2024-09",
+          "downloads": 1
+        },
+        {
+          "month": "2024-10",
+          "downloads": 9
+        },
+        {
+          "month": "2024-11",
+          "downloads": 6
+        },
+        {
+          "month": "2024-12",
+          "downloads": 13
+        },
+        {
+          "month": "2025-01",
+          "downloads": 18
+        },
+        {
+          "month": "2025-02",
+          "downloads": 22
+        },
+        {
+          "month": "2025-03",
+          "downloads": 10
+        },
+        {
+          "month": "2025-04",
+          "downloads": 13
+        },
+        {
+          "month": "2025-05",
+          "downloads": 10
+        },
+        {
+          "month": "2025-06",
+          "downloads": 13
+        },
+        {
+          "month": "2025-07",
+          "downloads": 5
+        },
+        {
+          "month": "2025-08",
+          "downloads": 3
+        },
+        {
+          "month": "2025-09",
+          "downloads": 17
+        },
+        {
+          "month": "2025-10",
+          "downloads": 5
+        },
+        {
+          "month": "2025-11",
+          "downloads": 6
+        },
+        {
+          "month": "2025-12",
+          "downloads": 7
+        },
+        {
+          "month": "2026-01",
+          "downloads": 28
+        },
+        {
+          "month": "2026-02",
+          "downloads": 8
+        }
+      ],
+      "momGrowthPct": -71.42857142857143,
+      "isGrowing": false,
+      "stars": 15,
+      "description": "Address your technical dept at some points",
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "@bam.tech/danger-plugin-eslint",
+      "totalDownloads": 0,
+      "monthlyDownloads": [],
+      "momGrowthPct": null,
+      "isGrowing": false,
+      "stars": 15,
+      "description": "See the lint, even for warnings",
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "@bam.tech/danger-plugin-flow-coverage",
+      "totalDownloads": 155,
+      "monthlyDownloads": [
+        {
+          "month": "2024-09",
+          "downloads": 0
+        },
+        {
+          "month": "2024-10",
+          "downloads": 6
+        },
+        {
+          "month": "2024-11",
+          "downloads": 1
+        },
+        {
+          "month": "2024-12",
+          "downloads": 17
+        },
+        {
+          "month": "2025-01",
+          "downloads": 15
+        },
+        {
+          "month": "2025-02",
+          "downloads": 19
+        },
+        {
+          "month": "2025-03",
+          "downloads": 7
+        },
+        {
+          "month": "2025-04",
+          "downloads": 8
+        },
+        {
+          "month": "2025-05",
+          "downloads": 8
+        },
+        {
+          "month": "2025-06",
+          "downloads": 9
+        },
+        {
+          "month": "2025-07",
+          "downloads": 8
+        },
+        {
+          "month": "2025-08",
+          "downloads": 1
+        },
+        {
+          "month": "2025-09",
+          "downloads": 14
+        },
+        {
+          "month": "2025-10",
+          "downloads": 7
+        },
+        {
+          "month": "2025-11",
+          "downloads": 2
+        },
+        {
+          "month": "2025-12",
+          "downloads": 5
+        },
+        {
+          "month": "2026-01",
+          "downloads": 18
+        },
+        {
+          "month": "2026-02",
+          "downloads": 7
+        }
+      ],
+      "momGrowthPct": -61.111111111111114,
+      "isGrowing": false,
+      "stars": 15,
+      "description": "Display flow coverage",
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "@bam.tech/webpack-federated-modules-shared-dependencies-finder",
+      "totalDownloads": 0,
+      "monthlyDownloads": [],
+      "momGrowthPct": null,
+      "isGrowing": false,
+      "stars": null,
+      "description": "Congrats! You just saved yourself hours of work by bootstrapping this project with TSDX. Let’s get you oriented with what’s here and how to use it.",
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "@bam.tech/react-native-section-list-get-item-layout",
+      "totalDownloads": 0,
+      "monthlyDownloads": [],
+      "momGrowthPct": null,
+      "isGrowing": false,
+      "stars": null,
+      "description": "This package simplifies constructing the getItemLayout prop for react native SectionLists.",
+      "notFound": false,
+      "ecosystem": "npm"
+    },
+    {
+      "name": "react-native-performance",
+      "totalDownloads": 0,
+      "monthlyDownloads": [],
+      "momGrowthPct": null,
       "isGrowing": false,
       "stars": 1040,
       "description": "Measure React Native performance",
@@ -87,82 +3820,9 @@
     },
     {
       "name": "react-native-image-resizer",
-      "totalDownloads": 2873279,
-      "monthlyDownloads": [
-        {
-          "month": "2024-09",
-          "downloads": 87162
-        },
-        {
-          "month": "2024-10",
-          "downloads": 156751
-        },
-        {
-          "month": "2024-11",
-          "downloads": 148736
-        },
-        {
-          "month": "2024-12",
-          "downloads": 134311
-        },
-        {
-          "month": "2025-01",
-          "downloads": 141258
-        },
-        {
-          "month": "2025-02",
-          "downloads": 141162
-        },
-        {
-          "month": "2025-03",
-          "downloads": 182774
-        },
-        {
-          "month": "2025-04",
-          "downloads": 170550
-        },
-        {
-          "month": "2025-05",
-          "downloads": 171441
-        },
-        {
-          "month": "2025-06",
-          "downloads": 175743
-        },
-        {
-          "month": "2025-07",
-          "downloads": 172951
-        },
-        {
-          "month": "2025-08",
-          "downloads": 181572
-        },
-        {
-          "month": "2025-09",
-          "downloads": 201715
-        },
-        {
-          "month": "2025-10",
-          "downloads": 166782
-        },
-        {
-          "month": "2025-11",
-          "downloads": 152167
-        },
-        {
-          "month": "2025-12",
-          "downloads": 144926
-        },
-        {
-          "month": "2026-01",
-          "downloads": 148331
-        },
-        {
-          "month": "2026-02",
-          "downloads": 132838
-        }
-      ],
-      "momGrowthPct": -10.444883402660267,
+      "totalDownloads": 0,
+      "monthlyDownloads": [],
+      "momGrowthPct": null,
       "isGrowing": false,
       "stars": 1659,
       "description": "Rescale local images with React Native",
@@ -255,82 +3915,9 @@
     },
     {
       "name": "react-native-image-header-scroll-view",
-      "totalDownloads": 99034,
-      "monthlyDownloads": [
-        {
-          "month": "2024-09",
-          "downloads": 3010
-        },
-        {
-          "month": "2024-10",
-          "downloads": 5652
-        },
-        {
-          "month": "2024-11",
-          "downloads": 5110
-        },
-        {
-          "month": "2024-12",
-          "downloads": 3528
-        },
-        {
-          "month": "2025-01",
-          "downloads": 4357
-        },
-        {
-          "month": "2025-02",
-          "downloads": 4598
-        },
-        {
-          "month": "2025-03",
-          "downloads": 4621
-        },
-        {
-          "month": "2025-04",
-          "downloads": 3903
-        },
-        {
-          "month": "2025-05",
-          "downloads": 4329
-        },
-        {
-          "month": "2025-06",
-          "downloads": 5955
-        },
-        {
-          "month": "2025-07",
-          "downloads": 5724
-        },
-        {
-          "month": "2025-08",
-          "downloads": 5563
-        },
-        {
-          "month": "2025-09",
-          "downloads": 5589
-        },
-        {
-          "month": "2025-10",
-          "downloads": 4599
-        },
-        {
-          "month": "2025-11",
-          "downloads": 6906
-        },
-        {
-          "month": "2025-12",
-          "downloads": 6612
-        },
-        {
-          "month": "2026-01",
-          "downloads": 7566
-        },
-        {
-          "month": "2026-02",
-          "downloads": 7664
-        }
-      ],
-      "momGrowthPct": 1.295268305577584,
+      "totalDownloads": 0,
+      "monthlyDownloads": [],
+      "momGrowthPct": null,
       "isGrowing": false,
       "stars": 1022,
       "description": "ScrollView with an image in header which become a navbar",
@@ -339,83 +3926,10 @@
     },
     {
       "name": "generator-rn-toolbox",
-      "totalDownloads": 78270,
-      "monthlyDownloads": [
-        {
-          "month": "2024-09",
-          "downloads": 2970
-        },
-        {
-          "month": "2024-10",
-          "downloads": 6190
-        },
-        {
-          "month": "2024-11",
-          "downloads": 3960
-        },
-        {
-          "month": "2024-12",
-          "downloads": 2071
-        },
-        {
-          "month": "2025-01",
-          "downloads": 3704
-        },
-        {
-          "month": "2025-02",
-          "downloads": 3631
-        },
-        {
-          "month": "2025-03",
-          "downloads": 4401
-        },
-        {
-          "month": "2025-04",
-          "downloads": 4386
-        },
-        {
-          "month": "2025-05",
-          "downloads": 3910
-        },
-        {
-          "month": "2025-06",
-          "downloads": 3818
-        },
-        {
-          "month": "2025-07",
-          "downloads": 3554
-        },
-        {
-          "month": "2025-08",
-          "downloads": 3601
-        },
-        {
-          "month": "2025-09",
-          "downloads": 3546
-        },
-        {
-          "month": "2025-10",
-          "downloads": 4489
-        },
-        {
-          "month": "2025-11",
-          "downloads": 4793
-        },
-        {
-          "month": "2025-12",
-          "downloads": 4268
-        },
-        {
-          "month": "2026-01",
-          "downloads": 4405
-        },
-        {
-          "month": "2026-02",
-          "downloads": 7658
-        }
-      ],
-      "momGrowthPct": 73.84790011350738,
-      "isGrowing": true,
+      "totalDownloads": 0,
+      "monthlyDownloads": [],
+      "momGrowthPct": null,
+      "isGrowing": false,
       "stars": 1193,
       "description": "React-Native generators to kickstart your project",
       "notFound": false,
@@ -423,82 +3937,9 @@
     },
     {
       "name": "react-native-make",
-      "totalDownloads": 57407,
-      "monthlyDownloads": [
-        {
-          "month": "2024-09",
-          "downloads": 166
-        },
-        {
-          "month": "2024-10",
-          "downloads": 292
-        },
-        {
-          "month": "2024-11",
-          "downloads": 488
-        },
-        {
-          "month": "2024-12",
-          "downloads": 573
-        },
-        {
-          "month": "2025-01",
-          "downloads": 676
-        },
-        {
-          "month": "2025-02",
-          "downloads": 1175
-        },
-        {
-          "month": "2025-03",
-          "downloads": 1373
-        },
-        {
-          "month": "2025-04",
-          "downloads": 2379
-        },
-        {
-          "month": "2025-05",
-          "downloads": 3540
-        },
-        {
-          "month": "2025-06",
-          "downloads": 3630
-        },
-        {
-          "month": "2025-07",
-          "downloads": 4164
-        },
-        {
-          "month": "2025-08",
-          "downloads": 5353
-        },
-        {
-          "month": "2025-09",
-          "downloads": 5386
-        },
-        {
-          "month": "2025-10",
-          "downloads": 5883
-        },
-        {
-          "month": "2025-11",
-          "downloads": 4527
-        },
-        {
-          "month": "2025-12",
-          "downloads": 6285
-        },
-        {
-          "month": "2026-01",
-          "downloads": 5393
-        },
-        {
-          "month": "2026-02",
-          "downloads": 4231
-        }
-      ],
-      "momGrowthPct": -21.546449100686075,
+      "totalDownloads": 0,
+      "monthlyDownloads": [],
+      "momGrowthPct": null,
       "isGrowing": false,
       "stars": 762,
       "description": "Please see [@bam.tech/react-native-make](https://github.com/bamlab/react-native-make)",
@@ -507,82 +3948,9 @@
     },
     {
       "name": "redux-enhancer-react-native-appstate",
-      "totalDownloads": 79501,
-      "monthlyDownloads": [
-        {
-          "month": "2024-09",
-          "downloads": 2186
-        },
-        {
-          "month": "2024-10",
-          "downloads": 3868
-        },
-        {
-          "month": "2024-11",
-          "downloads": 3936
-        },
-        {
-          "month": "2024-12",
-          "downloads": 3868
-        },
-        {
-          "month": "2025-01",
-          "downloads": 4147
-        },
-        {
-          "month": "2025-02",
-          "downloads": 3810
-        },
-        {
-          "month": "2025-03",
-          "downloads": 5324
-        },
-        {
-          "month": "2025-04",
-          "downloads": 4748
-        },
-        {
-          "month": "2025-05",
-          "downloads": 3792
-        },
-        {
-          "month": "2025-06",
-          "downloads": 5126
-        },
-        {
-          "month": "2025-07",
-          "downloads": 3740
-        },
-        {
-          "month": "2025-08",
-          "downloads": 4252
-        },
-        {
-          "month": "2025-09",
-          "downloads": 4687
-        },
-        {
-          "month": "2025-10",
-          "downloads": 4874
-        },
-        {
-          "month": "2025-11",
-          "downloads": 4990
-        },
-        {
-          "month": "2025-12",
-          "downloads": 5167
-        },
-        {
-          "month": "2026-01",
-          "downloads": 4359
-        },
-        {
-          "month": "2026-02",
-          "downloads": 4286
-        }
-      ],
-      "momGrowthPct": -1.6746960311998165,
+      "totalDownloads": 0,
+      "monthlyDownloads": [],
+      "momGrowthPct": null,
       "isGrowing": false,
       "stars": 89,
       "description": "Connect your App State changes directly to your Redux store",
@@ -591,83 +3959,10 @@
     },
     {
       "name": "react-tv-space-navigation",
-      "totalDownloads": 43181,
-      "monthlyDownloads": [
-        {
-          "month": "2024-09",
-          "downloads": 1047
-        },
-        {
-          "month": "2024-10",
-          "downloads": 1781
-        },
-        {
-          "month": "2024-11",
-          "downloads": 1608
-        },
-        {
-          "month": "2024-12",
-          "downloads": 1525
-        },
-        {
-          "month": "2025-01",
-          "downloads": 1621
-        },
-        {
-          "month": "2025-02",
-          "downloads": 1464
-        },
-        {
-          "month": "2025-03",
-          "downloads": 1726
-        },
-        {
-          "month": "2025-04",
-          "downloads": 2406
-        },
-        {
-          "month": "2025-05",
-          "downloads": 2289
-        },
-        {
-          "month": "2025-06",
-          "downloads": 2337
-        },
-        {
-          "month": "2025-07",
-          "downloads": 3214
-        },
-        {
-          "month": "2025-08",
-          "downloads": 2528
-        },
-        {
-          "month": "2025-09",
-          "downloads": 2559
-        },
-        {
-          "month": "2025-10",
-          "downloads": 2923
-        },
-        {
-          "month": "2025-11",
-          "downloads": 2607
-        },
-        {
-          "month": "2025-12",
-          "downloads": 2577
-        },
-        {
-          "month": "2026-01",
-          "downloads": 2874
-        },
-        {
-          "month": "2026-02",
-          "downloads": 3436
-        }
-      ],
-      "momGrowthPct": 19.554627696590117,
-      "isGrowing": true,
+      "totalDownloads": 0,
+      "monthlyDownloads": [],
+      "momGrowthPct": null,
+      "isGrowing": false,
       "stars": 310,
       "description": "![banner](./docs/banner.png)",
       "notFound": false,
@@ -675,83 +3970,10 @@
     },
     {
       "name": "react-native-formik",
-      "totalDownloads": 187318,
-      "monthlyDownloads": [
-        {
-          "month": "2024-09",
-          "downloads": 7604
-        },
-        {
-          "month": "2024-10",
-          "downloads": 12452
-        },
-        {
-          "month": "2024-11",
-          "downloads": 10898
-        },
-        {
-          "month": "2024-12",
-          "downloads": 10649
-        },
-        {
-          "month": "2025-01",
-          "downloads": 11029
-        },
-        {
-          "month": "2025-02",
-          "downloads": 11692
-        },
-        {
-          "month": "2025-03",
-          "downloads": 12083
-        },
-        {
-          "month": "2025-04",
-          "downloads": 10767
-        },
-        {
-          "month": "2025-05",
-          "downloads": 11503
-        },
-        {
-          "month": "2025-06",
-          "downloads": 13663
-        },
-        {
-          "month": "2025-07",
-          "downloads": 13039
-        },
-        {
-          "month": "2025-08",
-          "downloads": 8803
-        },
-        {
-          "month": "2025-09",
-          "downloads": 10266
-        },
-        {
-          "month": "2025-10",
-          "downloads": 9641
-        },
-        {
-          "month": "2025-11",
-          "downloads": 7280
-        },
-        {
-          "month": "2025-12",
-          "downloads": 7235
-        },
-        {
-          "month": "2026-01",
-          "downloads": 6450
-        },
-        {
-          "month": "2026-02",
-          "downloads": 8301
-        }
-      ],
-      "momGrowthPct": 28.697674418604652,
-      "isGrowing": true,
+      "totalDownloads": 0,
+      "monthlyDownloads": [],
+      "momGrowthPct": null,
+      "isGrowing": false,
       "stars": 398,
       "description": "Make the most of your React Native forms with Formik",
       "notFound": false,
@@ -759,83 +3981,10 @@
     },
     {
       "name": "rn-camera-roll",
-      "totalDownloads": 601,
-      "monthlyDownloads": [
-        {
-          "month": "2024-09",
-          "downloads": 21
-        },
-        {
-          "month": "2024-10",
-          "downloads": 36
-        },
-        {
-          "month": "2024-11",
-          "downloads": 50
-        },
-        {
-          "month": "2024-12",
-          "downloads": 27
-        },
-        {
-          "month": "2025-01",
-          "downloads": 72
-        },
-        {
-          "month": "2025-02",
-          "downloads": 45
-        },
-        {
-          "month": "2025-03",
-          "downloads": 35
-        },
-        {
-          "month": "2025-04",
-          "downloads": 39
-        },
-        {
-          "month": "2025-05",
-          "downloads": 28
-        },
-        {
-          "month": "2025-06",
-          "downloads": 35
-        },
-        {
-          "month": "2025-07",
-          "downloads": 28
-        },
-        {
-          "month": "2025-08",
-          "downloads": 20
-        },
-        {
-          "month": "2025-09",
-          "downloads": 19
-        },
-        {
-          "month": "2025-10",
-          "downloads": 42
-        },
-        {
-          "month": "2025-11",
-          "downloads": 22
-        },
-        {
-          "month": "2025-12",
-          "downloads": 13
-        },
-        {
-          "month": "2026-01",
-          "downloads": 20
-        },
-        {
-          "month": "2026-02",
-          "downloads": 39
-        }
-      ],
-      "momGrowthPct": 95,
-      "isGrowing": true,
+      "totalDownloads": 0,
+      "monthlyDownloads": [],
+      "momGrowthPct": null,
+      "isGrowing": false,
       "stars": 111,
       "description": "Camera Roll for react native Android",
       "notFound": false,
@@ -843,82 +3992,9 @@
     },
     {
       "name": "react-native-braintree-payments-drop-in",
-      "totalDownloads": 2653,
-      "monthlyDownloads": [
-        {
-          "month": "2024-09",
-          "downloads": 66
-        },
-        {
-          "month": "2024-10",
-          "downloads": 129
-        },
-        {
-          "month": "2024-11",
-          "downloads": 189
-        },
-        {
-          "month": "2024-12",
-          "downloads": 79
-        },
-        {
-          "month": "2025-01",
-          "downloads": 113
-        },
-        {
-          "month": "2025-02",
-          "downloads": 84
-        },
-        {
-          "month": "2025-03",
-          "downloads": 182
-        },
-        {
-          "month": "2025-04",
-          "downloads": 243
-        },
-        {
-          "month": "2025-05",
-          "downloads": 78
-        },
-        {
-          "month": "2025-06",
-          "downloads": 170
-        },
-        {
-          "month": "2025-07",
-          "downloads": 245
-        },
-        {
-          "month": "2025-08",
-          "downloads": 133
-        },
-        {
-          "month": "2025-09",
-          "downloads": 83
-        },
-        {
-          "month": "2025-10",
-          "downloads": 209
-        },
-        {
-          "month": "2025-11",
-          "downloads": 112
-        },
-        {
-          "month": "2025-12",
-          "downloads": 140
-        },
-        {
-          "month": "2026-01",
-          "downloads": 244
-        },
-        {
-          "month": "2026-02",
-          "downloads": 125
-        }
-      ],
-      "momGrowthPct": -48.77049180327869,
+      "totalDownloads": 0,
+      "monthlyDownloads": [],
+      "momGrowthPct": null,
       "isGrowing": false,
       "stars": 35,
       "description": "React Native integration of Braintree Drop-in",
@@ -927,83 +4003,10 @@
     },
     {
       "name": "react-native-form-idable",
-      "totalDownloads": 875,
-      "monthlyDownloads": [
-        {
-          "month": "2024-09",
-          "downloads": 30
-        },
-        {
-          "month": "2024-10",
-          "downloads": 33
-        },
-        {
-          "month": "2024-11",
-          "downloads": 22
-        },
-        {
-          "month": "2024-12",
-          "downloads": 34
-        },
-        {
-          "month": "2025-01",
-          "downloads": 43
-        },
-        {
-          "month": "2025-02",
-          "downloads": 21
-        },
-        {
-          "month": "2025-03",
-          "downloads": 77
-        },
-        {
-          "month": "2025-04",
-          "downloads": 49
-        },
-        {
-          "month": "2025-05",
-          "downloads": 31
-        },
-        {
-          "month": "2025-06",
-          "downloads": 38
-        },
-        {
-          "month": "2025-07",
-          "downloads": 34
-        },
-        {
-          "month": "2025-08",
-          "downloads": 17
-        },
-        {
-          "month": "2025-09",
-          "downloads": 10
-        },
-        {
-          "month": "2025-10",
-          "downloads": 285
-        },
-        {
-          "month": "2025-11",
-          "downloads": 26
-        },
-        {
-          "month": "2025-12",
-          "downloads": 44
-        },
-        {
-          "month": "2026-01",
-          "downloads": 20
-        },
-        {
-          "month": "2026-02",
-          "downloads": 57
-        }
-      ],
-      "momGrowthPct": 185,
-      "isGrowing": true,
+      "totalDownloads": 0,
+      "monthlyDownloads": [],
+      "momGrowthPct": null,
+      "isGrowing": false,
       "stars": 13,
       "description": "## Installation",
       "notFound": false,
@@ -1011,82 +4014,9 @@
     },
     {
       "name": "react-redux-toolbox",
-      "totalDownloads": 33551,
-      "monthlyDownloads": [
-        {
-          "month": "2024-09",
-          "downloads": 911
-        },
-        {
-          "month": "2024-10",
-          "downloads": 1274
-        },
-        {
-          "month": "2024-11",
-          "downloads": 1242
-        },
-        {
-          "month": "2024-12",
-          "downloads": 1642
-        },
-        {
-          "month": "2025-01",
-          "downloads": 2168
-        },
-        {
-          "month": "2025-02",
-          "downloads": 1897
-        },
-        {
-          "month": "2025-03",
-          "downloads": 2503
-        },
-        {
-          "month": "2025-04",
-          "downloads": 2506
-        },
-        {
-          "month": "2025-05",
-          "downloads": 1910
-        },
-        {
-          "month": "2025-06",
-          "downloads": 1761
-        },
-        {
-          "month": "2025-07",
-          "downloads": 1472
-        },
-        {
-          "month": "2025-08",
-          "downloads": 1781
-        },
-        {
-          "month": "2025-09",
-          "downloads": 1869
-        },
-        {
-          "month": "2025-10",
-          "downloads": 1346
-        },
-        {
-          "month": "2025-11",
-          "downloads": 2237
-        },
-        {
-          "month": "2025-12",
-          "downloads": 2296
-        },
-        {
-          "month": "2026-01",
-          "downloads": 1799
-        },
-        {
-          "month": "2026-02",
-          "downloads": 1764
-        }
-      ],
-      "momGrowthPct": -1.9455252918287937,
+      "totalDownloads": 0,
+      "monthlyDownloads": [],
+      "momGrowthPct": null,
       "isGrowing": false,
       "stars": 2,
       "description": "Set of utils for React and Redux development",
@@ -1095,83 +4025,10 @@
     },
     {
       "name": "react-native-debugger-utils",
-      "totalDownloads": 196,
-      "monthlyDownloads": [
-        {
-          "month": "2024-09",
-          "downloads": 14
-        },
-        {
-          "month": "2024-10",
-          "downloads": 5
-        },
-        {
-          "month": "2024-11",
-          "downloads": 12
-        },
-        {
-          "month": "2024-12",
-          "downloads": 3
-        },
-        {
-          "month": "2025-01",
-          "downloads": 9
-        },
-        {
-          "month": "2025-02",
-          "downloads": 8
-        },
-        {
-          "month": "2025-03",
-          "downloads": 6
-        },
-        {
-          "month": "2025-04",
-          "downloads": 9
-        },
-        {
-          "month": "2025-05",
-          "downloads": 9
-        },
-        {
-          "month": "2025-06",
-          "downloads": 7
-        },
-        {
-          "month": "2025-07",
-          "downloads": 9
-        },
-        {
-          "month": "2025-08",
-          "downloads": 1
-        },
-        {
-          "month": "2025-09",
-          "downloads": 4
-        },
-        {
-          "month": "2025-10",
-          "downloads": 13
-        },
-        {
-          "month": "2025-11",
-          "downloads": 22
-        },
-        {
-          "month": "2025-12",
-          "downloads": 24
-        },
-        {
-          "month": "2026-01",
-          "downloads": 13
-        },
-        {
-          "month": "2026-02",
-          "downloads": 25
-        }
-      ],
-      "momGrowthPct": 92.3076923076923,
-      "isGrowing": true,
+      "totalDownloads": 0,
+      "monthlyDownloads": [],
+      "momGrowthPct": null,
+      "isGrowing": false,
       "stars": 1,
       "description": "Utilities for React Native Debugger",
       "notFound": false,
@@ -1179,83 +4036,10 @@
     },
     {
       "name": "redux-async-actions-factory",
-      "totalDownloads": 210,
-      "monthlyDownloads": [
-        {
-          "month": "2024-09",
-          "downloads": 11
-        },
-        {
-          "month": "2024-10",
-          "downloads": 7
-        },
-        {
-          "month": "2024-11",
-          "downloads": 4
-        },
-        {
-          "month": "2024-12",
-          "downloads": 3
-        },
-        {
-          "month": "2025-01",
-          "downloads": 13
-        },
-        {
-          "month": "2025-02",
-          "downloads": 26
-        },
-        {
-          "month": "2025-03",
-          "downloads": 27
-        },
-        {
-          "month": "2025-04",
-          "downloads": 10
-        },
-        {
-          "month": "2025-05",
-          "downloads": 13
-        },
-        {
-          "month": "2025-06",
-          "downloads": 11
-        },
-        {
-          "month": "2025-07",
-          "downloads": 24
-        },
-        {
-          "month": "2025-08",
-          "downloads": 2
-        },
-        {
-          "month": "2025-09",
-          "downloads": 6
-        },
-        {
-          "month": "2025-10",
-          "downloads": 12
-        },
-        {
-          "month": "2025-11",
-          "downloads": 2
-        },
-        {
-          "month": "2025-12",
-          "downloads": 6
-        },
-        {
-          "month": "2026-01",
-          "downloads": 2
-        },
-        {
-          "month": "2026-02",
-          "downloads": 27
-        }
-      ],
-      "momGrowthPct": 1250,
-      "isGrowing": true,
+      "totalDownloads": 0,
+      "monthlyDownloads": [],
+      "momGrowthPct": null,
+      "isGrowing": false,
       "stars": 13,
       "description": "Automaticaly adds loading and error states to your API calls, and a reset store to each of yours Redux stores.",
       "notFound": false,
@@ -1263,83 +4047,10 @@
     },
     {
       "name": "react-native-photo-guideline-grid",
-      "totalDownloads": 219,
-      "monthlyDownloads": [
-        {
-          "month": "2024-09",
-          "downloads": 16
-        },
-        {
-          "month": "2024-10",
-          "downloads": 14
-        },
-        {
-          "month": "2024-11",
-          "downloads": 11
-        },
-        {
-          "month": "2024-12",
-          "downloads": 5
-        },
-        {
-          "month": "2025-01",
-          "downloads": 23
-        },
-        {
-          "month": "2025-02",
-          "downloads": 15
-        },
-        {
-          "month": "2025-03",
-          "downloads": 10
-        },
-        {
-          "month": "2025-04",
-          "downloads": 20
-        },
-        {
-          "month": "2025-05",
-          "downloads": 18
-        },
-        {
-          "month": "2025-06",
-          "downloads": 4
-        },
-        {
-          "month": "2025-07",
-          "downloads": 9
-        },
-        {
-          "month": "2025-08",
-          "downloads": 1
-        },
-        {
-          "month": "2025-09",
-          "downloads": 3
-        },
-        {
-          "month": "2025-10",
-          "downloads": 24
-        },
-        {
-          "month": "2025-11",
-          "downloads": 4
-        },
-        {
-          "month": "2025-12",
-          "downloads": 13
-        },
-        {
-          "month": "2026-01",
-          "downloads": 10
-        },
-        {
-          "month": "2026-02",
-          "downloads": 15
-        }
-      ],
-      "momGrowthPct": 50,
-      "isGrowing": true,
+      "totalDownloads": 0,
+      "monthlyDownloads": [],
+      "momGrowthPct": null,
+      "isGrowing": false,
       "stars": 11,
       "description": "A simple component to display a guideline grid according to Rule of thirds",
       "notFound": false,
@@ -1347,83 +4058,10 @@
     },
     {
       "name": "generator-module-react-native",
-      "totalDownloads": 245,
-      "monthlyDownloads": [
-        {
-          "month": "2024-09",
-          "downloads": 15
-        },
-        {
-          "month": "2024-10",
-          "downloads": 22
-        },
-        {
-          "month": "2024-11",
-          "downloads": 9
-        },
-        {
-          "month": "2024-12",
-          "downloads": 6
-        },
-        {
-          "month": "2025-01",
-          "downloads": 22
-        },
-        {
-          "month": "2025-02",
-          "downloads": 7
-        },
-        {
-          "month": "2025-03",
-          "downloads": 17
-        },
-        {
-          "month": "2025-04",
-          "downloads": 16
-        },
-        {
-          "month": "2025-05",
-          "downloads": 11
-        },
-        {
-          "month": "2025-06",
-          "downloads": 16
-        },
-        {
-          "month": "2025-07",
-          "downloads": 9
-        },
-        {
-          "month": "2025-08",
-          "downloads": 10
-        },
-        {
-          "month": "2025-09",
-          "downloads": 7
-        },
-        {
-          "month": "2025-10",
-          "downloads": 21
-        },
-        {
-          "month": "2025-11",
-          "downloads": 10
-        },
-        {
-          "month": "2025-12",
-          "downloads": 9
-        },
-        {
-          "month": "2026-01",
-          "downloads": 13
-        },
-        {
-          "month": "2026-02",
-          "downloads": 16
-        }
-      ],
-      "momGrowthPct": 23.076923076923077,
-      "isGrowing": true,
+      "totalDownloads": 0,
+      "monthlyDownloads": [],
+      "momGrowthPct": null,
+      "isGrowing": false,
       "stars": 25,
       "description": "Generate react-native android module boilerplate",
       "notFound": false,
@@ -1431,83 +4069,10 @@
     },
     {
       "name": "devicelab-bot",
-      "totalDownloads": 200,
-      "monthlyDownloads": [
-        {
-          "month": "2024-09",
-          "downloads": 3
-        },
-        {
-          "month": "2024-10",
-          "downloads": 5
-        },
-        {
-          "month": "2024-11",
-          "downloads": 4
-        },
-        {
-          "month": "2024-12",
-          "downloads": 3
-        },
-        {
-          "month": "2025-01",
-          "downloads": 18
-        },
-        {
-          "month": "2025-02",
-          "downloads": 7
-        },
-        {
-          "month": "2025-03",
-          "downloads": 11
-        },
-        {
-          "month": "2025-04",
-          "downloads": 10
-        },
-        {
-          "month": "2025-05",
-          "downloads": 10
-        },
-        {
-          "month": "2025-06",
-          "downloads": 7
-        },
-        {
-          "month": "2025-07",
-          "downloads": 12
-        },
-        {
-          "month": "2025-08",
-          "downloads": 5
-        },
-        {
-          "month": "2025-09",
-          "downloads": 6
-        },
-        {
-          "month": "2025-10",
-          "downloads": 28
-        },
-        {
-          "month": "2025-11",
-          "downloads": 12
-        },
-        {
-          "month": "2025-12",
-          "downloads": 5
-        },
-        {
-          "month": "2026-01",
-          "downloads": 19
-        },
-        {
-          "month": "2026-02",
-          "downloads": 26
-        }
-      ],
-      "momGrowthPct": 36.84210526315789,
-      "isGrowing": true,
+      "totalDownloads": 0,
+      "monthlyDownloads": [],
+      "momGrowthPct": null,
+      "isGrowing": false,
       "stars": 6,
       "description": "## Installation",
       "notFound": false,
@@ -1515,82 +4080,9 @@
     },
     {
       "name": "react-native-numberpicker-dialog",
-      "totalDownloads": 1354,
-      "monthlyDownloads": [
-        {
-          "month": "2024-09",
-          "downloads": 9
-        },
-        {
-          "month": "2024-10",
-          "downloads": 23
-        },
-        {
-          "month": "2024-11",
-          "downloads": 9
-        },
-        {
-          "month": "2024-12",
-          "downloads": 23
-        },
-        {
-          "month": "2025-01",
-          "downloads": 25
-        },
-        {
-          "month": "2025-02",
-          "downloads": 20
-        },
-        {
-          "month": "2025-03",
-          "downloads": 20
-        },
-        {
-          "month": "2025-04",
-          "downloads": 17
-        },
-        {
-          "month": "2025-05",
-          "downloads": 12
-        },
-        {
-          "month": "2025-06",
-          "downloads": 19
-        },
-        {
-          "month": "2025-07",
-          "downloads": 35
-        },
-        {
-          "month": "2025-08",
-          "downloads": 33
-        },
-        {
-          "month": "2025-09",
-          "downloads": 38
-        },
-        {
-          "month": "2025-10",
-          "downloads": 49
-        },
-        {
-          "month": "2025-11",
-          "downloads": 39
-        },
-        {
-          "month": "2025-12",
-          "downloads": 652
-        },
-        {
-          "month": "2026-01",
-          "downloads": 178
-        },
-        {
-          "month": "2026-02",
-          "downloads": 129
-        }
-      ],
-      "momGrowthPct": -27.52808988764045,
+      "totalDownloads": 0,
+      "monthlyDownloads": [],
+      "momGrowthPct": null,
       "isGrowing": false,
       "stars": 25,
       "description": "Show a dialog on Android, allowing to choose an option using NumberPicker",
@@ -1599,82 +4091,9 @@
     },
     {
       "name": "cordova-camera-roll",
-      "totalDownloads": 124,
-      "monthlyDownloads": [
-        {
-          "month": "2024-09",
-          "downloads": 2
-        },
-        {
-          "month": "2024-10",
-          "downloads": 3
-        },
-        {
-          "month": "2024-11",
-          "downloads": 3
-        },
-        {
-          "month": "2024-12",
-          "downloads": 1
-        },
-        {
-          "month": "2025-01",
-          "downloads": 10
-        },
-        {
-          "month": "2025-02",
-          "downloads": 9
-        },
-        {
-          "month": "2025-03",
-          "downloads": 4
-        },
-        {
-          "month": "2025-04",
-          "downloads": 11
-        },
-        {
-          "month": "2025-05",
-          "downloads": 11
-        },
-        {
-          "month": "2025-06",
-          "downloads": 4
-        },
-        {
-          "month": "2025-07",
-          "downloads": 13
-        },
-        {
-          "month": "2025-08",
-          "downloads": 2
-        },
-        {
-          "month": "2025-09",
-          "downloads": 5
-        },
-        {
-          "month": "2025-10",
-          "downloads": 10
-        },
-        {
-          "month": "2025-11",
-          "downloads": 10
-        },
-        {
-          "month": "2025-12",
-          "downloads": 5
-        },
-        {
-          "month": "2026-01",
-          "downloads": 10
-        },
-        {
-          "month": "2026-02",
-          "downloads": 7
-        }
-      ],
-      "momGrowthPct": -30,
+      "totalDownloads": 0,
+      "monthlyDownloads": [],
+      "momGrowthPct": null,
       "isGrowing": false,
       "stars": 0,
       "description": "The Cordova Camera Roll plugin makes it easy to read from the iOS camera roll.",
@@ -1683,83 +4102,10 @@
     },
     {
       "name": "react-native-text-input",
-      "totalDownloads": 403,
-      "monthlyDownloads": [
-        {
-          "month": "2024-09",
-          "downloads": 3
-        },
-        {
-          "month": "2024-10",
-          "downloads": 5
-        },
-        {
-          "month": "2024-11",
-          "downloads": 6
-        },
-        {
-          "month": "2024-12",
-          "downloads": 17
-        },
-        {
-          "month": "2025-01",
-          "downloads": 23
-        },
-        {
-          "month": "2025-02",
-          "downloads": 21
-        },
-        {
-          "month": "2025-03",
-          "downloads": 37
-        },
-        {
-          "month": "2025-04",
-          "downloads": 16
-        },
-        {
-          "month": "2025-05",
-          "downloads": 18
-        },
-        {
-          "month": "2025-06",
-          "downloads": 23
-        },
-        {
-          "month": "2025-07",
-          "downloads": 55
-        },
-        {
-          "month": "2025-08",
-          "downloads": 17
-        },
-        {
-          "month": "2025-09",
-          "downloads": 40
-        },
-        {
-          "month": "2025-10",
-          "downloads": 25
-        },
-        {
-          "month": "2025-11",
-          "downloads": 22
-        },
-        {
-          "month": "2025-12",
-          "downloads": 36
-        },
-        {
-          "month": "2026-01",
-          "downloads": 17
-        },
-        {
-          "month": "2026-02",
-          "downloads": 19
-        }
-      ],
-      "momGrowthPct": 11.76470588235294,
-      "isGrowing": true,
+      "totalDownloads": 0,
+      "monthlyDownloads": [],
+      "momGrowthPct": null,
+      "isGrowing": false,
       "stars": 15,
       "description": "Provides Text Input component with colorization for password both on Android & iOS",
       "notFound": false,
