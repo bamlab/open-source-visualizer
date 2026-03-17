@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-17T00:08:40.740Z",
+  "generatedAt": "2026-03-17T06:18:45.245Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -3031,46 +3031,46 @@
         },
         {
           "month": "2025-05",
-          "downloads": 232
+          "downloads": 252
         },
         {
           "month": "2025-06",
-          "downloads": 366
+          "downloads": 350
         },
         {
           "month": "2025-07",
-          "downloads": 482
+          "downloads": 480
         },
         {
           "month": "2025-08",
-          "downloads": 307
+          "downloads": 306
         },
         {
           "month": "2025-09",
-          "downloads": 432
+          "downloads": 275
         },
         {
           "month": "2025-10",
-          "downloads": 502
+          "downloads": 662
         },
         {
           "month": "2025-11",
-          "downloads": 368
+          "downloads": 367
         },
         {
           "month": "2025-12",
-          "downloads": 359
+          "downloads": 357
         },
         {
           "month": "2026-01",
-          "downloads": 358
+          "downloads": 357
         },
         {
           "month": "2026-02",
           "downloads": 483
         }
       ],
-      "momGrowthPct": 34.91620111731844,
+      "momGrowthPct": 35.294117647058826,
       "isGrowing": true,
       "stars": 2,
       "description": "A mutation implementation for the riverpod community - made by Theodo",
