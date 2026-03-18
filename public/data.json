@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-18T06:19:22.482Z",
+  "generatedAt": "2026-03-18T12:11:15.771Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2775,58 +2775,58 @@
     },
     {
       "name": "adaptive_test",
-      "totalDownloads": 36691,
+      "totalDownloads": 36723,
       "monthlyDownloads": [
         {
           "month": "2025-03",
-          "downloads": 935
+          "downloads": 875
         },
         {
           "month": "2025-04",
-          "downloads": 2093
+          "downloads": 1723
         },
         {
           "month": "2025-05",
-          "downloads": 2226
+          "downloads": 2603
         },
         {
           "month": "2025-06",
-          "downloads": 2479
+          "downloads": 2483
         },
         {
           "month": "2025-07",
-          "downloads": 2443
+          "downloads": 2366
         },
         {
           "month": "2025-08",
-          "downloads": 1518
+          "downloads": 1574
         },
         {
           "month": "2025-09",
-          "downloads": 1892
+          "downloads": 1873
         },
         {
           "month": "2025-10",
-          "downloads": 3511
+          "downloads": 3544
         },
         {
           "month": "2025-11",
-          "downloads": 3956
+          "downloads": 4058
         },
         {
           "month": "2025-12",
-          "downloads": 5694
+          "downloads": 5170
         },
         {
           "month": "2026-01",
-          "downloads": 4457
+          "downloads": 4954
         },
         {
           "month": "2026-02",
-          "downloads": 5487
+          "downloads": 5500
         }
       ],
-      "momGrowthPct": 23.10971505496971,
+      "momGrowthPct": 11.02139685102947,
       "isGrowing": true,
       "stars": 21,
       "description": "A Flutter package to generate adaptive golden files during widget tests.",
