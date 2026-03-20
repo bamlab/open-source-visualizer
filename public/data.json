@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-20T06:14:32.816Z",
+  "generatedAt": "2026-03-20T12:05:49.302Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2836,58 +2836,58 @@
     },
     {
       "name": "riverpod_community_extensions",
-      "totalDownloads": 8482,
+      "totalDownloads": 8546,
       "monthlyDownloads": [
         {
           "month": "2025-03",
-          "downloads": 44
+          "downloads": 34
         },
         {
           "month": "2025-04",
-          "downloads": 56
+          "downloads": 57
         },
         {
           "month": "2025-05",
-          "downloads": 264
+          "downloads": 314
         },
         {
           "month": "2025-06",
-          "downloads": 673
+          "downloads": 703
         },
         {
           "month": "2025-07",
-          "downloads": 608
+          "downloads": 531
         },
         {
           "month": "2025-08",
-          "downloads": 259
+          "downloads": 271
         },
         {
           "month": "2025-09",
-          "downloads": 662
+          "downloads": 683
         },
         {
           "month": "2025-10",
-          "downloads": 969
+          "downloads": 883
         },
         {
           "month": "2025-11",
-          "downloads": 1888
+          "downloads": 2031
         },
         {
           "month": "2025-12",
-          "downloads": 1476
+          "downloads": 1397
         },
         {
           "month": "2026-01",
-          "downloads": 862
+          "downloads": 898
         },
         {
           "month": "2026-02",
-          "downloads": 721
+          "downloads": 744
         }
       ],
-      "momGrowthPct": -16.357308584686773,
+      "momGrowthPct": -17.14922048997773,
       "isGrowing": false,
       "stars": 10,
       "description": "Extends Riverpod ref types with additional helpers, to easily add common functionalities to your providers.",
@@ -3019,7 +3019,7 @@
     },
     {
       "name": "riverpod_community_mutation",
-      "totalDownloads": 3925,
+      "totalDownloads": 3938,
       "monthlyDownloads": [
         {
           "month": "2025-03",
@@ -3031,47 +3031,47 @@
         },
         {
           "month": "2025-05",
-          "downloads": 315
+          "downloads": 319
         },
         {
           "month": "2025-06",
-          "downloads": 292
+          "downloads": 291
         },
         {
           "month": "2025-07",
-          "downloads": 458
+          "downloads": 459
         },
         {
           "month": "2025-08",
-          "downloads": 330
+          "downloads": 341
         },
         {
           "month": "2025-09",
-          "downloads": 315
+          "downloads": 335
         },
         {
           "month": "2025-10",
-          "downloads": 652
+          "downloads": 576
         },
         {
           "month": "2025-11",
-          "downloads": 353
+          "downloads": 402
         },
         {
           "month": "2025-12",
-          "downloads": 317
+          "downloads": 318
         },
         {
           "month": "2026-01",
-          "downloads": 406
+          "downloads": 444
         },
         {
           "month": "2026-02",
-          "downloads": 487
+          "downloads": 453
         }
       ],
-      "momGrowthPct": 19.950738916256157,
-      "isGrowing": true,
+      "momGrowthPct": 2.027027027027027,
+      "isGrowing": false,
       "stars": 2,
       "description": "A mutation implementation for the riverpod community - made by Theodo",
       "notFound": false,
@@ -3324,58 +3324,58 @@
     },
     {
       "name": "equatable_lint",
-      "totalDownloads": 3937,
+      "totalDownloads": 3897,
       "monthlyDownloads": [
         {
           "month": "2025-03",
-          "downloads": 317
+          "downloads": 322
         },
         {
           "month": "2025-04",
-          "downloads": 475
+          "downloads": 444
         },
         {
           "month": "2025-05",
-          "downloads": 762
+          "downloads": 772
         },
         {
           "month": "2025-06",
-          "downloads": 461
+          "downloads": 493
         },
         {
           "month": "2025-07",
-          "downloads": 481
+          "downloads": 479
         },
         {
           "month": "2025-08",
-          "downloads": 377
+          "downloads": 325
         },
         {
           "month": "2025-09",
-          "downloads": 270
+          "downloads": 275
         },
         {
           "month": "2025-10",
-          "downloads": 161
+          "downloads": 127
         },
         {
           "month": "2025-11",
-          "downloads": 131
+          "downloads": 160
         },
         {
           "month": "2025-12",
-          "downloads": 247
+          "downloads": 246
         },
         {
           "month": "2026-01",
-          "downloads": 103
+          "downloads": 106
         },
         {
           "month": "2026-02",
-          "downloads": 152
+          "downloads": 148
         }
       ],
-      "momGrowthPct": 47.57281553398058,
+      "momGrowthPct": 39.62264150943396,
       "isGrowing": true,
       "stars": 6,
       "description": "This is a set of rules to make classes using Equatable more maintainable. We make sure here that every fields in an Equatable class is linked to the Equatable props getter.",
