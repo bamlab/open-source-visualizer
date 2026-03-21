@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-21T00:07:31.361Z",
+  "generatedAt": "2026-03-21T06:09:00.587Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2836,11 +2836,11 @@
     },
     {
       "name": "riverpod_community_extensions",
-      "totalDownloads": 8546,
+      "totalDownloads": 8373,
       "monthlyDownloads": [
         {
           "month": "2025-03",
-          "downloads": 34
+          "downloads": 33
         },
         {
           "month": "2025-04",
@@ -2848,46 +2848,46 @@
         },
         {
           "month": "2025-05",
-          "downloads": 314
+          "downloads": 248
         },
         {
           "month": "2025-06",
-          "downloads": 703
+          "downloads": 846
         },
         {
           "month": "2025-07",
-          "downloads": 531
+          "downloads": 454
         },
         {
           "month": "2025-08",
-          "downloads": 271
+          "downloads": 273
         },
         {
           "month": "2025-09",
-          "downloads": 683
+          "downloads": 791
         },
         {
           "month": "2025-10",
-          "downloads": 883
+          "downloads": 772
         },
         {
           "month": "2025-11",
-          "downloads": 2031
+          "downloads": 2185
         },
         {
           "month": "2025-12",
-          "downloads": 1397
+          "downloads": 1247
         },
         {
           "month": "2026-01",
-          "downloads": 898
+          "downloads": 730
         },
         {
           "month": "2026-02",
-          "downloads": 744
+          "downloads": 737
         }
       ],
-      "momGrowthPct": -17.14922048997773,
+      "momGrowthPct": 0.9589041095890412,
       "isGrowing": false,
       "stars": 10,
       "description": "Extends Riverpod ref types with additional helpers, to easily add common functionalities to your providers.",
@@ -2897,58 +2897,58 @@
     },
     {
       "name": "theodo_analysis",
-      "totalDownloads": 13549,
+      "totalDownloads": 13087,
       "monthlyDownloads": [
         {
           "month": "2025-03",
-          "downloads": 118
+          "downloads": 115
         },
         {
           "month": "2025-04",
-          "downloads": 808
+          "downloads": 806
         },
         {
           "month": "2025-05",
-          "downloads": 889
+          "downloads": 737
         },
         {
           "month": "2025-06",
-          "downloads": 1441
+          "downloads": 1736
         },
         {
           "month": "2025-07",
-          "downloads": 959
+          "downloads": 824
         },
         {
           "month": "2025-08",
-          "downloads": 623
+          "downloads": 626
         },
         {
           "month": "2025-09",
-          "downloads": 843
+          "downloads": 986
         },
         {
           "month": "2025-10",
-          "downloads": 1624
+          "downloads": 1471
         },
         {
           "month": "2025-11",
-          "downloads": 2726
+          "downloads": 2880
         },
         {
           "month": "2025-12",
-          "downloads": 1640
+          "downloads": 1487
         },
         {
           "month": "2026-01",
-          "downloads": 804
+          "downloads": 650
         },
         {
           "month": "2026-02",
-          "downloads": 1074
+          "downloads": 769
         }
       ],
-      "momGrowthPct": 33.582089552238806,
+      "momGrowthPct": 18.307692307692307,
       "isGrowing": true,
       "stars": 2,
       "description": "Lint and dcm rules for Dart and Flutter used internally at Theodo Apps.",
@@ -2958,7 +2958,7 @@
     },
     {
       "name": "init",
-      "totalDownloads": 4902,
+      "totalDownloads": 4779,
       "monthlyDownloads": [
         {
           "month": "2025-03",
@@ -2986,30 +2986,30 @@
         },
         {
           "month": "2025-09",
-          "downloads": 333
+          "downloads": 383
         },
         {
           "month": "2025-10",
-          "downloads": 517
+          "downloads": 469
         },
         {
           "month": "2025-11",
-          "downloads": 1784
+          "downloads": 1905
         },
         {
           "month": "2025-12",
-          "downloads": 1214
+          "downloads": 1095
         },
         {
           "month": "2026-01",
-          "downloads": 598
+          "downloads": 500
         },
         {
           "month": "2026-02",
-          "downloads": 456
+          "downloads": 427
         }
       ],
-      "momGrowthPct": -23.745819397993312,
+      "momGrowthPct": -14.6,
       "isGrowing": false,
       "stars": 1,
       "description": "Init widget to execute initialization methods declaratively",
@@ -3019,7 +3019,7 @@
     },
     {
       "name": "riverpod_community_mutation",
-      "totalDownloads": 3938,
+      "totalDownloads": 3871,
       "monthlyDownloads": [
         {
           "month": "2025-03",
@@ -3031,47 +3031,47 @@
         },
         {
           "month": "2025-05",
-          "downloads": 319
+          "downloads": 186
         },
         {
           "month": "2025-06",
-          "downloads": 291
+          "downloads": 437
         },
         {
           "month": "2025-07",
-          "downloads": 459
+          "downloads": 453
         },
         {
           "month": "2025-08",
-          "downloads": 341
+          "downloads": 338
         },
         {
           "month": "2025-09",
-          "downloads": 335
+          "downloads": 393
         },
         {
           "month": "2025-10",
-          "downloads": 576
+          "downloads": 514
         },
         {
           "month": "2025-11",
-          "downloads": 402
+          "downloads": 439
         },
         {
           "month": "2025-12",
-          "downloads": 318
+          "downloads": 281
         },
         {
           "month": "2026-01",
-          "downloads": 444
+          "downloads": 339
         },
         {
           "month": "2026-02",
-          "downloads": 453
+          "downloads": 491
         }
       ],
-      "momGrowthPct": 2.027027027027027,
-      "isGrowing": false,
+      "momGrowthPct": 44.83775811209439,
+      "isGrowing": true,
       "stars": 2,
       "description": "A mutation implementation for the riverpod community - made by Theodo",
       "notFound": false,
@@ -3141,58 +3141,58 @@
     },
     {
       "name": "flutter_lyra",
-      "totalDownloads": 5872,
+      "totalDownloads": 5766,
       "monthlyDownloads": [
         {
           "month": "2025-03",
-          "downloads": 74
+          "downloads": 65
         },
         {
           "month": "2025-04",
-          "downloads": 84
+          "downloads": 82
         },
         {
           "month": "2025-05",
-          "downloads": 321
+          "downloads": 257
         },
         {
           "month": "2025-06",
-          "downloads": 485
+          "downloads": 617
         },
         {
           "month": "2025-07",
-          "downloads": 411
+          "downloads": 346
         },
         {
           "month": "2025-08",
-          "downloads": 120
+          "downloads": 119
         },
         {
           "month": "2025-09",
-          "downloads": 484
+          "downloads": 531
         },
         {
           "month": "2025-10",
-          "downloads": 452
+          "downloads": 403
         },
         {
           "month": "2025-11",
-          "downloads": 1773
+          "downloads": 1890
         },
         {
           "month": "2025-12",
-          "downloads": 1084
+          "downloads": 968
         },
         {
           "month": "2026-01",
-          "downloads": 271
+          "downloads": 225
         },
         {
           "month": "2026-02",
-          "downloads": 313
+          "downloads": 263
         }
       ],
-      "momGrowthPct": 15.498154981549817,
+      "momGrowthPct": 16.88888888888889,
       "isGrowing": true,
       "stars": 4,
       "description": "This package allows you to use the methods from the lyra android and ios native sdks in Flutter",
