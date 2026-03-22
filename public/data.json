@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-22T06:13:46.910Z",
+  "generatedAt": "2026-03-22T12:03:04.538Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -3084,7 +3084,7 @@
       "monthlyDownloads": [
         {
           "month": "2025-03",
-          "downloads": 100
+          "downloads": 103
         },
         {
           "month": "2025-04",
@@ -3092,35 +3092,35 @@
         },
         {
           "month": "2025-05",
-          "downloads": 507
+          "downloads": 504
         },
         {
           "month": "2025-06",
-          "downloads": 684
+          "downloads": 734
         },
         {
           "month": "2025-07",
-          "downloads": 404
+          "downloads": 354
         },
         {
           "month": "2025-08",
-          "downloads": 172
+          "downloads": 161
         },
         {
           "month": "2025-09",
-          "downloads": 487
+          "downloads": 504
         },
         {
           "month": "2025-10",
-          "downloads": 409
+          "downloads": 403
         },
         {
           "month": "2025-11",
-          "downloads": 1783
+          "downloads": 1438
         },
         {
           "month": "2025-12",
-          "downloads": 980
+          "downloads": 1325
         },
         {
           "month": "2026-01",
@@ -3141,11 +3141,11 @@
     },
     {
       "name": "flutter_lyra",
-      "totalDownloads": 5766,
+      "totalDownloads": 5765,
       "monthlyDownloads": [
         {
           "month": "2025-03",
-          "downloads": 65
+          "downloads": 64
         },
         {
           "month": "2025-04",
@@ -3153,35 +3153,35 @@
         },
         {
           "month": "2025-05",
-          "downloads": 257
+          "downloads": 259
         },
         {
           "month": "2025-06",
-          "downloads": 617
+          "downloads": 665
         },
         {
           "month": "2025-07",
-          "downloads": 346
+          "downloads": 296
         },
         {
           "month": "2025-08",
-          "downloads": 119
+          "downloads": 115
         },
         {
           "month": "2025-09",
-          "downloads": 531
+          "downloads": 537
         },
         {
           "month": "2025-10",
-          "downloads": 403
+          "downloads": 401
         },
         {
           "month": "2025-11",
-          "downloads": 1890
+          "downloads": 1509
         },
         {
           "month": "2025-12",
-          "downloads": 968
+          "downloads": 1349
         },
         {
           "month": "2026-01",
