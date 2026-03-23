@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-23T06:20:38.880Z",
+  "generatedAt": "2026-03-23T12:10:42.070Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -248,7 +248,7 @@
       ],
       "momGrowthPct": 166.19534993788085,
       "isGrowing": true,
-      "stars": 147,
+      "stars": 148,
       "description": "Easily implement usual security measures in React Native Expo apps",
       "notFound": false,
       "ecosystem": "npm"
@@ -2775,39 +2775,39 @@
     },
     {
       "name": "adaptive_test",
-      "totalDownloads": 36115,
+      "totalDownloads": 36121,
       "monthlyDownloads": [
         {
           "month": "2025-03",
-          "downloads": 730
+          "downloads": 423
         },
         {
           "month": "2025-04",
-          "downloads": 1788
+          "downloads": 2088
         },
         {
           "month": "2025-05",
-          "downloads": 2236
+          "downloads": 2230
         },
         {
           "month": "2025-06",
-          "downloads": 3340
+          "downloads": 2470
         },
         {
           "month": "2025-07",
-          "downloads": 1573
+          "downloads": 2454
         },
         {
           "month": "2025-08",
-          "downloads": 1481
+          "downloads": 1505
         },
         {
           "month": "2025-09",
-          "downloads": 2558
+          "downloads": 2526
         },
         {
           "month": "2025-10",
-          "downloads": 2889
+          "downloads": 2886
         },
         {
           "month": "2025-11",
@@ -2815,18 +2815,18 @@
         },
         {
           "month": "2025-12",
-          "downloads": 5689
+          "downloads": 5695
         },
         {
           "month": "2026-01",
-          "downloads": 4440
+          "downloads": 4458
         },
         {
           "month": "2026-02",
-          "downloads": 5439
+          "downloads": 5434
         }
       ],
-      "momGrowthPct": 22.5,
+      "momGrowthPct": 21.89322566173172,
       "isGrowing": true,
       "stars": 21,
       "description": "A Flutter package to generate adaptive golden files during widget tests.",
@@ -2840,11 +2840,11 @@
       "monthlyDownloads": [
         {
           "month": "2025-03",
-          "downloads": 33
+          "downloads": 19
         },
         {
           "month": "2025-04",
-          "downloads": 58
+          "downloads": 72
         },
         {
           "month": "2025-05",
@@ -2852,11 +2852,11 @@
         },
         {
           "month": "2025-06",
-          "downloads": 901
+          "downloads": 641
         },
         {
           "month": "2025-07",
-          "downloads": 403
+          "downloads": 663
         },
         {
           "month": "2025-08",
@@ -2876,18 +2876,18 @@
         },
         {
           "month": "2025-12",
-          "downloads": 1681
+          "downloads": 1698
         },
         {
           "month": "2026-01",
-          "downloads": 754
+          "downloads": 739
         },
         {
           "month": "2026-02",
-          "downloads": 728
+          "downloads": 726
         }
       ],
-      "momGrowthPct": -3.4482758620689653,
+      "momGrowthPct": -1.7591339648173208,
       "isGrowing": false,
       "stars": 10,
       "description": "Extends Riverpod ref types with additional helpers, to easily add common functionalities to your providers.",
@@ -3324,31 +3324,31 @@
     },
     {
       "name": "equatable_lint",
-      "totalDownloads": 3818,
+      "totalDownloads": 3811,
       "monthlyDownloads": [
         {
           "month": "2025-03",
-          "downloads": 327
+          "downloads": 135
         },
         {
           "month": "2025-04",
-          "downloads": 383
+          "downloads": 571
         },
         {
           "month": "2025-05",
-          "downloads": 698
+          "downloads": 696
         },
         {
           "month": "2025-06",
-          "downloads": 608
+          "downloads": 428
         },
         {
           "month": "2025-07",
-          "downloads": 476
+          "downloads": 656
         },
         {
           "month": "2025-08",
-          "downloads": 262
+          "downloads": 261
         },
         {
           "month": "2025-09",
@@ -3368,14 +3368,14 @@
         },
         {
           "month": "2026-01",
-          "downloads": 91
+          "downloads": 93
         },
         {
           "month": "2026-02",
-          "downloads": 148
+          "downloads": 146
         }
       ],
-      "momGrowthPct": 62.637362637362635,
+      "momGrowthPct": 56.98924731182796,
       "isGrowing": true,
       "stars": 6,
       "description": "This is a set of rules to make classes using Equatable more maintainable. We make sure here that every fields in an Equatable class is linked to the Equatable props getter.",
