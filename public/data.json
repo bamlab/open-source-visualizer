@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-25T00:09:06.597Z",
+  "generatedAt": "2026-03-25T06:18:49.152Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2775,58 +2775,58 @@
     },
     {
       "name": "adaptive_test",
-      "totalDownloads": 36180,
+      "totalDownloads": 36282,
       "monthlyDownloads": [
         {
           "month": "2025-03",
-          "downloads": 424
+          "downloads": 434
         },
         {
           "month": "2025-04",
-          "downloads": 2093
+          "downloads": 1723
         },
         {
           "month": "2025-05",
-          "downloads": 2226
+          "downloads": 2603
         },
         {
           "month": "2025-06",
-          "downloads": 2479
+          "downloads": 2483
         },
         {
           "month": "2025-07",
-          "downloads": 2443
+          "downloads": 2366
         },
         {
           "month": "2025-08",
-          "downloads": 1518
+          "downloads": 1574
         },
         {
           "month": "2025-09",
-          "downloads": 1892
+          "downloads": 1873
         },
         {
           "month": "2025-10",
-          "downloads": 3511
+          "downloads": 3544
         },
         {
           "month": "2025-11",
-          "downloads": 3956
+          "downloads": 4058
         },
         {
           "month": "2025-12",
-          "downloads": 5694
+          "downloads": 5170
         },
         {
           "month": "2026-01",
-          "downloads": 4457
+          "downloads": 4954
         },
         {
           "month": "2026-02",
-          "downloads": 5487
+          "downloads": 5500
         }
       ],
-      "momGrowthPct": 23.10971505496971,
+      "momGrowthPct": 11.02139685102947,
       "isGrowing": true,
       "stars": 21,
       "description": "A Flutter package to generate adaptive golden files during widget tests.",
@@ -2958,7 +2958,7 @@
     },
     {
       "name": "init",
-      "totalDownloads": 4792,
+      "totalDownloads": 4799,
       "monthlyDownloads": [
         {
           "month": "2025-03",
@@ -2986,30 +2986,30 @@
         },
         {
           "month": "2025-09",
-          "downloads": 281
+          "downloads": 287
         },
         {
           "month": "2025-10",
-          "downloads": 586
+          "downloads": 584
         },
         {
           "month": "2025-11",
-          "downloads": 1526
+          "downloads": 1552
         },
         {
           "month": "2025-12",
-          "downloads": 1471
+          "downloads": 1394
         },
         {
           "month": "2026-01",
-          "downloads": 520
+          "downloads": 589
         },
         {
           "month": "2026-02",
-          "downloads": 408
+          "downloads": 393
         }
       ],
-      "momGrowthPct": -21.53846153846154,
+      "momGrowthPct": -33.276740237691,
       "isGrowing": false,
       "stars": 1,
       "description": "Init widget to execute initialization methods declaratively",
@@ -3263,7 +3263,7 @@
     },
     {
       "name": "http_cache_mmkv_store",
-      "totalDownloads": 433,
+      "totalDownloads": 434,
       "monthlyDownloads": [
         {
           "month": "2025-03",
@@ -3291,30 +3291,30 @@
         },
         {
           "month": "2025-09",
-          "downloads": 32
+          "downloads": 35
         },
         {
           "month": "2025-10",
-          "downloads": 49
+          "downloads": 46
         },
         {
           "month": "2025-11",
-          "downloads": 34
+          "downloads": 36
         },
         {
           "month": "2025-12",
-          "downloads": 40
+          "downloads": 32
         },
         {
           "month": "2026-01",
-          "downloads": 24
+          "downloads": 30
         },
         {
           "month": "2026-02",
-          "downloads": 68
+          "downloads": 69
         }
       ],
-      "momGrowthPct": 183.33333333333331,
+      "momGrowthPct": 130,
       "isGrowing": true,
       "stars": 151,
       "description": "A DB cache store implementation with mmkv for dio_cache_interceptor and http_cache_client packages.",
@@ -3324,39 +3324,39 @@
     },
     {
       "name": "equatable_lint",
-      "totalDownloads": 3808,
+      "totalDownloads": 3784,
       "monthlyDownloads": [
         {
           "month": "2025-03",
-          "downloads": 134
+          "downloads": 126
         },
         {
           "month": "2025-04",
-          "downloads": 577
+          "downloads": 500
         },
         {
           "month": "2025-05",
-          "downloads": 690
+          "downloads": 768
         },
         {
           "month": "2025-06",
-          "downloads": 440
+          "downloads": 439
         },
         {
           "month": "2025-07",
-          "downloads": 642
+          "downloads": 659
         },
         {
           "month": "2025-08",
-          "downloads": 260
+          "downloads": 226
         },
         {
           "month": "2025-09",
-          "downloads": 260
+          "downloads": 269
         },
         {
           "month": "2025-10",
-          "downloads": 165
+          "downloads": 164
         },
         {
           "month": "2025-11",
@@ -3364,19 +3364,19 @@
         },
         {
           "month": "2025-12",
-          "downloads": 280
+          "downloads": 205
         },
         {
           "month": "2026-01",
-          "downloads": 94
+          "downloads": 159
         },
         {
           "month": "2026-02",
-          "downloads": 145
+          "downloads": 148
         }
       ],
-      "momGrowthPct": 54.25531914893617,
-      "isGrowing": true,
+      "momGrowthPct": -6.918238993710692,
+      "isGrowing": false,
       "stars": 6,
       "description": "This is a set of rules to make classes using Equatable more maintainable. We make sure here that every fields in an Equatable class is linked to the Equatable props getter.",
       "notFound": false,
