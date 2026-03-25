@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-25T12:10:12.075Z",
+  "generatedAt": "2026-03-25T18:15:58.831Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -3439,7 +3439,7 @@
       "momGrowthPct": null,
       "isGrowing": false,
       "stars": 0,
-      "description": "A Flutter plugin that bridges Milibris SDKs, enabling encrypted archive extraction and embedded reader functionality on Android and iOS.",
+      "description": "A Flutter plugin that bridges Milibris SDKs, enabling encrypted archive",
       "notFound": false,
       "ecosystem": "pub",
       "publishedAt": "2026-03-23T17:17:27.908343Z"
