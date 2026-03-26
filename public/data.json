@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-26T12:13:20.029Z",
+  "generatedAt": "2026-03-26T18:16:52.127Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -248,7 +248,7 @@
       ],
       "momGrowthPct": 166.19534993788085,
       "isGrowing": true,
-      "stars": 148,
+      "stars": 157,
       "description": "Easily implement usual security measures in React Native Expo apps",
       "notFound": false,
       "ecosystem": "npm"
@@ -332,7 +332,7 @@
       ],
       "momGrowthPct": 52.323956497964645,
       "isGrowing": true,
-      "stars": 761,
+      "stars": 762,
       "description": "Everyday tools for simpler React Native development",
       "notFound": false,
       "ecosystem": "npm"
@@ -1088,7 +1088,7 @@
       ],
       "momGrowthPct": 7.214846797801257,
       "isGrowing": false,
-      "stars": 1042,
+      "stars": 1043,
       "description": "Measure React Native performance",
       "notFound": false,
       "ecosystem": "npm"
@@ -1508,7 +1508,7 @@
       ],
       "momGrowthPct": -21.546449100686075,
       "isGrowing": false,
-      "stars": 761,
+      "stars": 762,
       "description": "Please see [@bam.tech/react-native-make](https://github.com/bamlab/react-native-make)",
       "notFound": false,
       "ecosystem": "npm"
@@ -2958,7 +2958,7 @@
     },
     {
       "name": "init",
-      "totalDownloads": 4799,
+      "totalDownloads": 4838,
       "monthlyDownloads": [
         {
           "month": "2025-03",
@@ -2986,30 +2986,30 @@
         },
         {
           "month": "2025-09",
-          "downloads": 287
+          "downloads": 328
         },
         {
           "month": "2025-10",
-          "downloads": 584
+          "downloads": 559
         },
         {
           "month": "2025-11",
-          "downloads": 1552
+          "downloads": 1658
         },
         {
           "month": "2025-12",
-          "downloads": 1394
+          "downloads": 1303
         },
         {
           "month": "2026-01",
-          "downloads": 589
+          "downloads": 594
         },
         {
           "month": "2026-02",
-          "downloads": 393
+          "downloads": 396
         }
       ],
-      "momGrowthPct": -33.276740237691,
+      "momGrowthPct": -33.33333333333333,
       "isGrowing": false,
       "stars": 1,
       "description": "Init widget to execute initialization methods declaratively",
@@ -3019,7 +3019,7 @@
     },
     {
       "name": "riverpod_community_mutation",
-      "totalDownloads": 3903,
+      "totalDownloads": 3925,
       "monthlyDownloads": [
         {
           "month": "2025-03",
@@ -3031,46 +3031,46 @@
         },
         {
           "month": "2025-05",
-          "downloads": 277
+          "downloads": 315
         },
         {
           "month": "2025-06",
-          "downloads": 330
+          "downloads": 292
         },
         {
           "month": "2025-07",
-          "downloads": 479
+          "downloads": 458
         },
         {
           "month": "2025-08",
-          "downloads": 304
+          "downloads": 330
         },
         {
           "month": "2025-09",
-          "downloads": 287
+          "downloads": 315
         },
         {
           "month": "2025-10",
-          "downloads": 658
+          "downloads": 652
         },
         {
           "month": "2025-11",
-          "downloads": 374
+          "downloads": 353
         },
         {
           "month": "2025-12",
-          "downloads": 319
+          "downloads": 317
         },
         {
           "month": "2026-01",
-          "downloads": 380
+          "downloads": 406
         },
         {
           "month": "2026-02",
-          "downloads": 495
+          "downloads": 487
         }
       ],
-      "momGrowthPct": 30.263157894736842,
+      "momGrowthPct": 19.950738916256157,
       "isGrowing": true,
       "stars": 2,
       "description": "A mutation implementation for the riverpod community - made by Theodo",
@@ -3080,58 +3080,58 @@
     },
     {
       "name": "flutter_reach_five",
-      "totalDownloads": 6248,
+      "totalDownloads": 6273,
       "monthlyDownloads": [
         {
           "month": "2025-03",
-          "downloads": 68
+          "downloads": 74
         },
         {
           "month": "2025-04",
-          "downloads": 159
+          "downloads": 184
         },
         {
           "month": "2025-05",
-          "downloads": 562
+          "downloads": 532
         },
         {
           "month": "2025-06",
-          "downloads": 487
+          "downloads": 522
         },
         {
           "month": "2025-07",
-          "downloads": 614
+          "downloads": 551
         },
         {
           "month": "2025-08",
-          "downloads": 141
+          "downloads": 169
         },
         {
           "month": "2025-09",
-          "downloads": 401
+          "downloads": 437
         },
         {
           "month": "2025-10",
-          "downloads": 509
+          "downloads": 484
         },
         {
           "month": "2025-11",
-          "downloads": 1463
+          "downloads": 1562
         },
         {
           "month": "2025-12",
-          "downloads": 1269
+          "downloads": 1181
         },
         {
           "month": "2026-01",
-          "downloads": 280
+          "downloads": 277
         },
         {
           "month": "2026-02",
-          "downloads": 295
+          "downloads": 300
         }
       ],
-      "momGrowthPct": 5.357142857142857,
+      "momGrowthPct": 8.303249097472925,
       "isGrowing": false,
       "stars": 3,
       "description": "This package allows you to use the methods from the reachFive android and ios native sdks in Flutter",
@@ -3226,11 +3226,11 @@
         },
         {
           "month": "2025-08",
-          "downloads": 109
+          "downloads": 114
         },
         {
           "month": "2025-09",
-          "downloads": 178
+          "downloads": 175
         },
         {
           "month": "2025-10",
@@ -3238,22 +3238,22 @@
         },
         {
           "month": "2025-11",
-          "downloads": 38
+          "downloads": 37
         },
         {
           "month": "2025-12",
-          "downloads": 23
+          "downloads": 24
         },
         {
           "month": "2026-01",
-          "downloads": 225
+          "downloads": 233
         },
         {
           "month": "2026-02",
-          "downloads": 64
+          "downloads": 54
         }
       ],
-      "momGrowthPct": -71.55555555555554,
+      "momGrowthPct": -76.82403433476395,
       "isGrowing": false,
       "stars": 1,
       "description": "A Flutter plugin to assess an app integrity. Uses App attest on iOS and app Integrity on Android.",
@@ -3263,7 +3263,7 @@
     },
     {
       "name": "http_cache_mmkv_store",
-      "totalDownloads": 434,
+      "totalDownloads": 437,
       "monthlyDownloads": [
         {
           "month": "2025-03",
@@ -3283,38 +3283,38 @@
         },
         {
           "month": "2025-07",
-          "downloads": 41
-        },
-        {
-          "month": "2025-08",
-          "downloads": 32
-        },
-        {
-          "month": "2025-09",
-          "downloads": 35
-        },
-        {
-          "month": "2025-10",
-          "downloads": 46
-        },
-        {
-          "month": "2025-11",
           "downloads": 36
         },
         {
+          "month": "2025-08",
+          "downloads": 37
+        },
+        {
+          "month": "2025-09",
+          "downloads": 38
+        },
+        {
+          "month": "2025-10",
+          "downloads": 43
+        },
+        {
+          "month": "2025-11",
+          "downloads": 39
+        },
+        {
           "month": "2025-12",
-          "downloads": 32
+          "downloads": 29
         },
         {
           "month": "2026-01",
-          "downloads": 30
+          "downloads": 33
         },
         {
           "month": "2026-02",
           "downloads": 69
         }
       ],
-      "momGrowthPct": 130,
+      "momGrowthPct": 109.09090909090908,
       "isGrowing": true,
       "stars": 151,
       "description": "A DB cache store implementation with mmkv for dio_cache_interceptor and http_cache_client packages.",
