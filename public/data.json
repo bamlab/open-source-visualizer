@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-27T12:10:46.340Z",
+  "generatedAt": "2026-03-27T18:14:10.219Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -248,7 +248,7 @@
       ],
       "momGrowthPct": 166.19534993788085,
       "isGrowing": true,
-      "stars": 182,
+      "stars": 192,
       "description": "Easily implement usual security measures in React Native Expo apps",
       "notFound": false,
       "ecosystem": "npm"
@@ -3323,67 +3323,6 @@
       "publishedAt": "2025-06-09T14:32:34.666856Z"
     },
     {
-      "name": "equatable_lint",
-      "totalDownloads": 3744,
-      "monthlyDownloads": [
-        {
-          "month": "2025-03",
-          "downloads": 169
-        },
-        {
-          "month": "2025-04",
-          "downloads": 444
-        },
-        {
-          "month": "2025-05",
-          "downloads": 772
-        },
-        {
-          "month": "2025-06",
-          "downloads": 493
-        },
-        {
-          "month": "2025-07",
-          "downloads": 479
-        },
-        {
-          "month": "2025-08",
-          "downloads": 325
-        },
-        {
-          "month": "2025-09",
-          "downloads": 275
-        },
-        {
-          "month": "2025-10",
-          "downloads": 127
-        },
-        {
-          "month": "2025-11",
-          "downloads": 160
-        },
-        {
-          "month": "2025-12",
-          "downloads": 246
-        },
-        {
-          "month": "2026-01",
-          "downloads": 106
-        },
-        {
-          "month": "2026-02",
-          "downloads": 148
-        }
-      ],
-      "momGrowthPct": 39.62264150943396,
-      "isGrowing": true,
-      "stars": 6,
-      "description": "This is a set of rules to make classes using Equatable more maintainable. We make sure here that every fields in an Equatable class is linked to the Equatable props getter.",
-      "notFound": false,
-      "ecosystem": "pub",
-      "publishedAt": "2022-10-09T10:19:32.928925Z"
-    },
-    {
       "name": "flutter_milibris",
       "totalDownloads": 0,
       "monthlyDownloads": [
@@ -3443,6 +3382,67 @@
       "notFound": false,
       "ecosystem": "pub",
       "publishedAt": "2026-03-23T17:17:27.908343Z"
+    },
+    {
+      "name": "equatable_lint",
+      "totalDownloads": 3744,
+      "monthlyDownloads": [
+        {
+          "month": "2025-03",
+          "downloads": 169
+        },
+        {
+          "month": "2025-04",
+          "downloads": 444
+        },
+        {
+          "month": "2025-05",
+          "downloads": 772
+        },
+        {
+          "month": "2025-06",
+          "downloads": 493
+        },
+        {
+          "month": "2025-07",
+          "downloads": 479
+        },
+        {
+          "month": "2025-08",
+          "downloads": 325
+        },
+        {
+          "month": "2025-09",
+          "downloads": 275
+        },
+        {
+          "month": "2025-10",
+          "downloads": 127
+        },
+        {
+          "month": "2025-11",
+          "downloads": 160
+        },
+        {
+          "month": "2025-12",
+          "downloads": 246
+        },
+        {
+          "month": "2026-01",
+          "downloads": 106
+        },
+        {
+          "month": "2026-02",
+          "downloads": 148
+        }
+      ],
+      "momGrowthPct": 39.62264150943396,
+      "isGrowing": true,
+      "stars": 6,
+      "description": "This is a set of rules to make classes using Equatable more maintainable. We make sure here that every fields in an Equatable class is linked to the Equatable props getter.",
+      "notFound": false,
+      "ecosystem": "pub",
+      "publishedAt": "2022-10-09T10:19:32.928925Z"
     }
   ]
 }
