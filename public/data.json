@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-28T12:05:04.140Z",
+  "generatedAt": "2026-03-28T18:04:47.458Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -248,7 +248,7 @@
       ],
       "momGrowthPct": 166.19534993788085,
       "isGrowing": true,
-      "stars": 206,
+      "stars": 208,
       "description": "Easily implement usual security measures in React Native Expo apps",
       "notFound": false,
       "ecosystem": "npm"
@@ -2775,58 +2775,58 @@
     },
     {
       "name": "adaptive_test",
-      "totalDownloads": 36766,
+      "totalDownloads": 35641,
       "monthlyDownloads": [
         {
           "month": "2025-03",
-          "downloads": 337
+          "downloads": 311
         },
         {
           "month": "2025-04",
-          "downloads": 1847
+          "downloads": 1792
         },
         {
           "month": "2025-05",
-          "downloads": 2634
+          "downloads": 2243
         },
         {
           "month": "2025-06",
-          "downloads": 2643
+          "downloads": 3241
         },
         {
           "month": "2025-07",
-          "downloads": 1855
+          "downloads": 1689
         },
         {
           "month": "2025-08",
-          "downloads": 1846
+          "downloads": 1841
         },
         {
           "month": "2025-09",
-          "downloads": 1964
+          "downloads": 2117
         },
         {
           "month": "2025-10",
-          "downloads": 3077
+          "downloads": 2932
         },
         {
           "month": "2025-11",
-          "downloads": 4970
+          "downloads": 5358
         },
         {
           "month": "2025-12",
-          "downloads": 4738
+          "downloads": 4308
         },
         {
           "month": "2026-01",
-          "downloads": 5157
+          "downloads": 4228
         },
         {
           "month": "2026-02",
-          "downloads": 5698
+          "downloads": 5581
         }
       ],
-      "momGrowthPct": 10.490595307349235,
+      "momGrowthPct": 32.000946073793756,
       "isGrowing": true,
       "stars": 21,
       "description": "A Flutter package to generate adaptive golden files during widget tests.",
@@ -3019,7 +3019,7 @@
     },
     {
       "name": "riverpod_community_mutation",
-      "totalDownloads": 3938,
+      "totalDownloads": 3871,
       "monthlyDownloads": [
         {
           "month": "2025-03",
@@ -3031,47 +3031,47 @@
         },
         {
           "month": "2025-05",
-          "downloads": 319
+          "downloads": 186
         },
         {
           "month": "2025-06",
-          "downloads": 291
+          "downloads": 437
         },
         {
           "month": "2025-07",
-          "downloads": 459
+          "downloads": 453
         },
         {
           "month": "2025-08",
-          "downloads": 341
+          "downloads": 338
         },
         {
           "month": "2025-09",
-          "downloads": 335
+          "downloads": 393
         },
         {
           "month": "2025-10",
-          "downloads": 576
+          "downloads": 514
         },
         {
           "month": "2025-11",
-          "downloads": 402
+          "downloads": 439
         },
         {
           "month": "2025-12",
-          "downloads": 318
+          "downloads": 281
         },
         {
           "month": "2026-01",
-          "downloads": 444
+          "downloads": 339
         },
         {
           "month": "2026-02",
-          "downloads": 453
+          "downloads": 491
         }
       ],
-      "momGrowthPct": 2.027027027027027,
-      "isGrowing": false,
+      "momGrowthPct": 44.83775811209439,
+      "isGrowing": true,
       "stars": 2,
       "description": "A mutation implementation for the riverpod community - made by Theodo",
       "notFound": false,
@@ -3140,67 +3140,6 @@
       "publishedAt": "2022-10-07T15:53:56.220179Z"
     },
     {
-      "name": "flutter_lyra",
-      "totalDownloads": 5846,
-      "monthlyDownloads": [
-        {
-          "month": "2025-03",
-          "downloads": 48
-        },
-        {
-          "month": "2025-04",
-          "downloads": 84
-        },
-        {
-          "month": "2025-05",
-          "downloads": 321
-        },
-        {
-          "month": "2025-06",
-          "downloads": 485
-        },
-        {
-          "month": "2025-07",
-          "downloads": 411
-        },
-        {
-          "month": "2025-08",
-          "downloads": 120
-        },
-        {
-          "month": "2025-09",
-          "downloads": 484
-        },
-        {
-          "month": "2025-10",
-          "downloads": 452
-        },
-        {
-          "month": "2025-11",
-          "downloads": 1773
-        },
-        {
-          "month": "2025-12",
-          "downloads": 1084
-        },
-        {
-          "month": "2026-01",
-          "downloads": 271
-        },
-        {
-          "month": "2026-02",
-          "downloads": 313
-        }
-      ],
-      "momGrowthPct": 15.498154981549817,
-      "isGrowing": true,
-      "stars": 4,
-      "description": "This package allows you to use the methods from the lyra android and ios native sdks in Flutter",
-      "notFound": false,
-      "ecosystem": "pub",
-      "publishedAt": "2022-11-03T14:23:30.800535Z"
-    },
-    {
       "name": "app_attest_integrity",
       "totalDownloads": 693,
       "monthlyDownloads": [
@@ -3260,6 +3199,67 @@
       "notFound": false,
       "ecosystem": "pub",
       "publishedAt": "2025-08-25T09:43:01.189986Z"
+    },
+    {
+      "name": "flutter_lyra",
+      "totalDownloads": 5846,
+      "monthlyDownloads": [
+        {
+          "month": "2025-03",
+          "downloads": 48
+        },
+        {
+          "month": "2025-04",
+          "downloads": 84
+        },
+        {
+          "month": "2025-05",
+          "downloads": 321
+        },
+        {
+          "month": "2025-06",
+          "downloads": 485
+        },
+        {
+          "month": "2025-07",
+          "downloads": 411
+        },
+        {
+          "month": "2025-08",
+          "downloads": 120
+        },
+        {
+          "month": "2025-09",
+          "downloads": 484
+        },
+        {
+          "month": "2025-10",
+          "downloads": 452
+        },
+        {
+          "month": "2025-11",
+          "downloads": 1773
+        },
+        {
+          "month": "2025-12",
+          "downloads": 1084
+        },
+        {
+          "month": "2026-01",
+          "downloads": 271
+        },
+        {
+          "month": "2026-02",
+          "downloads": 313
+        }
+      ],
+      "momGrowthPct": 15.498154981549817,
+      "isGrowing": true,
+      "stars": 4,
+      "description": "This package allows you to use the methods from the lyra android and ios native sdks in Flutter",
+      "notFound": false,
+      "ecosystem": "pub",
+      "publishedAt": "2022-11-03T14:23:30.800535Z"
     },
     {
       "name": "http_cache_mmkv_store",
