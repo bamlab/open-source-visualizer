@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-29T12:04:57.550Z",
+  "generatedAt": "2026-03-29T18:05:40.078Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -80,7 +80,7 @@
       ],
       "momGrowthPct": 16.495185158827958,
       "isGrowing": true,
-      "stars": 1662,
+      "stars": 1661,
       "description": "Rescale local images with React Native",
       "notFound": false,
       "ecosystem": "npm"
@@ -248,7 +248,7 @@
       ],
       "momGrowthPct": 166.19534993788085,
       "isGrowing": true,
-      "stars": 209,
+      "stars": 211,
       "description": "Easily implement usual security measures in React Native Expo apps",
       "notFound": false,
       "ecosystem": "npm"
@@ -1172,7 +1172,7 @@
       ],
       "momGrowthPct": -10.444883402660267,
       "isGrowing": false,
-      "stars": 1662,
+      "stars": 1661,
       "description": "Rescale local images with React Native",
       "notFound": false,
       "ecosystem": "npm"
@@ -2775,58 +2775,58 @@
     },
     {
       "name": "adaptive_test",
-      "totalDownloads": 35641,
+      "totalDownloads": 35682,
       "monthlyDownloads": [
         {
           "month": "2025-03",
-          "downloads": 311
+          "downloads": 297
         },
         {
           "month": "2025-04",
-          "downloads": 1792
+          "downloads": 1788
         },
         {
           "month": "2025-05",
-          "downloads": 2243
+          "downloads": 2236
         },
         {
           "month": "2025-06",
-          "downloads": 3241
+          "downloads": 3340
         },
         {
           "month": "2025-07",
-          "downloads": 1689
+          "downloads": 1573
         },
         {
           "month": "2025-08",
-          "downloads": 1841
+          "downloads": 1481
         },
         {
           "month": "2025-09",
-          "downloads": 2117
+          "downloads": 2558
         },
         {
           "month": "2025-10",
-          "downloads": 2932
+          "downloads": 2889
         },
         {
           "month": "2025-11",
-          "downloads": 5358
+          "downloads": 3952
         },
         {
           "month": "2025-12",
-          "downloads": 4308
+          "downloads": 5689
         },
         {
           "month": "2026-01",
-          "downloads": 4228
+          "downloads": 4440
         },
         {
           "month": "2026-02",
-          "downloads": 5581
+          "downloads": 5439
         }
       ],
-      "momGrowthPct": 32.000946073793756,
+      "momGrowthPct": 22.5,
       "isGrowing": true,
       "stars": 21,
       "description": "A Flutter package to generate adaptive golden files during widget tests.",
@@ -2897,58 +2897,58 @@
     },
     {
       "name": "theodo_analysis",
-      "totalDownloads": 13015,
+      "totalDownloads": 13056,
       "monthlyDownloads": [
         {
           "month": "2025-03",
-          "downloads": 43
+          "downloads": 38
         },
         {
           "month": "2025-04",
-          "downloads": 806
+          "downloads": 837
         },
         {
           "month": "2025-05",
-          "downloads": 737
+          "downloads": 713
         },
         {
           "month": "2025-06",
-          "downloads": 1736
+          "downloads": 1833
         },
         {
           "month": "2025-07",
-          "downloads": 824
+          "downloads": 723
         },
         {
           "month": "2025-08",
-          "downloads": 626
+          "downloads": 547
         },
         {
           "month": "2025-09",
-          "downloads": 986
+          "downloads": 1073
         },
         {
           "month": "2025-10",
-          "downloads": 1471
+          "downloads": 1460
         },
         {
           "month": "2025-11",
-          "downloads": 2880
+          "downloads": 2342
         },
         {
           "month": "2025-12",
-          "downloads": 1487
+          "downloads": 2039
         },
         {
           "month": "2026-01",
-          "downloads": 650
+          "downloads": 662
         },
         {
           "month": "2026-02",
-          "downloads": 769
+          "downloads": 789
         }
       ],
-      "momGrowthPct": 18.307692307692307,
+      "momGrowthPct": 19.184290030211482,
       "isGrowing": true,
       "stars": 2,
       "description": "Lint and dcm rules for Dart and Flutter used internally at Theodo Apps.",
@@ -3019,7 +3019,7 @@
     },
     {
       "name": "riverpod_community_mutation",
-      "totalDownloads": 3871,
+      "totalDownloads": 3887,
       "monthlyDownloads": [
         {
           "month": "2025-03",
@@ -3031,46 +3031,46 @@
         },
         {
           "month": "2025-05",
-          "downloads": 186
+          "downloads": 210
         },
         {
           "month": "2025-06",
-          "downloads": 437
+          "downloads": 422
         },
         {
           "month": "2025-07",
-          "downloads": 453
+          "downloads": 448
         },
         {
           "month": "2025-08",
-          "downloads": 338
+          "downloads": 307
         },
         {
           "month": "2025-09",
-          "downloads": 393
+          "downloads": 432
         },
         {
           "month": "2025-10",
-          "downloads": 514
+          "downloads": 502
         },
         {
           "month": "2025-11",
-          "downloads": 439
+          "downloads": 368
         },
         {
           "month": "2025-12",
-          "downloads": 281
+          "downloads": 359
         },
         {
           "month": "2026-01",
-          "downloads": 339
+          "downloads": 358
         },
         {
           "month": "2026-02",
-          "downloads": 491
+          "downloads": 481
         }
       ],
-      "momGrowthPct": 44.83775811209439,
+      "momGrowthPct": 34.357541899441344,
       "isGrowing": true,
       "stars": 2,
       "description": "A mutation implementation for the riverpod community - made by Theodo",
@@ -3080,11 +3080,11 @@
     },
     {
       "name": "flutter_reach_five",
-      "totalDownloads": 6184,
+      "totalDownloads": 6177,
       "monthlyDownloads": [
         {
           "month": "2025-03",
-          "downloads": 52
+          "downloads": 48
         },
         {
           "month": "2025-04",
@@ -3092,35 +3092,35 @@
         },
         {
           "month": "2025-05",
-          "downloads": 507
+          "downloads": 504
         },
         {
           "month": "2025-06",
-          "downloads": 684
+          "downloads": 734
         },
         {
           "month": "2025-07",
-          "downloads": 404
+          "downloads": 354
         },
         {
           "month": "2025-08",
-          "downloads": 172
+          "downloads": 161
         },
         {
           "month": "2025-09",
-          "downloads": 487
+          "downloads": 504
         },
         {
           "month": "2025-10",
-          "downloads": 409
+          "downloads": 403
         },
         {
           "month": "2025-11",
-          "downloads": 1783
+          "downloads": 1438
         },
         {
           "month": "2025-12",
-          "downloads": 980
+          "downloads": 1325
         },
         {
           "month": "2026-01",
