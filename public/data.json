@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-30T12:13:12.501Z",
+  "generatedAt": "2026-03-30T18:15:14.879Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2889,35 +2889,31 @@
     },
     {
       "name": "theodo_analysis",
-      "totalDownloads": 13056,
+      "totalDownloads": 13104,
       "monthlyDownloads": [
         {
-          "month": "2025-03",
-          "downloads": 38
-        },
-        {
           "month": "2025-04",
-          "downloads": 837
+          "downloads": 873
         },
         {
           "month": "2025-05",
-          "downloads": 713
+          "downloads": 711
         },
         {
           "month": "2025-06",
-          "downloads": 1833
+          "downloads": 1242
         },
         {
           "month": "2025-07",
-          "downloads": 723
+          "downloads": 1313
         },
         {
           "month": "2025-08",
-          "downloads": 547
+          "downloads": 557
         },
         {
           "month": "2025-09",
-          "downloads": 1073
+          "downloads": 1063
         },
         {
           "month": "2025-10",
@@ -2925,11 +2921,11 @@
         },
         {
           "month": "2025-11",
-          "downloads": 2342
+          "downloads": 2372
         },
         {
           "month": "2025-12",
-          "downloads": 2039
+          "downloads": 2009
         },
         {
           "month": "2026-01",
@@ -2937,10 +2933,10 @@
         },
         {
           "month": "2026-02",
-          "downloads": 789
+          "downloads": 842
         }
       ],
-      "momGrowthPct": 19.184290030211482,
+      "momGrowthPct": 27.19033232628399,
       "isGrowing": true,
       "stars": 2,
       "description": "Lint and dcm rules for Dart and Flutter used internally at Theodo Apps.",
@@ -2950,12 +2946,8 @@
     },
     {
       "name": "init",
-      "totalDownloads": 4783,
+      "totalDownloads": 4788,
       "monthlyDownloads": [
-        {
-          "month": "2025-03",
-          "downloads": 0
-        },
         {
           "month": "2025-04",
           "downloads": 0
@@ -2978,30 +2970,30 @@
         },
         {
           "month": "2025-09",
-          "downloads": 386
+          "downloads": 387
         },
         {
           "month": "2025-10",
-          "downloads": 470
+          "downloads": 472
         },
         {
           "month": "2025-11",
-          "downloads": 1526
+          "downloads": 1528
         },
         {
           "month": "2025-12",
-          "downloads": 1476
+          "downloads": 1474
         },
         {
           "month": "2026-01",
-          "downloads": 509
+          "downloads": 515
         },
         {
           "month": "2026-02",
-          "downloads": 416
+          "downloads": 412
         }
       ],
-      "momGrowthPct": -18.271119842829076,
+      "momGrowthPct": -20,
       "isGrowing": false,
       "stars": 1,
       "description": "Init widget to execute initialization methods declaratively",
@@ -3011,27 +3003,23 @@
     },
     {
       "name": "riverpod_community_mutation",
-      "totalDownloads": 3887,
+      "totalDownloads": 3889,
       "monthlyDownloads": [
-        {
-          "month": "2025-03",
-          "downloads": 0
-        },
         {
           "month": "2025-04",
           "downloads": 0
         },
         {
           "month": "2025-05",
-          "downloads": 210
+          "downloads": 232
         },
         {
           "month": "2025-06",
-          "downloads": 422
+          "downloads": 366
         },
         {
           "month": "2025-07",
-          "downloads": 448
+          "downloads": 482
         },
         {
           "month": "2025-08",
@@ -3059,10 +3047,10 @@
         },
         {
           "month": "2026-02",
-          "downloads": 481
+          "downloads": 483
         }
       ],
-      "momGrowthPct": 34.357541899441344,
+      "momGrowthPct": 34.91620111731844,
       "isGrowing": true,
       "stars": 2,
       "description": "A mutation implementation for the riverpod community - made by Theodo",
@@ -3072,15 +3060,11 @@
     },
     {
       "name": "flutter_reach_five",
-      "totalDownloads": 6177,
+      "totalDownloads": 6197,
       "monthlyDownloads": [
         {
-          "month": "2025-03",
-          "downloads": 48
-        },
-        {
           "month": "2025-04",
-          "downloads": 180
+          "downloads": 228
         },
         {
           "month": "2025-05",
@@ -3088,11 +3072,11 @@
         },
         {
           "month": "2025-06",
-          "downloads": 734
+          "downloads": 490
         },
         {
           "month": "2025-07",
-          "downloads": 354
+          "downloads": 598
         },
         {
           "month": "2025-08",
@@ -3120,10 +3104,10 @@
         },
         {
           "month": "2026-02",
-          "downloads": 297
+          "downloads": 317
         }
       ],
-      "momGrowthPct": 29.694323144104807,
+      "momGrowthPct": 38.427947598253276,
       "isGrowing": true,
       "stars": 3,
       "description": "This package allows you to use the methods from the reachFive android and ios native sdks in Flutter",
@@ -3250,10 +3234,6 @@
       "totalDownloads": 428,
       "monthlyDownloads": [
         {
-          "month": "2025-03",
-          "downloads": 0
-        },
-        {
           "month": "2025-04",
           "downloads": 0
         },
@@ -3263,11 +3243,11 @@
         },
         {
           "month": "2025-06",
-          "downloads": 116
+          "downloads": 109
         },
         {
           "month": "2025-07",
-          "downloads": 36
+          "downloads": 43
         },
         {
           "month": "2025-08",
@@ -3287,7 +3267,7 @@
         },
         {
           "month": "2025-12",
-          "downloads": 38
+          "downloads": 39
         },
         {
           "month": "2026-01",
@@ -3295,10 +3275,10 @@
         },
         {
           "month": "2026-02",
-          "downloads": 69
+          "downloads": 68
         }
       ],
-      "momGrowthPct": 200,
+      "momGrowthPct": 195.65217391304347,
       "isGrowing": true,
       "stars": 151,
       "description": "A DB cache store implementation with mmkv for dio_cache_interceptor and http_cache_client packages.",
@@ -3310,10 +3290,6 @@
       "name": "flutter_milibris",
       "totalDownloads": 0,
       "monthlyDownloads": [
-        {
-          "month": "2025-03",
-          "downloads": 0
-        },
         {
           "month": "2025-04",
           "downloads": 0
