@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-02T00:10:02.338Z",
+  "generatedAt": "2026-04-02T06:21:48.731Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2958,7 +2958,7 @@
     },
     {
       "name": "init",
-      "totalDownloads": 5730,
+      "totalDownloads": 5834,
       "monthlyDownloads": [
         {
           "month": "2025-04",
@@ -2982,34 +2982,34 @@
         },
         {
           "month": "2025-09",
-          "downloads": 281
+          "downloads": 287
         },
         {
           "month": "2025-10",
-          "downloads": 586
+          "downloads": 584
         },
         {
           "month": "2025-11",
-          "downloads": 1526
+          "downloads": 1552
         },
         {
           "month": "2025-12",
-          "downloads": 1471
+          "downloads": 1394
         },
         {
           "month": "2026-01",
-          "downloads": 520
+          "downloads": 589
         },
         {
           "month": "2026-02",
-          "downloads": 408
+          "downloads": 393
         },
         {
           "month": "2026-03",
-          "downloads": 938
+          "downloads": 1035
         }
       ],
-      "momGrowthPct": 129.90196078431373,
+      "momGrowthPct": 163.35877862595422,
       "isGrowing": true,
       "stars": 1,
       "description": "Init widget to execute initialization methods declaratively",
