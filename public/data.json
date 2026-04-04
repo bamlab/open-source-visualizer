@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-04-03T18:08:25.742Z",
+  "generatedAt": "2026-04-04T00:09:51.360Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
-      "totalDownloads": 3272510,
+      "totalDownloads": 3267561,
       "monthlyDownloads": [
         {
           "month": "2024-10",
-          "downloads": 115304
+          "downloads": 110355
         },
         {
           "month": "2024-11",
@@ -80,7 +80,7 @@
       ],
       "momGrowthPct": 22.78612467727882,
       "isGrowing": true,
-      "stars": 1661,
+      "stars": 1660,
       "description": "Rescale local images with React Native",
       "notFound": false,
       "ecosystem": "npm"
@@ -171,11 +171,11 @@
     },
     {
       "name": "@bam.tech/react-native-app-security",
-      "totalDownloads": 255752,
+      "totalDownloads": 255741,
       "monthlyDownloads": [
         {
           "month": "2024-10",
-          "downloads": 1208
+          "downloads": 1197
         },
         {
           "month": "2024-11",
@@ -255,11 +255,11 @@
     },
     {
       "name": "@bam.tech/react-native-make",
-      "totalDownloads": 306295,
+      "totalDownloads": 305697,
       "monthlyDownloads": [
         {
           "month": "2024-10",
-          "downloads": 14057
+          "downloads": 13459
         },
         {
           "month": "2024-11",
@@ -339,11 +339,11 @@
     },
     {
       "name": "@bam.tech/eslint-plugin",
-      "totalDownloads": 130672,
+      "totalDownloads": 130348,
       "monthlyDownloads": [
         {
           "month": "2024-10",
-          "downloads": 5250
+          "downloads": 4926
         },
         {
           "month": "2024-11",
@@ -423,11 +423,11 @@
     },
     {
       "name": "@bam.tech/react-native-config",
-      "totalDownloads": 72208,
+      "totalDownloads": 72117,
       "monthlyDownloads": [
         {
           "month": "2024-10",
-          "downloads": 2434
+          "downloads": 2343
         },
         {
           "month": "2024-11",
@@ -507,11 +507,11 @@
     },
     {
       "name": "@bam.tech/react-native-keyevent-expo-config-plugin",
-      "totalDownloads": 64553,
+      "totalDownloads": 64520,
       "monthlyDownloads": [
         {
           "month": "2024-10",
-          "downloads": 2073
+          "downloads": 2040
         },
         {
           "month": "2024-11",
@@ -591,11 +591,11 @@
     },
     {
       "name": "@bam.tech/lrud",
-      "totalDownloads": 45214,
+      "totalDownloads": 45157,
       "monthlyDownloads": [
         {
           "month": "2024-10",
-          "downloads": 1381
+          "downloads": 1324
         },
         {
           "month": "2024-11",
@@ -675,11 +675,11 @@
     },
     {
       "name": "@bam.tech/flow-navigator",
-      "totalDownloads": 89594,
+      "totalDownloads": 89559,
       "monthlyDownloads": [
         {
           "month": "2024-10",
-          "downloads": 1108
+          "downloads": 1073
         },
         {
           "month": "2024-11",
@@ -759,11 +759,11 @@
     },
     {
       "name": "@bam.tech/react-native-graphql-transformer",
-      "totalDownloads": 51914,
+      "totalDownloads": 51677,
       "monthlyDownloads": [
         {
           "month": "2024-10",
-          "downloads": 4921
+          "downloads": 4684
         },
         {
           "month": "2024-11",
@@ -843,11 +843,11 @@
     },
     {
       "name": "@bam.tech/tanstack-query-detect-waterfall",
-      "totalDownloads": 14259,
+      "totalDownloads": 14212,
       "monthlyDownloads": [
         {
           "month": "2024-10",
-          "downloads": 525
+          "downloads": 478
         },
         {
           "month": "2024-11",
@@ -1011,11 +1011,11 @@
     },
     {
       "name": "react-native-performance",
-      "totalDownloads": 11590023,
+      "totalDownloads": 11575438,
       "monthlyDownloads": [
         {
           "month": "2024-10",
-          "downloads": 384562
+          "downloads": 369977
         },
         {
           "month": "2024-11",
@@ -1095,11 +1095,11 @@
     },
     {
       "name": "react-native-image-resizer",
-      "totalDownloads": 2886046,
+      "totalDownloads": 2878923,
       "monthlyDownloads": [
         {
           "month": "2024-10",
-          "downloads": 143770
+          "downloads": 136647
         },
         {
           "month": "2024-11",
@@ -1172,18 +1172,18 @@
       ],
       "momGrowthPct": 22.376127312967675,
       "isGrowing": true,
-      "stars": 1661,
+      "stars": 1660,
       "description": "Rescale local images with React Native",
       "notFound": false,
       "ecosystem": "npm"
     },
     {
       "name": "react-native-hide-with-keyboard",
-      "totalDownloads": 153471,
+      "totalDownloads": 152651,
       "monthlyDownloads": [
         {
           "month": "2024-10",
-          "downloads": 11337
+          "downloads": 10517
         },
         {
           "month": "2024-11",
@@ -1263,11 +1263,11 @@
     },
     {
       "name": "react-native-image-header-scroll-view",
-      "totalDownloads": 100566,
+      "totalDownloads": 100392,
       "monthlyDownloads": [
         {
           "month": "2024-10",
-          "downloads": 5217
+          "downloads": 5043
         },
         {
           "month": "2024-11",
@@ -1347,11 +1347,11 @@
     },
     {
       "name": "generator-rn-toolbox",
-      "totalDownloads": 79579,
+      "totalDownloads": 79271,
       "monthlyDownloads": [
         {
           "month": "2024-10",
-          "downloads": 5782
+          "downloads": 5474
         },
         {
           "month": "2024-11",
@@ -1431,11 +1431,11 @@
     },
     {
       "name": "react-native-make",
-      "totalDownloads": 60456,
+      "totalDownloads": 60450,
       "monthlyDownloads": [
         {
           "month": "2024-10",
-          "downloads": 274
+          "downloads": 268
         },
         {
           "month": "2024-11",
@@ -1515,11 +1515,11 @@
     },
     {
       "name": "redux-enhancer-react-native-appstate",
-      "totalDownloads": 81736,
+      "totalDownloads": 81502,
       "monthlyDownloads": [
         {
           "month": "2024-10",
-          "downloads": 3601
+          "downloads": 3367
         },
         {
           "month": "2024-11",
@@ -1599,11 +1599,11 @@
     },
     {
       "name": "react-tv-space-navigation",
-      "totalDownloads": 48394,
+      "totalDownloads": 48338,
       "monthlyDownloads": [
         {
           "month": "2024-10",
-          "downloads": 1659
+          "downloads": 1603
         },
         {
           "month": "2024-11",
@@ -1683,11 +1683,11 @@
     },
     {
       "name": "react-native-formik",
-      "totalDownloads": 185401,
+      "totalDownloads": 184927,
       "monthlyDownloads": [
         {
           "month": "2024-10",
-          "downloads": 11480
+          "downloads": 11006
         },
         {
           "month": "2024-11",
@@ -1767,11 +1767,11 @@
     },
     {
       "name": "rn-camera-roll",
-      "totalDownloads": 609,
+      "totalDownloads": 604,
       "monthlyDownloads": [
         {
           "month": "2024-10",
-          "downloads": 35
+          "downloads": 30
         },
         {
           "month": "2024-11",
@@ -1935,11 +1935,11 @@
     },
     {
       "name": "react-native-form-idable",
-      "totalDownloads": 870,
+      "totalDownloads": 869,
       "monthlyDownloads": [
         {
           "month": "2024-10",
-          "downloads": 23
+          "downloads": 22
         },
         {
           "month": "2024-11",
@@ -2019,11 +2019,11 @@
     },
     {
       "name": "react-redux-toolbox",
-      "totalDownloads": 35020,
+      "totalDownloads": 34933,
       "monthlyDownloads": [
         {
           "month": "2024-10",
-          "downloads": 1187
+          "downloads": 1100
         },
         {
           "month": "2024-11",
@@ -2271,11 +2271,11 @@
     },
     {
       "name": "react-native-photo-guideline-grid",
-      "totalDownloads": 215,
+      "totalDownloads": 213,
       "monthlyDownloads": [
         {
           "month": "2024-10",
-          "downloads": 14
+          "downloads": 12
         },
         {
           "month": "2024-11",
