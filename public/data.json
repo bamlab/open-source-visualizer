@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-05T12:05:00.509Z",
+  "generatedAt": "2026-04-05T18:06:06.400Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2836,58 +2836,58 @@
     },
     {
       "name": "riverpod_community_extensions",
-      "totalDownloads": 9434,
+      "totalDownloads": 9572,
       "monthlyDownloads": [
         {
           "month": "2025-04",
-          "downloads": 57
+          "downloads": 58
         },
         {
           "month": "2025-05",
-          "downloads": 248
+          "downloads": 247
         },
         {
           "month": "2025-06",
-          "downloads": 846
+          "downloads": 641
         },
         {
           "month": "2025-07",
-          "downloads": 454
+          "downloads": 663
         },
         {
           "month": "2025-08",
-          "downloads": 273
+          "downloads": 240
         },
         {
           "month": "2025-09",
-          "downloads": 791
+          "downloads": 835
         },
         {
           "month": "2025-10",
-          "downloads": 772
+          "downloads": 757
         },
         {
           "month": "2025-11",
-          "downloads": 2185
+          "downloads": 1760
         },
         {
           "month": "2025-12",
-          "downloads": 1247
+          "downloads": 1698
         },
         {
           "month": "2026-01",
-          "downloads": 730
+          "downloads": 739
         },
         {
           "month": "2026-02",
-          "downloads": 737
+          "downloads": 726
         },
         {
           "month": "2026-03",
-          "downloads": 1094
+          "downloads": 1208
         }
       ],
-      "momGrowthPct": 48.43962008141113,
+      "momGrowthPct": 66.39118457300276,
       "isGrowing": true,
       "stars": 10,
       "description": "Extends Riverpod ref types with additional helpers, to easily add common functionalities to your providers.",
@@ -3079,67 +3079,6 @@
       "publishedAt": "2026-03-23T17:17:27.908343Z"
     },
     {
-      "name": "flutter_reach_five",
-      "totalDownloads": 6521,
-      "monthlyDownloads": [
-        {
-          "month": "2025-04",
-          "downloads": 180
-        },
-        {
-          "month": "2025-05",
-          "downloads": 507
-        },
-        {
-          "month": "2025-06",
-          "downloads": 684
-        },
-        {
-          "month": "2025-07",
-          "downloads": 404
-        },
-        {
-          "month": "2025-08",
-          "downloads": 172
-        },
-        {
-          "month": "2025-09",
-          "downloads": 487
-        },
-        {
-          "month": "2025-10",
-          "downloads": 409
-        },
-        {
-          "month": "2025-11",
-          "downloads": 1783
-        },
-        {
-          "month": "2025-12",
-          "downloads": 980
-        },
-        {
-          "month": "2026-01",
-          "downloads": 229
-        },
-        {
-          "month": "2026-02",
-          "downloads": 297
-        },
-        {
-          "month": "2026-03",
-          "downloads": 389
-        }
-      ],
-      "momGrowthPct": 30.976430976430976,
-      "isGrowing": true,
-      "stars": 3,
-      "description": "This package allows you to use the methods from the reachFive android and ios native sdks in Flutter",
-      "notFound": false,
-      "ecosystem": "pub",
-      "publishedAt": "2022-10-07T15:53:56.220179Z"
-    },
-    {
       "name": "riverpod_community_mutation",
       "totalDownloads": 4110,
       "monthlyDownloads": [
@@ -3199,6 +3138,67 @@
       "notFound": false,
       "ecosystem": "pub",
       "publishedAt": "2025-05-22T13:02:37.162979Z"
+    },
+    {
+      "name": "flutter_reach_five",
+      "totalDownloads": 6521,
+      "monthlyDownloads": [
+        {
+          "month": "2025-04",
+          "downloads": 180
+        },
+        {
+          "month": "2025-05",
+          "downloads": 507
+        },
+        {
+          "month": "2025-06",
+          "downloads": 684
+        },
+        {
+          "month": "2025-07",
+          "downloads": 404
+        },
+        {
+          "month": "2025-08",
+          "downloads": 172
+        },
+        {
+          "month": "2025-09",
+          "downloads": 487
+        },
+        {
+          "month": "2025-10",
+          "downloads": 409
+        },
+        {
+          "month": "2025-11",
+          "downloads": 1783
+        },
+        {
+          "month": "2025-12",
+          "downloads": 980
+        },
+        {
+          "month": "2026-01",
+          "downloads": 229
+        },
+        {
+          "month": "2026-02",
+          "downloads": 297
+        },
+        {
+          "month": "2026-03",
+          "downloads": 389
+        }
+      ],
+      "momGrowthPct": 30.976430976430976,
+      "isGrowing": true,
+      "stars": 3,
+      "description": "This package allows you to use the methods from the reachFive android and ios native sdks in Flutter",
+      "notFound": false,
+      "ecosystem": "pub",
+      "publishedAt": "2022-10-07T15:53:56.220179Z"
     },
     {
       "name": "app_attest_integrity",
