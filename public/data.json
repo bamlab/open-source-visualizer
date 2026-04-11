@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-11T00:11:05.845Z",
+  "generatedAt": "2026-04-11T06:18:37.635Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2958,7 +2958,7 @@
     },
     {
       "name": "init",
-      "totalDownloads": 6079,
+      "totalDownloads": 6263,
       "monthlyDownloads": [
         {
           "month": "2025-04",
@@ -2982,34 +2982,34 @@
         },
         {
           "month": "2025-09",
-          "downloads": 333
+          "downloads": 383
         },
         {
           "month": "2025-10",
-          "downloads": 517
+          "downloads": 469
         },
         {
           "month": "2025-11",
-          "downloads": 1784
+          "downloads": 1905
         },
         {
           "month": "2025-12",
-          "downloads": 1214
+          "downloads": 1095
         },
         {
           "month": "2026-01",
-          "downloads": 598
+          "downloads": 500
         },
         {
           "month": "2026-02",
-          "downloads": 456
+          "downloads": 427
         },
         {
           "month": "2026-03",
-          "downloads": 1177
+          "downloads": 1484
         }
       ],
-      "momGrowthPct": 158.11403508771932,
+      "momGrowthPct": 247.54098360655738,
       "isGrowing": true,
       "stars": 1,
       "description": "Init widget to execute initialization methods declaratively",
@@ -3385,59 +3385,59 @@
     },
     {
       "name": "equatable_lint",
-      "totalDownloads": 3604,
+      "totalDownloads": 3597,
       "monthlyDownloads": [
         {
           "month": "2025-04",
-          "downloads": 339
+          "downloads": 334
         },
         {
           "month": "2025-05",
-          "downloads": 772
+          "downloads": 668
         },
         {
           "month": "2025-06",
-          "downloads": 493
+          "downloads": 639
         },
         {
           "month": "2025-07",
-          "downloads": 479
+          "downloads": 452
         },
         {
           "month": "2025-08",
-          "downloads": 325
+          "downloads": 312
         },
         {
           "month": "2025-09",
-          "downloads": 275
+          "downloads": 277
         },
         {
           "month": "2025-10",
-          "downloads": 127
+          "downloads": 121
         },
         {
           "month": "2025-11",
-          "downloads": 160
+          "downloads": 159
         },
         {
           "month": "2025-12",
-          "downloads": 246
+          "downloads": 247
         },
         {
           "month": "2026-01",
-          "downloads": 106
+          "downloads": 88
         },
         {
           "month": "2026-02",
-          "downloads": 148
+          "downloads": 141
         },
         {
           "month": "2026-03",
-          "downloads": 134
+          "downloads": 159
         }
       ],
-      "momGrowthPct": -9.45945945945946,
-      "isGrowing": false,
+      "momGrowthPct": 12.76595744680851,
+      "isGrowing": true,
       "stars": 6,
       "description": "This is a set of rules to make classes using Equatable more maintainable. We make sure here that every fields in an Equatable class is linked to the Equatable props getter.",
       "notFound": false,
