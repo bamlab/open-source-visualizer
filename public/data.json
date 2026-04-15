@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-15T12:15:00.516Z",
+  "generatedAt": "2026-04-15T18:20:42.695Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -3385,58 +3385,58 @@
     },
     {
       "name": "equatable_lint",
-      "totalDownloads": 3572,
+      "totalDownloads": 3568,
       "monthlyDownloads": [
         {
           "month": "2025-04",
-          "downloads": 278
+          "downloads": 289
         },
         {
           "month": "2025-05",
-          "downloads": 768
+          "downloads": 762
         },
         {
           "month": "2025-06",
-          "downloads": 439
+          "downloads": 461
         },
         {
           "month": "2025-07",
-          "downloads": 659
+          "downloads": 481
         },
         {
           "month": "2025-08",
-          "downloads": 226
+          "downloads": 377
         },
         {
           "month": "2025-09",
-          "downloads": 269
+          "downloads": 270
         },
         {
           "month": "2025-10",
-          "downloads": 164
+          "downloads": 161
         },
         {
           "month": "2025-11",
-          "downloads": 121
+          "downloads": 131
         },
         {
           "month": "2025-12",
-          "downloads": 205
+          "downloads": 247
         },
         {
           "month": "2026-01",
-          "downloads": 159
+          "downloads": 103
         },
         {
           "month": "2026-02",
-          "downloads": 148
+          "downloads": 152
         },
         {
           "month": "2026-03",
-          "downloads": 136
+          "downloads": 134
         }
       ],
-      "momGrowthPct": -8.108108108108109,
+      "momGrowthPct": -11.842105263157894,
       "isGrowing": false,
       "stars": 6,
       "description": "This is a set of rules to make classes using Equatable more maintainable. We make sure here that every fields in an Equatable class is linked to the Equatable props getter.",
