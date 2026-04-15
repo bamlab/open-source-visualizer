@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-15T00:16:30.968Z",
+  "generatedAt": "2026-04-15T06:32:10.902Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2897,58 +2897,58 @@
     },
     {
       "name": "theodo_analysis",
-      "totalDownloads": 14520,
+      "totalDownloads": 14579,
       "monthlyDownloads": [
         {
           "month": "2025-04",
-          "downloads": 686
+          "downloads": 499
         },
         {
           "month": "2025-05",
-          "downloads": 712
+          "downloads": 904
         },
         {
           "month": "2025-06",
-          "downloads": 1244
+          "downloads": 1229
         },
         {
           "month": "2025-07",
-          "downloads": 1308
+          "downloads": 1286
         },
         {
           "month": "2025-08",
-          "downloads": 571
+          "downloads": 577
         },
         {
           "month": "2025-09",
-          "downloads": 715
+          "downloads": 721
         },
         {
           "month": "2025-10",
-          "downloads": 1796
+          "downloads": 1786
         },
         {
           "month": "2025-11",
-          "downloads": 2408
+          "downloads": 2446
         },
         {
           "month": "2025-12",
-          "downloads": 1970
+          "downloads": 1848
         },
         {
           "month": "2026-01",
-          "downloads": 661
+          "downloads": 769
         },
         {
           "month": "2026-02",
-          "downloads": 869
+          "downloads": 906
         },
         {
           "month": "2026-03",
-          "downloads": 1580
+          "downloads": 1608
         }
       ],
-      "momGrowthPct": 81.81818181818183,
+      "momGrowthPct": 77.48344370860927,
       "isGrowing": true,
       "stars": 2,
       "description": "Lint and dcm rules for Dart and Flutter used internally at Theodo Apps.",
@@ -2958,7 +2958,7 @@
     },
     {
       "name": "init",
-      "totalDownloads": 5730,
+      "totalDownloads": 5834,
       "monthlyDownloads": [
         {
           "month": "2025-04",
@@ -2982,34 +2982,34 @@
         },
         {
           "month": "2025-09",
-          "downloads": 281
+          "downloads": 287
         },
         {
           "month": "2025-10",
-          "downloads": 586
+          "downloads": 584
         },
         {
           "month": "2025-11",
-          "downloads": 1526
+          "downloads": 1552
         },
         {
           "month": "2025-12",
-          "downloads": 1471
+          "downloads": 1394
         },
         {
           "month": "2026-01",
-          "downloads": 520
+          "downloads": 589
         },
         {
           "month": "2026-02",
-          "downloads": 408
+          "downloads": 393
         },
         {
           "month": "2026-03",
-          "downloads": 938
+          "downloads": 1035
         }
       ],
-      "momGrowthPct": 129.90196078431373,
+      "momGrowthPct": 163.35877862595422,
       "isGrowing": true,
       "stars": 1,
       "description": "Init widget to execute initialization methods declaratively",
@@ -3019,7 +3019,7 @@
     },
     {
       "name": "flutter_milibris",
-      "totalDownloads": 216,
+      "totalDownloads": 309,
       "monthlyDownloads": [
         {
           "month": "2025-04",
@@ -3067,7 +3067,7 @@
         },
         {
           "month": "2026-03",
-          "downloads": 216
+          "downloads": 309
         }
       ],
       "momGrowthPct": null,
@@ -3324,7 +3324,7 @@
     },
     {
       "name": "http_cache_mmkv_store",
-      "totalDownloads": 516,
+      "totalDownloads": 518,
       "monthlyDownloads": [
         {
           "month": "2025-04",
@@ -3348,34 +3348,34 @@
         },
         {
           "month": "2025-09",
-          "downloads": 32
+          "downloads": 35
         },
         {
           "month": "2025-10",
-          "downloads": 49
+          "downloads": 46
         },
         {
           "month": "2025-11",
-          "downloads": 34
+          "downloads": 36
         },
         {
           "month": "2025-12",
-          "downloads": 40
+          "downloads": 32
         },
         {
           "month": "2026-01",
-          "downloads": 24
+          "downloads": 30
         },
         {
           "month": "2026-02",
-          "downloads": 68
+          "downloads": 69
         },
         {
           "month": "2026-03",
-          "downloads": 83
+          "downloads": 84
         }
       ],
-      "momGrowthPct": 22.058823529411764,
+      "momGrowthPct": 21.73913043478261,
       "isGrowing": true,
       "stars": 153,
       "description": "A DB cache store implementation with mmkv for dio_cache_interceptor and http_cache_client packages.",
