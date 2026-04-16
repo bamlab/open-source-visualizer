@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-16T12:16:35.924Z",
+  "generatedAt": "2026-04-16T18:21:21.395Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -248,7 +248,7 @@
       ],
       "momGrowthPct": 0.7978664296032892,
       "isGrowing": false,
-      "stars": 212,
+      "stars": 213,
       "description": "Easily implement usual security measures in React Native Expo apps",
       "notFound": false,
       "ecosystem": "npm"
@@ -3080,58 +3080,58 @@
     },
     {
       "name": "flutter_reach_five",
-      "totalDownloads": 6391,
+      "totalDownloads": 6421,
       "monthlyDownloads": [
         {
           "month": "2025-04",
-          "downloads": 104
+          "downloads": 107
         },
         {
           "month": "2025-05",
-          "downloads": 532
+          "downloads": 570
         },
         {
           "month": "2025-06",
-          "downloads": 522
+          "downloads": 553
         },
         {
           "month": "2025-07",
-          "downloads": 551
+          "downloads": 468
         },
         {
           "month": "2025-08",
-          "downloads": 169
+          "downloads": 172
         },
         {
           "month": "2025-09",
-          "downloads": 437
+          "downloads": 440
         },
         {
           "month": "2025-10",
-          "downloads": 484
+          "downloads": 460
         },
         {
           "month": "2025-11",
-          "downloads": 1562
+          "downloads": 1666
         },
         {
           "month": "2025-12",
-          "downloads": 1181
+          "downloads": 1096
         },
         {
           "month": "2026-01",
-          "downloads": 277
+          "downloads": 276
         },
         {
           "month": "2026-02",
-          "downloads": 300
+          "downloads": 358
         },
         {
           "month": "2026-03",
-          "downloads": 272
+          "downloads": 255
         }
       ],
-      "momGrowthPct": -9.333333333333334,
+      "momGrowthPct": -28.77094972067039,
       "isGrowing": false,
       "stars": 3,
       "description": "This package allows you to use the methods from the reachFive android and ios native sdks in Flutter",
@@ -3141,7 +3141,7 @@
     },
     {
       "name": "riverpod_community_mutation",
-      "totalDownloads": 4092,
+      "totalDownloads": 4099,
       "monthlyDownloads": [
         {
           "month": "2025-04",
@@ -3149,50 +3149,50 @@
         },
         {
           "month": "2025-05",
-          "downloads": 315
+          "downloads": 319
         },
         {
           "month": "2025-06",
-          "downloads": 292
+          "downloads": 291
         },
         {
           "month": "2025-07",
-          "downloads": 458
+          "downloads": 459
         },
         {
           "month": "2025-08",
-          "downloads": 330
+          "downloads": 341
         },
         {
           "month": "2025-09",
-          "downloads": 315
+          "downloads": 335
         },
         {
           "month": "2025-10",
-          "downloads": 652
+          "downloads": 576
         },
         {
           "month": "2025-11",
-          "downloads": 353
+          "downloads": 402
         },
         {
           "month": "2025-12",
-          "downloads": 317
+          "downloads": 318
         },
         {
           "month": "2026-01",
-          "downloads": 406
+          "downloads": 444
         },
         {
           "month": "2026-02",
-          "downloads": 487
+          "downloads": 453
         },
         {
           "month": "2026-03",
-          "downloads": 167
+          "downloads": 161
         }
       ],
-      "momGrowthPct": -65.70841889117042,
+      "momGrowthPct": -64.45916114790286,
       "isGrowing": false,
       "stars": 2,
       "description": "A mutation implementation for the riverpod community - made by Theodo",
@@ -3202,7 +3202,7 @@
     },
     {
       "name": "app_attest_integrity",
-      "totalDownloads": 797,
+      "totalDownloads": 805,
       "monthlyDownloads": [
         {
           "month": "2025-04",
@@ -3222,38 +3222,38 @@
         },
         {
           "month": "2025-08",
-          "downloads": 114
+          "downloads": 115
         },
         {
           "month": "2025-09",
-          "downloads": 175
+          "downloads": 176
         },
         {
           "month": "2025-10",
-          "downloads": 56
+          "downloads": 48
         },
         {
           "month": "2025-11",
-          "downloads": 37
+          "downloads": 45
         },
         {
           "month": "2025-12",
-          "downloads": 24
+          "downloads": 22
         },
         {
           "month": "2026-01",
-          "downloads": 233
+          "downloads": 236
         },
         {
           "month": "2026-02",
-          "downloads": 54
+          "downloads": 51
         },
         {
           "month": "2026-03",
-          "downloads": 104
+          "downloads": 112
         }
       ],
-      "momGrowthPct": 92.5925925925926,
+      "momGrowthPct": 119.6078431372549,
       "isGrowing": true,
       "stars": 1,
       "description": "A Flutter plugin to assess an app integrity. Uses App attest on iOS and app Integrity on Android.",
@@ -3385,58 +3385,58 @@
     },
     {
       "name": "equatable_lint",
-      "totalDownloads": 3568,
+      "totalDownloads": 3534,
       "monthlyDownloads": [
         {
           "month": "2025-04",
-          "downloads": 289
+          "downloads": 269
         },
         {
           "month": "2025-05",
-          "downloads": 762
+          "downloads": 772
         },
         {
           "month": "2025-06",
-          "downloads": 461
+          "downloads": 493
         },
         {
           "month": "2025-07",
-          "downloads": 481
+          "downloads": 479
         },
         {
           "month": "2025-08",
-          "downloads": 377
+          "downloads": 325
         },
         {
           "month": "2025-09",
-          "downloads": 270
+          "downloads": 275
         },
         {
           "month": "2025-10",
-          "downloads": 161
+          "downloads": 127
         },
         {
           "month": "2025-11",
-          "downloads": 131
+          "downloads": 160
         },
         {
           "month": "2025-12",
-          "downloads": 247
+          "downloads": 246
         },
         {
           "month": "2026-01",
-          "downloads": 103
+          "downloads": 106
         },
         {
           "month": "2026-02",
-          "downloads": 152
+          "downloads": 148
         },
         {
           "month": "2026-03",
           "downloads": 134
         }
       ],
-      "momGrowthPct": -11.842105263157894,
+      "momGrowthPct": -9.45945945945946,
       "isGrowing": false,
       "stars": 6,
       "description": "This is a set of rules to make classes using Equatable more maintainable. We make sure here that every fields in an Equatable class is linked to the Equatable props getter.",
