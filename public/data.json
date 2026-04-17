@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-17T12:14:11.718Z",
+  "generatedAt": "2026-04-17T18:17:11.754Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2958,7 +2958,7 @@
     },
     {
       "name": "init",
-      "totalDownloads": 5898,
+      "totalDownloads": 6079,
       "monthlyDownloads": [
         {
           "month": "2025-04",
@@ -2982,34 +2982,34 @@
         },
         {
           "month": "2025-09",
-          "downloads": 328
+          "downloads": 333
         },
         {
           "month": "2025-10",
-          "downloads": 559
+          "downloads": 517
         },
         {
           "month": "2025-11",
-          "downloads": 1658
+          "downloads": 1784
         },
         {
           "month": "2025-12",
-          "downloads": 1303
+          "downloads": 1214
         },
         {
           "month": "2026-01",
-          "downloads": 594
+          "downloads": 598
         },
         {
           "month": "2026-02",
-          "downloads": 396
+          "downloads": 456
         },
         {
           "month": "2026-03",
-          "downloads": 1060
+          "downloads": 1177
         }
       ],
-      "momGrowthPct": 167.67676767676767,
+      "momGrowthPct": 158.11403508771932,
       "isGrowing": true,
       "stars": 1,
       "description": "Init widget to execute initialization methods declaratively",
@@ -3263,43 +3263,43 @@
     },
     {
       "name": "flutter_lyra",
-      "totalDownloads": 6241,
+      "totalDownloads": 6296,
       "monthlyDownloads": [
         {
           "month": "2025-04",
-          "downloads": 73
+          "downloads": 68
         },
         {
           "month": "2025-05",
-          "downloads": 271
+          "downloads": 321
         },
         {
           "month": "2025-06",
-          "downloads": 452
+          "downloads": 485
         },
         {
           "month": "2025-07",
-          "downloads": 494
+          "downloads": 411
         },
         {
           "month": "2025-08",
-          "downloads": 119
+          "downloads": 120
         },
         {
           "month": "2025-09",
-          "downloads": 483
+          "downloads": 484
         },
         {
           "month": "2025-10",
-          "downloads": 468
+          "downloads": 452
         },
         {
           "month": "2025-11",
-          "downloads": 1673
+          "downloads": 1773
         },
         {
           "month": "2025-12",
-          "downloads": 1170
+          "downloads": 1084
         },
         {
           "month": "2026-01",
@@ -3307,14 +3307,14 @@
         },
         {
           "month": "2026-02",
-          "downloads": 250
+          "downloads": 313
         },
         {
           "month": "2026-03",
-          "downloads": 517
+          "downloads": 514
         }
       ],
-      "momGrowthPct": 106.80000000000001,
+      "momGrowthPct": 64.21725239616613,
       "isGrowing": true,
       "stars": 4,
       "description": "This package allows you to use the methods from the lyra android and ios native sdks in Flutter",
