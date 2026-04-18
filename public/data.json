@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-18T12:07:05.522Z",
+  "generatedAt": "2026-04-18T18:09:07.031Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -3019,7 +3019,7 @@
     },
     {
       "name": "flutter_milibris",
-      "totalDownloads": 688,
+      "totalDownloads": 852,
       "monthlyDownloads": [
         {
           "month": "2025-04",
@@ -3067,7 +3067,7 @@
         },
         {
           "month": "2026-03",
-          "downloads": 688
+          "downloads": 852
         }
       ],
       "momGrowthPct": null,
