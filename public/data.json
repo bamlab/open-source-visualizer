@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-21T00:15:37.959Z",
+  "generatedAt": "2026-04-21T06:32:35.343Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -3079,67 +3079,6 @@
       "publishedAt": "2026-03-23T17:17:27.908343Z"
     },
     {
-      "name": "riverpod_community_mutation",
-      "totalDownloads": 4085,
-      "monthlyDownloads": [
-        {
-          "month": "2025-04",
-          "downloads": 0
-        },
-        {
-          "month": "2025-05",
-          "downloads": 252
-        },
-        {
-          "month": "2025-06",
-          "downloads": 350
-        },
-        {
-          "month": "2025-07",
-          "downloads": 480
-        },
-        {
-          "month": "2025-08",
-          "downloads": 306
-        },
-        {
-          "month": "2025-09",
-          "downloads": 275
-        },
-        {
-          "month": "2025-10",
-          "downloads": 662
-        },
-        {
-          "month": "2025-11",
-          "downloads": 367
-        },
-        {
-          "month": "2025-12",
-          "downloads": 357
-        },
-        {
-          "month": "2026-01",
-          "downloads": 357
-        },
-        {
-          "month": "2026-02",
-          "downloads": 483
-        },
-        {
-          "month": "2026-03",
-          "downloads": 196
-        }
-      ],
-      "momGrowthPct": -59.42028985507246,
-      "isGrowing": false,
-      "stars": 2,
-      "description": "A mutation implementation for the riverpod community - made by Theodo",
-      "notFound": false,
-      "ecosystem": "pub",
-      "publishedAt": "2025-05-22T13:02:37.162979Z"
-    },
-    {
       "name": "flutter_reach_five",
       "totalDownloads": 6348,
       "monthlyDownloads": [
@@ -3199,6 +3138,67 @@
       "notFound": false,
       "ecosystem": "pub",
       "publishedAt": "2022-10-07T15:53:56.220179Z"
+    },
+    {
+      "name": "riverpod_community_mutation",
+      "totalDownloads": 4085,
+      "monthlyDownloads": [
+        {
+          "month": "2025-04",
+          "downloads": 0
+        },
+        {
+          "month": "2025-05",
+          "downloads": 252
+        },
+        {
+          "month": "2025-06",
+          "downloads": 350
+        },
+        {
+          "month": "2025-07",
+          "downloads": 480
+        },
+        {
+          "month": "2025-08",
+          "downloads": 306
+        },
+        {
+          "month": "2025-09",
+          "downloads": 275
+        },
+        {
+          "month": "2025-10",
+          "downloads": 662
+        },
+        {
+          "month": "2025-11",
+          "downloads": 367
+        },
+        {
+          "month": "2025-12",
+          "downloads": 357
+        },
+        {
+          "month": "2026-01",
+          "downloads": 357
+        },
+        {
+          "month": "2026-02",
+          "downloads": 483
+        },
+        {
+          "month": "2026-03",
+          "downloads": 196
+        }
+      ],
+      "momGrowthPct": -59.42028985507246,
+      "isGrowing": false,
+      "stars": 2,
+      "description": "A mutation implementation for the riverpod community - made by Theodo",
+      "notFound": false,
+      "ecosystem": "pub",
+      "publishedAt": "2025-05-22T13:02:37.162979Z"
     },
     {
       "name": "app_attest_integrity",
