@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-23T00:17:51.378Z",
+  "generatedAt": "2026-04-23T06:33:14.075Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -3141,7 +3141,7 @@
     },
     {
       "name": "riverpod_community_mutation",
-      "totalDownloads": 4090,
+      "totalDownloads": 4092,
       "monthlyDownloads": [
         {
           "month": "2025-04",
@@ -3149,50 +3149,50 @@
         },
         {
           "month": "2025-05",
-          "downloads": 277
+          "downloads": 315
         },
         {
           "month": "2025-06",
-          "downloads": 330
+          "downloads": 292
         },
         {
           "month": "2025-07",
-          "downloads": 479
+          "downloads": 458
         },
         {
           "month": "2025-08",
-          "downloads": 304
+          "downloads": 330
         },
         {
           "month": "2025-09",
-          "downloads": 287
+          "downloads": 315
         },
         {
           "month": "2025-10",
-          "downloads": 658
+          "downloads": 652
         },
         {
           "month": "2025-11",
-          "downloads": 374
+          "downloads": 353
         },
         {
           "month": "2025-12",
-          "downloads": 319
+          "downloads": 317
         },
         {
           "month": "2026-01",
-          "downloads": 380
+          "downloads": 406
         },
         {
           "month": "2026-02",
-          "downloads": 495
+          "downloads": 487
         },
         {
           "month": "2026-03",
-          "downloads": 187
+          "downloads": 167
         }
       ],
-      "momGrowthPct": -62.22222222222222,
+      "momGrowthPct": -65.70841889117042,
       "isGrowing": false,
       "stars": 2,
       "description": "A mutation implementation for the riverpod community - made by Theodo",
@@ -3202,7 +3202,7 @@
     },
     {
       "name": "app_attest_integrity",
-      "totalDownloads": 794,
+      "totalDownloads": 797,
       "monthlyDownloads": [
         {
           "month": "2025-04",
@@ -3222,11 +3222,11 @@
         },
         {
           "month": "2025-08",
-          "downloads": 109
+          "downloads": 114
         },
         {
           "month": "2025-09",
-          "downloads": 178
+          "downloads": 175
         },
         {
           "month": "2025-10",
@@ -3234,26 +3234,26 @@
         },
         {
           "month": "2025-11",
-          "downloads": 38
+          "downloads": 37
         },
         {
           "month": "2025-12",
-          "downloads": 23
+          "downloads": 24
         },
         {
           "month": "2026-01",
-          "downloads": 225
+          "downloads": 233
         },
         {
           "month": "2026-02",
-          "downloads": 64
+          "downloads": 54
         },
         {
           "month": "2026-03",
-          "downloads": 101
+          "downloads": 104
         }
       ],
-      "momGrowthPct": 57.8125,
+      "momGrowthPct": 92.5925925925926,
       "isGrowing": true,
       "stars": 1,
       "description": "A Flutter plugin to assess an app integrity. Uses App attest on iOS and app Integrity on Android.",
