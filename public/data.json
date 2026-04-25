@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-25T00:14:26.505Z",
+  "generatedAt": "2026-04-25T06:26:18.959Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -3080,7 +3080,7 @@
     },
     {
       "name": "riverpod_community_mutation",
-      "totalDownloads": 4099,
+      "totalDownloads": 4110,
       "monthlyDownloads": [
         {
           "month": "2025-04",
@@ -3088,50 +3088,50 @@
         },
         {
           "month": "2025-05",
-          "downloads": 319
+          "downloads": 186
         },
         {
           "month": "2025-06",
-          "downloads": 291
+          "downloads": 437
         },
         {
           "month": "2025-07",
-          "downloads": 459
-        },
-        {
-          "month": "2025-08",
-          "downloads": 341
-        },
-        {
-          "month": "2025-09",
-          "downloads": 335
-        },
-        {
-          "month": "2025-10",
-          "downloads": 576
-        },
-        {
-          "month": "2025-11",
-          "downloads": 402
-        },
-        {
-          "month": "2025-12",
-          "downloads": 318
-        },
-        {
-          "month": "2026-01",
-          "downloads": 444
-        },
-        {
-          "month": "2026-02",
           "downloads": 453
         },
         {
+          "month": "2025-08",
+          "downloads": 338
+        },
+        {
+          "month": "2025-09",
+          "downloads": 393
+        },
+        {
+          "month": "2025-10",
+          "downloads": 514
+        },
+        {
+          "month": "2025-11",
+          "downloads": 439
+        },
+        {
+          "month": "2025-12",
+          "downloads": 281
+        },
+        {
+          "month": "2026-01",
+          "downloads": 339
+        },
+        {
+          "month": "2026-02",
+          "downloads": 491
+        },
+        {
           "month": "2026-03",
-          "downloads": 161
+          "downloads": 239
         }
       ],
-      "momGrowthPct": -64.45916114790286,
+      "momGrowthPct": -51.32382892057027,
       "isGrowing": false,
       "stars": 2,
       "description": "A mutation implementation for the riverpod community - made by Theodo",
