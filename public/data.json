@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-26T06:33:40.360Z",
+  "generatedAt": "2026-04-26T12:09:49.033Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -3141,7 +3141,7 @@
     },
     {
       "name": "riverpod_community_mutation",
-      "totalDownloads": 4110,
+      "totalDownloads": 4130,
       "monthlyDownloads": [
         {
           "month": "2025-04",
@@ -3149,50 +3149,50 @@
         },
         {
           "month": "2025-05",
-          "downloads": 186
+          "downloads": 210
         },
         {
           "month": "2025-06",
-          "downloads": 437
+          "downloads": 422
         },
         {
           "month": "2025-07",
-          "downloads": 453
+          "downloads": 448
         },
         {
           "month": "2025-08",
-          "downloads": 338
+          "downloads": 307
         },
         {
           "month": "2025-09",
-          "downloads": 393
+          "downloads": 432
         },
         {
           "month": "2025-10",
-          "downloads": 514
+          "downloads": 502
         },
         {
           "month": "2025-11",
-          "downloads": 439
+          "downloads": 368
         },
         {
           "month": "2025-12",
-          "downloads": 281
+          "downloads": 359
         },
         {
           "month": "2026-01",
-          "downloads": 339
+          "downloads": 358
         },
         {
           "month": "2026-02",
-          "downloads": 491
+          "downloads": 481
         },
         {
           "month": "2026-03",
-          "downloads": 239
+          "downloads": 243
         }
       ],
-      "momGrowthPct": -51.32382892057027,
+      "momGrowthPct": -49.48024948024948,
       "isGrowing": false,
       "stars": 2,
       "description": "A mutation implementation for the riverpod community - made by Theodo",
@@ -3263,7 +3263,7 @@
     },
     {
       "name": "flutter_lyra",
-      "totalDownloads": 6299,
+      "totalDownloads": 6305,
       "monthlyDownloads": [
         {
           "month": "2025-04",
@@ -3271,35 +3271,35 @@
         },
         {
           "month": "2025-05",
-          "downloads": 257
+          "downloads": 259
         },
         {
           "month": "2025-06",
-          "downloads": 617
+          "downloads": 665
         },
         {
           "month": "2025-07",
-          "downloads": 346
+          "downloads": 296
         },
         {
           "month": "2025-08",
-          "downloads": 119
+          "downloads": 115
         },
         {
           "month": "2025-09",
-          "downloads": 531
+          "downloads": 537
         },
         {
           "month": "2025-10",
-          "downloads": 403
+          "downloads": 401
         },
         {
           "month": "2025-11",
-          "downloads": 1890
+          "downloads": 1509
         },
         {
           "month": "2025-12",
-          "downloads": 968
+          "downloads": 1349
         },
         {
           "month": "2026-01",
@@ -3311,10 +3311,10 @@
         },
         {
           "month": "2026-03",
-          "downloads": 646
+          "downloads": 652
         }
       ],
-      "momGrowthPct": 145.62737642585552,
+      "momGrowthPct": 147.9087452471483,
       "isGrowing": true,
       "stars": 4,
       "description": "This package allows you to use the methods from the lyra android and ios native sdks in Flutter",
