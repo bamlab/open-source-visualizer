@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-28T12:29:39.521Z",
+  "generatedAt": "2026-04-28T18:27:46.705Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -332,7 +332,7 @@
       ],
       "momGrowthPct": 23.146264608511828,
       "isGrowing": true,
-      "stars": 761,
+      "stars": 762,
       "description": "Everyday tools for simpler React Native development",
       "notFound": false,
       "ecosystem": "npm"
@@ -1508,7 +1508,7 @@
       ],
       "momGrowthPct": 13.613802883479083,
       "isGrowing": true,
-      "stars": 761,
+      "stars": 762,
       "description": "Please see [@bam.tech/react-native-make](https://github.com/bamlab/react-native-make)",
       "notFound": false,
       "ecosystem": "npm"
@@ -3324,7 +3324,7 @@
     },
     {
       "name": "http_cache_mmkv_store",
-      "totalDownloads": 533,
+      "totalDownloads": 516,
       "monthlyDownloads": [
         {
           "month": "2025-04",
@@ -3336,35 +3336,35 @@
         },
         {
           "month": "2025-06",
-          "downloads": 109
+          "downloads": 113
         },
         {
           "month": "2025-07",
-          "downloads": 43
+          "downloads": 41
         },
         {
           "month": "2025-08",
-          "downloads": 33
+          "downloads": 32
         },
         {
           "month": "2025-09",
-          "downloads": 45
+          "downloads": 32
         },
         {
           "month": "2025-10",
-          "downloads": 33
+          "downloads": 49
         },
         {
           "month": "2025-11",
-          "downloads": 35
+          "downloads": 34
         },
         {
           "month": "2025-12",
-          "downloads": 39
+          "downloads": 40
         },
         {
           "month": "2026-01",
-          "downloads": 23
+          "downloads": 24
         },
         {
           "month": "2026-02",
@@ -3372,10 +3372,10 @@
         },
         {
           "month": "2026-03",
-          "downloads": 105
+          "downloads": 83
         }
       ],
-      "momGrowthPct": 54.41176470588235,
+      "momGrowthPct": 22.058823529411764,
       "isGrowing": true,
       "stars": 153,
       "description": "A DB cache store implementation with mmkv for dio_cache_interceptor and http_cache_client packages.",
