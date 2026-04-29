@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-29T12:25:52.276Z",
+  "generatedAt": "2026-04-29T18:26:04.057Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -248,7 +248,7 @@
       ],
       "momGrowthPct": 0.7978664296032892,
       "isGrowing": false,
-      "stars": 215,
+      "stars": 216,
       "description": "Easily implement usual security measures in React Native Expo apps",
       "notFound": false,
       "ecosystem": "npm"
