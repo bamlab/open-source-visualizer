@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-29T00:20:05.455Z",
+  "generatedAt": "2026-04-29T06:45:18.307Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -80,7 +80,7 @@
       ],
       "momGrowthPct": 22.78612467727882,
       "isGrowing": true,
-      "stars": 1661,
+      "stars": 1662,
       "description": "Rescale local images with React Native",
       "notFound": false,
       "ecosystem": "npm"
@@ -1172,7 +1172,7 @@
       ],
       "momGrowthPct": 22.376127312967675,
       "isGrowing": true,
-      "stars": 1661,
+      "stars": 1662,
       "description": "Rescale local images with React Native",
       "notFound": false,
       "ecosystem": "npm"
@@ -2775,58 +2775,54 @@
     },
     {
       "name": "adaptive_test",
-      "totalDownloads": 40157,
+      "totalDownloads": 40272,
       "monthlyDownloads": [
         {
-          "month": "2025-04",
-          "downloads": 428
-        },
-        {
           "month": "2025-05",
-          "downloads": 2226
+          "downloads": 2603
         },
         {
           "month": "2025-06",
-          "downloads": 2479
+          "downloads": 2483
         },
         {
           "month": "2025-07",
-          "downloads": 2443
+          "downloads": 2366
         },
         {
           "month": "2025-08",
-          "downloads": 1518
+          "downloads": 1574
         },
         {
           "month": "2025-09",
-          "downloads": 1892
+          "downloads": 1873
         },
         {
           "month": "2025-10",
-          "downloads": 3511
+          "downloads": 3544
         },
         {
           "month": "2025-11",
-          "downloads": 3956
+          "downloads": 4058
         },
         {
           "month": "2025-12",
-          "downloads": 5694
+          "downloads": 5170
         },
         {
           "month": "2026-01",
-          "downloads": 4457
+          "downloads": 4954
         },
         {
           "month": "2026-02",
-          "downloads": 5487
+          "downloads": 5500
         },
         {
           "month": "2026-03",
-          "downloads": 6066
+          "downloads": 6147
         }
       ],
-      "momGrowthPct": 10.552214324767633,
+      "momGrowthPct": 11.763636363636364,
       "isGrowing": true,
       "stars": 21,
       "description": "A Flutter package to generate adaptive golden files during widget tests.",
@@ -3015,12 +3011,8 @@
     },
     {
       "name": "flutter_milibris",
-      "totalDownloads": 216,
+      "totalDownloads": 309,
       "monthlyDownloads": [
-        {
-          "month": "2025-04",
-          "downloads": 0
-        },
         {
           "month": "2025-05",
           "downloads": 0
@@ -3063,7 +3055,7 @@
         },
         {
           "month": "2026-03",
-          "downloads": 216
+          "downloads": 309
         }
       ],
       "momGrowthPct": null,
@@ -3255,15 +3247,11 @@
     },
     {
       "name": "flutter_lyra",
-      "totalDownloads": 6171,
+      "totalDownloads": 6185,
       "monthlyDownloads": [
         {
-          "month": "2025-04",
-          "downloads": 34
-        },
-        {
           "month": "2025-05",
-          "downloads": 265
+          "downloads": 289
         },
         {
           "month": "2025-06",
@@ -3271,11 +3259,11 @@
         },
         {
           "month": "2025-07",
-          "downloads": 546
+          "downloads": 556
         },
         {
           "month": "2025-08",
-          "downloads": 104
+          "downloads": 94
         },
         {
           "month": "2025-09",
@@ -3287,26 +3275,26 @@
         },
         {
           "month": "2025-11",
-          "downloads": 1544
+          "downloads": 1570
         },
         {
           "month": "2025-12",
-          "downloads": 1313
+          "downloads": 1259
         },
         {
           "month": "2026-01",
-          "downloads": 225
+          "downloads": 274
         },
         {
           "month": "2026-02",
-          "downloads": 262
+          "downloads": 242
         },
         {
           "month": "2026-03",
-          "downloads": 520
+          "downloads": 543
         }
       ],
-      "momGrowthPct": 98.47328244274809,
+      "momGrowthPct": 124.3801652892562,
       "isGrowing": true,
       "stars": 4,
       "description": "This package allows you to use the methods from the lyra android and ios native sdks in Flutter",
@@ -3373,35 +3361,31 @@
     },
     {
       "name": "equatable_lint",
-      "totalDownloads": 3296,
+      "totalDownloads": 3294,
       "monthlyDownloads": [
         {
-          "month": "2025-04",
-          "downloads": 67
-        },
-        {
           "month": "2025-05",
-          "downloads": 690
+          "downloads": 768
         },
         {
           "month": "2025-06",
-          "downloads": 440
+          "downloads": 439
         },
         {
           "month": "2025-07",
-          "downloads": 642
+          "downloads": 659
         },
         {
           "month": "2025-08",
-          "downloads": 260
+          "downloads": 226
         },
         {
           "month": "2025-09",
-          "downloads": 260
+          "downloads": 269
         },
         {
           "month": "2025-10",
-          "downloads": 165
+          "downloads": 164
         },
         {
           "month": "2025-11",
@@ -3409,22 +3393,22 @@
         },
         {
           "month": "2025-12",
-          "downloads": 280
+          "downloads": 205
         },
         {
           "month": "2026-01",
-          "downloads": 94
+          "downloads": 159
         },
         {
           "month": "2026-02",
-          "downloads": 145
+          "downloads": 148
         },
         {
           "month": "2026-03",
-          "downloads": 132
+          "downloads": 136
         }
       ],
-      "momGrowthPct": -8.96551724137931,
+      "momGrowthPct": -8.108108108108109,
       "isGrowing": false,
       "stars": 6,
       "description": "This is a set of rules to make classes using Equatable more maintainable. We make sure here that every fields in an Equatable class is linked to the Equatable props getter.",
