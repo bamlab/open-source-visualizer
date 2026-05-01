@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-01T12:15:06.703Z",
+  "generatedAt": "2026-05-01T18:18:42.765Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2897,58 +2897,58 @@
     },
     {
       "name": "theodo_analysis",
-      "totalDownloads": 17416,
+      "totalDownloads": 17503,
       "monthlyDownloads": [
         {
           "month": "2025-05",
-          "downloads": 889
+          "downloads": 737
         },
         {
           "month": "2025-06",
-          "downloads": 1441
+          "downloads": 1736
         },
         {
           "month": "2025-07",
-          "downloads": 959
+          "downloads": 824
         },
         {
           "month": "2025-08",
-          "downloads": 623
+          "downloads": 626
         },
         {
           "month": "2025-09",
-          "downloads": 843
+          "downloads": 986
         },
         {
           "month": "2025-10",
-          "downloads": 1624
+          "downloads": 1471
         },
         {
           "month": "2025-11",
-          "downloads": 2726
+          "downloads": 2880
         },
         {
           "month": "2025-12",
-          "downloads": 1640
+          "downloads": 1487
         },
         {
           "month": "2026-01",
-          "downloads": 804
+          "downloads": 650
         },
         {
           "month": "2026-02",
-          "downloads": 1074
+          "downloads": 769
         },
         {
           "month": "2026-03",
-          "downloads": 1583
+          "downloads": 2233
         },
         {
           "month": "2026-04",
-          "downloads": 3210
+          "downloads": 3104
         }
       ],
-      "momGrowthPct": 102.77953253316487,
+      "momGrowthPct": 39.00582176444246,
       "isGrowing": true,
       "stars": 2,
       "description": "Lint and dcm rules for Dart and Flutter used internally at Theodo Apps.",
@@ -2958,7 +2958,7 @@
     },
     {
       "name": "init",
-      "totalDownloads": 9207,
+      "totalDownloads": 9289,
       "monthlyDownloads": [
         {
           "month": "2025-05",
@@ -2978,38 +2978,38 @@
         },
         {
           "month": "2025-09",
-          "downloads": 333
+          "downloads": 383
         },
         {
           "month": "2025-10",
-          "downloads": 517
+          "downloads": 469
         },
         {
           "month": "2025-11",
-          "downloads": 1784
+          "downloads": 1905
         },
         {
           "month": "2025-12",
-          "downloads": 1214
+          "downloads": 1095
         },
         {
           "month": "2026-01",
-          "downloads": 598
+          "downloads": 500
         },
         {
           "month": "2026-02",
-          "downloads": 456
+          "downloads": 427
         },
         {
           "month": "2026-03",
-          "downloads": 1177
+          "downloads": 1484
         },
         {
           "month": "2026-04",
-          "downloads": 3128
+          "downloads": 3026
         }
       ],
-      "momGrowthPct": 165.76040781648257,
+      "momGrowthPct": 103.90835579514825,
       "isGrowing": true,
       "stars": 1,
       "description": "Init widget to execute initialization methods declaratively",
@@ -3079,67 +3079,6 @@
       "publishedAt": "2026-03-23T17:17:27.908343Z"
     },
     {
-      "name": "flutter_reach_five",
-      "totalDownloads": 6753,
-      "monthlyDownloads": [
-        {
-          "month": "2025-05",
-          "downloads": 532
-        },
-        {
-          "month": "2025-06",
-          "downloads": 522
-        },
-        {
-          "month": "2025-07",
-          "downloads": 551
-        },
-        {
-          "month": "2025-08",
-          "downloads": 169
-        },
-        {
-          "month": "2025-09",
-          "downloads": 437
-        },
-        {
-          "month": "2025-10",
-          "downloads": 484
-        },
-        {
-          "month": "2025-11",
-          "downloads": 1562
-        },
-        {
-          "month": "2025-12",
-          "downloads": 1181
-        },
-        {
-          "month": "2026-01",
-          "downloads": 277
-        },
-        {
-          "month": "2026-02",
-          "downloads": 300
-        },
-        {
-          "month": "2026-03",
-          "downloads": 272
-        },
-        {
-          "month": "2026-04",
-          "downloads": 466
-        }
-      ],
-      "momGrowthPct": 71.32352941176471,
-      "isGrowing": true,
-      "stars": 3,
-      "description": "This package allows you to use the methods from the reachFive android and ios native sdks in Flutter",
-      "notFound": false,
-      "ecosystem": "pub",
-      "publishedAt": "2022-10-07T15:53:56.220179Z"
-    },
-    {
       "name": "riverpod_community_mutation",
       "totalDownloads": 4300,
       "monthlyDownloads": [
@@ -3201,8 +3140,69 @@
       "publishedAt": "2025-05-22T13:02:37.162979Z"
     },
     {
+      "name": "flutter_reach_five",
+      "totalDownloads": 6753,
+      "monthlyDownloads": [
+        {
+          "month": "2025-05",
+          "downloads": 532
+        },
+        {
+          "month": "2025-06",
+          "downloads": 522
+        },
+        {
+          "month": "2025-07",
+          "downloads": 551
+        },
+        {
+          "month": "2025-08",
+          "downloads": 169
+        },
+        {
+          "month": "2025-09",
+          "downloads": 437
+        },
+        {
+          "month": "2025-10",
+          "downloads": 484
+        },
+        {
+          "month": "2025-11",
+          "downloads": 1562
+        },
+        {
+          "month": "2025-12",
+          "downloads": 1181
+        },
+        {
+          "month": "2026-01",
+          "downloads": 277
+        },
+        {
+          "month": "2026-02",
+          "downloads": 300
+        },
+        {
+          "month": "2026-03",
+          "downloads": 272
+        },
+        {
+          "month": "2026-04",
+          "downloads": 466
+        }
+      ],
+      "momGrowthPct": 71.32352941176471,
+      "isGrowing": true,
+      "stars": 3,
+      "description": "This package allows you to use the methods from the reachFive android and ios native sdks in Flutter",
+      "notFound": false,
+      "ecosystem": "pub",
+      "publishedAt": "2022-10-07T15:53:56.220179Z"
+    },
+    {
       "name": "app_attest_integrity",
-      "totalDownloads": 917,
+      "totalDownloads": 921,
       "monthlyDownloads": [
         {
           "month": "2025-05",
@@ -3218,15 +3218,15 @@
         },
         {
           "month": "2025-08",
-          "downloads": 115
+          "downloads": 116
         },
         {
           "month": "2025-09",
-          "downloads": 176
+          "downloads": 177
         },
         {
           "month": "2025-10",
-          "downloads": 48
+          "downloads": 46
         },
         {
           "month": "2025-11",
@@ -3234,26 +3234,26 @@
         },
         {
           "month": "2025-12",
-          "downloads": 22
+          "downloads": 23
         },
         {
           "month": "2026-01",
-          "downloads": 236
+          "downloads": 140
         },
         {
           "month": "2026-02",
-          "downloads": 51
+          "downloads": 142
         },
         {
           "month": "2026-03",
-          "downloads": 112
+          "downloads": 119
         },
         {
           "month": "2026-04",
-          "downloads": 112
+          "downloads": 113
         }
       ],
-      "momGrowthPct": 0,
+      "momGrowthPct": -5.042016806722689,
       "isGrowing": false,
       "stars": 1,
       "description": "A Flutter plugin to assess an app integrity. Uses App attest on iOS and app Integrity on Android.",
