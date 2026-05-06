@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-06T12:31:11.964Z",
+  "generatedAt": "2026-05-06T18:29:03.672Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -248,7 +248,7 @@
       ],
       "momGrowthPct": -4.262027605062398,
       "isGrowing": false,
-      "stars": 217,
+      "stars": 218,
       "description": "Easily implement usual security measures in React Native Expo apps",
       "notFound": false,
       "ecosystem": "npm"
@@ -2775,58 +2775,58 @@
     },
     {
       "name": "adaptive_test",
-      "totalDownloads": 49297,
+      "totalDownloads": 47975,
       "monthlyDownloads": [
         {
           "month": "2025-05",
-          "downloads": 2241
+          "downloads": 2212
         },
         {
           "month": "2025-06",
-          "downloads": 2483
+          "downloads": 2588
         },
         {
           "month": "2025-07",
-          "downloads": 2366
+          "downloads": 2006
         },
         {
           "month": "2025-08",
-          "downloads": 1574
+          "downloads": 1790
         },
         {
           "month": "2025-09",
-          "downloads": 1873
+          "downloads": 1965
         },
         {
           "month": "2025-10",
-          "downloads": 3544
+          "downloads": 3502
         },
         {
           "month": "2025-11",
-          "downloads": 4058
+          "downloads": 4327
         },
         {
           "month": "2025-12",
-          "downloads": 5170
+          "downloads": 4968
         },
         {
           "month": "2026-01",
-          "downloads": 4954
+          "downloads": 5028
         },
         {
           "month": "2026-02",
-          "downloads": 5500
+          "downloads": 5564
         },
         {
           "month": "2026-03",
-          "downloads": 6147
+          "downloads": 6173
         },
         {
           "month": "2026-04",
-          "downloads": 9387
+          "downloads": 7852
         }
       ],
-      "momGrowthPct": 52.7086383601757,
+      "momGrowthPct": 27.199092823586586,
       "isGrowing": true,
       "stars": 21,
       "description": "A Flutter package to generate adaptive golden files during widget tests.",
@@ -3019,7 +3019,7 @@
     },
     {
       "name": "flutter_milibris",
-      "totalDownloads": 3527,
+      "totalDownloads": 3182,
       "monthlyDownloads": [
         {
           "month": "2025-05",
@@ -3063,14 +3063,14 @@
         },
         {
           "month": "2026-03",
-          "downloads": 309
+          "downloads": 369
         },
         {
           "month": "2026-04",
-          "downloads": 3218
+          "downloads": 2813
         }
       ],
-      "momGrowthPct": 941.4239482200647,
+      "momGrowthPct": 662.3306233062331,
       "isGrowing": true,
       "stars": 0,
       "description": "A Flutter plugin that bridges Milibris SDKs, enabling encrypted archive",
@@ -3324,7 +3324,7 @@
     },
     {
       "name": "http_cache_mmkv_store",
-      "totalDownloads": 603,
+      "totalDownloads": 592,
       "monthlyDownloads": [
         {
           "month": "2025-05",
@@ -3336,31 +3336,31 @@
         },
         {
           "month": "2025-07",
-          "downloads": 41
-        },
-        {
-          "month": "2025-08",
-          "downloads": 32
-        },
-        {
-          "month": "2025-09",
-          "downloads": 35
-        },
-        {
-          "month": "2025-10",
-          "downloads": 46
-        },
-        {
-          "month": "2025-11",
           "downloads": 36
         },
         {
+          "month": "2025-08",
+          "downloads": 37
+        },
+        {
+          "month": "2025-09",
+          "downloads": 38
+        },
+        {
+          "month": "2025-10",
+          "downloads": 43
+        },
+        {
+          "month": "2025-11",
+          "downloads": 39
+        },
+        {
           "month": "2025-12",
-          "downloads": 32
+          "downloads": 29
         },
         {
           "month": "2026-01",
-          "downloads": 30
+          "downloads": 33
         },
         {
           "month": "2026-02",
@@ -3368,14 +3368,14 @@
         },
         {
           "month": "2026-03",
-          "downloads": 84
+          "downloads": 85
         },
         {
           "month": "2026-04",
-          "downloads": 85
+          "downloads": 70
         }
       ],
-      "momGrowthPct": 1.1904761904761905,
+      "momGrowthPct": -17.647058823529413,
       "isGrowing": false,
       "stars": 153,
       "description": "A DB cache store implementation with mmkv for dio_cache_interceptor and http_cache_client packages.",
