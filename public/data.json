@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-07T00:19:12.041Z",
+  "generatedAt": "2026-05-07T06:53:59.607Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -1340,7 +1340,7 @@
       ],
       "momGrowthPct": -19.992590763151398,
       "isGrowing": false,
-      "stars": 1022,
+      "stars": 1023,
       "description": "ScrollView with an image in header which become a navbar",
       "notFound": false,
       "ecosystem": "npm"
@@ -3194,7 +3194,7 @@
       ],
       "momGrowthPct": 17.365269461077844,
       "isGrowing": true,
-      "stars": 2,
+      "stars": 3,
       "description": "A mutation implementation for the riverpod community - made by Theodo",
       "notFound": false,
       "ecosystem": "pub",
