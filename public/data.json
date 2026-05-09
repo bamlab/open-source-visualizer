@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-05-08T18:24:43.193Z",
+  "generatedAt": "2026-05-09T00:20:52.937Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
-      "totalDownloads": 3565792,
+      "totalDownloads": 3561052,
       "monthlyDownloads": [
         {
           "month": "2024-11",
-          "downloads": 87933
+          "downloads": 83193
         },
         {
           "month": "2024-12",
@@ -171,11 +171,11 @@
     },
     {
       "name": "@bam.tech/react-native-app-security",
-      "totalDownloads": 300415,
+      "totalDownloads": 300360,
       "monthlyDownloads": [
         {
           "month": "2024-11",
-          "downloads": 1904
+          "downloads": 1849
         },
         {
           "month": "2024-12",
@@ -255,11 +255,11 @@
     },
     {
       "name": "@bam.tech/react-native-make",
-      "totalDownloads": 336442,
+      "totalDownloads": 335806,
       "monthlyDownloads": [
         {
           "month": "2024-11",
-          "downloads": 8872
+          "downloads": 8236
         },
         {
           "month": "2024-12",
@@ -339,11 +339,11 @@
     },
     {
       "name": "@bam.tech/eslint-plugin",
-      "totalDownloads": 133435,
+      "totalDownloads": 133170,
       "monthlyDownloads": [
         {
           "month": "2024-11",
-          "downloads": 5142
+          "downloads": 4877
         },
         {
           "month": "2024-12",
@@ -423,11 +423,11 @@
     },
     {
       "name": "@bam.tech/react-native-config",
-      "totalDownloads": 75426,
+      "totalDownloads": 75334,
       "monthlyDownloads": [
         {
           "month": "2024-11",
-          "downloads": 1825
+          "downloads": 1733
         },
         {
           "month": "2024-12",
@@ -507,11 +507,11 @@
     },
     {
       "name": "@bam.tech/react-native-keyevent-expo-config-plugin",
-      "totalDownloads": 63435,
+      "totalDownloads": 63309,
       "monthlyDownloads": [
         {
           "month": "2024-11",
-          "downloads": 2511
+          "downloads": 2385
         },
         {
           "month": "2024-12",
@@ -591,11 +591,11 @@
     },
     {
       "name": "@bam.tech/lrud",
-      "totalDownloads": 55084,
+      "totalDownloads": 55044,
       "monthlyDownloads": [
         {
           "month": "2024-11",
-          "downloads": 1030
+          "downloads": 990
         },
         {
           "month": "2024-12",
@@ -675,11 +675,11 @@
     },
     {
       "name": "@bam.tech/flow-navigator",
-      "totalDownloads": 92725,
+      "totalDownloads": 92658,
       "monthlyDownloads": [
         {
           "month": "2024-11",
-          "downloads": 749
+          "downloads": 682
         },
         {
           "month": "2024-12",
@@ -759,11 +759,11 @@
     },
     {
       "name": "@bam.tech/react-native-graphql-transformer",
-      "totalDownloads": 48153,
+      "totalDownloads": 47949,
       "monthlyDownloads": [
         {
           "month": "2024-11",
-          "downloads": 3751
+          "downloads": 3547
         },
         {
           "month": "2024-12",
@@ -843,11 +843,11 @@
     },
     {
       "name": "@bam.tech/tanstack-query-detect-waterfall",
-      "totalDownloads": 15047,
+      "totalDownloads": 15013,
       "monthlyDownloads": [
         {
           "month": "2024-11",
-          "downloads": 389
+          "downloads": 355
         },
         {
           "month": "2024-12",
@@ -1011,11 +1011,11 @@
     },
     {
       "name": "react-native-performance",
-      "totalDownloads": 12297984,
+      "totalDownloads": 12282958,
       "monthlyDownloads": [
         {
           "month": "2024-11",
-          "downloads": 248971
+          "downloads": 233945
         },
         {
           "month": "2024-12",
@@ -1095,11 +1095,11 @@
     },
     {
       "name": "react-native-image-resizer",
-      "totalDownloads": 2865383,
+      "totalDownloads": 2859469,
       "monthlyDownloads": [
         {
           "month": "2024-11",
-          "downloads": 115390
+          "downloads": 109476
         },
         {
           "month": "2024-12",
@@ -1179,11 +1179,11 @@
     },
     {
       "name": "react-native-hide-with-keyboard",
-      "totalDownloads": 147342,
+      "totalDownloads": 146979,
       "monthlyDownloads": [
         {
           "month": "2024-11",
-          "downloads": 8428
+          "downloads": 8065
         },
         {
           "month": "2024-12",
@@ -1263,11 +1263,11 @@
     },
     {
       "name": "react-native-image-header-scroll-view",
-      "totalDownloads": 101193,
+      "totalDownloads": 100927,
       "monthlyDownloads": [
         {
           "month": "2024-11",
-          "downloads": 3974
+          "downloads": 3708
         },
         {
           "month": "2024-12",
@@ -1347,11 +1347,11 @@
     },
     {
       "name": "generator-rn-toolbox",
-      "totalDownloads": 79987,
+      "totalDownloads": 79861,
       "monthlyDownloads": [
         {
           "month": "2024-11",
-          "downloads": 2788
+          "downloads": 2662
         },
         {
           "month": "2024-12",
@@ -1431,11 +1431,11 @@
     },
     {
       "name": "react-native-make",
-      "totalDownloads": 65208,
+      "totalDownloads": 65200,
       "monthlyDownloads": [
         {
           "month": "2024-11",
-          "downloads": 425
+          "downloads": 417
         },
         {
           "month": "2024-12",
@@ -1515,11 +1515,11 @@
     },
     {
       "name": "redux-enhancer-react-native-appstate",
-      "totalDownloads": 85729,
+      "totalDownloads": 85492,
       "monthlyDownloads": [
         {
           "month": "2024-11",
-          "downloads": 3124
+          "downloads": 2887
         },
         {
           "month": "2024-12",
@@ -1599,11 +1599,11 @@
     },
     {
       "name": "react-tv-space-navigation",
-      "totalDownloads": 57678,
+      "totalDownloads": 57635,
       "monthlyDownloads": [
         {
           "month": "2024-11",
-          "downloads": 1290
+          "downloads": 1247
         },
         {
           "month": "2024-12",
@@ -1683,11 +1683,11 @@
     },
     {
       "name": "react-native-formik",
-      "totalDownloads": 181820,
+      "totalDownloads": 181134,
       "monthlyDownloads": [
         {
           "month": "2024-11",
-          "downloads": 8256
+          "downloads": 7570
         },
         {
           "month": "2024-12",
@@ -1767,11 +1767,11 @@
     },
     {
       "name": "rn-camera-roll",
-      "totalDownloads": 621,
+      "totalDownloads": 606,
       "monthlyDownloads": [
         {
           "month": "2024-11",
-          "downloads": 39
+          "downloads": 24
         },
         {
           "month": "2024-12",
@@ -1851,11 +1851,11 @@
     },
     {
       "name": "react-native-braintree-payments-drop-in",
-      "totalDownloads": 2600,
+      "totalDownloads": 2598,
       "monthlyDownloads": [
         {
           "month": "2024-11",
-          "downloads": 167
+          "downloads": 165
         },
         {
           "month": "2024-12",
@@ -2019,11 +2019,11 @@
     },
     {
       "name": "react-redux-toolbox",
-      "totalDownloads": 37452,
+      "totalDownloads": 37374,
       "monthlyDownloads": [
         {
           "month": "2024-11",
-          "downloads": 975
+          "downloads": 897
         },
         {
           "month": "2024-12",
@@ -2103,11 +2103,11 @@
     },
     {
       "name": "react-native-debugger-utils",
-      "totalDownloads": 199,
+      "totalDownloads": 198,
       "monthlyDownloads": [
         {
           "month": "2024-11",
-          "downloads": 9
+          "downloads": 8
         },
         {
           "month": "2024-12",
@@ -2271,11 +2271,11 @@
     },
     {
       "name": "react-native-photo-guideline-grid",
-      "totalDownloads": 218,
+      "totalDownloads": 216,
       "monthlyDownloads": [
         {
           "month": "2024-11",
-          "downloads": 9
+          "downloads": 7
         },
         {
           "month": "2024-12",
@@ -2355,11 +2355,11 @@
     },
     {
       "name": "generator-module-react-native",
-      "totalDownloads": 243,
+      "totalDownloads": 242,
       "monthlyDownloads": [
         {
           "month": "2024-11",
-          "downloads": 4
+          "downloads": 3
         },
         {
           "month": "2024-12",
@@ -2523,11 +2523,11 @@
     },
     {
       "name": "react-native-numberpicker-dialog",
-      "totalDownloads": 1454,
+      "totalDownloads": 1453,
       "monthlyDownloads": [
         {
           "month": "2024-11",
-          "downloads": 7
+          "downloads": 6
         },
         {
           "month": "2024-12",
@@ -2836,58 +2836,58 @@
     },
     {
       "name": "riverpod_community_extensions",
-      "totalDownloads": 10139,
+      "totalDownloads": 10138,
       "monthlyDownloads": [
         {
           "month": "2025-05",
-          "downloads": 226
+          "downloads": 160
         },
         {
           "month": "2025-06",
-          "downloads": 703
+          "downloads": 846
         },
         {
           "month": "2025-07",
-          "downloads": 531
+          "downloads": 454
         },
         {
           "month": "2025-08",
-          "downloads": 271
+          "downloads": 273
         },
         {
           "month": "2025-09",
-          "downloads": 683
+          "downloads": 791
         },
         {
           "month": "2025-10",
-          "downloads": 883
+          "downloads": 772
         },
         {
           "month": "2025-11",
-          "downloads": 2031
+          "downloads": 2185
         },
         {
           "month": "2025-12",
-          "downloads": 1397
+          "downloads": 1247
         },
         {
           "month": "2026-01",
-          "downloads": 898
+          "downloads": 730
         },
         {
           "month": "2026-02",
-          "downloads": 744
+          "downloads": 737
         },
         {
           "month": "2026-03",
-          "downloads": 854
+          "downloads": 1094
         },
         {
           "month": "2026-04",
-          "downloads": 918
+          "downloads": 849
         }
       ],
-      "momGrowthPct": 7.494145199063232,
+      "momGrowthPct": -22.394881170018284,
       "isGrowing": false,
       "stars": 10,
       "description": "Extends Riverpod ref types with additional helpers, to easily add common functionalities to your providers.",
@@ -3080,59 +3080,59 @@
     },
     {
       "name": "riverpod_community_mutation",
-      "totalDownloads": 4297,
+      "totalDownloads": 4300,
       "monthlyDownloads": [
         {
           "month": "2025-05",
-          "downloads": 319
+          "downloads": 186
         },
         {
           "month": "2025-06",
-          "downloads": 291
+          "downloads": 437
         },
         {
           "month": "2025-07",
-          "downloads": 459
-        },
-        {
-          "month": "2025-08",
-          "downloads": 341
-        },
-        {
-          "month": "2025-09",
-          "downloads": 335
-        },
-        {
-          "month": "2025-10",
-          "downloads": 576
-        },
-        {
-          "month": "2025-11",
-          "downloads": 402
-        },
-        {
-          "month": "2025-12",
-          "downloads": 318
-        },
-        {
-          "month": "2026-01",
-          "downloads": 444
-        },
-        {
-          "month": "2026-02",
           "downloads": 453
         },
         {
+          "month": "2025-08",
+          "downloads": 338
+        },
+        {
+          "month": "2025-09",
+          "downloads": 393
+        },
+        {
+          "month": "2025-10",
+          "downloads": 514
+        },
+        {
+          "month": "2025-11",
+          "downloads": 439
+        },
+        {
+          "month": "2025-12",
+          "downloads": 281
+        },
+        {
+          "month": "2026-01",
+          "downloads": 339
+        },
+        {
+          "month": "2026-02",
+          "downloads": 491
+        },
+        {
           "month": "2026-03",
-          "downloads": 161
+          "downloads": 239
         },
         {
           "month": "2026-04",
-          "downloads": 198
+          "downloads": 190
         }
       ],
-      "momGrowthPct": 22.981366459627328,
-      "isGrowing": true,
+      "momGrowthPct": -20.502092050209207,
+      "isGrowing": false,
       "stars": 3,
       "description": "A mutation implementation for the riverpod community - made by Theodo",
       "notFound": false,
@@ -3202,7 +3202,7 @@
     },
     {
       "name": "app_attest_integrity",
-      "totalDownloads": 917,
+      "totalDownloads": 921,
       "monthlyDownloads": [
         {
           "month": "2025-05",
@@ -3218,15 +3218,15 @@
         },
         {
           "month": "2025-08",
-          "downloads": 115
+          "downloads": 116
         },
         {
           "month": "2025-09",
-          "downloads": 176
+          "downloads": 177
         },
         {
           "month": "2025-10",
-          "downloads": 48
+          "downloads": 46
         },
         {
           "month": "2025-11",
@@ -3234,26 +3234,26 @@
         },
         {
           "month": "2025-12",
-          "downloads": 22
+          "downloads": 23
         },
         {
           "month": "2026-01",
-          "downloads": 236
+          "downloads": 140
         },
         {
           "month": "2026-02",
-          "downloads": 51
+          "downloads": 142
         },
         {
           "month": "2026-03",
-          "downloads": 112
+          "downloads": 119
         },
         {
           "month": "2026-04",
-          "downloads": 112
+          "downloads": 113
         }
       ],
-      "momGrowthPct": 0,
+      "momGrowthPct": -5.042016806722689,
       "isGrowing": false,
       "stars": 1,
       "description": "A Flutter plugin to assess an app integrity. Uses App attest on iOS and app Integrity on Android.",
@@ -3332,15 +3332,15 @@
         },
         {
           "month": "2025-06",
-          "downloads": 114
+          "downloads": 115
         },
         {
           "month": "2025-07",
-          "downloads": 35
+          "downloads": 37
         },
         {
           "month": "2025-08",
-          "downloads": 39
+          "downloads": 38
         },
         {
           "month": "2025-09",
@@ -3348,7 +3348,7 @@
         },
         {
           "month": "2025-10",
-          "downloads": 36
+          "downloads": 34
         },
         {
           "month": "2025-11",
@@ -3356,26 +3356,26 @@
         },
         {
           "month": "2025-12",
-          "downloads": 28
+          "downloads": 29
         },
         {
           "month": "2026-01",
-          "downloads": 35
+          "downloads": 22
         },
         {
           "month": "2026-02",
-          "downloads": 70
+          "downloads": 67
         },
         {
           "month": "2026-03",
-          "downloads": 84
+          "downloads": 101
         },
         {
           "month": "2026-04",
-          "downloads": 70
+          "downloads": 68
         }
       ],
-      "momGrowthPct": -16.666666666666664,
+      "momGrowthPct": -32.67326732673268,
       "isGrowing": false,
       "stars": 153,
       "description": "A DB cache store implementation with mmkv for dio_cache_interceptor and http_cache_client packages.",
@@ -3385,58 +3385,58 @@
     },
     {
       "name": "equatable_lint",
-      "totalDownloads": 3263,
+      "totalDownloads": 3231,
       "monthlyDownloads": [
         {
           "month": "2025-05",
-          "downloads": 675
+          "downloads": 541
         },
         {
           "month": "2025-06",
-          "downloads": 493
+          "downloads": 639
         },
         {
           "month": "2025-07",
-          "downloads": 479
+          "downloads": 452
         },
         {
           "month": "2025-08",
-          "downloads": 325
+          "downloads": 312
         },
         {
           "month": "2025-09",
-          "downloads": 275
+          "downloads": 277
         },
         {
           "month": "2025-10",
-          "downloads": 127
+          "downloads": 121
         },
         {
           "month": "2025-11",
-          "downloads": 160
+          "downloads": 159
         },
         {
           "month": "2025-12",
-          "downloads": 246
+          "downloads": 247
         },
         {
           "month": "2026-01",
-          "downloads": 106
+          "downloads": 88
         },
         {
           "month": "2026-02",
-          "downloads": 148
+          "downloads": 141
         },
         {
           "month": "2026-03",
-          "downloads": 134
+          "downloads": 159
         },
         {
           "month": "2026-04",
           "downloads": 95
         }
       ],
-      "momGrowthPct": -29.1044776119403,
+      "momGrowthPct": -40.25157232704403,
       "isGrowing": false,
       "stars": 6,
       "description": "This is a set of rules to make classes using Equatable more maintainable. We make sure here that every fields in an Equatable class is linked to the Equatable props getter.",
