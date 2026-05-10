@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-10T06:54:57.290Z",
+  "generatedAt": "2026-05-10T12:13:39.362Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -927,9 +927,82 @@
     },
     {
       "name": "@bam.tech/react-native-batch",
-      "totalDownloads": 0,
-      "monthlyDownloads": [],
-      "momGrowthPct": null,
+      "totalDownloads": 7282,
+      "monthlyDownloads": [
+        {
+          "month": "2024-11",
+          "downloads": 18
+        },
+        {
+          "month": "2024-12",
+          "downloads": 64
+        },
+        {
+          "month": "2025-01",
+          "downloads": 50
+        },
+        {
+          "month": "2025-02",
+          "downloads": 125
+        },
+        {
+          "month": "2025-03",
+          "downloads": 146
+        },
+        {
+          "month": "2025-04",
+          "downloads": 65
+        },
+        {
+          "month": "2025-05",
+          "downloads": 21
+        },
+        {
+          "month": "2025-06",
+          "downloads": 1435
+        },
+        {
+          "month": "2025-07",
+          "downloads": 518
+        },
+        {
+          "month": "2025-08",
+          "downloads": 13
+        },
+        {
+          "month": "2025-09",
+          "downloads": 137
+        },
+        {
+          "month": "2025-10",
+          "downloads": 278
+        },
+        {
+          "month": "2025-11",
+          "downloads": 1766
+        },
+        {
+          "month": "2025-12",
+          "downloads": 724
+        },
+        {
+          "month": "2026-01",
+          "downloads": 115
+        },
+        {
+          "month": "2026-02",
+          "downloads": 99
+        },
+        {
+          "month": "2026-03",
+          "downloads": 785
+        },
+        {
+          "month": "2026-04",
+          "downloads": 854
+        }
+      ],
+      "momGrowthPct": 8.789808917197451,
       "isGrowing": false,
       "stars": 39,
       "description": "React Native integration of Batch.com SDK",
@@ -938,9 +1011,82 @@
     },
     {
       "name": "react-native-performance",
-      "totalDownloads": 0,
-      "monthlyDownloads": [],
-      "momGrowthPct": null,
+      "totalDownloads": 12356823,
+      "monthlyDownloads": [
+        {
+          "month": "2024-11",
+          "downloads": 232147
+        },
+        {
+          "month": "2024-12",
+          "downloads": 232056
+        },
+        {
+          "month": "2025-01",
+          "downloads": 393197
+        },
+        {
+          "month": "2025-02",
+          "downloads": 528990
+        },
+        {
+          "month": "2025-03",
+          "downloads": 884084
+        },
+        {
+          "month": "2025-04",
+          "downloads": 660717
+        },
+        {
+          "month": "2025-05",
+          "downloads": 553350
+        },
+        {
+          "month": "2025-06",
+          "downloads": 472284
+        },
+        {
+          "month": "2025-07",
+          "downloads": 383152
+        },
+        {
+          "month": "2025-08",
+          "downloads": 464099
+        },
+        {
+          "month": "2025-09",
+          "downloads": 679637
+        },
+        {
+          "month": "2025-10",
+          "downloads": 716371
+        },
+        {
+          "month": "2025-11",
+          "downloads": 790431
+        },
+        {
+          "month": "2025-12",
+          "downloads": 878642
+        },
+        {
+          "month": "2026-01",
+          "downloads": 1022766
+        },
+        {
+          "month": "2026-02",
+          "downloads": 1096557
+        },
+        {
+          "month": "2026-03",
+          "downloads": 1031120
+        },
+        {
+          "month": "2026-04",
+          "downloads": 953163
+        }
+      ],
+      "momGrowthPct": -7.560419737760881,
       "isGrowing": false,
       "stars": 1045,
       "description": "Measure React Native performance",
@@ -949,9 +1095,82 @@
     },
     {
       "name": "react-native-image-resizer",
-      "totalDownloads": 0,
-      "monthlyDownloads": [],
-      "momGrowthPct": null,
+      "totalDownloads": 2865756,
+      "monthlyDownloads": [
+        {
+          "month": "2024-11",
+          "downloads": 108601
+        },
+        {
+          "month": "2024-12",
+          "downloads": 134311
+        },
+        {
+          "month": "2025-01",
+          "downloads": 141258
+        },
+        {
+          "month": "2025-02",
+          "downloads": 141162
+        },
+        {
+          "month": "2025-03",
+          "downloads": 182774
+        },
+        {
+          "month": "2025-04",
+          "downloads": 170550
+        },
+        {
+          "month": "2025-05",
+          "downloads": 171441
+        },
+        {
+          "month": "2025-06",
+          "downloads": 175743
+        },
+        {
+          "month": "2025-07",
+          "downloads": 172951
+        },
+        {
+          "month": "2025-08",
+          "downloads": 181572
+        },
+        {
+          "month": "2025-09",
+          "downloads": 201715
+        },
+        {
+          "month": "2025-10",
+          "downloads": 166782
+        },
+        {
+          "month": "2025-11",
+          "downloads": 152167
+        },
+        {
+          "month": "2025-12",
+          "downloads": 144926
+        },
+        {
+          "month": "2026-01",
+          "downloads": 148331
+        },
+        {
+          "month": "2026-02",
+          "downloads": 132838
+        },
+        {
+          "month": "2026-03",
+          "downloads": 162562
+        },
+        {
+          "month": "2026-04",
+          "downloads": 140246
+        }
+      ],
+      "momGrowthPct": -13.72768543694098,
       "isGrowing": false,
       "stars": 1662,
       "description": "Rescale local images with React Native",
