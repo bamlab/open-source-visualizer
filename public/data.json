@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-12T12:33:56.829Z",
+  "generatedAt": "2026-05-12T18:32:14.939Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2836,7 +2836,7 @@
     },
     {
       "name": "riverpod_community_extensions",
-      "totalDownloads": 10124,
+      "totalDownloads": 10155,
       "monthlyDownloads": [
         {
           "month": "2025-05",
@@ -2844,50 +2844,50 @@
         },
         {
           "month": "2025-06",
-          "downloads": 641
+          "downloads": 646
         },
         {
           "month": "2025-07",
-          "downloads": 661
+          "downloads": 657
         },
         {
           "month": "2025-08",
-          "downloads": 239
+          "downloads": 240
         },
         {
           "month": "2025-09",
-          "downloads": 579
+          "downloads": 594
         },
         {
           "month": "2025-10",
-          "downloads": 1016
+          "downloads": 1009
         },
         {
           "month": "2025-11",
-          "downloads": 1759
+          "downloads": 1790
         },
         {
           "month": "2025-12",
-          "downloads": 1698
+          "downloads": 1581
         },
         {
           "month": "2026-01",
-          "downloads": 738
+          "downloads": 841
         },
         {
           "month": "2026-02",
-          "downloads": 728
+          "downloads": 719
         },
         {
           "month": "2026-03",
-          "downloads": 831
+          "downloads": 838
         },
         {
           "month": "2026-04",
-          "downloads": 1090
+          "downloads": 1096
         }
       ],
-      "momGrowthPct": 31.167268351383875,
+      "momGrowthPct": 30.787589498806682,
       "isGrowing": true,
       "stars": 10,
       "description": "Extends Riverpod ref types with additional helpers, to easily add common functionalities to your providers.",
@@ -3019,7 +3019,7 @@
     },
     {
       "name": "flutter_milibris",
-      "totalDownloads": 3428,
+      "totalDownloads": 3527,
       "monthlyDownloads": [
         {
           "month": "2025-05",
@@ -3063,14 +3063,14 @@
         },
         {
           "month": "2026-03",
-          "downloads": 216
+          "downloads": 309
         },
         {
           "month": "2026-04",
-          "downloads": 3212
+          "downloads": 3218
         }
       ],
-      "momGrowthPct": 1387.037037037037,
+      "momGrowthPct": 941.4239482200647,
       "isGrowing": true,
       "stars": 0,
       "description": "A Flutter plugin that bridges Milibris SDKs, enabling encrypted archive",
@@ -3202,7 +3202,7 @@
     },
     {
       "name": "app_attest_integrity",
-      "totalDownloads": 931,
+      "totalDownloads": 933,
       "monthlyDownloads": [
         {
           "month": "2025-05",
@@ -3218,42 +3218,42 @@
         },
         {
           "month": "2025-08",
-          "downloads": 107
+          "downloads": 109
         },
         {
           "month": "2025-09",
-          "downloads": 177
+          "downloads": 178
         },
         {
           "month": "2025-10",
-          "downloads": 59
+          "downloads": 56
         },
         {
           "month": "2025-11",
-          "downloads": 36
+          "downloads": 38
         },
         {
           "month": "2025-12",
-          "downloads": 32
+          "downloads": 23
         },
         {
           "month": "2026-01",
-          "downloads": 216
+          "downloads": 225
         },
         {
           "month": "2026-02",
-          "downloads": 66
+          "downloads": 64
         },
         {
           "month": "2026-03",
-          "downloads": 100
+          "downloads": 101
         },
         {
           "month": "2026-04",
-          "downloads": 138
+          "downloads": 139
         }
       ],
-      "momGrowthPct": 38,
+      "momGrowthPct": 37.62376237623762,
       "isGrowing": true,
       "stars": 1,
       "description": "A Flutter plugin to assess an app integrity. Uses App attest on iOS and app Integrity on Android.",
