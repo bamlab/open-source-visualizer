@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-24T07:00:28.200Z",
+  "generatedAt": "2026-05-24T12:17:56.618Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -3080,7 +3080,7 @@
     },
     {
       "name": "app_attest_integrity",
-      "totalDownloads": 924,
+      "totalDownloads": 926,
       "monthlyDownloads": [
         {
           "month": "2025-05",
@@ -3100,11 +3100,11 @@
         },
         {
           "month": "2025-09",
-          "downloads": 190
+          "downloads": 191
         },
         {
           "month": "2025-10",
-          "downloads": 43
+          "downloads": 42
         },
         {
           "month": "2025-11",
@@ -3116,22 +3116,22 @@
         },
         {
           "month": "2026-01",
-          "downloads": 162
+          "downloads": 186
         },
         {
           "month": "2026-02",
-          "downloads": 121
+          "downloads": 98
         },
         {
           "month": "2026-03",
-          "downloads": 120
+          "downloads": 121
         },
         {
           "month": "2026-04",
           "downloads": 114
         }
       ],
-      "momGrowthPct": -5,
+      "momGrowthPct": -5.785123966942149,
       "isGrowing": false,
       "stars": 1,
       "description": "A Flutter plugin to assess an app integrity. Uses App attest on iOS and app Integrity on Android.",
@@ -3202,19 +3202,19 @@
     },
     {
       "name": "flutter_reach_five",
-      "totalDownloads": 6313,
+      "totalDownloads": 6308,
       "monthlyDownloads": [
         {
           "month": "2025-05",
-          "downloads": 53
+          "downloads": 45
         },
         {
           "month": "2025-06",
-          "downloads": 734
+          "downloads": 490
         },
         {
           "month": "2025-07",
-          "downloads": 354
+          "downloads": 598
         },
         {
           "month": "2025-08",
@@ -3242,19 +3242,19 @@
         },
         {
           "month": "2026-02",
-          "downloads": 297
+          "downloads": 317
         },
         {
           "month": "2026-03",
-          "downloads": 393
+          "downloads": 374
         },
         {
           "month": "2026-04",
-          "downloads": 422
+          "downloads": 424
         }
       ],
-      "momGrowthPct": 7.37913486005089,
-      "isGrowing": false,
+      "momGrowthPct": 13.368983957219251,
+      "isGrowing": true,
       "stars": 3,
       "description": "This package allows you to use the methods from the reachFive android and ios native sdks in Flutter",
       "notFound": false,
