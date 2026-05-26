@@ -1,3 +1,4 @@
+import { BarChart, Bar, XAxis, YAxis, ResponsiveContainer, LabelList } from 'recharts';
 import type { PrRecord } from '../types';
 
 interface Props {
@@ -15,8 +16,9 @@ export function PrStatusPanel({ prs }: Props) {
     const y = pr.createdAt.slice(0, 4);
     byYear.set(y, (byYear.get(y) ?? 0) + 1);
   }
-  const years = Array.from(byYear.entries()).sort(([a], [b]) => a.localeCompare(b));
-  const maxYear = Math.max(...years.map(([, c]) => c), 1);
+  const chartData = Array.from(byYear.entries())
+    .sort(([a], [b]) => a.localeCompare(b))
+    .map(([year, count]) => ({ year, count }));
 
   return (
     <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-6">
@@ -39,17 +41,25 @@ export function PrStatusPanel({ prs }: Props) {
 
       <div>
         <p className="text-xs text-gray-500 uppercase font-semibold tracking-wide mb-2">By year</p>
-        <div className="flex items-end gap-2 h-32">
-          {years.map(([year, count]) => (
-            <div key={year} className="flex-1 flex flex-col items-center gap-1">
-              <div className="text-[10px] text-gray-500">{count}</div>
-              <div
-                className="w-full bg-brand rounded-t"
-                style={{ height: `${(count / maxYear) * 100}%` }}
+        <div className="h-40">
+          <ResponsiveContainer width="100%" height="100%">
+            <BarChart data={chartData} margin={{ top: 16, right: 4, left: 4, bottom: 0 }}>
+              <XAxis
+                dataKey="year"
+                axisLine={false}
+                tickLine={false}
+                tick={{ fill: '#9CA3AF', fontSize: 11 }}
               />
-              <div className="text-[10px] text-gray-400 font-mono">{year}</div>
-            </div>
-          ))}
+              <YAxis hide />
+              <Bar dataKey="count" fill="#E63946" radius={[3, 3, 0, 0]}>
+                <LabelList
+                  dataKey="count"
+                  position="top"
+                  style={{ fill: '#6B7280', fontSize: 10 }}
+                />
+              </Bar>
+            </BarChart>
+          </ResponsiveContainer>
         </div>
       </div>
     </div>

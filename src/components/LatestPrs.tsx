@@ -1,7 +1,8 @@
-import type { PrRecord } from '../types';
+import type { PrRecord, RepoMeta } from '../types';
 
 interface Props {
   prs: PrRecord[];
+  repos: RepoMeta[];
   limit?: number;
 }
 
@@ -21,49 +22,67 @@ const STATE_STYLE: Record<string, string> = {
   closed: 'bg-gray-100 text-gray-500',
 };
 
-export function LatestPrs({ prs, limit = 20 }: Props) {
+export function LatestPrs({ prs, repos, limit = 20 }: Props) {
   const items = prs.slice(0, limit);
+
+  const repoMap = new Map<string, RepoMeta>(repos.map((r) => [r.name, r]));
 
   return (
     <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-6">
       <h2 className="text-lg font-semibold text-gray-900 mb-1">Latest contributions</h2>
       <p className="text-sm text-gray-500 mb-4">Newest pull requests opened to OSS projects</p>
       <ul className="divide-y divide-gray-100">
-        {items.map((pr) => (
-          <li key={pr.url} className="py-3 flex items-start gap-3">
-            <span
-              className={`shrink-0 mt-0.5 text-[10px] font-semibold uppercase px-1.5 py-0.5 rounded ${
-                STATE_STYLE[pr.state] ?? STATE_STYLE.closed
-              }`}
-            >
-              {pr.state}
-            </span>
-            <div className="flex-1 min-w-0">
-              <a
-                href={pr.url}
-                target="_blank"
-                rel="noreferrer"
-                className="text-sm font-medium text-gray-900 hover:text-brand line-clamp-2"
+        {items.map((pr) => {
+          const meta = repoMap.get(pr.repo);
+          const isBigRepo = meta !== undefined && meta.stars >= 10000;
+          return (
+            <li key={pr.url} className="py-3 flex items-start gap-3">
+              <span
+                className={`shrink-0 mt-0.5 text-[10px] font-semibold uppercase px-1.5 py-0.5 rounded ${
+                  STATE_STYLE[pr.state] ?? STATE_STYLE.closed
+                }`}
               >
-                {pr.title}
-              </a>
-              <div className="text-xs text-gray-500 mt-0.5 flex items-center gap-2 flex-wrap">
-                <span className="font-mono">{pr.repo}</span>
-                <span>·</span>
-                <a
-                  href={`https://github.com/${pr.author}`}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="hover:text-brand"
-                >
-                  @{pr.author}
-                </a>
-                <span>·</span>
-                <span>{timeAgo(pr.createdAt)}</span>
+                {pr.state}
+              </span>
+              <div className="flex-1 min-w-0">
+                <div className="flex items-center gap-1.5 flex-wrap">
+                  {isBigRepo && (
+                    <span className="shrink-0 text-[10px] px-1.5 py-0.5 rounded bg-amber-100 text-amber-700">
+                      ⭐ Big repo
+                    </span>
+                  )}
+                  <a
+                    href={pr.url}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-sm font-medium text-gray-900 hover:text-brand line-clamp-2"
+                  >
+                    {pr.title}
+                  </a>
+                </div>
+                <div className="text-xs text-gray-500 mt-0.5 flex items-center gap-2 flex-wrap">
+                  <span className="font-mono">{pr.repo}</span>
+                  <span>·</span>
+                  <a
+                    href={`https://github.com/${pr.author}`}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="hover:text-brand flex items-center gap-1"
+                  >
+                    <img
+                      src={`https://github.com/${pr.author}.png?size=48`}
+                      alt={pr.author}
+                      className="w-6 h-6 rounded-full"
+                    />
+                    {pr.author}
+                  </a>
+                  <span>·</span>
+                  <span>{timeAgo(pr.createdAt)}</span>
+                </div>
               </div>
-            </div>
-          </li>
-        ))}
+            </li>
+          );
+        })}
         {items.length === 0 && <li className="py-3 text-sm text-gray-400">No PRs to show.</li>}
       </ul>
     </div>

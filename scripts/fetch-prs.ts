@@ -211,6 +211,8 @@ function isExcluded(repo: string): boolean {
   return false;
 }
 
+const MIN_EXPECTED_MEMBERS = 20;
+
 async function main() {
   const __dirname = dirname(fileURLToPath(import.meta.url));
   const outPath = join(__dirname, '../public/prs.json');
@@ -218,6 +220,17 @@ async function main() {
   console.log(`Fetching members of ${ORG}...`);
   const members = await fetchOrgMembers(ORG);
   console.log(`  ${members.length} members`);
+
+  if (members.length < MIN_EXPECTED_MEMBERS) {
+    console.error(
+      `\nERROR: only ${members.length} members visible — the token likely lacks the read:org scope ` +
+        `or is not a member of ${ORG}. ` +
+        `Add a PAT secret named OSS_VISUALIZER_TOKEN (read:org + public_repo) ` +
+        `and set GITHUB_TOKEN to it in the workflow. ` +
+        `Aborting without overwriting the existing prs.json.`
+    );
+    process.exit(2);
+  }
 
   console.log('\nFetching PRs per member (external to bamlab)...');
   const rawPrs: PrRecord[] = [];

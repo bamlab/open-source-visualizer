@@ -41,9 +41,13 @@ jobs:
 
       - name: Fetch OSS PR contributions (weekly cron / manual / push)
         if: github.event_name != 'schedule' || github.event.schedule == '0 3 * * 1'
+        # Uses a PAT (OSS_VISUALIZER_TOKEN: read:org + public_repo, from a bamlab member)
+        # because the default GITHUB_TOKEN only lists PUBLIC org members. The script
+        # exits non-zero without overwriting prs.json if it sees fewer than 20 members.
+        continue-on-error: true
         run: bun scripts/fetch-prs.ts
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.OSS_VISUALIZER_TOKEN || secrets.GITHUB_TOKEN }}
 
       - name: Persist data snapshots
         run: |

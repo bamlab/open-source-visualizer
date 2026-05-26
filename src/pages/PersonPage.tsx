@@ -69,8 +69,8 @@ export function PersonPage() {
           </>
         ) : (
           <>
-            <Leaderboard people={people} />
-            <LatestPrs prs={prs} />
+            <Leaderboard people={people} prs={prs} />
+            <LatestPrs prs={prs} repos={repos} />
             <TopRepos repos={repos} prs={prs} />
             <PrStatusPanel prs={prs} />
           </>
