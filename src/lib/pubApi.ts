@@ -36,7 +36,7 @@ export async function fetchPubPublisherPackages(publisher: string): Promise<stri
     const url = `${PUB_BASE}/search?q=${encodeURIComponent(`publisher:${publisher}`)}&page=${page}`;
     const res = await fetch(url);
     if (!res.ok) throw new Error(`pub.dev search API error ${res.status} for ${publisher}`);
-    const data: PubSearchResponse = await res.json();
+    const data = (await res.json()) as PubSearchResponse;
     if (data.packages.length === 0) break;
     allNames.push(...data.packages.map((p) => p.package));
     page++;
@@ -49,7 +49,7 @@ export async function fetchPubPackageInfo(name: string): Promise<PubPackageInfo>
   const url = `${PUB_BASE}/packages/${encodeURIComponent(name)}`;
   const res = await fetch(url);
   if (!res.ok) throw new Error(`pub.dev package API error ${res.status} for ${name}`);
-  const data: PubPackageResponse = await res.json();
+  const data = (await res.json()) as PubPackageResponse;
   const pubspec = data.latest?.pubspec;
   // Find the earliest published version to determine when the package was first released
   const publishedDates = (data.versions ?? []).map((v) => v.published).filter(Boolean);

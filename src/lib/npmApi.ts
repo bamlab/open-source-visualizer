@@ -19,7 +19,7 @@ export async function fetchDownloads(packageName: string): Promise<NpmDownloadRe
   if (!res.ok) {
     throw new Error(`npm downloads API error ${res.status} for ${packageName}`);
   }
-  return res.json();
+  return (await res.json()) as NpmDownloadResponse;
 }
 
 export async function fetchRegistry(packageName: string): Promise<NpmRegistryResponse> {
@@ -31,7 +31,7 @@ export async function fetchRegistry(packageName: string): Promise<NpmRegistryRes
   if (!res.ok) {
     throw new Error(`npm registry API error ${res.status} for ${packageName}`);
   }
-  return res.json();
+  return (await res.json()) as NpmRegistryResponse;
 }
 
 export class NotFoundError extends Error {

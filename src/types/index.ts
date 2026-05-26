@@ -42,3 +42,36 @@ export interface NpmRegistryResponse {
     url?: string;
   };
 }
+
+export type PrState = 'merged' | 'open' | 'closed';
+
+export interface PrRecord {
+  author: string;
+  repo: string;
+  state: PrState;
+  createdAt: string; // ISO
+  title: string;
+  url: string;
+}
+
+export interface RepoMeta {
+  name: string; // owner/repo
+  owner: string;
+  language: string | null;
+  stars: number;
+}
+
+export interface PersonStat {
+  login: string;
+  prCount: number;
+  reposCount: number;
+  topRepos: string[];
+}
+
+export interface PrsDataFile {
+  generatedAt: string | null;
+  org: string;
+  prs: PrRecord[];
+  repos: RepoMeta[];
+  people: PersonStat[];
+}

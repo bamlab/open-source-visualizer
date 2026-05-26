@@ -4,7 +4,8 @@ on:
   push:
     branches: [main]
   schedule:
-    - cron: '0 */6 * * *'   # refresh data every 6 hours
+    - cron: '0 */6 * * *'   # packages: refresh every 6 hours
+    - cron: '0 3 * * 1'     # people/PRs: refresh weekly (Mon 03:00 UTC)
   workflow_dispatch:         # manual trigger from the Actions tab
 
 permissions:
@@ -38,12 +39,18 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Persist pub.dev monthly snapshot
+      - name: Fetch OSS PR contributions (weekly cron / manual / push)
+        if: github.event_name != 'schedule' || github.event.schedule == '0 3 * * 1'
+        run: bun scripts/fetch-prs.ts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Persist data snapshots
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/data.json
-          git diff --staged --quiet || git commit -m "chore: update pub.dev monthly snapshot [skip ci]"
+          git add public/data.json public/prs.json 2>/dev/null || true
+          git diff --staged --quiet || git commit -m "chore: update data snapshot [skip ci]"
           git push
 
       - name: Build

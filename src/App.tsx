@@ -4,6 +4,7 @@ import { useSelectedPackage } from './store/selectedPackage';
 import { useEcosystemFilter } from './store/ecosystemFilter';
 import { HeroSection } from './components/HeroSection';
 import { LibraryCarousel } from './components/LibraryCarousel';
+import { TopNav } from './components/TopNav';
 import { simulatePubTimeline, estimatePub18Mo } from './lib/dataUtils';
 import type { PackageData } from './types';
 
@@ -48,7 +49,8 @@ function App() {
   const isSimulatedTimeline = needsSimulation;
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background relative">
+      <TopNav />
       <HeroSection
         totalDownloads={totalDownloads}
         timeline={timeline}

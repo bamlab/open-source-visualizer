@@ -6,6 +6,6 @@ export async function fetchStars(owner: string, repo: string, token?: string): P
   if (!res.ok) {
     throw new Error(`GitHub API error ${res.status} for ${owner}/${repo}`);
   }
-  const data = await res.json();
-  return data.stargazers_count as number;
+  const data = (await res.json()) as { stargazers_count: number };
+  return data.stargazers_count;
 }
