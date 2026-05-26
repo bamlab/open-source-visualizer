@@ -1,4 +1,5 @@
 name: Fetch data & deploy to GitHub Pages
+# trigger
 
 on:
   push:
