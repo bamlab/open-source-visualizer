@@ -37,6 +37,8 @@ const EXCLUDED_REPOS = new Set([
   'numerique-gouv/blocknote-llm',
 ]);
 const ALLOWED_LANGUAGES = new Set(['TypeScript', 'JavaScript']);
+// Authors to exclude from the leaderboard (former members, etc.).
+const EXCLUDED_AUTHORS = new Set(['pierrezimmermannbam']);
 // Repos inside the bamlab org that are real OSS libraries and should be included
 // even though we exclude bamlab/* by default. Bypasses language/star thresholds.
 const BAMLAB_WHITELIST = new Set([
@@ -259,8 +261,9 @@ async function main() {
     }
   }
 
-  // Pre-filter: drop excluded orgs/repos, self-owned, pre-2020, closed-not-merged
+  // Pre-filter: drop excluded authors/orgs/repos, self-owned, pre-2020, closed-not-merged
   const filtered1 = rawPrs.filter((pr) => {
+    if (EXCLUDED_AUTHORS.has(pr.author)) return false;
     const owner = pr.repo.split('/')[0];
     if (isExcluded(pr.repo)) return false;
     if (owner.toLowerCase() === pr.author.toLowerCase()) return false;
