@@ -30,6 +30,22 @@ function computeBadges(
   return { hot, top10, polyglot };
 }
 
+function BadgeIcon({ emoji, label }: { emoji: string; label: string }) {
+  return (
+    <span className="relative group inline-flex">
+      <span className="text-base leading-none select-none cursor-help" aria-label={label}>
+        {emoji}
+      </span>
+      <span
+        role="tooltip"
+        className="pointer-events-none absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 rounded-md bg-gray-900 text-white text-[11px] whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity shadow-lg z-20"
+      >
+        {label}
+      </span>
+    </span>
+  );
+}
+
 export function Leaderboard({ people, prs }: Props) {
   const top = people.slice(0, 15);
   const max = top[0]?.prCount ?? 1;
@@ -81,32 +97,11 @@ export function Leaderboard({ people, prs }: Props) {
                 {p.login}
               </button>
 
-              {/* col 4: emoji badges */}
+              {/* col 4: emoji badges with hover tooltips */}
               <div className="flex items-center gap-1">
-                {badges.hot && (
-                  <span
-                    className="text-base leading-none select-none"
-                    title="3+ pull requests in the last 90 days"
-                  >
-                    🔥
-                  </span>
-                )}
-                {badges.top10 && (
-                  <span
-                    className="text-base leading-none select-none"
-                    title="Ranked in the top 10% of contributors"
-                  >
-                    🏆
-                  </span>
-                )}
-                {badges.polyglot && (
-                  <span
-                    className="text-base leading-none select-none"
-                    title="Contributed to 4+ different repositories"
-                  >
-                    🌟
-                  </span>
-                )}
+                {badges.hot && <BadgeIcon emoji="🔥" label="Hot: 3+ pull requests in the last 90 days" />}
+                {badges.top10 && <BadgeIcon emoji="🏆" label="Top 10%: ranked among the top contributors" />}
+                {badges.polyglot && <BadgeIcon emoji="🌟" label="Polyglot: contributed to 4+ repositories" />}
               </div>
 
               {/* col 5: progress bar */}

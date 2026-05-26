@@ -17,31 +17,50 @@ function timeAgo(iso: string): string {
   return `${Math.floor(ms / (365 * day))}y ago`;
 }
 
-function prevMonth(month: string): string {
-  const [yearStr, monthStr] = month.split('-');
-  let year = parseInt(yearStr, 10);
-  let m = parseInt(monthStr, 10);
-  m -= 1;
-  if (m === 0) {
-    m = 12;
-    year -= 1;
-  }
-  return `${year}-${String(m).padStart(2, '0')}`;
+function monthToOrdinal(month: string): number {
+  const [y, m] = month.split('-').map(Number);
+  return y * 12 + (m - 1);
 }
 
-function streakAtMonth(authorPrs: PrRecord[], month: string): number {
+// For each PR by this author, return its 1-based position within an active
+// streak group. A "streak group" is a maximal run of consecutive calendar
+// months where each month has ≥2 PRs by this author. PRs in qualifying
+// months get an index counting from the start of their group; PRs in
+// non-qualifying months get 0. The first PR of a group is 1 (no badge);
+// subsequent PRs in the group are 2, 3, … and show "🔥 Streak of N".
+function computeStreakIndices(authorPrs: PrRecord[]): Map<string, number> {
+  const sorted = [...authorPrs].sort((a, b) => a.createdAt.localeCompare(b.createdAt));
   const countByMonth = new Map<string, number>();
-  for (const pr of authorPrs) {
-    const key = pr.createdAt.slice(0, 7);
-    countByMonth.set(key, (countByMonth.get(key) ?? 0) + 1);
+  for (const pr of sorted) {
+    const m = pr.createdAt.slice(0, 7);
+    countByMonth.set(m, (countByMonth.get(m) ?? 0) + 1);
   }
-  let streak = 0;
-  let current = month;
-  while ((countByMonth.get(current) ?? 0) >= 2) {
-    streak += 1;
-    current = prevMonth(current);
+
+  const result = new Map<string, number>();
+  let lastMonth: string | null = null;
+  let runningIndex = 0;
+  for (const pr of sorted) {
+    const m = pr.createdAt.slice(0, 7);
+    const qualifies = (countByMonth.get(m) ?? 0) >= 2;
+    if (!qualifies) {
+      result.set(pr.url, 0);
+      lastMonth = null;
+      runningIndex = 0;
+      continue;
+    }
+    if (lastMonth === null) {
+      runningIndex = 1;
+    } else if (lastMonth === m) {
+      runningIndex += 1;
+    } else if (monthToOrdinal(m) === monthToOrdinal(lastMonth) + 1) {
+      runningIndex += 1;
+    } else {
+      runningIndex = 1; // gap → new group
+    }
+    result.set(pr.url, runningIndex);
+    lastMonth = m;
   }
-  return streak;
+  return result;
 }
 
 const STATE_STYLE: Record<string, string> = {
@@ -63,14 +82,20 @@ export function LatestPrs({ prs, repos }: Props) {
     [repos],
   );
 
-  const authorPrsMap = useMemo(() => {
-    const map = new Map<string, PrRecord[]>();
+  // Per-PR streak index across all PRs (not just the filtered subset),
+  // since the streak depends on the author's full history.
+  const streakByPrUrl = useMemo(() => {
+    const byAuthor = new Map<string, PrRecord[]>();
     for (const pr of prs) {
-      const list = map.get(pr.author) ?? [];
+      const list = byAuthor.get(pr.author) ?? [];
       list.push(pr);
-      map.set(pr.author, list);
+      byAuthor.set(pr.author, list);
     }
-    return map;
+    const merged = new Map<string, number>();
+    for (const [, list] of byAuthor) {
+      for (const [url, idx] of computeStreakIndices(list)) merged.set(url, idx);
+    }
+    return merged;
   }, [prs]);
 
   const filteredPrs = selectedPerson
@@ -102,25 +127,24 @@ export function LatestPrs({ prs, repos }: Props) {
         {items.map((pr) => {
           const meta = repoMap.get(pr.repo);
           const isBigRepo = meta !== undefined && meta.stars >= 10000;
-          const month = pr.createdAt.slice(0, 7);
-          const streak = streakAtMonth(authorPrsMap.get(pr.author) ?? [], month);
-          const hasStreak = streak >= 2;
+          const streak = streakByPrUrl.get(pr.url) ?? 0;
+          const showStreak = streak >= 2;
           return (
             <li key={pr.url} className="py-3 flex items-start gap-3">
-              {/* LEFT: author block */}
+              {/* LEFT: author block — tight, name word-wraps under avatar */}
               <a
                 href={`https://github.com/${pr.author}`}
                 target="_blank"
                 rel="noreferrer"
-                className="flex flex-col items-start shrink-0 hover:opacity-80 w-28"
+                className="flex flex-col items-start shrink-0 hover:opacity-80 w-14"
               >
                 <img
                   src={`https://github.com/${pr.author}.png?size=64`}
                   alt={pr.author}
-                  className="w-12 h-12 rounded-md"
+                  className="w-10 h-10 rounded-md"
                 />
                 <span
-                  className="text-xs font-medium text-gray-800 mt-1.5 hover:text-brand leading-tight"
+                  className="text-[11px] font-medium text-gray-800 mt-1 hover:text-brand leading-tight"
                   style={{
                     display: '-webkit-box',
                     WebkitLineClamp: 2,
@@ -144,14 +168,17 @@ export function LatestPrs({ prs, repos }: Props) {
                     {pr.state}
                   </span>
                   {isBigRepo && (
-                    <span className="shrink-0 text-xs px-2 py-0.5 rounded-md bg-amber-100 text-amber-700">
+                    <span
+                      className="shrink-0 text-xs px-2 py-0.5 rounded-md bg-amber-100 text-amber-700"
+                      title="Repository has 10k+ GitHub stars"
+                    >
                       ⭐ Big repo
                     </span>
                   )}
-                  {hasStreak && (
+                  {showStreak && (
                     <span
                       className="shrink-0 text-xs px-2 py-0.5 rounded-md bg-red-100 text-red-700 font-medium"
-                      title={`Author had ${streak} consecutive months with 2+ PRs through this PR's month`}
+                      title={`The author's ${streak}th PR in an active streak (consecutive months with 2+ PRs)`}
                     >
                       🔥 Streak of {streak}
                     </span>
