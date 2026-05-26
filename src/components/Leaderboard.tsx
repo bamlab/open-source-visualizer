@@ -1,4 +1,5 @@
 import type { PersonStat, PrRecord } from '../types';
+import { useSelectedPerson } from '../store/selectedPerson';
 
 interface Props {
   people: PersonStat[];
@@ -7,11 +8,41 @@ interface Props {
 
 const RANK_BADGE = ['bg-yellow-400 text-yellow-900', 'bg-gray-300 text-gray-700', 'bg-orange-300 text-orange-900'];
 
+function computeStreak(login: string, prs: PrRecord[]): number {
+  const counts: Record<string, number> = {};
+  for (const pr of prs) {
+    if (pr.author !== login) continue;
+    const month = pr.createdAt.slice(0, 7);
+    counts[month] = (counts[month] ?? 0) + 1;
+  }
+  const activeMonths = Object.entries(counts)
+    .filter(([, count]) => count >= 2)
+    .map(([month]) => {
+      const [year, mon] = month.split('-').map(Number);
+      return year * 12 + mon;
+    })
+    .sort((a, b) => a - b);
+
+  if (activeMonths.length === 0) return 0;
+
+  let longest = 1;
+  let current = 1;
+  for (let i = 1; i < activeMonths.length; i++) {
+    if (activeMonths[i] - activeMonths[i - 1] === 1) {
+      current++;
+      if (current > longest) longest = current;
+    } else {
+      current = 1;
+    }
+  }
+  return longest;
+}
+
 function computeBadges(
   person: PersonStat,
   prs: PrRecord[],
   people: PersonStat[],
-): { hot: boolean; top10: boolean; polyglot: boolean } {
+): { hot: boolean; top10: boolean; polyglot: boolean; streak: number } {
   const now = Date.now();
   const ninetyDaysMs = 90 * 24 * 60 * 60 * 1000;
   const recentPrCount = prs.filter(
@@ -26,12 +57,15 @@ function computeBadges(
 
   const polyglot = person.reposCount >= 4;
 
-  return { hot, top10, polyglot };
+  const streak = computeStreak(person.login, prs);
+
+  return { hot, top10, polyglot, streak };
 }
 
 export function Leaderboard({ people, prs }: Props) {
   const top = people.slice(0, 15);
   const max = top[0]?.prCount ?? 1;
+  const { selectedPerson, toggle } = useSelectedPerson();
 
   return (
     <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-6">
@@ -40,8 +74,14 @@ export function Leaderboard({ people, prs }: Props) {
       <ol className="space-y-2">
         {top.map((p, i) => {
           const badges = computeBadges(p, prs, people);
+          const isSelected = selectedPerson === p.login;
           return (
-            <li key={p.login} className="flex items-center gap-3">
+            <li
+              key={p.login}
+              className={`flex items-center gap-3 rounded-xl px-2 py-1 transition-colors ${
+                isSelected ? 'ring-2 ring-brand bg-red-50' : ''
+              }`}
+            >
               <span
                 className={`w-7 h-7 rounded-lg flex items-center justify-center text-xs font-bold ${
                   i < 3 ? RANK_BADGE[i] : 'bg-gray-50 text-gray-400'
@@ -49,39 +89,54 @@ export function Leaderboard({ people, prs }: Props) {
               >
                 {i + 1}
               </span>
-              <a
-                href={`https://github.com/${p.login}`}
-                target="_blank"
-                rel="noreferrer"
-                className="flex-shrink-0"
+              <button
+                onClick={() => toggle(p.login)}
+                aria-label={`Filter contributions by ${p.login}`}
+                className="flex-shrink-0 cursor-pointer bg-transparent border-0 p-0"
               >
                 <img
                   src={`https://github.com/${p.login}.png?size=64`}
                   alt={p.login}
                   className="w-8 h-8 rounded-full"
                 />
-              </a>
+              </button>
               <div className="flex items-center gap-1.5 flex-wrap min-w-[8rem]">
-                <a
-                  href={`https://github.com/${p.login}`}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="font-mono text-sm text-gray-800 hover:text-brand"
+                <button
+                  onClick={() => toggle(p.login)}
+                  aria-label={`Filter contributions by ${p.login}`}
+                  className="cursor-pointer bg-transparent border-0 p-0 font-mono text-sm text-gray-800 hover:text-brand"
                 >
                   {p.login}
-                </a>
+                </button>
+                {badges.streak >= 2 && (
+                  <span
+                    className="bg-red-100 text-red-700 text-xs px-2 py-1 rounded-md font-medium"
+                    title={`Longest streak: ${badges.streak} consecutive months with 2+ PRs`}
+                  >
+                    🔥 Streak of {badges.streak}
+                  </span>
+                )}
                 {badges.hot && (
-                  <span className="bg-orange-100 text-orange-700 px-1.5 py-0.5 rounded text-[10px] font-medium leading-none">
+                  <span
+                    className="bg-orange-100 text-orange-700 text-xs px-2 py-1 rounded-md font-medium"
+                    title="3+ pull requests in the last 90 days"
+                  >
                     🔥 Hot
                   </span>
                 )}
                 {badges.top10 && (
-                  <span className="bg-yellow-100 text-yellow-700 px-1.5 py-0.5 rounded text-[10px] font-medium leading-none">
+                  <span
+                    className="bg-yellow-100 text-yellow-700 text-xs px-2 py-1 rounded-md font-medium"
+                    title="Ranked in the top 10% of contributors"
+                  >
                     🏆 Top 10%
                   </span>
                 )}
                 {badges.polyglot && (
-                  <span className="bg-blue-100 text-blue-700 px-1.5 py-0.5 rounded text-[10px] font-medium leading-none">
+                  <span
+                    className="bg-blue-100 text-blue-700 text-xs px-2 py-1 rounded-md font-medium"
+                    title="Contributed to 4+ different repositories"
+                  >
                     🌟 Polyglot
                   </span>
                 )}

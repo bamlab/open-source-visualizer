@@ -59,7 +59,7 @@ export function PersonPage() {
         </div>
       </header>
 
-      <main className="max-w-[92rem] mx-auto px-6 md:px-10 grid grid-cols-1 lg:grid-cols-2 gap-6">
+      <main className="max-w-4xl mx-auto px-6 md:px-10 flex flex-col gap-6">
         {isLoading ? (
           <>
             <LoadingSkeleton className="h-96 rounded-2xl" />
