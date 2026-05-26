@@ -27,24 +27,24 @@ export function TopRepos({ repos, prs }: Props) {
       <p className="text-sm text-gray-500 mb-4">Ranked by PR count, with star size as a context cue</p>
       <ul className="space-y-2">
         {enriched.map((r) => (
-          <li key={r.name} className="flex items-center gap-3">
+          <li key={r.name} className="grid grid-cols-[minmax(0,18rem)_1fr_2.5rem_4rem] items-center gap-3">
             <a
               href={`https://github.com/${r.name}`}
               target="_blank"
               rel="noreferrer"
-              className="font-mono text-xs text-gray-800 hover:text-brand min-w-[16rem] truncate"
+              className="font-mono text-sm text-gray-800 hover:text-brand truncate block"
               title={r.name}
             >
               {r.name}
             </a>
-            <div className="flex-1 h-2 bg-gray-100 rounded-full overflow-hidden">
+            <div className="h-2 bg-gray-100 rounded-full overflow-hidden">
               <div
-                className="h-full bg-growth rounded-full"
+                className="bg-growth rounded-full h-full"
                 style={{ width: `${(r.prCount / maxPrs) * 100}%` }}
               />
             </div>
-            <span className="text-xs font-semibold text-gray-900 w-10 text-right">{r.prCount}</span>
-            <span className="text-xs text-gray-400 w-14 text-right">★ {formatStars(r.stars)}</span>
+            <span className="text-sm font-semibold text-gray-900 text-right">{r.prCount}</span>
+            <span className="text-xs text-gray-400 text-right">★ {formatStars(r.stars)}</span>
           </li>
         ))}
         {enriched.length === 0 && <li className="text-sm text-gray-400">No repos yet.</li>}

@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import type { PrRecord, RepoMeta } from '../types';
 import { useSelectedPerson } from '../store/selectedPerson';
 
@@ -17,6 +17,33 @@ function timeAgo(iso: string): string {
   return `${Math.floor(ms / (365 * day))}y ago`;
 }
 
+function prevMonth(month: string): string {
+  const [yearStr, monthStr] = month.split('-');
+  let year = parseInt(yearStr, 10);
+  let m = parseInt(monthStr, 10);
+  m -= 1;
+  if (m === 0) {
+    m = 12;
+    year -= 1;
+  }
+  return `${year}-${String(m).padStart(2, '0')}`;
+}
+
+function streakAtMonth(authorPrs: PrRecord[], month: string): number {
+  const countByMonth = new Map<string, number>();
+  for (const pr of authorPrs) {
+    const key = pr.createdAt.slice(0, 7);
+    countByMonth.set(key, (countByMonth.get(key) ?? 0) + 1);
+  }
+  let streak = 0;
+  let current = month;
+  while ((countByMonth.get(current) ?? 0) >= 2) {
+    streak += 1;
+    current = prevMonth(current);
+  }
+  return streak;
+}
+
 const STATE_STYLE: Record<string, string> = {
   merged: 'bg-purple-100 text-purple-700',
   open: 'bg-green-100 text-green-700',
@@ -31,7 +58,20 @@ export function LatestPrs({ prs, repos }: Props) {
     setVisible(20);
   }, [selectedPerson]);
 
-  const repoMap = new Map<string, RepoMeta>(repos.map((r) => [r.name, r]));
+  const repoMap = useMemo(
+    () => new Map<string, RepoMeta>(repos.map((r) => [r.name, r])),
+    [repos],
+  );
+
+  const authorPrsMap = useMemo(() => {
+    const map = new Map<string, PrRecord[]>();
+    for (const pr of prs) {
+      const list = map.get(pr.author) ?? [];
+      list.push(pr);
+      map.set(pr.author, list);
+    }
+    return map;
+  }, [prs]);
 
   const filteredPrs = selectedPerson
     ? prs.filter((pr) => pr.author === selectedPerson)
@@ -62,22 +102,33 @@ export function LatestPrs({ prs, repos }: Props) {
         {items.map((pr) => {
           const meta = repoMap.get(pr.repo);
           const isBigRepo = meta !== undefined && meta.stars >= 10000;
+          const month = pr.createdAt.slice(0, 7);
+          const streak = streakAtMonth(authorPrsMap.get(pr.author) ?? [], month);
+          const hasStreak = streak >= 2;
           return (
-            <li key={pr.url} className="py-3 flex items-start gap-4">
+            <li key={pr.url} className="py-3 flex items-start gap-3">
               {/* LEFT: author block */}
               <a
                 href={`https://github.com/${pr.author}`}
                 target="_blank"
                 rel="noreferrer"
-                className="flex flex-col items-start min-w-0 shrink-0 hover:opacity-80"
-                style={{ width: '10rem' }}
+                className="flex flex-col items-start shrink-0 hover:opacity-80 w-28"
               >
                 <img
                   src={`https://github.com/${pr.author}.png?size=64`}
                   alt={pr.author}
-                  className="w-10 h-10 rounded-md"
+                  className="w-12 h-12 rounded-md"
                 />
-                <span className="text-xs text-gray-600 mt-1 truncate max-w-full">
+                <span
+                  className="text-xs font-medium text-gray-800 mt-1.5 hover:text-brand leading-tight"
+                  style={{
+                    display: '-webkit-box',
+                    WebkitLineClamp: 2,
+                    WebkitBoxOrient: 'vertical',
+                    overflow: 'hidden',
+                    wordBreak: 'break-all',
+                  }}
+                >
                   {pr.author}
                 </span>
               </a>
@@ -95,6 +146,14 @@ export function LatestPrs({ prs, repos }: Props) {
                   {isBigRepo && (
                     <span className="shrink-0 text-xs px-2 py-0.5 rounded-md bg-amber-100 text-amber-700">
                       ⭐ Big repo
+                    </span>
+                  )}
+                  {hasStreak && (
+                    <span
+                      className="shrink-0 text-xs px-2 py-0.5 rounded-md bg-red-100 text-red-700 font-medium"
+                      title={`Author had ${streak} consecutive months with 2+ PRs through this PR's month`}
+                    >
+                      🔥 Streak of {streak}
                     </span>
                   )}
                   <a
