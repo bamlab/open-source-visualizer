@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-26T15:58:30.769Z",
+  "generatedAt": "2026-05-26T16:08:13.387Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2775,58 +2775,58 @@
     },
     {
       "name": "riverpod_community_extensions",
-      "totalDownloads": 10010,
+      "totalDownloads": 10038,
       "monthlyDownloads": [
         {
           "month": "2025-05",
-          "downloads": 30
+          "downloads": 27
         },
         {
           "month": "2025-06",
-          "downloads": 641
+          "downloads": 646
         },
         {
           "month": "2025-07",
-          "downloads": 661
+          "downloads": 657
         },
         {
           "month": "2025-08",
-          "downloads": 239
+          "downloads": 240
         },
         {
           "month": "2025-09",
-          "downloads": 579
+          "downloads": 594
         },
         {
           "month": "2025-10",
-          "downloads": 1016
+          "downloads": 1009
         },
         {
           "month": "2025-11",
-          "downloads": 1759
+          "downloads": 1790
         },
         {
           "month": "2025-12",
-          "downloads": 1698
+          "downloads": 1581
         },
         {
           "month": "2026-01",
-          "downloads": 738
+          "downloads": 841
         },
         {
           "month": "2026-02",
-          "downloads": 728
+          "downloads": 719
         },
         {
           "month": "2026-03",
-          "downloads": 831
+          "downloads": 838
         },
         {
           "month": "2026-04",
-          "downloads": 1090
+          "downloads": 1096
         }
       ],
-      "momGrowthPct": 31.167268351383875,
+      "momGrowthPct": 30.787589498806682,
       "isGrowing": true,
       "stars": 10,
       "description": "Extends Riverpod ref types with additional helpers, to easily add common functionalities to your providers.",
@@ -3385,31 +3385,31 @@
     },
     {
       "name": "equatable_lint",
-      "totalDownloads": 2884,
+      "totalDownloads": 2839,
       "monthlyDownloads": [
         {
           "month": "2025-05",
-          "downloads": 231
+          "downloads": 200
         },
         {
           "month": "2025-06",
-          "downloads": 440
+          "downloads": 439
         },
         {
           "month": "2025-07",
-          "downloads": 642
+          "downloads": 659
         },
         {
           "month": "2025-08",
-          "downloads": 260
+          "downloads": 226
         },
         {
           "month": "2025-09",
-          "downloads": 260
+          "downloads": 269
         },
         {
           "month": "2025-10",
-          "downloads": 165
+          "downloads": 164
         },
         {
           "month": "2025-11",
@@ -3417,26 +3417,26 @@
         },
         {
           "month": "2025-12",
-          "downloads": 280
+          "downloads": 205
         },
         {
           "month": "2026-01",
-          "downloads": 94
+          "downloads": 159
         },
         {
           "month": "2026-02",
-          "downloads": 145
+          "downloads": 148
         },
         {
           "month": "2026-03",
-          "downloads": 132
+          "downloads": 136
         },
         {
           "month": "2026-04",
-          "downloads": 114
+          "downloads": 113
         }
       ],
-      "momGrowthPct": -13.636363636363635,
+      "momGrowthPct": -16.911764705882355,
       "isGrowing": false,
       "stars": 6,
       "description": "This is a set of rules to make classes using Equatable more maintainable. We make sure here that every fields in an Equatable class is linked to the Equatable props getter.",
