@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import Globe, { type GlobeMethods } from 'react-globe.gl';
 import { TopNav } from '../components/TopNav';
 import { LoadingSkeleton } from '../components/LoadingSkeleton';
@@ -22,29 +22,80 @@ interface CityGroup {
 }
 
 const STATUS_STYLE: Record<string, string> = {
-  'Talk Given': 'bg-green-100 text-green-700',
-  'CFP Accepted': 'bg-purple-100 text-purple-700',
-  'Other Talk Accepted': 'bg-blue-100 text-blue-700',
-  'Sponsor talk': 'bg-amber-100 text-amber-700',
+  'Talk Given': 'bg-green-50 text-green-800 border border-green-300',
+  'CFP Accepted': 'bg-purple-50 text-purple-800 border border-purple-300',
+  'Other Talk Accepted': 'bg-blue-50 text-blue-800 border border-blue-300',
+  'Sponsor talk': 'bg-amber-50 text-amber-800 border border-amber-300',
 };
+const STATUS_STYLE_FALLBACK = 'bg-gray-50 text-gray-700 border border-gray-300';
 
 function formatDate(iso: string | null): string {
   if (!iso) return '';
   return new Date(iso).toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' });
 }
 
-/** Tracks the pixel width of a container so the Globe canvas can be sized to it. */
+function distinctSpeakers(talks: ConferenceTalk[]): string[] {
+  return Array.from(new Set(talks.map((t) => t.speaker).filter(Boolean)));
+}
+
+function plural(n: number, word: string): string {
+  return `${n} ${word}${n > 1 ? 's' : ''}`;
+}
+
+// Deterministic color per speaker for the initials avatar.
+const AVATAR_COLORS = [
+  'bg-rose-500',
+  'bg-orange-500',
+  'bg-amber-500',
+  'bg-emerald-500',
+  'bg-teal-500',
+  'bg-sky-500',
+  'bg-indigo-500',
+  'bg-violet-500',
+  'bg-fuchsia-500',
+];
+
+function initials(name: string): string {
+  const parts = name.trim().split(/\s+/).filter(Boolean);
+  if (parts.length === 0) return '?';
+  if (parts.length === 1) return parts[0].slice(0, 2).toUpperCase();
+  return (parts[0][0] + parts[parts.length - 1][0]).toUpperCase();
+}
+
+function avatarColor(name: string): string {
+  let hash = 0;
+  for (let i = 0; i < name.length; i++) hash = (hash * 31 + name.charCodeAt(i)) >>> 0;
+  return AVATAR_COLORS[hash % AVATAR_COLORS.length];
+}
+
+function SpeakerAvatar({ name, className = '' }: { name: string; className?: string }) {
+  return (
+    <span
+      className={`inline-flex items-center justify-center rounded-full text-white font-semibold shrink-0 ${avatarColor(
+        name,
+      )} ${className}`}
+      title={name}
+    >
+      {initials(name)}
+    </span>
+  );
+}
+
+/**
+ * Tracks the pixel width of a container so the Globe canvas can be sized to it.
+ * Uses a callback ref so measurement happens whenever the node actually attaches —
+ * the container only mounts after the async data finishes loading.
+ */
 function useElementWidth() {
-  const ref = useRef<HTMLDivElement>(null);
   const [width, setWidth] = useState(0);
-  useEffect(() => {
-    const el = ref.current;
-    if (!el) return;
-    const update = () => setWidth(el.clientWidth);
-    update();
-    const ro = new ResizeObserver(update);
-    ro.observe(el);
-    return () => ro.disconnect();
+  const observerRef = useRef<ResizeObserver | null>(null);
+  const ref = useCallback((node: HTMLDivElement | null) => {
+    observerRef.current?.disconnect();
+    if (!node) return;
+    setWidth(node.clientWidth);
+    const ro = new ResizeObserver(() => setWidth(node.clientWidth));
+    ro.observe(node);
+    observerRef.current = ro;
   }, []);
   return { ref, width };
 }
@@ -54,20 +105,45 @@ export function ConferencesPage() {
   const { talks, unresolvedCount } = data;
 
   const [filter, setFilter] = useState<StatusFilter>('all');
+  const [company, setCompany] = useState<string>('all');
   const [selectedCity, setSelectedCity] = useState<string | null>(null);
+
+  // Distinct companies (Related Brand) present in the data, for the company filter.
+  const companies = useMemo(
+    () => Array.from(new Set(talks.map((t) => t.team).filter(Boolean))).sort(),
+    [talks],
+  );
 
   const globeRef = useRef<GlobeMethods | undefined>(undefined);
   const { ref: globeBoxRef, width: globeWidth } = useElementWidth();
   const globeHeight = 560;
 
+  // Pause auto-rotation for 8s whenever the user clicks the globe, then resume.
+  const resumeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const pauseRotation = useCallback(() => {
+    const controls = globeRef.current?.controls();
+    if (!controls) return;
+    controls.autoRotate = false;
+    if (resumeTimer.current) clearTimeout(resumeTimer.current);
+    resumeTimer.current = setTimeout(() => {
+      const c = globeRef.current?.controls();
+      if (c) c.autoRotate = true;
+    }, 8000);
+  }, []);
+
+  useEffect(() => () => {
+    if (resumeTimer.current) clearTimeout(resumeTimer.current);
+  }, []);
+
   const filteredTalks = useMemo(
     () =>
       talks.filter((t) => {
+        if (company !== 'all' && t.team !== company) return false;
         if (filter === 'given') return isGiven(t);
         if (filter === 'accepted') return !isGiven(t);
         return true;
       }),
-    [talks, filter],
+    [talks, filter, company],
   );
 
   // Talks with a resolved location, grouped by city for the globe pins.
@@ -103,7 +179,7 @@ export function ConferencesPage() {
     };
   }, [filteredTalks, cityGroups]);
 
-  // Auto-rotate the globe.
+  // Auto-rotate the globe, and pause it for 8s on any pointer interaction (click or drag).
   useEffect(() => {
     const g = globeRef.current;
     if (!g) return;
@@ -111,7 +187,9 @@ export function ConferencesPage() {
     controls.autoRotate = true;
     controls.autoRotateSpeed = 0.5;
     g.pointOfView({ lat: 30, lng: 5, altitude: 2.2 }, 0);
-  }, [globeWidth]);
+    controls.addEventListener('start', pauseRotation);
+    return () => controls.removeEventListener('start', pauseRotation);
+  }, [globeWidth, pauseRotation]);
 
   const filterBtn = (value: StatusFilter, label: string) => (
     <button
@@ -151,16 +229,30 @@ export function ConferencesPage() {
             <Stat value={stats.talks} label="Talks" />
             <Stat value={stats.conferences} label="Conferences" />
             <Stat value={stats.cities} label="Cities" />
-            <Stat value={stats.speakers} label="Speakers" />
+            <Stat value={stats.speakers} label="People" />
           </div>
         </div>
       </header>
 
       <main className="max-w-[80rem] mx-auto px-6 md:px-10 flex flex-col gap-4">
-        <div className="flex items-center justify-center gap-1 p-1 bg-gray-100 rounded-xl w-fit mx-auto">
-          {filterBtn('all', 'All')}
-          {filterBtn('given', 'Given')}
-          {filterBtn('accepted', 'Accepted')}
+        <div className="flex flex-wrap items-center justify-center gap-3">
+          <div className="flex items-center gap-1 p-1 bg-gray-100 rounded-xl">
+            {filterBtn('all', 'All')}
+            {filterBtn('given', 'Given')}
+            {filterBtn('accepted', 'Accepted')}
+          </div>
+          <select
+            value={company}
+            onChange={(e) => setCompany(e.target.value)}
+            className="px-3 py-2 rounded-xl bg-gray-100 text-sm font-medium text-gray-700 border-0 focus:ring-2 focus:ring-brand/40 cursor-pointer"
+          >
+            <option value="all">All companies</option>
+            {companies.map((c) => (
+              <option key={c} value={c}>
+                {c}
+              </option>
+            ))}
+          </select>
         </div>
 
         {isLoading ? (
@@ -191,12 +283,16 @@ export function ConferencesPage() {
                   pointRadius={(d) => 0.25 + ((d as CityGroup).talks.length / maxCount) * 0.5}
                   pointLabel={(d) => {
                     const g = d as CityGroup;
+                    const people = distinctSpeakers(g.talks).length;
                     return `<div style="font:600 13px sans-serif;color:#fff">${g.city}, ${g.country}</div>
-                            <div style="font:400 12px sans-serif;color:#cbd5e1">${g.talks.length} talk${
-                      g.talks.length > 1 ? 's' : ''
-                    } · click for details</div>`;
+                            <div style="font:400 12px sans-serif;color:#cbd5e1">${plural(
+                              g.talks.length,
+                              'talk',
+                            )} · ${plural(people, 'person').replace('persons', 'people')} · click for details</div>`;
                   }}
+                  onGlobeClick={pauseRotation}
                   onPointClick={(d) => {
+                    pauseRotation();
                     const g = d as CityGroup;
                     setSelectedCity(g.city);
                     globeRef.current?.pointOfView({ lat: g.lat, lng: g.lng, altitude: 1.6 }, 800);
@@ -238,14 +334,34 @@ function Stat({ value, label }: { value: number; label: string }) {
 }
 
 function CityDetails({ group, onClose }: { group: CityGroup; onClose: () => void }) {
-  const talks = [...group.talks].sort((a, b) => (b.eventDate ?? '').localeCompare(a.eventDate ?? ''));
+  // Group the city's talks by conference, most recent first; each conference shows its people count.
+  const conferences = useMemo(() => {
+    const byConf = new Map<string, ConferenceTalk[]>();
+    for (const t of group.talks) {
+      const list = byConf.get(t.conference) ?? [];
+      list.push(t);
+      byConf.set(t.conference, list);
+    }
+    return Array.from(byConf.entries())
+      .map(([conference, talks]) => ({
+        conference,
+        talks: talks.sort((a, b) => (b.eventDate ?? '').localeCompare(a.eventDate ?? '')),
+        people: distinctSpeakers(talks).length,
+        latest: talks.reduce((m, t) => (t.eventDate && t.eventDate > m ? t.eventDate : m), ''),
+      }))
+      .sort((a, b) => b.latest.localeCompare(a.latest));
+  }, [group]);
+
+  const totalPeople = useMemo(() => distinctSpeakers(group.talks).length, [group]);
+
   return (
-    <div className="absolute top-4 right-4 bottom-4 w-[22rem] max-w-[calc(100%-2rem)] bg-white/95 backdrop-blur rounded-xl border border-gray-200 shadow-lg flex flex-col">
+    <div className="absolute top-4 right-4 bottom-4 w-[24rem] max-w-[calc(100%-2rem)] bg-white/95 backdrop-blur rounded-xl border border-gray-200 shadow-lg flex flex-col">
       <div className="flex items-start justify-between p-4 border-b border-gray-100">
         <div>
           <h3 className="text-lg font-semibold text-gray-900 leading-tight">{group.city}</h3>
           <p className="text-xs text-gray-500">
-            {group.country} · {group.talks.length} talk{group.talks.length > 1 ? 's' : ''}
+            {group.country} · {plural(group.talks.length, 'talk')} ·{' '}
+            {plural(totalPeople, 'person').replace('persons', 'people')}
           </p>
         </div>
         <button
@@ -256,42 +372,58 @@ function CityDetails({ group, onClose }: { group: CityGroup; onClose: () => void
           ✕
         </button>
       </div>
-      <ul className="overflow-y-auto divide-y divide-gray-100 p-2">
-        {talks.map((t) => {
-          const title = (
-            <span className="text-sm font-medium text-gray-900 leading-snug line-clamp-3">
-              {t.talkTitle || t.conference}
-            </span>
-          );
-          return (
-            <li key={t.id} className="p-2">
-              <div className="flex items-center gap-1.5 flex-wrap mb-1">
-                <span
-                  className={`text-[10px] font-semibold uppercase px-1.5 py-0.5 rounded ${
-                    STATUS_STYLE[t.status] ?? 'bg-gray-100 text-gray-500'
-                  }`}
-                >
-                  {t.status}
-                </span>
-                {t.eventDate && <span className="text-[11px] text-gray-500">{formatDate(t.eventDate)}</span>}
-              </div>
-              {t.notionUrl ? (
-                <a href={t.notionUrl} target="_blank" rel="noreferrer" className="hover:text-brand">
-                  {title}
-                </a>
-              ) : (
-                title
-              )}
-              <div className="text-xs text-gray-500 mt-0.5">
-                {t.speaker && <span className="font-medium text-gray-700">{t.speaker}</span>}
-                {t.speaker && ' · '}
-                {t.conference}
-              </div>
-              {t.team && <div className="text-[11px] text-gray-400 mt-0.5">{t.team}</div>}
-            </li>
-          );
-        })}
-      </ul>
+      <div className="overflow-y-auto p-2 flex flex-col gap-3">
+        {conferences.map(({ conference, talks, people }) => (
+          <section key={conference}>
+            <div className="flex items-center justify-between gap-2 px-2 mb-1">
+              <h4 className="text-sm font-semibold text-gray-900 leading-snug">{conference}</h4>
+              <span className="shrink-0 text-[11px] font-medium text-gray-500 bg-gray-100 rounded-full px-2 py-0.5">
+                {people === 1 ? '1 person' : `${people} people`}
+              </span>
+            </div>
+            <ul className="divide-y divide-gray-100">
+              {talks.map((t) => {
+                const title = (
+                  <span className="text-sm font-medium text-gray-900 leading-snug line-clamp-3">
+                    {t.talkTitle || t.conference}
+                  </span>
+                );
+                return (
+                  <li key={t.id} className="p-2 flex gap-2.5">
+                    {t.speaker && <SpeakerAvatar name={t.speaker} className="w-8 h-8 text-[11px] mt-0.5" />}
+                    <div className="min-w-0 flex-1">
+                      <div className="flex items-center gap-1.5 flex-wrap mb-1">
+                        <span
+                          className={`text-[10px] font-semibold uppercase px-1.5 py-0.5 rounded ${
+                            STATUS_STYLE[t.status] ?? STATUS_STYLE_FALLBACK
+                          }`}
+                        >
+                          {t.status}
+                        </span>
+                        {t.eventDate && (
+                          <span className="text-[11px] text-gray-500">{formatDate(t.eventDate)}</span>
+                        )}
+                      </div>
+                      {t.notionUrl ? (
+                        <a href={t.notionUrl} target="_blank" rel="noreferrer" className="hover:text-brand">
+                          {title}
+                        </a>
+                      ) : (
+                        title
+                      )}
+                      <div className="text-xs text-gray-500 mt-0.5">
+                        {t.speaker && <span className="font-medium text-gray-700">{t.speaker}</span>}
+                        {t.speaker && t.team && ' · '}
+                        {t.team && <span className="text-gray-400">{t.team}</span>}
+                      </div>
+                    </div>
+                  </li>
+                );
+              })}
+            </ul>
+          </section>
+        ))}
+      </div>
     </div>
   );
 }
