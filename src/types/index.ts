@@ -75,3 +75,24 @@ export interface PrsDataFile {
   repos: RepoMeta[];
   people: PersonStat[];
 }
+
+export interface ConferenceTalk {
+  id: string; // stable index-based id
+  talkTitle: string;
+  speaker: string;
+  conference: string; // Event name with the embedded Notion URL stripped
+  eventDate: string | null; // ISO; first date when the export gives a range
+  status: string; // e.g. "Talk Given"
+  team: string; // Related Brand, e.g. "Theodo Apps"
+  notionUrl: string | null; // extracted from the Event field
+  city: string | null;
+  country: string | null;
+  lat: number | null;
+  lng: number | null;
+}
+
+export interface ConferencesDataFile {
+  generatedAt: string | null;
+  talks: ConferenceTalk[];
+  unresolvedCount: number; // talks whose city couldn't be resolved
+}
