@@ -46,6 +46,7 @@ const BAMLAB_WHITELIST = new Set([
   'bamlab/react-native-project-config',
   'bamlab/react-native-app-security',
   'bamlab/flashlight',
+  'bamlab/dev-plugins',
 ]);
 
 const token = process.env.GITHUB_TOKEN;

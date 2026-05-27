@@ -19,6 +19,22 @@
       "url": "https://github.com/bamlab/react-native-project-config/pull/147"
     },
     {
+      "author": "thomasrebam",
+      "repo": "bamlab/dev-plugins",
+      "state": "merged",
+      "createdAt": "2026-04-30T16:27:10Z",
+      "title": "chore: bump plugin version to 0.1.14",
+      "url": "https://github.com/bamlab/dev-plugins/pull/26"
+    },
+    {
+      "author": "thomasrebam",
+      "repo": "bamlab/dev-plugins",
+      "state": "merged",
+      "createdAt": "2026-04-30T15:52:26Z",
+      "title": "fix: fix type error when using react navigation ref with expo-router 55.0.13",
+      "url": "https://github.com/bamlab/dev-plugins/pull/25"
+    },
+    {
       "author": "AntoineThibi",
       "repo": "expo/expo",
       "state": "merged",
@@ -179,6 +195,14 @@
       "url": "https://github.com/bamlab/react-native-project-config/pull/134"
     },
     {
+      "author": "thomasrebam",
+      "repo": "bamlab/dev-plugins",
+      "state": "merged",
+      "createdAt": "2025-11-11T11:46:31Z",
+      "title": "docs: update readme to clarify navigation visualizer installation",
+      "url": "https://github.com/bamlab/dev-plugins/pull/24"
+    },
+    {
       "author": "pierpo",
       "repo": "nandorojo/solito",
       "state": "open",
@@ -244,6 +268,14 @@
     },
     {
       "author": "thomasrebam",
+      "repo": "bamlab/dev-plugins",
+      "state": "merged",
+      "createdAt": "2025-10-13T14:25:04Z",
+      "title": "feat: remove expo version from peer dependencies",
+      "url": "https://github.com/bamlab/dev-plugins/pull/23"
+    },
+    {
+      "author": "thomasrebam",
       "repo": "callstackincubator/rozenite",
       "state": "merged",
       "createdAt": "2025-10-02T17:51:57Z",
@@ -299,12 +331,76 @@
       "url": "https://github.com/bamlab/react-native-project-config/pull/126"
     },
     {
+      "author": "thomasrebam",
+      "repo": "bamlab/dev-plugins",
+      "state": "merged",
+      "createdAt": "2025-09-10T13:36:41Z",
+      "title": "fix: put back root layout",
+      "url": "https://github.com/bamlab/dev-plugins/pull/21"
+    },
+    {
+      "author": "thomasrebam",
+      "repo": "bamlab/dev-plugins",
+      "state": "merged",
+      "createdAt": "2025-09-10T13:35:12Z",
+      "title": "chore: bump npm version 0.1.11",
+      "url": "https://github.com/bamlab/dev-plugins/pull/20"
+    },
+    {
+      "author": "thomasrebam",
+      "repo": "bamlab/dev-plugins",
+      "state": "merged",
+      "createdAt": "2025-09-09T14:41:44Z",
+      "title": "feat: display route params",
+      "url": "https://github.com/bamlab/dev-plugins/pull/19"
+    },
+    {
+      "author": "thomasrebam",
+      "repo": "bamlab/dev-plugins",
+      "state": "merged",
+      "createdAt": "2025-09-08T16:17:19Z",
+      "title": "feat: clean navigation stack",
+      "url": "https://github.com/bamlab/dev-plugins/pull/18"
+    },
+    {
+      "author": "thomasrebam",
+      "repo": "bamlab/dev-plugins",
+      "state": "merged",
+      "createdAt": "2025-09-08T15:41:59Z",
+      "title": "fix: fix navigation ref type for newest react navigation version",
+      "url": "https://github.com/bamlab/dev-plugins/pull/17"
+    },
+    {
+      "author": "thomasrebam",
+      "repo": "bamlab/dev-plugins",
+      "state": "merged",
+      "createdAt": "2025-09-03T08:13:47Z",
+      "title": "feat: add navigation state full history and download",
+      "url": "https://github.com/bamlab/dev-plugins/pull/16"
+    },
+    {
       "author": "nicodeck",
       "repo": "denoland/docs",
       "state": "merged",
       "createdAt": "2025-07-14T17:15:00Z",
       "title": "fix(minor): remove typo in Express example",
       "url": "https://github.com/denoland/docs/pull/1906"
+    },
+    {
+      "author": "thomasrebam",
+      "repo": "bamlab/dev-plugins",
+      "state": "merged",
+      "createdAt": "2025-05-27T14:38:00Z",
+      "title": "chore: remove unmaintained packages",
+      "url": "https://github.com/bamlab/dev-plugins/pull/15"
+    },
+    {
+      "author": "thomasrebam",
+      "repo": "bamlab/dev-plugins",
+      "state": "merged",
+      "createdAt": "2025-05-25T17:13:26Z",
+      "title": "fix: remove unused workaround",
+      "url": "https://github.com/bamlab/dev-plugins/pull/14"
     },
     {
       "author": "thomasrebam",
@@ -315,12 +411,36 @@
       "url": "https://github.com/expo/dev-plugins/pull/72"
     },
     {
+      "author": "thomasrebam",
+      "repo": "bamlab/dev-plugins",
+      "state": "merged",
+      "createdAt": "2025-05-25T16:05:30Z",
+      "title": "feat: bump to expo 53",
+      "url": "https://github.com/bamlab/dev-plugins/pull/13"
+    },
+    {
       "author": "Xseuguh",
       "repo": "bamlab/react-native-app-security",
       "state": "merged",
       "createdAt": "2025-04-16T08:31:23Z",
       "title": "Feat: disable default iOS URLCache",
       "url": "https://github.com/bamlab/react-native-app-security/pull/26"
+    },
+    {
+      "author": "thomasrebam",
+      "repo": "bamlab/dev-plugins",
+      "state": "merged",
+      "createdAt": "2025-03-10T17:44:39Z",
+      "title": "fix: fix tab title wrapping",
+      "url": "https://github.com/bamlab/dev-plugins/pull/11"
+    },
+    {
+      "author": "thomasrebam",
+      "repo": "bamlab/dev-plugins",
+      "state": "merged",
+      "createdAt": "2025-03-09T21:55:50Z",
+      "title": "bump: bump package version and update readme",
+      "url": "https://github.com/bamlab/dev-plugins/pull/10"
     },
     {
       "author": "EliottGand",
@@ -353,6 +473,70 @@
       "createdAt": "2025-01-30T09:36:08Z",
       "title": "Enable \"[[Internal Link]]\" formated links",
       "url": "https://github.com/terrastruct/d2-obsidian/pull/53"
+    },
+    {
+      "author": "thomasrebam",
+      "repo": "bamlab/dev-plugins",
+      "state": "merged",
+      "createdAt": "2024-12-15T22:29:21Z",
+      "title": "feat: make stack collapsible",
+      "url": "https://github.com/bamlab/dev-plugins/pull/9"
+    },
+    {
+      "author": "thomasrebam",
+      "repo": "bamlab/dev-plugins",
+      "state": "merged",
+      "createdAt": "2024-12-13T14:12:38Z",
+      "title": "docs: show new features in readme",
+      "url": "https://github.com/bamlab/dev-plugins/pull/8"
+    },
+    {
+      "author": "thomasrebam",
+      "repo": "bamlab/dev-plugins",
+      "state": "merged",
+      "createdAt": "2024-12-13T13:51:39Z",
+      "title": "feat: improve stack distinction",
+      "url": "https://github.com/bamlab/dev-plugins/pull/7"
+    },
+    {
+      "author": "thomasrebam",
+      "repo": "bamlab/dev-plugins",
+      "state": "merged",
+      "createdAt": "2024-12-05T17:51:08Z",
+      "title": "feat: add different colors to each stack",
+      "url": "https://github.com/bamlab/dev-plugins/pull/6"
+    },
+    {
+      "author": "thomasrebam",
+      "repo": "bamlab/dev-plugins",
+      "state": "merged",
+      "createdAt": "2024-12-04T17:49:03Z",
+      "title": "feat: improve the scrolling behavior",
+      "url": "https://github.com/bamlab/dev-plugins/pull/4"
+    },
+    {
+      "author": "thomasrebam",
+      "repo": "bamlab/dev-plugins",
+      "state": "merged",
+      "createdAt": "2024-12-04T17:13:47Z",
+      "title": "docs: update documentation to bamlab migration and add illustration",
+      "url": "https://github.com/bamlab/dev-plugins/pull/3"
+    },
+    {
+      "author": "thomasrebam",
+      "repo": "bamlab/dev-plugins",
+      "state": "merged",
+      "createdAt": "2024-12-04T11:00:27Z",
+      "title": "feat: add pages to the example app",
+      "url": "https://github.com/bamlab/dev-plugins/pull/2"
+    },
+    {
+      "author": "thomasrebam",
+      "repo": "bamlab/dev-plugins",
+      "state": "merged",
+      "createdAt": "2024-12-04T10:57:05Z",
+      "title": "migrate react-navigation-visualizer-dev-plugin to a bam.tech repo",
+      "url": "https://github.com/bamlab/dev-plugins/pull/1"
     },
     {
       "author": "AntoineThibi",
@@ -1259,6 +1443,12 @@
       "stars": 56
     },
     {
+      "name": "bamlab/dev-plugins",
+      "owner": "bamlab",
+      "language": "TypeScript",
+      "stars": 10
+    },
+    {
       "name": "bamlab/react-native-project-config",
       "owner": "bamlab",
       "language": "TypeScript",
@@ -1267,45 +1457,26 @@
   ],
   "people": [
     {
+      "login": "thomasrebam",
+      "prCount": 34,
+      "reposCount": 6,
+      "topRepos": [
+        "bamlab/react-native-app-security",
+        "expo/expo",
+        "bamlab/react-native-project-config",
+        "callstackincubator/rozenite",
+        "expo/dev-plugins"
+      ]
+    },
+    {
       "login": "AntoineThibi",
       "prCount": 21,
       "reposCount": 4,
       "topRepos": [
+        "bamlab/flashlight",
         "expo/expo",
         "callstack/react-native-testing-library",
-        "bamlab/react-native-project-config",
-        "bamlab/flashlight"
-      ]
-    },
-    {
-      "login": "thomasrebam",
-      "prCount": 11,
-      "reposCount": 5,
-      "topRepos": [
-        "callstackincubator/rozenite",
-        "expo/dev-plugins",
-        "expo/expo",
-        "bamlab/react-native-project-config",
-        "bamlab/react-native-app-security"
-      ]
-    },
-    {
-      "login": "EliottGand",
-      "prCount": 8,
-      "reposCount": 3,
-      "topRepos": [
-        "expo/expo",
-        "bamlab/react-native-project-config",
-        "bamlab/flashlight"
-      ]
-    },
-    {
-      "login": "mbezard",
-      "prCount": 8,
-      "reposCount": 2,
-      "topRepos": [
-        "GetStream/stream-chat-react-native",
-        "bamlab/flashlight"
+        "bamlab/react-native-project-config"
       ]
     },
     {
@@ -1313,8 +1484,18 @@
       "prCount": 8,
       "reposCount": 2,
       "topRepos": [
-        "drizzle-team/drizzle-orm",
-        "Sanofi-IADC/whispr"
+        "Sanofi-IADC/whispr",
+        "drizzle-team/drizzle-orm"
+      ]
+    },
+    {
+      "login": "EliottGand",
+      "prCount": 8,
+      "reposCount": 3,
+      "topRepos": [
+        "bamlab/flashlight",
+        "expo/expo",
+        "bamlab/react-native-project-config"
       ]
     },
     {
@@ -1326,14 +1507,23 @@
       ]
     },
     {
+      "login": "mbezard",
+      "prCount": 8,
+      "reposCount": 2,
+      "topRepos": [
+        "bamlab/flashlight",
+        "GetStream/stream-chat-react-native"
+      ]
+    },
+    {
       "login": "mojavad",
       "prCount": 6,
       "reposCount": 5,
       "topRepos": [
-        "reactjs/react.dev",
+        "ReactFinland/graphql-api",
         "expo/expo",
         "tamagui/tamagui",
-        "ReactFinland/graphql-api",
+        "reactjs/react.dev",
         "bamlab/flashlight"
       ]
     },
@@ -1342,53 +1532,8 @@
       "prCount": 6,
       "reposCount": 2,
       "topRepos": [
-        "xcarpentier/rn-tourguide",
-        "bamlab/flashlight"
-      ]
-    },
-    {
-      "login": "pierpo",
-      "prCount": 5,
-      "reposCount": 5,
-      "topRepos": [
-        "nandorojo/solito",
-        "mancku/strapi-plugin-schemas-to-ts",
-        "thekevinbrown/react-native-schemes-manager",
-        "tokkozhin/react-native-neomorph-shadows",
-        "satya164/react-native-tab-view"
-      ]
-    },
-    {
-      "login": "Rouret",
-      "prCount": 5,
-      "reposCount": 2,
-      "topRepos": [
-        "elysiajs/elysia",
-        "Abhinandan-Kushwaha/react-native-gifted-charts"
-      ]
-    },
-    {
-      "login": "tychota",
-      "prCount": 5,
-      "reposCount": 5,
-      "topRepos": [
-        "expo/expo",
-        "color-js/color.js",
-        "mikro-orm/nestjs",
-        "artilleryio/artillery",
-        "typeorm/typeorm"
-      ]
-    },
-    {
-      "login": "xiniria",
-      "prCount": 5,
-      "reposCount": 5,
-      "topRepos": [
-        "ForestAdmin/agent-nodejs",
-        "mailjet/mailjet-apiv3-nodejs",
-        "typeorm/typeorm",
-        "lirantal/npq",
-        "lirantal/lockfile-lint"
+        "bamlab/flashlight",
+        "xcarpentier/rn-tourguide"
       ]
     },
     {
@@ -1400,6 +1545,39 @@
       ]
     },
     {
+      "login": "tychota",
+      "prCount": 5,
+      "reposCount": 5,
+      "topRepos": [
+        "expo/expo",
+        "mikro-orm/nestjs",
+        "typeorm/typeorm",
+        "color-js/color.js",
+        "artilleryio/artillery"
+      ]
+    },
+    {
+      "login": "pierpo",
+      "prCount": 5,
+      "reposCount": 5,
+      "topRepos": [
+        "nandorojo/solito",
+        "thekevinbrown/react-native-schemes-manager",
+        "satya164/react-native-tab-view",
+        "tokkozhin/react-native-neomorph-shadows",
+        "mancku/strapi-plugin-schemas-to-ts"
+      ]
+    },
+    {
+      "login": "Rouret",
+      "prCount": 5,
+      "reposCount": 2,
+      "topRepos": [
+        "Abhinandan-Kushwaha/react-native-gifted-charts",
+        "elysiajs/elysia"
+      ]
+    },
+    {
       "login": "GuillaumeEgret",
       "prCount": 5,
       "reposCount": 1,
@@ -1408,21 +1586,24 @@
       ]
     },
     {
+      "login": "xiniria",
+      "prCount": 5,
+      "reposCount": 5,
+      "topRepos": [
+        "lirantal/npq",
+        "ForestAdmin/agent-nodejs",
+        "typeorm/typeorm",
+        "mailjet/mailjet-apiv3-nodejs",
+        "lirantal/lockfile-lint"
+      ]
+    },
+    {
       "login": "alZyad",
       "prCount": 3,
       "reposCount": 2,
       "topRepos": [
-        "TanStack/query",
-        "bamlab/react-native-project-config"
-      ]
-    },
-    {
-      "login": "jcalixte",
-      "prCount": 3,
-      "reposCount": 2,
-      "topRepos": [
-        "antfu-collective/taze",
-        "bamlab/react-native-app-security"
+        "bamlab/react-native-project-config",
+        "TanStack/query"
       ]
     },
     {
@@ -1434,20 +1615,30 @@
       ]
     },
     {
+      "login": "jcalixte",
+      "prCount": 3,
+      "reposCount": 2,
+      "topRepos": [
+        "bamlab/react-native-app-security",
+        "antfu-collective/taze"
+      ]
+    },
+    {
       "login": "nicodeck",
       "prCount": 2,
       "reposCount": 2,
       "topRepos": [
-        "denoland/docs",
-        "bamlab/react-native-app-security"
+        "bamlab/react-native-app-security",
+        "denoland/docs"
       ]
     },
     {
-      "login": "wrousseau",
+      "login": "yleflour",
       "prCount": 2,
-      "reposCount": 1,
+      "reposCount": 2,
       "topRepos": [
-        "backstage/backstage"
+        "react-hook-form/react-hook-form",
+        "terrastruct/d2-obsidian"
       ]
     },
     {
@@ -1460,20 +1651,27 @@
       ]
     },
     {
-      "login": "yleflour",
-      "prCount": 2,
-      "reposCount": 2,
-      "topRepos": [
-        "terrastruct/d2-obsidian",
-        "react-hook-form/react-hook-form"
-      ]
-    },
-    {
       "login": "JulienIzz",
       "prCount": 2,
       "reposCount": 1,
       "topRepos": [
         "bamlab/react-native-project-config"
+      ]
+    },
+    {
+      "login": "wrousseau",
+      "prCount": 2,
+      "reposCount": 1,
+      "topRepos": [
+        "backstage/backstage"
+      ]
+    },
+    {
+      "login": "AlecColas",
+      "prCount": 1,
+      "reposCount": 1,
+      "topRepos": [
+        "bamlab/flashlight"
       ]
     },
     {
@@ -1490,14 +1688,6 @@
       "reposCount": 1,
       "topRepos": [
         "bamlab/react-native-app-security"
-      ]
-    },
-    {
-      "login": "AlecColas",
-      "prCount": 1,
-      "reposCount": 1,
-      "topRepos": [
-        "bamlab/flashlight"
       ]
     },
     {
