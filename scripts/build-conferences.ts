@@ -106,6 +106,7 @@ function main() {
   const iSpeaker = col('Speaker');
   const iStatus = col('Status');
   const iBrand = col('Related Brand');
+  const iTech = col('Technology');
 
   if ([iTitle, iEvent, iSpeaker, iStatus].some((i) => i === -1)) {
     console.error('ERROR: unexpected CSV header. Got:', header);
@@ -140,6 +141,7 @@ function main() {
       eventDate: iEventDate === -1 ? null : parseDate((cells[iEventDate] ?? '').trim()),
       status,
       team: iBrand === -1 ? '' : (cells[iBrand] ?? '').trim(),
+      technology: iTech === -1 ? '' : (cells[iTech] ?? '').trim(),
       notionUrl,
       city: loc?.city ?? null,
       country: loc?.country ?? null,

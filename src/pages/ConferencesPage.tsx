@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import Globe, { type GlobeMethods } from 'react-globe.gl';
 import { TopNav } from '../components/TopNav';
 import { LoadingSkeleton } from '../components/LoadingSkeleton';
@@ -105,8 +106,26 @@ export function ConferencesPage() {
   const { talks, unresolvedCount } = data;
 
   const [filter, setFilter] = useState<StatusFilter>('all');
-  const [company, setCompany] = useState<string>('all');
   const [selectedCity, setSelectedCity] = useState<string | null>(null);
+
+  // Company + technology filters live in the URL so views are shareable/bookmarkable.
+  const [searchParams, setSearchParams] = useSearchParams();
+  const company = searchParams.get('company') ?? 'all';
+  const tech = searchParams.get('tech') ?? '';
+  const setParam = useCallback(
+    (key: string, value: string) => {
+      setSearchParams(
+        (prev) => {
+          const next = new URLSearchParams(prev);
+          if (!value || value === 'all') next.delete(key);
+          else next.set(key, value);
+          return next;
+        },
+        { replace: true },
+      );
+    },
+    [setSearchParams],
+  );
 
   // Distinct companies (Related Brand) present in the data, for the company filter.
   const companies = useMemo(
@@ -135,16 +154,25 @@ export function ConferencesPage() {
     if (resumeTimer.current) clearTimeout(resumeTimer.current);
   }, []);
 
-  const filteredTalks = useMemo(
-    () =>
-      talks.filter((t) => {
-        if (company !== 'all' && t.team !== company) return false;
-        if (filter === 'given') return isGiven(t);
-        if (filter === 'accepted') return !isGiven(t);
-        return true;
-      }),
-    [talks, filter, company],
-  );
+  const filteredTalks = useMemo(() => {
+    const q = tech.trim();
+    // Whole-word, case-insensitive match so "ai" doesn't match "domain"/"j'ai" etc.
+    let techRe: RegExp | null = null;
+    if (q) {
+      try {
+        techRe = new RegExp(`(?<![\\p{L}])${q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(?![\\p{L}])`, 'iu');
+      } catch {
+        techRe = null;
+      }
+    }
+    return talks.filter((t) => {
+      if (company !== 'all' && t.team !== company) return false;
+      if (techRe && !techRe.test(`${t.talkTitle} ${t.conference} ${t.technology}`)) return false;
+      if (filter === 'given') return isGiven(t);
+      if (filter === 'accepted') return !isGiven(t);
+      return true;
+    });
+  }, [talks, filter, company, tech]);
 
   // Talks with a resolved location, grouped by city for the globe pins.
   const cityGroups = useMemo<CityGroup[]>(() => {
@@ -243,7 +271,7 @@ export function ConferencesPage() {
           </div>
           <select
             value={company}
-            onChange={(e) => setCompany(e.target.value)}
+            onChange={(e) => setParam('company', e.target.value)}
             className="px-3 py-2 rounded-xl bg-gray-100 text-sm font-medium text-gray-700 border-0 focus:ring-2 focus:ring-brand/40 cursor-pointer"
           >
             <option value="all">All companies</option>
@@ -253,6 +281,43 @@ export function ConferencesPage() {
               </option>
             ))}
           </select>
+          <div className="relative">
+            <input
+              type="text"
+              value={tech}
+              onChange={(e) => setParam('tech', e.target.value)}
+              placeholder="Filter by technology…"
+              className="w-56 pl-3 pr-7 py-2 rounded-xl bg-gray-100 text-sm font-medium text-gray-700 placeholder:text-gray-400 placeholder:font-normal border-0 focus:ring-2 focus:ring-brand/40"
+            />
+            {tech && (
+              <button
+                onClick={() => setParam('tech', '')}
+                className="absolute right-2 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600 text-sm"
+                aria-label="Clear technology filter"
+              >
+                ✕
+              </button>
+            )}
+          </div>
+        </div>
+
+        <div className="flex flex-wrap items-center justify-center gap-1.5">
+          {['React Native', 'React', 'Flutter', 'AI', 'Data', 'DevOps', 'Swift', 'Security'].map((t) => {
+            const active = tech.toLowerCase() === t.toLowerCase();
+            return (
+              <button
+                key={t}
+                onClick={() => setParam('tech', active ? '' : t)}
+                className={`px-2.5 py-1 rounded-full text-xs font-medium transition-colors border ${
+                  active
+                    ? 'bg-brand text-white border-brand'
+                    : 'bg-white text-gray-600 border-gray-200 hover:border-gray-300'
+                }`}
+              >
+                {t}
+              </button>
+            );
+          })}
         </div>
 
         {isLoading ? (
@@ -314,6 +379,8 @@ export function ConferencesPage() {
           </p>
         )}
 
+        {!isLoading && <PeopleList talks={filteredTalks} />}
+
         {data.generatedAt && (
           <p className="text-center text-[11px] text-gray-400 mt-2">
             Generated {new Date(data.generatedAt).toLocaleString()}
@@ -330,6 +397,65 @@ function Stat({ value, label }: { value: number; label: string }) {
       <div className="text-3xl md:text-4xl font-black text-gray-900">{value}</div>
       <div className="text-[11px] text-gray-500 uppercase tracking-wider font-semibold mt-1">{label}</div>
     </div>
+  );
+}
+
+interface PersonStat {
+  name: string;
+  count: number;
+  earliest: string;
+  latest: string;
+}
+
+function PeopleList({ talks }: { talks: ConferenceTalk[] }) {
+  const people = useMemo<PersonStat[]>(() => {
+    const map = new Map<string, PersonStat>();
+    for (const t of talks) {
+      if (!t.speaker) continue;
+      const e = map.get(t.speaker) ?? { name: t.speaker, count: 0, earliest: '', latest: '' };
+      e.count += 1;
+      if (t.eventDate) {
+        if (!e.latest || t.eventDate > e.latest) e.latest = t.eventDate;
+        if (!e.earliest || t.eventDate < e.earliest) e.earliest = t.eventDate;
+      }
+      map.set(t.speaker, e);
+    }
+    return Array.from(map.values()).sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
+  }, [talks]);
+
+  return (
+    <section className="bg-white rounded-2xl border border-gray-100 shadow-sm p-6 mt-2">
+      <h2 className="text-lg font-semibold text-gray-900 mb-1">People</h2>
+      <p className="text-sm text-gray-500 mb-4">
+        {plural(people.length, 'speaker')} matching the current filters · sorted by talks
+      </p>
+      {people.length === 0 ? (
+        <p className="text-sm text-gray-400">No talks match the current filters.</p>
+      ) : (
+        <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-3">
+          {people.map((p) => (
+            <li key={p.name} className="flex items-center gap-3 min-w-0">
+              <SpeakerAvatar name={p.name} className="w-9 h-9 text-xs" />
+              <div className="min-w-0 flex-1">
+                <div className="text-sm font-medium text-gray-900 truncate">{p.name}</div>
+                <div className="text-xs text-gray-500">
+                  {plural(p.count, 'talk')}
+                  {p.latest && (
+                    <>
+                      {' · '}
+                      {p.earliest && p.earliest.slice(0, 7) !== p.latest.slice(0, 7)
+                        ? `${formatDate(p.earliest)} – ${formatDate(p.latest)}`
+                        : formatDate(p.latest)}
+                    </>
+                  )}
+                </div>
+              </div>
+              <span className="shrink-0 text-sm font-semibold text-gray-400 tabular-nums">{p.count}</span>
+            </li>
+          ))}
+        </ul>
+      )}
+    </section>
   );
 }
 
