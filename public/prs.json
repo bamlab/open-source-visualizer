@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-26T15:45:26.321Z",
+  "generatedAt": "2026-05-27T13:11:02.721Z",
   "org": "bamlab",
   "prs": [
     {
@@ -615,7 +615,7 @@
       "repo": "Baboo7/strapi-plugin-import-export-entries",
       "state": "open",
       "createdAt": "2024-04-17T13:31:28Z",
-      "title": "fix(import): update or create relation only if the imported data is n\u2026",
+      "title": "fix(import): update or create relation only if the imported data is n…",
       "url": "https://github.com/Baboo7/strapi-plugin-import-export-entries/pull/191"
     },
     {
@@ -737,6 +737,14 @@
       "createdAt": "2023-10-02T10:24:58Z",
       "title": "Update version field typing",
       "url": "https://github.com/mailjet/mailjet-apiv3-nodejs/pull/259"
+    },
+    {
+      "author": "AntoineThibi",
+      "repo": "oblador/react-native-keychain",
+      "state": "merged",
+      "createdAt": "2023-09-26T07:32:50Z",
+      "title": "use setUserAuthenticationParameters for android >= 11",
+      "url": "https://github.com/oblador/react-native-keychain/pull/613"
     },
     {
       "author": "AntoineThibi",
@@ -943,7 +951,7 @@
       "repo": "bamlab/flashlight",
       "state": "merged",
       "createdAt": "2023-05-26T07:38:29Z",
-      "title": "feat: \u2728 Add danger and safe zone to charts",
+      "title": "feat: ✨ Add danger and safe zone to charts",
       "url": "https://github.com/bamlab/flashlight/pull/111"
     },
     {
@@ -1003,6 +1011,14 @@
       "url": "https://github.com/bamlab/flashlight/pull/92"
     },
     {
+      "author": "Thibaut-Padok",
+      "repo": "padok-team/burrito",
+      "state": "merged",
+      "createdAt": "2023-04-18T12:32:35Z",
+      "title": "feat(terraformlayer): exponential time before retry",
+      "url": "https://github.com/padok-team/burrito/pull/102"
+    },
+    {
       "author": "mbezard",
       "repo": "bamlab/flashlight",
       "state": "merged",
@@ -1033,6 +1049,14 @@
       "createdAt": "2023-03-24T13:19:05Z",
       "title": "fix: update TypeScript to v5",
       "url": "https://github.com/mikro-orm/nestjs/pull/112"
+    },
+    {
+      "author": "Thibaut-Padok",
+      "repo": "padok-team/burrito",
+      "state": "merged",
+      "createdAt": "2023-03-15T08:26:11Z",
+      "title": "build: add short names to crd",
+      "url": "https://github.com/padok-team/burrito/pull/95"
     },
     {
       "author": "AntoineThibi",
@@ -1219,60 +1243,1054 @@
       "url": "https://github.com/typeorm/typeorm/pull/6863"
     }
   ],
+  "issues": [
+    {
+      "author": "alZyad",
+      "repo": "TanStack/query",
+      "state": "open",
+      "createdAt": "2026-05-13T19:07:04Z",
+      "title": "resetQueries method does not trigger refetch on errored queries",
+      "url": "https://github.com/TanStack/query/issues/10705"
+    },
+    {
+      "author": "alZyad",
+      "repo": "expo/expo",
+      "state": "closed",
+      "createdAt": "2026-03-25T13:11:48Z",
+      "title": "[docs] the recommended react compiler linter plugin is eslint-plugin-react-compiler but should be eslint-plugin-react-hooks",
+      "url": "https://github.com/expo/expo/issues/44237"
+    },
+    {
+      "author": "uffoltzl",
+      "repo": "bamlab/flashlight",
+      "state": "open",
+      "createdAt": "2026-03-17T14:15:49Z",
+      "title": "BAM became Theodo",
+      "url": "https://github.com/bamlab/flashlight/issues/355"
+    },
+    {
+      "author": "tychota",
+      "repo": "expo/expo",
+      "state": "closed",
+      "createdAt": "2026-03-04T12:05:15Z",
+      "title": "`RevokeTokenRequest` sends client credentials in both Authorization header and request body, causing 400 errors on compliant OAuth servers",
+      "url": "https://github.com/expo/expo/issues/43637"
+    },
+    {
+      "author": "thomascoumau",
+      "repo": "jpudysz/react-native-unistyles",
+      "state": "closed",
+      "createdAt": "2026-02-25T10:09:43Z",
+      "title": "Runtime not updated after expo-splashscreen hide",
+      "url": "https://github.com/jpudysz/react-native-unistyles/issues/1108"
+    },
+    {
+      "author": "LouisDvr",
+      "repo": "imwithye/react-native-remark",
+      "state": "open",
+      "createdAt": "2026-02-23T20:47:47Z",
+      "title": "[Feature Request] Add support for async remark plugins",
+      "url": "https://github.com/imwithye/react-native-remark/issues/61"
+    },
+    {
+      "author": "LucienRbl",
+      "repo": "codegouvfr/react-dsfr",
+      "state": "open",
+      "createdAt": "2026-02-18T19:50:03Z",
+      "title": "Icône de message d’erreur/validation/info mal positionnée dans le composant Input",
+      "url": "https://github.com/codegouvfr/react-dsfr/issues/480"
+    },
+    {
+      "author": "thomascoumau",
+      "repo": "jpudysz/react-native-unistyles",
+      "state": "closed",
+      "createdAt": "2026-02-09T15:03:31Z",
+      "title": "Stylesheet with breakpoints not listening to runtime changes",
+      "url": "https://github.com/jpudysz/react-native-unistyles/issues/1083"
+    },
+    {
+      "author": "waltoss",
+      "repo": "drizzle-team/drizzle-orm",
+      "state": "open",
+      "createdAt": "2026-01-21T15:50:46Z",
+      "title": "[FEATURE]: RQBv2 support custom SQL expressions in relation `from`/`to`",
+      "url": "https://github.com/drizzle-team/drizzle-orm/issues/5285"
+    },
+    {
+      "author": "vicprz",
+      "repo": "kirillzyusko/react-native-teleport",
+      "state": "closed",
+      "createdAt": "2026-01-07T16:45:53Z",
+      "title": "[Android] Portal / PortalHost teleportation stops working after navigating back",
+      "url": "https://github.com/kirillzyusko/react-native-teleport/issues/65"
+    },
+    {
+      "author": "yleflour",
+      "repo": "mayocream/koharu",
+      "state": "closed",
+      "createdAt": "2025-12-09T08:30:11Z",
+      "title": "[ui] improve accessibility with custom fonts",
+      "url": "https://github.com/mayocream/koharu/issues/57"
+    },
+    {
+      "author": "yleflour",
+      "repo": "mayocream/koharu",
+      "state": "closed",
+      "createdAt": "2025-12-09T08:26:09Z",
+      "title": "Unknown OSX permission",
+      "url": "https://github.com/mayocream/koharu/issues/56"
+    },
+    {
+      "author": "vicprz",
+      "repo": "kirillzyusko/react-native-keyboard-controller",
+      "state": "closed",
+      "createdAt": "2025-10-29T11:28:17Z",
+      "title": "[Android][Samsung only?] KeyboardProvider disables edge-to-edge",
+      "url": "https://github.com/kirillzyusko/react-native-keyboard-controller/issues/1181"
+    },
+    {
+      "author": "vicprz",
+      "repo": "dohooo/react-native-reanimated-carousel",
+      "state": "open",
+      "createdAt": "2025-10-21T13:01:21Z",
+      "title": "[RN 0.81][Testing] Carousel items not rendered in tests",
+      "url": "https://github.com/dohooo/react-native-reanimated-carousel/issues/862"
+    },
+    {
+      "author": "vicprz",
+      "repo": "Shopify/flash-list",
+      "state": "open",
+      "createdAt": "2025-10-21T12:47:11Z",
+      "title": "[RN 0.81][Testing] Only first 10 items are rendered in snapshots",
+      "url": "https://github.com/Shopify/flash-list/issues/1961"
+    },
+    {
+      "author": "thomascoumau",
+      "repo": "software-mansion/react-native-svg",
+      "state": "closed",
+      "createdAt": "2025-10-21T09:13:36Z",
+      "title": "Text prop letterspacing not working",
+      "url": "https://github.com/software-mansion/react-native-svg/issues/2806"
+    },
+    {
+      "author": "hgrele",
+      "repo": "expo/expo",
+      "state": "closed",
+      "createdAt": "2025-10-10T12:34:38Z",
+      "title": "expo-dev-client and expo-dev-launcher require different version of expo-dev-menu in expo 54",
+      "url": "https://github.com/expo/expo/issues/40317"
+    },
+    {
+      "author": "hgrele",
+      "repo": "expo/expo",
+      "state": "closed",
+      "createdAt": "2025-10-10T12:22:57Z",
+      "title": "expo-dev-client and expo-dev-launcher require different version of expo-dev-menu in expo 54",
+      "url": "https://github.com/expo/expo/issues/40316"
+    },
+    {
+      "author": "yleflour",
+      "repo": "paralleldrive/sudolang",
+      "state": "closed",
+      "createdAt": "2025-10-01T07:29:36Z",
+      "title": "(Feature) Inline quote block starting position",
+      "url": "https://github.com/paralleldrive/sudolang/issues/41"
+    },
+    {
+      "author": "yleflour",
+      "repo": "paralleldrive/sudolang",
+      "state": "closed",
+      "createdAt": "2025-10-01T07:18:55Z",
+      "title": "[VSCode] Highlight single quote strings",
+      "url": "https://github.com/paralleldrive/sudolang/issues/40"
+    },
+    {
+      "author": "yleflour",
+      "repo": "paralleldrive/sudolang",
+      "state": "open",
+      "createdAt": "2025-10-01T07:12:46Z",
+      "title": "[VSCode] XML tags support",
+      "url": "https://github.com/paralleldrive/sudolang/issues/39"
+    },
+    {
+      "author": "yleflour",
+      "repo": "paralleldrive/sudolang",
+      "state": "closed",
+      "createdAt": "2025-10-01T07:06:19Z",
+      "title": "[VSCode] Blockquote tags support",
+      "url": "https://github.com/paralleldrive/sudolang/issues/38"
+    },
+    {
+      "author": "yleflour",
+      "repo": "paralleldrive/sudolang",
+      "state": "open",
+      "createdAt": "2025-10-01T07:04:33Z",
+      "title": "[VSCode] Frontmatter yaml",
+      "url": "https://github.com/paralleldrive/sudolang/issues/37"
+    },
+    {
+      "author": "Rouret",
+      "repo": "elysiajs/elysia",
+      "state": "closed",
+      "createdAt": "2025-09-23T18:53:18Z",
+      "title": "Add knip for deadcode ?",
+      "url": "https://github.com/elysiajs/elysia/issues/1433"
+    },
+    {
+      "author": "nicodeck",
+      "repo": "pnpm/pnpm",
+      "state": "closed",
+      "createdAt": "2025-09-17T10:09:57Z",
+      "title": "`minimumReleaseAge` configuration doesn't prevent installation of specific versions",
+      "url": "https://github.com/pnpm/pnpm/issues/9989"
+    },
+    {
+      "author": "alZyad",
+      "repo": "gitkraken/vscode-gitlens",
+      "state": "closed",
+      "createdAt": "2025-09-17T09:42:32Z",
+      "title": "Followup on \"Not able to open associated pull request to commits\"",
+      "url": "https://github.com/gitkraken/vscode-gitlens/issues/4597"
+    },
+    {
+      "author": "alZyad",
+      "repo": "gitkraken/vscode-gitlens",
+      "state": "open",
+      "createdAt": "2025-09-17T09:40:28Z",
+      "title": "Follow up on Not able to open associated pull request to commits",
+      "url": "https://github.com/gitkraken/vscode-gitlens/issues/4596"
+    },
+    {
+      "author": "vicprz",
+      "repo": "react-navigation/react-navigation",
+      "state": "open",
+      "createdAt": "2025-09-11T16:18:39Z",
+      "title": "[Bug][Fabric] App freezes after several navigations when using getId on a Stack screen",
+      "url": "https://github.com/react-navigation/react-navigation/issues/12749"
+    },
+    {
+      "author": "vicprz",
+      "repo": "expo/expo",
+      "state": "closed",
+      "createdAt": "2025-08-13T09:51:07Z",
+      "title": "[expo-image][iOS] Images don't load in screens inside a Material Top Tabs navigator",
+      "url": "https://github.com/expo/expo/issues/38783"
+    },
+    {
+      "author": "tychota",
+      "repo": "franciscoBSalgueiro/en-croissant",
+      "state": "closed",
+      "createdAt": "2025-08-08T15:26:05Z",
+      "title": "Duplicate lc0 is preventing to play again",
+      "url": "https://github.com/franciscoBSalgueiro/en-croissant/issues/592"
+    },
+    {
+      "author": "Rouret",
+      "repo": "yoopta-editor/Yoopta-Editor",
+      "state": "closed",
+      "createdAt": "2025-07-31T17:52:34Z",
+      "title": "[BUG] Doc is offline ?",
+      "url": "https://github.com/yoopta-editor/Yoopta-Editor/issues/535"
+    },
+    {
+      "author": "yleflour",
+      "repo": "tldraw/tldraw",
+      "state": "closed",
+      "createdAt": "2025-07-03T14:11:45Z",
+      "title": "Arrow positioning bug at specific positions",
+      "url": "https://github.com/tldraw/tldraw/issues/6391"
+    },
+    {
+      "author": "tychota",
+      "repo": "Kilo-Org/kilocode",
+      "state": "closed",
+      "createdAt": "2025-06-24T19:38:46Z",
+      "title": "Codebase Indexing reset the extension host",
+      "url": "https://github.com/Kilo-Org/kilocode/issues/852"
+    },
+    {
+      "author": "yleflour",
+      "repo": "ember-tooling/ember-language-server",
+      "state": "closed",
+      "createdAt": "2025-05-27T14:25:12Z",
+      "title": "Symbols not detected after {{else}} block in {{if}} {{else if}} {{else}} structure",
+      "url": "https://github.com/ember-tooling/ember-language-server/issues/426"
+    },
+    {
+      "author": "louis-prudhomme",
+      "repo": "TanStack/table",
+      "state": "open",
+      "createdAt": "2025-02-28T15:44:55Z",
+      "title": "`getIsSomeRowsSelected` returns a wrong value when unselecting rows manually",
+      "url": "https://github.com/TanStack/table/issues/5939"
+    },
+    {
+      "author": "alZyad",
+      "repo": "gitkraken/vscode-gitlens",
+      "state": "open",
+      "createdAt": "2025-02-13T16:22:51Z",
+      "title": "Not able to open associated pull request to commits",
+      "url": "https://github.com/gitkraken/vscode-gitlens/issues/4054"
+    },
+    {
+      "author": "EliottGand",
+      "repo": "expo/expo",
+      "state": "closed",
+      "createdAt": "2025-02-12T16:07:53Z",
+      "title": "[Android][SplashScreen] No image on splashscreen after switching permissions",
+      "url": "https://github.com/expo/expo/issues/34863"
+    },
+    {
+      "author": "yleflour",
+      "repo": "vercel/ai",
+      "state": "closed",
+      "createdAt": "2025-02-04T10:12:52Z",
+      "title": "gemini-2.0-flash-thinking-exp doesn't support \"thinking_config\"",
+      "url": "https://github.com/vercel/ai/issues/4685"
+    },
+    {
+      "author": "yleflour",
+      "repo": "terrastruct/d2-obsidian",
+      "state": "open",
+      "createdAt": "2025-01-30T00:02:24Z",
+      "title": "Internal links partially working",
+      "url": "https://github.com/terrastruct/d2-obsidian/issues/52"
+    },
+    {
+      "author": "yleflour",
+      "repo": "vercel/ai",
+      "state": "closed",
+      "createdAt": "2024-12-31T15:08:02Z",
+      "title": "Export every root level type",
+      "url": "https://github.com/vercel/ai/issues/4237"
+    },
+    {
+      "author": "xiniria",
+      "repo": "getsentry/sentry-react-native",
+      "state": "closed",
+      "createdAt": "2024-12-09T11:37:47Z",
+      "title": "Crash `EXC_BAD_ACCESS` on iOS with Sentry replay",
+      "url": "https://github.com/getsentry/sentry-react-native/issues/4350"
+    },
+    {
+      "author": "pierpo",
+      "repo": "jest-community/vscode-jest",
+      "state": "closed",
+      "createdAt": "2024-11-26T16:56:26Z",
+      "title": "[BUG] Multiline test names don't work properly",
+      "url": "https://github.com/jest-community/vscode-jest/issues/1204"
+    },
+    {
+      "author": "xiniria",
+      "repo": "facebook/react",
+      "state": "closed",
+      "createdAt": "2024-11-14T13:44:28Z",
+      "title": "[Feature Request] Warn for arrays resulting of `.map()` or `.filter()` in hook dependencies",
+      "url": "https://github.com/facebook/react/issues/31538"
+    },
+    {
+      "author": "thomasrebam",
+      "repo": "nativewind/nativewind",
+      "state": "closed",
+      "createdAt": "2024-09-10T15:52:34Z",
+      "title": "v2: Display of rounded-full views with borders does not appear on Android 8 and lower",
+      "url": "https://github.com/nativewind/nativewind/issues/1055"
+    },
+    {
+      "author": "vicprz",
+      "repo": "callstack/react-native-pager-view",
+      "state": "open",
+      "createdAt": "2024-08-28T12:57:56Z",
+      "title": "[Material Top Tabs] The tab bar UI doesn't update when navigate to a tab of the navigator from an external screen",
+      "url": "https://github.com/callstack/react-native-pager-view/issues/872"
+    },
+    {
+      "author": "vicprz",
+      "repo": "react-navigation/react-navigation",
+      "state": "open",
+      "createdAt": "2024-08-27T16:01:00Z",
+      "title": "[Material Top Tabs] The tab bar UI doesn't update when navigate to a tab of the navigator from an external screen",
+      "url": "https://github.com/react-navigation/react-navigation/issues/12119"
+    },
+    {
+      "author": "yleflour",
+      "repo": "connor4312/nodejs-testing",
+      "state": "closed",
+      "createdAt": "2024-08-14T22:52:04Z",
+      "title": "Typescript \"as const\" may break tree parsing",
+      "url": "https://github.com/connor4312/nodejs-testing/issues/51"
+    },
+    {
+      "author": "marekkalnik",
+      "repo": "apache/cordova-ios",
+      "state": "closed",
+      "createdAt": "2024-08-02T12:38:15Z",
+      "title": "Outdated security policy",
+      "url": "https://github.com/apache/cordova-ios/issues/1452"
+    },
+    {
+      "author": "Rouret",
+      "repo": "JesperLekland/react-native-svg-charts",
+      "state": "open",
+      "createdAt": "2024-07-17T08:01:44Z",
+      "title": "🚩 Need for Maintainers + Write Access 🚩",
+      "url": "https://github.com/JesperLekland/react-native-svg-charts/issues/613"
+    },
+    {
+      "author": "thomasrebam",
+      "repo": "transistorsoft/react-native-background-geolocation",
+      "state": "closed",
+      "createdAt": "2024-07-08T10:44:05Z",
+      "title": "Very old (48h) positions still recorded even after having already been flushed",
+      "url": "https://github.com/transistorsoft/react-native-background-geolocation/issues/2084"
+    },
+    {
+      "author": "pierpo",
+      "repo": "necolas/react-native-web",
+      "state": "closed",
+      "createdAt": "2024-06-12T15:54:29Z",
+      "title": "React 19 support",
+      "url": "https://github.com/necolas/react-native-web/issues/2686"
+    },
+    {
+      "author": "thomasrebam",
+      "repo": "transistorsoft/react-native-background-geolocation",
+      "state": "closed",
+      "createdAt": "2024-06-07T15:46:08Z",
+      "title": "No positions sent when the app is in background on iOS",
+      "url": "https://github.com/transistorsoft/react-native-background-geolocation/issues/2049"
+    },
+    {
+      "author": "yleflour",
+      "repo": "promptfoo/promptfoo",
+      "state": "closed",
+      "createdAt": "2024-05-02T21:41:36Z",
+      "title": "Multiline vars replacement break indentation in config generation",
+      "url": "https://github.com/promptfoo/promptfoo/issues/759"
+    },
+    {
+      "author": "xaviermarchal",
+      "repo": "Baboo7/strapi-plugin-import-export-entries",
+      "state": "open",
+      "createdAt": "2024-04-17T12:27:33Z",
+      "title": "[BUG] Images fields becomes empty when updating rows with a CSV in a collection type",
+      "url": "https://github.com/Baboo7/strapi-plugin-import-export-entries/issues/190"
+    },
+    {
+      "author": "remax21",
+      "repo": "jupyterlab-contrib/jupyterlab_code_formatter",
+      "state": "open",
+      "createdAt": "2024-03-17T22:37:34Z",
+      "title": "Jupyterlab Code Formatter Error in AWS SageMaker Studio",
+      "url": "https://github.com/jupyterlab-contrib/jupyterlab_code_formatter/issues/334"
+    },
+    {
+      "author": "jcalixte",
+      "repo": "bamlab/flashlight",
+      "state": "closed",
+      "createdAt": "2024-03-05T14:09:50Z",
+      "title": "Uploading aab failed a second time",
+      "url": "https://github.com/bamlab/flashlight/issues/207"
+    },
+    {
+      "author": "AntoineThibi",
+      "repo": "bamlab/react-native-project-config",
+      "state": "closed",
+      "createdAt": "2024-02-26T14:18:08Z",
+      "title": "[RFC]: @typescript-eslint:no-unnecessary-condition",
+      "url": "https://github.com/bamlab/react-native-project-config/issues/115"
+    },
+    {
+      "author": "AntoineThibi",
+      "repo": "invertase/react-native-firebase",
+      "state": "closed",
+      "createdAt": "2024-01-18T10:57:47Z",
+      "title": "🔥[🐛] [expo][plugin] Does not add the Background Modes capabilities",
+      "url": "https://github.com/invertase/react-native-firebase/issues/7577"
+    },
+    {
+      "author": "remilry",
+      "repo": "FormidableLabs/victory-native-xl",
+      "state": "closed",
+      "createdAt": "2023-12-18T13:48:19Z",
+      "title": " CartesianChart `lineWidth` props doesn't work correctly",
+      "url": "https://github.com/FormidableLabs/victory-native-xl/issues/173"
+    },
+    {
+      "author": "AntoineThibi",
+      "repo": "bamlab/react-native-project-config",
+      "state": "open",
+      "createdAt": "2023-12-15T14:52:55Z",
+      "title": "[Issue] `@bam.tech/await-user-event` forces an await on synchronous methods",
+      "url": "https://github.com/bamlab/react-native-project-config/issues/104"
+    },
+    {
+      "author": "mojavad",
+      "repo": "expo/expo",
+      "state": "closed",
+      "createdAt": "2023-12-15T12:42:51Z",
+      "title": "[SDK 50][expo-web] `@apollo-client` fails during `expo export` with metro for web",
+      "url": "https://github.com/expo/expo/issues/25965"
+    },
+    {
+      "author": "GuiLec",
+      "repo": "mantinedev/mantine",
+      "state": "closed",
+      "createdAt": "2023-12-12T17:02:05Z",
+      "title": "From: zodResolver provide last error message instead of first one",
+      "url": "https://github.com/mantinedev/mantine/issues/5411"
+    },
+    {
+      "author": "xiniria",
+      "repo": "ForestAdmin/agent-nodejs",
+      "state": "closed",
+      "createdAt": "2023-12-12T15:41:08Z",
+      "title": "High severity vulnerability in @forestadmin/agent because of @koa/cors dependency",
+      "url": "https://github.com/ForestAdmin/agent-nodejs/issues/896"
+    },
+    {
+      "author": "JulienIzz",
+      "repo": "expo/orbit",
+      "state": "closed",
+      "createdAt": "2023-10-16T10:28:48Z",
+      "title": "Manage tvOS simulator with Orbit",
+      "url": "https://github.com/expo/orbit/issues/81"
+    },
+    {
+      "author": "xiniria",
+      "repo": "mailjet/mailjet-apiv3-nodejs",
+      "state": "closed",
+      "createdAt": "2023-10-02T10:07:24Z",
+      "title": "The \"version\" field is not typed",
+      "url": "https://github.com/mailjet/mailjet-apiv3-nodejs/issues/258"
+    },
+    {
+      "author": "xiniria",
+      "repo": "expo/expo",
+      "state": "closed",
+      "createdAt": "2023-09-26T12:42:51Z",
+      "title": "Expo app built with `supportsTablet: false` crashes on launch if `expo-device` is not installed",
+      "url": "https://github.com/expo/expo/issues/24624"
+    },
+    {
+      "author": "xiniria",
+      "repo": "expo/expo",
+      "state": "closed",
+      "createdAt": "2023-09-26T12:28:31Z",
+      "title": "Expo app built with `supportsTablet: false` crashes on launch if `expo-device` is not installed",
+      "url": "https://github.com/expo/expo/issues/24622"
+    },
+    {
+      "author": "AntoineThibi",
+      "repo": "TanStack/query",
+      "state": "closed",
+      "createdAt": "2023-09-25T12:15:52Z",
+      "title": "Callbacks passed to `mutate` are not called when the component unmounts",
+      "url": "https://github.com/TanStack/query/issues/6060"
+    },
+    {
+      "author": "pierpo",
+      "repo": "tamagui/tamagui",
+      "state": "closed",
+      "createdAt": "2023-09-15T16:48:47Z",
+      "title": "\"ReferenceError: navigator is not defined\" when testing with `@testing-library/react-native`",
+      "url": "https://github.com/tamagui/tamagui/issues/1651"
+    },
+    {
+      "author": "AntoineThibi",
+      "repo": "oblador/react-native-keychain",
+      "state": "closed",
+      "createdAt": "2023-08-28T08:12:43Z",
+      "title": "Inconsistent Error Messages Between iOS and Android for Cancelled Biometry Operations",
+      "url": "https://github.com/oblador/react-native-keychain/issues/609"
+    },
+    {
+      "author": "pierpo",
+      "repo": "buildship-ai/rowy",
+      "state": "open",
+      "createdAt": "2023-08-09T14:48:08Z",
+      "title": "Feature request: re-ordering elements in a multi-selection list",
+      "url": "https://github.com/buildship-ai/rowy/issues/1374"
+    },
+    {
+      "author": "mojavad",
+      "repo": "expo/expo",
+      "state": "closed",
+      "createdAt": "2023-08-02T23:49:01Z",
+      "title": "[`bare-expo`] When contributing, after building successfully, the Bare Expo app gets stuck on splash screen.",
+      "url": "https://github.com/expo/expo/issues/23807"
+    },
+    {
+      "author": "MichaelKim39",
+      "repo": "a16z-infra/companion-app",
+      "state": "closed",
+      "createdAt": "2023-07-16T16:02:17Z",
+      "title": "Call to `chain.call` in `route.ts` is hanging, causing infinite loading ",
+      "url": "https://github.com/a16z-infra/companion-app/issues/64"
+    },
+    {
+      "author": "pierpo",
+      "repo": "buildship-ai/rowy",
+      "state": "closed",
+      "createdAt": "2023-07-10T16:41:06Z",
+      "title": "CORS error when trying to create a project",
+      "url": "https://github.com/buildship-ai/rowy/issues/1340"
+    },
+    {
+      "author": "xiniria",
+      "repo": "ForestAdmin/agent-nodejs",
+      "state": "closed",
+      "createdAt": "2023-07-04T14:51:33Z",
+      "title": "Error due to file-type import when compiling with SWC",
+      "url": "https://github.com/ForestAdmin/agent-nodejs/issues/757"
+    },
+    {
+      "author": "mojavad",
+      "repo": "tamagui/tamagui",
+      "state": "closed",
+      "createdAt": "2023-06-25T19:51:30Z",
+      "title": "Protected Studio Routes means `yarn site` fails",
+      "url": "https://github.com/tamagui/tamagui/issues/1333"
+    },
+    {
+      "author": "AntoineThibi",
+      "repo": "astahmer/openapi-zod-client",
+      "state": "open",
+      "createdAt": "2023-05-31T07:41:03Z",
+      "title": "Multiple queries not handled correctly",
+      "url": "https://github.com/astahmer/openapi-zod-client/issues/146"
+    },
+    {
+      "author": "alexisdelage",
+      "repo": "APSL/react-native-keyboard-aware-scroll-view",
+      "state": "open",
+      "createdAt": "2023-05-19T10:25:04Z",
+      "title": "[BUG] paddingBottom styling property is forced to zero on Android",
+      "url": "https://github.com/APSL/react-native-keyboard-aware-scroll-view/issues/568"
+    },
+    {
+      "author": "AntoineThibi",
+      "repo": "getsentry/sentry-react-native",
+      "state": "closed",
+      "createdAt": "2023-05-05T12:44:00Z",
+      "title": "Duplicate http / xhr breadcrumbs",
+      "url": "https://github.com/getsentry/sentry-react-native/issues/3045"
+    },
+    {
+      "author": "AntoineThibi",
+      "repo": "raycast/extensions",
+      "state": "closed",
+      "createdAt": "2023-04-25T07:14:17Z",
+      "title": "[Toothpick] Can't set a favorite device",
+      "url": "https://github.com/raycast/extensions/issues/6142"
+    },
+    {
+      "author": "tychota",
+      "repo": "theowenyoung/gatsby-theme-primer-wiki",
+      "state": "open",
+      "createdAt": "2022-05-03T16:52:37Z",
+      "title": "RFC: Consider adding note colouring to graphView",
+      "url": "https://github.com/theowenyoung/gatsby-theme-primer-wiki/issues/58"
+    },
+    {
+      "author": "yleflour",
+      "repo": "nestjsx/crud",
+      "state": "closed",
+      "createdAt": "2021-10-13T11:59:04Z",
+      "title": "Postgres string filters use LIKE instead of ILIKE",
+      "url": "https://github.com/nestjsx/crud/issues/741"
+    },
+    {
+      "author": "yleflour",
+      "repo": "nestjsx/crud",
+      "state": "open",
+      "createdAt": "2021-10-01T14:14:15Z",
+      "title": "Different \"query\" options per route",
+      "url": "https://github.com/nestjsx/crud/issues/740"
+    },
+    {
+      "author": "yleflour",
+      "repo": "RobinCK/typeorm-fixtures",
+      "state": "open",
+      "createdAt": "2021-09-28T16:06:53Z",
+      "title": "[Feature request] Allow truncating tables before running fixtures",
+      "url": "https://github.com/RobinCK/typeorm-fixtures/issues/176"
+    },
+    {
+      "author": "tychota",
+      "repo": "pmndrs/jotai",
+      "state": "closed",
+      "createdAt": "2021-09-20T14:50:38Z",
+      "title": "Improve typing of Atom, so if value of Value, is a promise, it still typecheck",
+      "url": "https://github.com/pmndrs/jotai/issues/725"
+    },
+    {
+      "author": "yleflour",
+      "repo": "mui/material-ui",
+      "state": "closed",
+      "createdAt": "2021-09-15T14:40:18Z",
+      "title": "[@mui/styled-engine-sc] The checks breaks styled-components' API",
+      "url": "https://github.com/mui/material-ui/issues/28364"
+    },
+    {
+      "author": "pierpo",
+      "repo": "emotion-js/emotion",
+      "state": "open",
+      "createdAt": "2021-07-07T15:41:37Z",
+      "title": "[native] borderColor raising a warning when used with Image",
+      "url": "https://github.com/emotion-js/emotion/issues/2422"
+    },
+    {
+      "author": "pierpo",
+      "repo": "styled-components/css-to-react-native",
+      "state": "closed",
+      "createdAt": "2021-07-07T15:08:49Z",
+      "title": "borderColor transformation not compatible with Image style props",
+      "url": "https://github.com/styled-components/css-to-react-native/issues/161"
+    },
+    {
+      "author": "tychota",
+      "repo": "squidfunk/mkdocs-material",
+      "state": "closed",
+      "createdAt": "2021-05-19T13:34:51Z",
+      "title": "Provides a plugin to optimise images (resize, placeholder)",
+      "url": "https://github.com/squidfunk/mkdocs-material/issues/2675"
+    },
+    {
+      "author": "xiniria",
+      "repo": "nestjs/nest",
+      "state": "closed",
+      "createdAt": "2021-05-18T09:41:31Z",
+      "title": "Cannot import const enum HttpStatus",
+      "url": "https://github.com/nestjs/nest/issues/7152"
+    },
+    {
+      "author": "jcalixte",
+      "repo": "slidevjs/slidev",
+      "state": "closed",
+      "createdAt": "2021-05-10T19:19:28Z",
+      "title": "Setup to customize favicon",
+      "url": "https://github.com/slidevjs/slidev/issues/56"
+    },
+    {
+      "author": "pierpo",
+      "repo": "fsouza/prettierd",
+      "state": "closed",
+      "createdAt": "2021-04-19T13:24:42Z",
+      "title": "Use local installation of prettier when possible",
+      "url": "https://github.com/fsouza/prettierd/issues/166"
+    },
+    {
+      "author": "pierpo",
+      "repo": "firebelley/godot-export",
+      "state": "closed",
+      "createdAt": "2021-03-27T10:11:59Z",
+      "title": "Android export: more docs and sensible defaults",
+      "url": "https://github.com/firebelley/godot-export/issues/50"
+    },
+    {
+      "author": "MaximeRougieux",
+      "repo": "contentful/rich-text",
+      "state": "closed",
+      "createdAt": "2021-03-04T13:17:55Z",
+      "title": "[rich-text-from-markdown][Bug] Vfile can't init because of process not defined",
+      "url": "https://github.com/contentful/rich-text/issues/204"
+    },
+    {
+      "author": "yleflour",
+      "repo": "software-mansion/react-native-gesture-handler",
+      "state": "closed",
+      "createdAt": "2021-02-24T21:38:00Z",
+      "title": "Multitouch miscalculates position",
+      "url": "https://github.com/software-mansion/react-native-gesture-handler/issues/1385"
+    },
+    {
+      "author": "xiniria",
+      "repo": "typeorm/typeorm",
+      "state": "closed",
+      "createdAt": "2021-01-08T15:45:25Z",
+      "title": "Vulnerability in y18n through cli-highlight",
+      "url": "https://github.com/typeorm/typeorm/issues/7259"
+    },
+    {
+      "author": "xiniria",
+      "repo": "nitin42/linkify-markdown",
+      "state": "open",
+      "createdAt": "2020-12-23T13:57:56Z",
+      "title": "Vulnerability (ReDoS) through dependency trim",
+      "url": "https://github.com/nitin42/linkify-markdown/issues/3"
+    },
+    {
+      "author": "tychota",
+      "repo": "artilleryio/artillery",
+      "state": "closed",
+      "createdAt": "2020-11-27T12:10:45Z",
+      "title": "Sanitize function is remplacing context variables that are null or undefined by ''",
+      "url": "https://github.com/artilleryio/artillery/issues/904"
+    },
+    {
+      "author": "xiniria",
+      "repo": "lirantal/npq",
+      "state": "closed",
+      "createdAt": "2020-11-25T10:19:00Z",
+      "title": "Unable to query the Snyk vulnerability database for @nestjs/cli",
+      "url": "https://github.com/lirantal/npq/issues/172"
+    },
+    {
+      "author": "xiniria",
+      "repo": "lirantal/lockfile-lint",
+      "state": "closed",
+      "createdAt": "2020-11-19T15:50:44Z",
+      "title": "Vulnerability in y18n (prototype pollution)",
+      "url": "https://github.com/lirantal/lockfile-lint/issues/99"
+    },
+    {
+      "author": "xiniria",
+      "repo": "lirantal/npq",
+      "state": "closed",
+      "createdAt": "2020-11-19T15:25:47Z",
+      "title": "Check a repo's already installed packages",
+      "url": "https://github.com/lirantal/npq/issues/163"
+    },
+    {
+      "author": "pierpo",
+      "repo": "storybookjs/storybook",
+      "state": "closed",
+      "createdAt": "2020-10-23T10:16:15Z",
+      "title": "Infinite loading after building with `build-storybook`, when used with create-react-app + npx sb init",
+      "url": "https://github.com/storybookjs/storybook/issues/12880"
+    },
+    {
+      "author": "pierpo",
+      "repo": "emotion-js/emotion",
+      "state": "closed",
+      "createdAt": "2020-10-21T10:53:25Z",
+      "title": "Reexporting `styled` (for a typed theme) breaks the babel macro",
+      "url": "https://github.com/emotion-js/emotion/issues/2054"
+    },
+    {
+      "author": "tychota",
+      "repo": "typeorm/typeorm",
+      "state": "closed",
+      "createdAt": "2020-10-06T14:57:09Z",
+      "title": "Support array parameter in Raw (FindOperator)",
+      "url": "https://github.com/typeorm/typeorm/issues/6860"
+    },
+    {
+      "author": "pierpo",
+      "repo": "pmmmwh/react-refresh-webpack-plugin",
+      "state": "closed",
+      "createdAt": "2020-10-01T08:54:27Z",
+      "title": "typescript-without-babel example not working",
+      "url": "https://github.com/pmmmwh/react-refresh-webpack-plugin/issues/217"
+    },
+    {
+      "author": "MichaelKim39",
+      "repo": "mowispace/react-native-logs",
+      "state": "closed",
+      "createdAt": "2020-07-11T06:39:22Z",
+      "title": "Unrecognised event output",
+      "url": "https://github.com/mowispace/react-native-logs/issues/13"
+    },
+    {
+      "author": "pierpo",
+      "repo": "microsoft/TypeScript",
+      "state": "closed",
+      "createdAt": "2020-06-02T14:59:59Z",
+      "title": "Conditional keys added to Partial<T> are not checked",
+      "url": "https://github.com/microsoft/TypeScript/issues/38896"
+    },
+    {
+      "author": "pierpo",
+      "repo": "estools/esquery",
+      "state": "closed",
+      "createdAt": "2020-05-04T12:32:56Z",
+      "title": "Demo: support for different parsers?",
+      "url": "https://github.com/estools/esquery/issues/107"
+    },
+    {
+      "author": "pierpo",
+      "repo": "darky/bull-repl",
+      "state": "closed",
+      "createdAt": "2020-03-11T13:32:28Z",
+      "title": "Some standard CLI shortcuts are missing",
+      "url": "https://github.com/darky/bull-repl/issues/19"
+    }
+  ],
   "repos": [
+    {
+      "name": "facebook/react",
+      "owner": "facebook",
+      "language": "JavaScript",
+      "stars": 245291
+    },
+    {
+      "name": "microsoft/TypeScript",
+      "owner": "microsoft",
+      "language": "TypeScript",
+      "stars": 108962
+    },
+    {
+      "name": "mui/material-ui",
+      "owner": "mui",
+      "language": "JavaScript",
+      "stars": 98355
+    },
+    {
+      "name": "storybookjs/storybook",
+      "owner": "storybookjs",
+      "language": "TypeScript",
+      "stars": 90095
+    },
+    {
+      "name": "nestjs/nest",
+      "owner": "nestjs",
+      "language": "TypeScript",
+      "stars": 75582
+    },
     {
       "name": "expo/expo",
       "owner": "expo",
       "language": "TypeScript",
-      "stars": 49678
+      "stars": 49693
     },
     {
       "name": "TanStack/query",
       "owner": "TanStack",
       "language": "TypeScript",
-      "stars": 49507
+      "stars": 49514
+    },
+    {
+      "name": "tldraw/tldraw",
+      "owner": "tldraw",
+      "language": "TypeScript",
+      "stars": 47440
+    },
+    {
+      "name": "slidevjs/slidev",
+      "owner": "slidevjs",
+      "language": "TypeScript",
+      "stars": 46775
     },
     {
       "name": "react-hook-form/react-hook-form",
       "owner": "react-hook-form",
       "language": "TypeScript",
-      "stars": 44733
+      "stars": 44735
     },
     {
       "name": "typeorm/typeorm",
       "owner": "typeorm",
       "language": "TypeScript",
-      "stars": 36518
+      "stars": 36520
+    },
+    {
+      "name": "pnpm/pnpm",
+      "owner": "pnpm",
+      "language": "TypeScript",
+      "stars": 35256
     },
     {
       "name": "drizzle-team/drizzle-orm",
       "owner": "drizzle-team",
       "language": "TypeScript",
-      "stars": 34521
+      "stars": 34540
     },
     {
       "name": "backstage/backstage",
       "owner": "backstage",
       "language": "TypeScript",
-      "stars": 33436
+      "stars": 33444
+    },
+    {
+      "name": "mantinedev/mantine",
+      "owner": "mantinedev",
+      "language": "TypeScript",
+      "stars": 31182
+    },
+    {
+      "name": "TanStack/table",
+      "owner": "TanStack",
+      "language": "TypeScript",
+      "stars": 28035
+    },
+    {
+      "name": "squidfunk/mkdocs-material",
+      "owner": "squidfunk",
+      "language": "Python",
+      "stars": 26814
+    },
+    {
+      "name": "vercel/ai",
+      "owner": "vercel",
+      "language": "TypeScript",
+      "stars": 24495
+    },
+    {
+      "name": "react-navigation/react-navigation",
+      "owner": "react-navigation",
+      "language": "TypeScript",
+      "stars": 24465
+    },
+    {
+      "name": "necolas/react-native-web",
+      "owner": "necolas",
+      "language": "JavaScript",
+      "stars": 22122
+    },
+    {
+      "name": "promptfoo/promptfoo",
+      "owner": "promptfoo",
+      "language": "TypeScript",
+      "stars": 21649
+    },
+    {
+      "name": "pmndrs/jotai",
+      "owner": "pmndrs",
+      "language": "TypeScript",
+      "stars": 21174
+    },
+    {
+      "name": "Kilo-Org/kilocode",
+      "owner": "Kilo-Org",
+      "language": "TypeScript",
+      "stars": 19626
     },
     {
       "name": "elysiajs/elysia",
       "owner": "elysiajs",
       "language": "TypeScript",
-      "stars": 18397
+      "stars": 18403
+    },
+    {
+      "name": "emotion-js/emotion",
+      "owner": "emotion-js",
+      "language": "JavaScript",
+      "stars": 18015
     },
     {
       "name": "tamagui/tamagui",
       "owner": "tamagui",
       "language": "TypeScript",
-      "stars": 13992
+      "stars": 13994
+    },
+    {
+      "name": "invertase/react-native-firebase",
+      "owner": "invertase",
+      "language": "TypeScript",
+      "stars": 12303
     },
     {
       "name": "reactjs/react.dev",
       "owner": "reactjs",
       "language": "JavaScript",
-      "stars": 11753
+      "stars": 11754
+    },
+    {
+      "name": "gitkraken/vscode-gitlens",
+      "owner": "gitkraken",
+      "language": "TypeScript",
+      "stars": 9827
     },
     {
       "name": "artilleryio/artillery",
@@ -1281,16 +2299,76 @@
       "stars": 8987
     },
     {
+      "name": "software-mansion/react-native-svg",
+      "owner": "software-mansion",
+      "language": "TypeScript",
+      "stars": 7988
+    },
+    {
+      "name": "nativewind/nativewind",
+      "owner": "nativewind",
+      "language": "TypeScript",
+      "stars": 7879
+    },
+    {
+      "name": "raycast/extensions",
+      "owner": "raycast",
+      "language": "TypeScript",
+      "stars": 7513
+    },
+    {
+      "name": "Shopify/flash-list",
+      "owner": "Shopify",
+      "language": "TypeScript",
+      "stars": 7095
+    },
+    {
+      "name": "buildship-ai/rowy",
+      "owner": "buildship-ai",
+      "language": "TypeScript",
+      "stars": 6810
+    },
+    {
+      "name": "software-mansion/react-native-gesture-handler",
+      "owner": "software-mansion",
+      "language": "TypeScript",
+      "stars": 6733
+    },
+    {
+      "name": "a16z-infra/companion-app",
+      "owner": "a16z-infra",
+      "language": "TypeScript",
+      "stars": 5958
+    },
+    {
+      "name": "APSL/react-native-keyboard-aware-scroll-view",
+      "owner": "APSL",
+      "language": "JavaScript",
+      "stars": 5380
+    },
+    {
       "name": "satya164/react-native-tab-view",
       "owner": "satya164",
       "language": "TypeScript",
       "stars": 5114
     },
     {
+      "name": "mayocream/koharu",
+      "owner": "mayocream",
+      "language": "Rust",
+      "stars": 4480
+    },
+    {
+      "name": "nestjsx/crud",
+      "owner": "nestjsx",
+      "language": "TypeScript",
+      "stars": 4330
+    },
+    {
       "name": "antfu-collective/taze",
       "owner": "antfu-collective",
       "language": "TypeScript",
-      "stars": 4182
+      "stars": 4183
     },
     {
       "name": "nandorojo/solito",
@@ -1299,10 +2377,64 @@
       "stars": 4085
     },
     {
+      "name": "kirillzyusko/react-native-keyboard-controller",
+      "owner": "kirillzyusko",
+      "language": "TypeScript",
+      "stars": 3588
+    },
+    {
+      "name": "oblador/react-native-keychain",
+      "owner": "oblador",
+      "language": "Kotlin",
+      "stars": 3458
+    },
+    {
+      "name": "dohooo/react-native-reanimated-carousel",
+      "owner": "dohooo",
+      "language": "TypeScript",
+      "stars": 3391
+    },
+    {
       "name": "callstack/react-native-testing-library",
       "owner": "callstack",
       "language": "TypeScript",
-      "stars": 3373
+      "stars": 3372
+    },
+    {
+      "name": "callstack/react-native-pager-view",
+      "owner": "callstack",
+      "language": "TypeScript",
+      "stars": 3313
+    },
+    {
+      "name": "pmmmwh/react-refresh-webpack-plugin",
+      "owner": "pmmmwh",
+      "language": "JavaScript",
+      "stars": 3189
+    },
+    {
+      "name": "yoopta-editor/Yoopta-Editor",
+      "owner": "yoopta-editor",
+      "language": "TypeScript",
+      "stars": 3027
+    },
+    {
+      "name": "transistorsoft/react-native-background-geolocation",
+      "owner": "transistorsoft",
+      "language": "TypeScript",
+      "stars": 2901
+    },
+    {
+      "name": "jest-community/vscode-jest",
+      "owner": "jest-community",
+      "language": "TypeScript",
+      "stars": 2897
+    },
+    {
+      "name": "jpudysz/react-native-unistyles",
+      "owner": "jpudysz",
+      "language": "TypeScript",
+      "stars": 2884
     },
     {
       "name": "chromaui/learnstorybook.com",
@@ -1311,22 +2443,52 @@
       "stars": 2415
     },
     {
+      "name": "JesperLekland/react-native-svg-charts",
+      "owner": "JesperLekland",
+      "language": "JavaScript",
+      "stars": 2400
+    },
+    {
       "name": "color-js/color.js",
       "owner": "color-js",
       "language": "JavaScript",
       "stars": 2252
     },
     {
+      "name": "apache/cordova-ios",
+      "owner": "apache",
+      "language": "JavaScript",
+      "stars": 2219
+    },
+    {
+      "name": "getsentry/sentry-react-native",
+      "owner": "getsentry",
+      "language": "TypeScript",
+      "stars": 1798
+    },
+    {
       "name": "lirantal/npq",
       "owner": "lirantal",
       "language": "JavaScript",
-      "stars": 1673
+      "stars": 1674
+    },
+    {
+      "name": "franciscoBSalgueiro/en-croissant",
+      "owner": "franciscoBSalgueiro",
+      "language": "TypeScript",
+      "stars": 1622
     },
     {
       "name": "bamlab/flashlight",
       "owner": "bamlab",
       "language": "TypeScript",
-      "stars": 1574
+      "stars": 1575
+    },
+    {
+      "name": "paralleldrive/sudolang",
+      "owner": "paralleldrive",
+      "language": "TypeScript",
+      "stars": 1348
     },
     {
       "name": "Abhinandan-Kushwaha/react-native-gifted-charts",
@@ -1335,10 +2497,46 @@
       "stars": 1331
     },
     {
+      "name": "FormidableLabs/victory-native-xl",
+      "owner": "FormidableLabs",
+      "language": "TypeScript",
+      "stars": 1181
+    },
+    {
+      "name": "styled-components/css-to-react-native",
+      "owner": "styled-components",
+      "language": "TypeScript",
+      "stars": 1177
+    },
+    {
       "name": "GetStream/stream-chat-react-native",
       "owner": "GetStream",
       "language": "TypeScript",
-      "stars": 1161
+      "stars": 1162
+    },
+    {
+      "name": "astahmer/openapi-zod-client",
+      "owner": "astahmer",
+      "language": "TypeScript",
+      "stars": 1162
+    },
+    {
+      "name": "fsouza/prettierd",
+      "owner": "fsouza",
+      "language": "TypeScript",
+      "stars": 989
+    },
+    {
+      "name": "jupyterlab-contrib/jupyterlab_code_formatter",
+      "owner": "jupyterlab-contrib",
+      "language": "Python",
+      "stars": 906
+    },
+    {
+      "name": "estools/esquery",
+      "owner": "estools",
+      "language": "JavaScript",
+      "stars": 887
     },
     {
       "name": "lirantal/lockfile-lint",
@@ -1359,10 +2557,58 @@
       "stars": 829
     },
     {
+      "name": "expo/orbit",
+      "owner": "expo",
+      "language": "TypeScript",
+      "stars": 805
+    },
+    {
+      "name": "padok-team/burrito",
+      "owner": "padok-team",
+      "language": "Go",
+      "stars": 718
+    },
+    {
+      "name": "kirillzyusko/react-native-teleport",
+      "owner": "kirillzyusko",
+      "language": "TypeScript",
+      "stars": 667
+    },
+    {
+      "name": "firebelley/godot-export",
+      "owner": "firebelley",
+      "language": "TypeScript",
+      "stars": 628
+    },
+    {
       "name": "callstackincubator/rozenite",
       "owner": "callstackincubator",
       "language": "TypeScript",
       "stars": 597
+    },
+    {
+      "name": "mowispace/react-native-logs",
+      "owner": "mowispace",
+      "language": "TypeScript",
+      "stars": 589
+    },
+    {
+      "name": "contentful/rich-text",
+      "owner": "contentful",
+      "language": "TypeScript",
+      "stars": 584
+    },
+    {
+      "name": "RobinCK/typeorm-fixtures",
+      "owner": "RobinCK",
+      "language": "TypeScript",
+      "stars": 581
+    },
+    {
+      "name": "codegouvfr/react-dsfr",
+      "owner": "codegouvfr",
+      "language": "TypeScript",
+      "stars": 484
     },
     {
       "name": "thekevinbrown/react-native-schemes-manager",
@@ -1374,7 +2620,7 @@
       "name": "terrastruct/d2-obsidian",
       "owner": "terrastruct",
       "language": "TypeScript",
-      "stars": 301
+      "stars": 303
     },
     {
       "name": "mikro-orm/nestjs",
@@ -1393,6 +2639,12 @@
       "owner": "expo",
       "language": "TypeScript",
       "stars": 241
+    },
+    {
+      "name": "darky/bull-repl",
+      "owner": "darky",
+      "language": "TypeScript",
+      "stars": 240
     },
     {
       "name": "bamlab/react-native-app-security",
@@ -1419,6 +2671,18 @@
       "stars": 141
     },
     {
+      "name": "theowenyoung/gatsby-theme-primer-wiki",
+      "owner": "theowenyoung",
+      "language": "JavaScript",
+      "stars": 118
+    },
+    {
+      "name": "ember-tooling/ember-language-server",
+      "owner": "ember-tooling",
+      "language": "TypeScript",
+      "stars": 107
+    },
+    {
       "name": "Sanofi-IADC/whispr",
       "owner": "Sanofi-IADC",
       "language": "TypeScript",
@@ -1435,6 +2699,18 @@
       "owner": "mancku",
       "language": "TypeScript",
       "stars": 68
+    },
+    {
+      "name": "nitin42/linkify-markdown",
+      "owner": "nitin42",
+      "language": "JavaScript",
+      "stars": 68
+    },
+    {
+      "name": "connor4312/nodejs-testing",
+      "owner": "connor4312",
+      "language": "TypeScript",
+      "stars": 67
     },
     {
       "name": "ReactFinland/graphql-api",
@@ -1459,48 +2735,54 @@
     {
       "login": "thomasrebam",
       "prCount": 34,
+      "issueCount": 3,
       "reposCount": 6,
       "topRepos": [
-        "bamlab/react-native-app-security",
+        "callstackincubator/rozenite",
+        "expo/dev-plugins",
         "expo/expo",
         "bamlab/react-native-project-config",
-        "callstackincubator/rozenite",
-        "expo/dev-plugins"
+        "bamlab/react-native-app-security"
       ]
     },
     {
       "login": "AntoineThibi",
-      "prCount": 21,
-      "reposCount": 4,
+      "prCount": 22,
+      "issueCount": 8,
+      "reposCount": 5,
       "topRepos": [
-        "bamlab/flashlight",
         "expo/expo",
+        "oblador/react-native-keychain",
         "callstack/react-native-testing-library",
-        "bamlab/react-native-project-config"
-      ]
-    },
-    {
-      "login": "waltoss",
-      "prCount": 8,
-      "reposCount": 2,
-      "topRepos": [
-        "Sanofi-IADC/whispr",
-        "drizzle-team/drizzle-orm"
+        "bamlab/react-native-project-config",
+        "bamlab/flashlight"
       ]
     },
     {
       "login": "EliottGand",
       "prCount": 8,
+      "issueCount": 1,
       "reposCount": 3,
       "topRepos": [
-        "bamlab/flashlight",
         "expo/expo",
-        "bamlab/react-native-project-config"
+        "bamlab/react-native-project-config",
+        "bamlab/flashlight"
+      ]
+    },
+    {
+      "login": "waltoss",
+      "prCount": 8,
+      "issueCount": 1,
+      "reposCount": 2,
+      "topRepos": [
+        "drizzle-team/drizzle-orm",
+        "Sanofi-IADC/whispr"
       ]
     },
     {
       "login": "alexisdelage",
       "prCount": 8,
+      "issueCount": 1,
       "reposCount": 1,
       "topRepos": [
         "bamlab/react-native-project-config"
@@ -1509,141 +2791,156 @@
     {
       "login": "mbezard",
       "prCount": 8,
+      "issueCount": 0,
       "reposCount": 2,
       "topRepos": [
-        "bamlab/flashlight",
-        "GetStream/stream-chat-react-native"
+        "GetStream/stream-chat-react-native",
+        "bamlab/flashlight"
       ]
     },
     {
       "login": "mojavad",
       "prCount": 6,
+      "issueCount": 3,
       "reposCount": 5,
       "topRepos": [
-        "ReactFinland/graphql-api",
+        "reactjs/react.dev",
         "expo/expo",
         "tamagui/tamagui",
-        "reactjs/react.dev",
+        "ReactFinland/graphql-api",
         "bamlab/flashlight"
       ]
     },
     {
       "login": "niebo26",
       "prCount": 6,
+      "issueCount": 0,
       "reposCount": 2,
       "topRepos": [
-        "bamlab/flashlight",
-        "xcarpentier/rn-tourguide"
+        "xcarpentier/rn-tourguide",
+        "bamlab/flashlight"
+      ]
+    },
+    {
+      "login": "pierpo",
+      "prCount": 5,
+      "issueCount": 15,
+      "reposCount": 5,
+      "topRepos": [
+        "nandorojo/solito",
+        "mancku/strapi-plugin-schemas-to-ts",
+        "thekevinbrown/react-native-schemes-manager",
+        "tokkozhin/react-native-neomorph-shadows",
+        "satya164/react-native-tab-view"
+      ]
+    },
+    {
+      "login": "xiniria",
+      "prCount": 5,
+      "issueCount": 13,
+      "reposCount": 5,
+      "topRepos": [
+        "ForestAdmin/agent-nodejs",
+        "mailjet/mailjet-apiv3-nodejs",
+        "typeorm/typeorm",
+        "lirantal/npq",
+        "lirantal/lockfile-lint"
+      ]
+    },
+    {
+      "login": "tychota",
+      "prCount": 5,
+      "issueCount": 8,
+      "reposCount": 5,
+      "topRepos": [
+        "expo/expo",
+        "color-js/color.js",
+        "mikro-orm/nestjs",
+        "artilleryio/artillery",
+        "typeorm/typeorm"
+      ]
+    },
+    {
+      "login": "Rouret",
+      "prCount": 5,
+      "issueCount": 3,
+      "reposCount": 2,
+      "topRepos": [
+        "elysiajs/elysia",
+        "Abhinandan-Kushwaha/react-native-gifted-charts"
       ]
     },
     {
       "login": "marineshaw",
       "prCount": 5,
+      "issueCount": 0,
       "reposCount": 1,
       "topRepos": [
         "bamlab/react-native-app-security"
       ]
     },
     {
-      "login": "tychota",
-      "prCount": 5,
-      "reposCount": 5,
-      "topRepos": [
-        "expo/expo",
-        "mikro-orm/nestjs",
-        "typeorm/typeorm",
-        "color-js/color.js",
-        "artilleryio/artillery"
-      ]
-    },
-    {
-      "login": "pierpo",
-      "prCount": 5,
-      "reposCount": 5,
-      "topRepos": [
-        "nandorojo/solito",
-        "thekevinbrown/react-native-schemes-manager",
-        "satya164/react-native-tab-view",
-        "tokkozhin/react-native-neomorph-shadows",
-        "mancku/strapi-plugin-schemas-to-ts"
-      ]
-    },
-    {
-      "login": "Rouret",
-      "prCount": 5,
-      "reposCount": 2,
-      "topRepos": [
-        "Abhinandan-Kushwaha/react-native-gifted-charts",
-        "elysiajs/elysia"
-      ]
-    },
-    {
       "login": "GuillaumeEgret",
       "prCount": 5,
+      "issueCount": 0,
       "reposCount": 1,
       "topRepos": [
         "bamlab/flashlight"
       ]
     },
     {
-      "login": "xiniria",
-      "prCount": 5,
-      "reposCount": 5,
-      "topRepos": [
-        "lirantal/npq",
-        "ForestAdmin/agent-nodejs",
-        "typeorm/typeorm",
-        "mailjet/mailjet-apiv3-nodejs",
-        "lirantal/lockfile-lint"
-      ]
-    },
-    {
       "login": "alZyad",
       "prCount": 3,
+      "issueCount": 5,
       "reposCount": 2,
       "topRepos": [
-        "bamlab/react-native-project-config",
-        "TanStack/query"
-      ]
-    },
-    {
-      "login": "remilry",
-      "prCount": 3,
-      "reposCount": 1,
-      "topRepos": [
+        "TanStack/query",
         "bamlab/react-native-project-config"
       ]
     },
     {
       "login": "jcalixte",
       "prCount": 3,
+      "issueCount": 2,
       "reposCount": 2,
       "topRepos": [
-        "bamlab/react-native-app-security",
-        "antfu-collective/taze"
+        "antfu-collective/taze",
+        "bamlab/react-native-app-security"
       ]
     },
     {
-      "login": "nicodeck",
-      "prCount": 2,
-      "reposCount": 2,
+      "login": "remilry",
+      "prCount": 3,
+      "issueCount": 1,
+      "reposCount": 1,
       "topRepos": [
-        "bamlab/react-native-app-security",
-        "denoland/docs"
+        "bamlab/react-native-project-config"
       ]
     },
     {
       "login": "yleflour",
       "prCount": 2,
+      "issueCount": 19,
       "reposCount": 2,
       "topRepos": [
-        "react-hook-form/react-hook-form",
-        "terrastruct/d2-obsidian"
+        "terrastruct/d2-obsidian",
+        "react-hook-form/react-hook-form"
+      ]
+    },
+    {
+      "login": "nicodeck",
+      "prCount": 2,
+      "issueCount": 1,
+      "reposCount": 2,
+      "topRepos": [
+        "denoland/docs",
+        "bamlab/react-native-app-security"
       ]
     },
     {
       "login": "xaviermarchal",
       "prCount": 2,
+      "issueCount": 1,
       "reposCount": 2,
       "topRepos": [
         "Baboo7/strapi-plugin-import-export-entries",
@@ -1653,30 +2950,34 @@
     {
       "login": "JulienIzz",
       "prCount": 2,
+      "issueCount": 1,
       "reposCount": 1,
       "topRepos": [
         "bamlab/react-native-project-config"
       ]
     },
     {
+      "login": "Thibaut-Padok",
+      "prCount": 2,
+      "issueCount": 0,
+      "reposCount": 1,
+      "topRepos": [
+        "padok-team/burrito"
+      ]
+    },
+    {
       "login": "wrousseau",
       "prCount": 2,
+      "issueCount": 0,
       "reposCount": 1,
       "topRepos": [
         "backstage/backstage"
       ]
     },
     {
-      "login": "AlecColas",
-      "prCount": 1,
-      "reposCount": 1,
-      "topRepos": [
-        "bamlab/flashlight"
-      ]
-    },
-    {
       "login": "LouisDvr",
       "prCount": 1,
+      "issueCount": 1,
       "reposCount": 1,
       "topRepos": [
         "imwithye/react-native-remark"
@@ -1685,18 +2986,106 @@
     {
       "login": "Xseuguh",
       "prCount": 1,
+      "issueCount": 0,
       "reposCount": 1,
       "topRepos": [
         "bamlab/react-native-app-security"
       ]
     },
     {
-      "login": "mohamed-ahdidou-nw",
+      "login": "AlecColas",
       "prCount": 1,
+      "issueCount": 0,
       "reposCount": 1,
       "topRepos": [
         "bamlab/flashlight"
       ]
+    },
+    {
+      "login": "mohamed-ahdidou-nw",
+      "prCount": 1,
+      "issueCount": 0,
+      "reposCount": 1,
+      "topRepos": [
+        "bamlab/flashlight"
+      ]
+    },
+    {
+      "login": "vicprz",
+      "prCount": 0,
+      "issueCount": 8,
+      "reposCount": 0,
+      "topRepos": []
+    },
+    {
+      "login": "thomascoumau",
+      "prCount": 0,
+      "issueCount": 3,
+      "reposCount": 0,
+      "topRepos": []
+    },
+    {
+      "login": "hgrele",
+      "prCount": 0,
+      "issueCount": 2,
+      "reposCount": 0,
+      "topRepos": []
+    },
+    {
+      "login": "MichaelKim39",
+      "prCount": 0,
+      "issueCount": 2,
+      "reposCount": 0,
+      "topRepos": []
+    },
+    {
+      "login": "GuiLec",
+      "prCount": 0,
+      "issueCount": 1,
+      "reposCount": 0,
+      "topRepos": []
+    },
+    {
+      "login": "louis-prudhomme",
+      "prCount": 0,
+      "issueCount": 1,
+      "reposCount": 0,
+      "topRepos": []
+    },
+    {
+      "login": "LucienRbl",
+      "prCount": 0,
+      "issueCount": 1,
+      "reposCount": 0,
+      "topRepos": []
+    },
+    {
+      "login": "marekkalnik",
+      "prCount": 0,
+      "issueCount": 1,
+      "reposCount": 0,
+      "topRepos": []
+    },
+    {
+      "login": "MaximeRougieux",
+      "prCount": 0,
+      "issueCount": 1,
+      "reposCount": 0,
+      "topRepos": []
+    },
+    {
+      "login": "remax21",
+      "prCount": 0,
+      "issueCount": 1,
+      "reposCount": 0,
+      "topRepos": []
+    },
+    {
+      "login": "uffoltzl",
+      "prCount": 0,
+      "issueCount": 1,
+      "reposCount": 0,
+      "topRepos": []
     }
   ]
 }
