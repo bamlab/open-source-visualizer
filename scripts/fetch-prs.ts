@@ -206,6 +206,26 @@ async function fetchRepoMeta(fullName: string): Promise<RepoMeta | null> {
   }
 }
 
+// Fraction of a repo's bytes that must be JS/TS for it to count as part of the
+// ecosystem when GitHub's *primary* language is something else (e.g. Kotlin for
+// React Native native modules like react-native-keychain).
+const JS_SHARE_THRESHOLD = 0.2;
+
+async function fetchJsTsShare(fullName: string): Promise<number> {
+  try {
+    const data = await ghFetch<Record<string, number>>(
+      `https://api.github.com/repos/${fullName}/languages`
+    );
+    const total = Object.values(data).reduce((a, b) => a + b, 0);
+    if (!total) return 0;
+    const jsts = (data.TypeScript ?? 0) + (data.JavaScript ?? 0);
+    return jsts / total;
+  } catch (err) {
+    console.warn(`  languages failed for ${fullName}: ${(err as Error).message}`);
+    return 0;
+  }
+}
+
 function isExcluded(repo: string): boolean {
   if (BAMLAB_WHITELIST.has(repo)) return false;
   const owner = repo.split('/')[0];
@@ -287,14 +307,28 @@ async function main() {
   }
   const repoByName = new Map(repoMetas.map((r) => [r.name, r] as const));
 
+  // Determine which candidate repos qualify as JS/TS ecosystem. The primary
+  // `language` is often a native lang (Kotlin/Swift/ObjC) for RN modules that
+  // are still largely JS/TS, so for star-passing repos that fail the primary
+  // check we fall back to the language byte breakdown.
+  const qualifying = new Set<string>();
+  let langChecks = 0;
+  for (const repo of uniqueRepos) {
+    const meta = repoByName.get(repo);
+    if (!meta || meta.stars < STAR_THRESHOLD) continue;
+    if (meta.language && ALLOWED_LANGUAGES.has(meta.language)) {
+      qualifying.add(repo);
+      continue;
+    }
+    const share = await fetchJsTsShare(repo);
+    if (share >= JS_SHARE_THRESHOLD) qualifying.add(repo);
+    if (++langChecks % 25 === 0) await sleep(1000);
+  }
+
   // Final filter: JS/TS + star threshold (bypassed for whitelisted bamlab OSS repos)
   const finalPrs = filtered1.filter((pr) => {
     if (BAMLAB_WHITELIST.has(pr.repo)) return true;
-    const meta = repoByName.get(pr.repo);
-    if (!meta) return false;
-    if (meta.stars < STAR_THRESHOLD) return false;
-    if (!meta.language || !ALLOWED_LANGUAGES.has(meta.language)) return false;
-    return true;
+    return qualifying.has(pr.repo);
   });
 
   // Compute leaderboard

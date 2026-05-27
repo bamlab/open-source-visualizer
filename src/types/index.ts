@@ -84,6 +84,7 @@ export interface ConferenceTalk {
   eventDate: string | null; // ISO; first date when the export gives a range
   status: string; // e.g. "Talk Given"
   team: string; // Related Brand, e.g. "Theodo Apps"
+  technology: string; // Technology column, e.g. "React Native" (often empty)
   notionUrl: string | null; // extracted from the Event field
   city: string | null;
   country: string | null;

@@ -1,5 +1,8 @@
+import { useState } from 'react';
 import type { PersonStat, PrRecord } from '../types';
 import { useSelectedPerson } from '../store/selectedPerson';
+
+const INITIAL_VISIBLE = 15;
 
 interface Props {
   people: PersonStat[];
@@ -47,9 +50,11 @@ function BadgeIcon({ emoji, label }: { emoji: string; label: string }) {
 }
 
 export function Leaderboard({ people, prs }: Props) {
-  const top = people.slice(0, 15);
-  const max = top[0]?.prCount ?? 1;
+  const [expanded, setExpanded] = useState(false);
+  const top = expanded ? people : people.slice(0, INITIAL_VISIBLE);
+  const max = people[0]?.prCount ?? 1;
   const { selectedPerson, toggle } = useSelectedPerson();
+  const hiddenCount = people.length - INITIAL_VISIBLE;
 
   return (
     <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-6">
@@ -122,6 +127,14 @@ export function Leaderboard({ people, prs }: Props) {
         })}
         {top.length === 0 && <li className="text-sm text-gray-400">No data yet — run the fetch script.</li>}
       </ol>
+      {hiddenCount > 0 && (
+        <button
+          onClick={() => setExpanded((v) => !v)}
+          className="mt-4 w-full rounded-xl border border-gray-100 py-2 text-sm font-semibold text-gray-600 hover:text-brand hover:border-brand/40 transition-colors"
+        >
+          {expanded ? 'Show less' : `Show ${hiddenCount} more`}
+        </button>
+      )}
     </div>
   );
 }
