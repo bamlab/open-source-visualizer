@@ -64,6 +64,7 @@ export interface RepoMeta {
 export interface PersonStat {
   login: string;
   prCount: number;
+  issueCount: number;
   reposCount: number;
   topRepos: string[];
 }
@@ -72,6 +73,7 @@ export interface PrsDataFile {
   generatedAt: string | null;
   org: string;
   prs: PrRecord[];
+  issues: PrRecord[]; // issues opened (state is 'open' | 'closed')
   repos: RepoMeta[];
   people: PersonStat[];
 }

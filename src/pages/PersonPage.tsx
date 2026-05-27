@@ -10,8 +10,10 @@ import { LoadingSkeleton } from '../components/LoadingSkeleton';
 export function PersonPage() {
   const { data, isLoading } = usePrsData();
   const { prs, repos, people, generatedAt, org } = data;
+  const issues = data.issues ?? [];
 
   const totalPrs = prs.length;
+  const totalIssues = issues.length;
   const contributors = people.length;
   const reposCount = repos.length;
 
@@ -35,13 +37,20 @@ export function PersonPage() {
             Open source contributions
           </h1>
           <p className="text-sm text-gray-500 mt-2 max-w-2xl">
-            Public PRs opened by {org} members to external JS/TS repos with ≥50 stars. Updated weekly.
+            Public PRs and issues opened by {org} members to external JS/TS repos with ≥50 stars.
+            Updated weekly.
           </p>
-          <div className="mt-6 grid grid-cols-3 gap-6">
+          <div className="mt-6 grid grid-cols-4 gap-6">
             <div>
               <div className="text-3xl md:text-4xl font-black text-gray-900">{totalPrs}</div>
               <div className="text-[11px] text-gray-500 uppercase tracking-wider font-semibold mt-1">
                 PRs
+              </div>
+            </div>
+            <div>
+              <div className="text-3xl md:text-4xl font-black text-gray-900">{totalIssues}</div>
+              <div className="text-[11px] text-gray-500 uppercase tracking-wider font-semibold mt-1">
+                Issues
               </div>
             </div>
             <div>
@@ -77,7 +86,7 @@ export function PersonPage() {
         ) : (
           <>
             <Leaderboard people={people} prs={prs} />
-            <LatestPrs prs={prs} repos={repos} />
+            <LatestPrs prs={prs} issues={issues} repos={repos} />
             <TopRepos repos={repos} prs={prs} />
             <PrStatusPanel prs={prs} />
           </>

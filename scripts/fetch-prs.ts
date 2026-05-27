@@ -143,6 +143,64 @@ async function searchPrsInRepo(repo: string): Promise<PrRecord[]> {
   return records;
 }
 
+async function searchIssuesInRepo(repo: string): Promise<PrRecord[]> {
+  const records: PrRecord[] = [];
+  const q = encodeURIComponent(`repo:${repo} type:issue is:public`);
+  let page = 1;
+  while (true) {
+    const url = `https://api.github.com/search/issues?q=${q}&advanced_search=true&per_page=100&page=${page}`;
+    const data = await ghFetch<SearchResp>(url);
+    for (const item of data.items) {
+      records.push({
+        author: item.user.login,
+        repo,
+        state: item.state === 'open' ? 'open' : 'closed',
+        createdAt: item.created_at,
+        title: item.title,
+        url: item.html_url,
+      });
+    }
+    if (data.items.length < 100) break;
+    if (page >= 10) break;
+    page += 1;
+    await sleep(800);
+  }
+  return records;
+}
+
+async function searchIssues(author: string): Promise<PrRecord[]> {
+  const records: PrRecord[] = [];
+  const q = encodeURIComponent(`author:${author} type:issue is:public -org:${ORG}`);
+  let page = 1;
+  while (true) {
+    const url = `https://api.github.com/search/issues?q=${q}&advanced_search=true&per_page=100&page=${page}`;
+    let data: SearchResp;
+    try {
+      data = await ghFetch<SearchResp>(url);
+    } catch (err) {
+      const msg = (err as Error).message;
+      if (msg.includes('422')) return records;
+      throw err;
+    }
+    for (const item of data.items) {
+      const repo = item.repository_url.replace('https://api.github.com/repos/', '');
+      records.push({
+        author,
+        repo,
+        state: item.state === 'open' ? 'open' : 'closed',
+        createdAt: item.created_at,
+        title: item.title,
+        url: item.html_url,
+      });
+    }
+    if (data.items.length < 100) break;
+    if (page >= 10) break; // search caps at 1000 results
+    page += 1;
+    await sleep(800);
+  }
+  return records;
+}
+
 async function searchPrs(author: string): Promise<PrRecord[]> {
   const records: PrRecord[] = [];
   const q = encodeURIComponent(`author:${author} type:pr is:public -org:${ORG}`);
@@ -255,27 +313,37 @@ async function main() {
     process.exit(2);
   }
 
-  console.log('\nFetching PRs per member (external to bamlab)...');
+  console.log('\nFetching PRs and issues per member (external to bamlab)...');
   const rawPrs: PrRecord[] = [];
+  const rawIssues: PrRecord[] = [];
   for (const login of members) {
     try {
       const prs = await searchPrs(login);
       rawPrs.push(...prs);
-      console.log(`  ${login}: ${prs.length} PRs`);
       await sleep(1500); // be gentle with secondary rate limits
+      const issues = await searchIssues(login);
+      rawIssues.push(...issues);
+      console.log(`  ${login}: ${prs.length} PRs, ${issues.length} issues`);
+      await sleep(1500);
     } catch (err) {
       console.error(`  ${login}: ERROR — ${(err as Error).message}`);
     }
   }
 
-  console.log('\nFetching PRs in whitelisted bamlab OSS repos...');
+  console.log('\nFetching PRs and issues in whitelisted bamlab OSS repos...');
   const memberSet = new Set(members.map((m) => m.toLowerCase()));
   for (const repo of BAMLAB_WHITELIST) {
     try {
       const prs = await searchPrsInRepo(repo);
       const fromMembers = prs.filter((p) => memberSet.has(p.author.toLowerCase()));
       rawPrs.push(...fromMembers);
-      console.log(`  ${repo}: ${fromMembers.length} PRs (from ${prs.length} total)`);
+      await sleep(1500);
+      const issues = await searchIssuesInRepo(repo);
+      const issuesFromMembers = issues.filter((p) => memberSet.has(p.author.toLowerCase()));
+      rawIssues.push(...issuesFromMembers);
+      console.log(
+        `  ${repo}: ${fromMembers.length} PRs, ${issuesFromMembers.length} issues (from members)`,
+      );
       await sleep(1500);
     } catch (err) {
       console.error(`  ${repo}: ERROR — ${(err as Error).message}`);
@@ -293,8 +361,21 @@ async function main() {
     return true;
   });
 
-  // Fetch repo metadata for the surviving repo set
-  const uniqueRepos = Array.from(new Set(filtered1.map((p) => p.repo)));
+  // Same pre-filter for issues, but keep both open and closed (an opened issue
+  // is a contribution regardless of whether it was later closed).
+  const filteredIssues1 = rawIssues.filter((issue) => {
+    if (EXCLUDED_AUTHORS.has(issue.author)) return false;
+    const owner = issue.repo.split('/')[0];
+    if (isExcluded(issue.repo)) return false;
+    if (owner.toLowerCase() === issue.author.toLowerCase()) return false;
+    if (Number(issue.createdAt.slice(0, 4)) < MIN_YEAR) return false;
+    return true;
+  });
+
+  // Fetch repo metadata for the surviving repo set (PRs + issues)
+  const uniqueRepos = Array.from(
+    new Set([...filtered1.map((p) => p.repo), ...filteredIssues1.map((i) => i.repo)]),
+  );
   console.log(`\nFetching metadata for ${uniqueRepos.length} candidate repos...`);
   const repoMetas: RepoMeta[] = [];
   for (let i = 0; i < uniqueRepos.length; i++) {
@@ -330,30 +411,53 @@ async function main() {
     if (BAMLAB_WHITELIST.has(pr.repo)) return true;
     return qualifying.has(pr.repo);
   });
+  const finalIssues = filteredIssues1.filter((issue) => {
+    if (BAMLAB_WHITELIST.has(issue.repo)) return true;
+    return qualifying.has(issue.repo);
+  });
 
-  // Compute leaderboard
-  const counts = new Map<string, { prCount: number; repos: Set<string> }>();
+  // Compute leaderboard. prCount/reposCount/topRepos stay PR-based (preserving
+  // their existing meaning); issueCount is the secondary "silver medal" factor.
+  const counts = new Map<
+    string,
+    { prCount: number; issueCount: number; repos: Set<string> }
+  >();
+  const entryFor = (login: string) => {
+    let entry = counts.get(login);
+    if (!entry) {
+      entry = { prCount: 0, issueCount: 0, repos: new Set<string>() };
+      counts.set(login, entry);
+    }
+    return entry;
+  };
   for (const pr of finalPrs) {
-    const entry = counts.get(pr.author) ?? { prCount: 0, repos: new Set() };
+    const entry = entryFor(pr.author);
     entry.prCount += 1;
     entry.repos.add(pr.repo);
-    counts.set(pr.author, entry);
+  }
+  for (const issue of finalIssues) {
+    entryFor(issue.author).issueCount += 1;
   }
   const people: PersonStat[] = Array.from(counts.entries())
     .map(([login, e]) => ({
       login,
       prCount: e.prCount,
+      issueCount: e.issueCount,
       reposCount: e.repos.size,
       topRepos: Array.from(e.repos).slice(0, 5),
     }))
-    .sort((a, b) => b.prCount - a.prCount);
+    // Primary: PRs (gold). Secondary tie-breaker: issues opened (silver).
+    .sort((a, b) => b.prCount - a.prCount || b.issueCount - a.issueCount);
 
-  const finalRepos = repoMetas.filter((r) => finalPrs.some((p) => p.repo === r.name));
+  const finalRepos = repoMetas.filter(
+    (r) => finalPrs.some((p) => p.repo === r.name) || finalIssues.some((i) => i.repo === r.name),
+  );
 
   const out: PrsDataFile = {
     generatedAt: new Date().toISOString(),
     org: ORG,
     prs: finalPrs.sort((a, b) => b.createdAt.localeCompare(a.createdAt)),
+    issues: finalIssues.sort((a, b) => b.createdAt.localeCompare(a.createdAt)),
     repos: finalRepos.sort((a, b) => b.stars - a.stars),
     people,
   };
@@ -362,6 +466,7 @@ async function main() {
   writeFileSync(outPath, JSON.stringify(out, null, 2));
   console.log(`\nDone.`);
   console.log(`  PRs kept:       ${finalPrs.length}`);
+  console.log(`  Issues kept:    ${finalIssues.length}`);
   console.log(`  Repos kept:     ${finalRepos.length}`);
   console.log(`  Contributors:   ${people.length}`);
   console.log(`  Written to ${outPath}`);

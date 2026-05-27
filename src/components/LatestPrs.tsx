@@ -4,8 +4,11 @@ import { useSelectedPerson } from '../store/selectedPerson';
 
 interface Props {
   prs: PrRecord[];
+  issues: PrRecord[];
   repos: RepoMeta[];
 }
+
+type FeedItem = PrRecord & { kind: 'pr' | 'issue' };
 
 function timeAgo(iso: string): string {
   const ms = Date.now() - new Date(iso).getTime();
@@ -69,9 +72,19 @@ const STATE_STYLE: Record<string, string> = {
   closed: 'bg-gray-100 text-gray-500',
 };
 
-export function LatestPrs({ prs, repos }: Props) {
+export function LatestPrs({ prs, issues, repos }: Props) {
   const [visible, setVisible] = useState(20);
   const { selectedPerson, clear } = useSelectedPerson();
+
+  // Merge PRs and issues into one reverse-chronological feed, tagged by kind.
+  const feed = useMemo<FeedItem[]>(() => {
+    const merged: FeedItem[] = [
+      ...prs.map((p) => ({ ...p, kind: 'pr' as const })),
+      ...issues.map((i) => ({ ...i, kind: 'issue' as const })),
+    ];
+    merged.sort((a, b) => b.createdAt.localeCompare(a.createdAt));
+    return merged;
+  }, [prs, issues]);
 
   useEffect(() => {
     setVisible(20);
@@ -99,15 +112,15 @@ export function LatestPrs({ prs, repos }: Props) {
   }, [prs]);
 
   const filteredPrs = selectedPerson
-    ? prs.filter((pr) => pr.author === selectedPerson)
-    : prs;
+    ? feed.filter((pr) => pr.author === selectedPerson)
+    : feed;
 
   const items = filteredPrs.slice(0, visible);
 
   return (
     <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-6">
       <h2 className="text-lg font-semibold text-gray-900 mb-1">Latest contributions</h2>
-      <p className="text-sm text-gray-500 mb-4">Newest pull requests opened to OSS projects</p>
+      <p className="text-sm text-gray-500 mb-4">Newest pull requests and issues opened to OSS projects</p>
 
       {selectedPerson && (
         <div className="bg-red-50 px-3 py-2 rounded-lg flex items-center justify-between text-sm mb-4">
@@ -160,6 +173,14 @@ export function LatestPrs({ prs, repos }: Props) {
               {/* RIGHT: PR content */}
               <div className="flex-1 min-w-0">
                 <div className="flex items-center gap-1.5 flex-wrap">
+                  {pr.kind === 'issue' && (
+                    <span
+                      className="shrink-0 text-[10px] font-semibold uppercase px-1.5 py-0.5 rounded bg-amber-100 text-amber-700"
+                      title="Issue opened on an OSS project"
+                    >
+                      🐛 issue
+                    </span>
+                  )}
                   <span
                     className={`shrink-0 text-[10px] font-semibold uppercase px-1.5 py-0.5 rounded ${
                       STATE_STYLE[pr.state] ?? STATE_STYLE.closed

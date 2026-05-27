@@ -52,7 +52,9 @@ function BadgeIcon({ emoji, label }: { emoji: string; label: string }) {
 export function Leaderboard({ people, prs }: Props) {
   const [expanded, setExpanded] = useState(false);
   const top = expanded ? people : people.slice(0, INITIAL_VISIBLE);
-  const max = people[0]?.prCount ?? 1;
+  // Bars are normalized to the largest combined PR + issue total so the two
+  // stacked segments share a single scale.
+  const max = Math.max(1, ...people.map((p) => p.prCount + (p.issueCount ?? 0)));
   const { selectedPerson, toggle } = useSelectedPerson();
   const hiddenCount = people.length - INITIAL_VISIBLE;
 
@@ -64,6 +66,8 @@ export function Leaderboard({ people, prs }: Props) {
         {top.map((p, i) => {
           const badges = computeBadges(p, prs, people);
           const isSelected = selectedPerson === p.login;
+          const issueCount = p.issueCount ?? 0;
+          const total = p.prCount + issueCount;
           return (
             <li
               key={p.login}
@@ -109,16 +113,30 @@ export function Leaderboard({ people, prs }: Props) {
                 {badges.polyglot && <BadgeIcon emoji="🌟" label="Polyglot: contributed to 4+ repositories" />}
               </div>
 
-              {/* col 5: progress bar */}
-              <div className="h-2 bg-gray-100 rounded-full overflow-hidden">
-                <div
-                  className="h-full bg-brand rounded-full"
-                  style={{ width: `${(p.prCount / max) * 100}%` }}
-                />
+              {/* col 5: stacked progress bar — PRs (red) then issues (amber) */}
+              <div className="relative group flex h-2 bg-gray-100 rounded-full overflow-hidden">
+                <div className="h-full bg-brand" style={{ width: `${(p.prCount / max) * 100}%` }} />
+                <div className="h-full bg-amber-400" style={{ width: `${(issueCount / max) * 100}%` }} />
+                <span
+                  role="tooltip"
+                  className="pointer-events-none absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 rounded-md bg-gray-900 text-white text-[11px] whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity shadow-lg z-20"
+                >
+                  {p.prCount} PRs · {issueCount} issues
+                </span>
               </div>
 
-              {/* col 6: PR count */}
-              <span className="text-sm font-semibold text-gray-900 text-right">{p.prCount}</span>
+              {/* col 6: combined total with PR/issue breakdown on hover */}
+              <span className="relative group text-sm font-semibold text-gray-900 text-right cursor-help">
+                {total}
+                <span
+                  role="tooltip"
+                  className="pointer-events-none absolute bottom-full right-0 mb-2 px-2 py-1 rounded-md bg-gray-900 text-white text-[11px] whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity shadow-lg z-20 font-normal"
+                >
+                  <span className="text-brand">●</span> {p.prCount} PRs
+                  {'  '}
+                  <span className="text-amber-400">●</span> {issueCount} issues
+                </span>
+              </span>
 
               {/* col 7: repos count */}
               <span className="text-xs text-gray-400 text-right">{p.reposCount} repos</span>

@@ -5,6 +5,7 @@ const EMPTY: PrsDataFile = {
   generatedAt: null,
   org: 'bamlab',
   prs: [],
+  issues: [],
   repos: [],
   people: [],
 };
