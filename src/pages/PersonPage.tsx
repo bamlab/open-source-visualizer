@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { usePrsData } from '../hooks/usePrsData';
 import { TopNav } from '../components/TopNav';
 import { Leaderboard } from '../components/Leaderboard';
@@ -56,6 +57,12 @@ export function PersonPage() {
               </div>
             </div>
           </div>
+          <Link
+            to="/conferences"
+            className="mt-8 inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-brand text-white text-sm font-semibold shadow-sm hover:bg-brand/90 transition-colors"
+          >
+            🌍 Check for conferences
+          </Link>
         </div>
       </header>
 

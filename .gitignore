@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 
+# Raw Notion CSV export (contains emails) — only the derived public/conferences.json is committed
+scripts/data/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

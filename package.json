@@ -8,14 +8,17 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "fetch-data": "bun scripts/fetch-data.ts"
+    "fetch-data": "bun scripts/fetch-data.ts",
+    "build-conferences": "bun scripts/build-conferences.ts"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.90.21",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
+    "react-globe.gl": "^2.38.0",
     "react-router-dom": "^7.15.1",
     "recharts": "^3.7.0",
+    "three": "^0.184.0",
     "zustand": "^5.0.11"
   },
   "devDependencies": {
@@ -23,6 +26,7 @@
     "@types/node": "^24.10.1",
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
+    "@types/three": "^0.184.1",
     "@vitejs/plugin-react": "^5.1.1",
     "autoprefixer": "^10.4.27",
     "eslint": "^9.39.1",

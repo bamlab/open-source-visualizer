@@ -11,6 +11,7 @@ export function TopNav() {
     <nav className="absolute top-4 right-4 z-20 flex items-center gap-1 p-1 bg-gray-100 rounded-xl">
       <Link to="/" className={linkCls(pathname === '/')}>Packages</Link>
       <Link to="/person" className={linkCls(pathname === '/person')}>People</Link>
+      <Link to="/conferences" className={linkCls(pathname === '/conferences')}>Conferences</Link>
     </nav>
   );
 }
