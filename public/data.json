@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T13:04:12.289Z",
+  "generatedAt": "2026-05-28T18:47:40.032Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2836,58 +2836,58 @@
     },
     {
       "name": "adaptive_test",
-      "totalDownloads": 46270,
+      "totalDownloads": 46428,
       "monthlyDownloads": [
         {
           "month": "2025-05",
-          "downloads": 507
+          "downloads": 429
         },
         {
           "month": "2025-06",
-          "downloads": 2588
+          "downloads": 2643
         },
         {
           "month": "2025-07",
-          "downloads": 2006
+          "downloads": 1855
         },
         {
           "month": "2025-08",
-          "downloads": 1790
+          "downloads": 1846
         },
         {
           "month": "2025-09",
-          "downloads": 1965
+          "downloads": 1964
         },
         {
           "month": "2025-10",
-          "downloads": 3502
+          "downloads": 3077
         },
         {
           "month": "2025-11",
-          "downloads": 4327
+          "downloads": 4970
         },
         {
           "month": "2025-12",
-          "downloads": 4968
+          "downloads": 4738
         },
         {
           "month": "2026-01",
-          "downloads": 5028
+          "downloads": 5157
         },
         {
           "month": "2026-02",
-          "downloads": 5564
+          "downloads": 5698
         },
         {
           "month": "2026-03",
-          "downloads": 6173
+          "downloads": 6259
         },
         {
           "month": "2026-04",
-          "downloads": 7852
+          "downloads": 7792
         }
       ],
-      "momGrowthPct": 27.199092823586586,
+      "momGrowthPct": 24.4927304681259,
       "isGrowing": true,
       "stars": 21,
       "description": "A Flutter package to generate adaptive golden files during widget tests.",
@@ -3080,7 +3080,7 @@
     },
     {
       "name": "app_attest_integrity",
-      "totalDownloads": 915,
+      "totalDownloads": 917,
       "monthlyDownloads": [
         {
           "month": "2025-05",
@@ -3096,43 +3096,43 @@
         },
         {
           "month": "2025-08",
-          "downloads": 114
+          "downloads": 115
         },
         {
           "month": "2025-09",
-          "downloads": 175
+          "downloads": 176
         },
         {
           "month": "2025-10",
-          "downloads": 56
+          "downloads": 48
         },
         {
           "month": "2025-11",
-          "downloads": 37
+          "downloads": 45
         },
         {
           "month": "2025-12",
-          "downloads": 24
+          "downloads": 22
         },
         {
           "month": "2026-01",
-          "downloads": 233
+          "downloads": 236
         },
         {
           "month": "2026-02",
-          "downloads": 54
+          "downloads": 51
         },
         {
           "month": "2026-03",
-          "downloads": 104
+          "downloads": 112
         },
         {
           "month": "2026-04",
-          "downloads": 118
+          "downloads": 112
         }
       ],
-      "momGrowthPct": 13.461538461538462,
-      "isGrowing": true,
+      "momGrowthPct": 0,
+      "isGrowing": false,
       "stars": 2,
       "description": "A Flutter plugin to assess an app integrity. Uses App attest on iOS and app Integrity on Android.",
       "notFound": false,
@@ -3263,39 +3263,39 @@
     },
     {
       "name": "flutter_lyra",
-      "totalDownloads": 6287,
+      "totalDownloads": 6289,
       "monthlyDownloads": [
         {
           "month": "2025-05",
-          "downloads": 14
+          "downloads": 64
         },
         {
           "month": "2025-06",
-          "downloads": 452
+          "downloads": 485
         },
         {
           "month": "2025-07",
-          "downloads": 494
+          "downloads": 411
         },
         {
           "month": "2025-08",
-          "downloads": 119
+          "downloads": 120
         },
         {
           "month": "2025-09",
-          "downloads": 483
+          "downloads": 484
         },
         {
           "month": "2025-10",
-          "downloads": 468
+          "downloads": 452
         },
         {
           "month": "2025-11",
-          "downloads": 1673
+          "downloads": 1773
         },
         {
           "month": "2025-12",
-          "downloads": 1170
+          "downloads": 1084
         },
         {
           "month": "2026-01",
@@ -3303,18 +3303,18 @@
         },
         {
           "month": "2026-02",
-          "downloads": 250
+          "downloads": 313
         },
         {
           "month": "2026-03",
-          "downloads": 517
+          "downloads": 514
         },
         {
           "month": "2026-04",
-          "downloads": 376
+          "downloads": 318
         }
       ],
-      "momGrowthPct": -27.27272727272727,
+      "momGrowthPct": -38.13229571984436,
       "isGrowing": false,
       "stars": 4,
       "description": "This package allows you to use the methods from the lyra android and ios native sdks in Flutter",
