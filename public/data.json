@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-01T07:36:35.893Z",
+  "generatedAt": "2026-06-01T13:52:54.220Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -3080,7 +3080,7 @@
     },
     {
       "name": "app_attest_integrity",
-      "totalDownloads": 1090,
+      "totalDownloads": 1093,
       "monthlyDownloads": [
         {
           "month": "2025-06",
@@ -3096,11 +3096,11 @@
         },
         {
           "month": "2025-09",
-          "downloads": 190
+          "downloads": 191
         },
         {
           "month": "2025-10",
-          "downloads": 43
+          "downloads": 42
         },
         {
           "month": "2025-11",
@@ -3112,15 +3112,15 @@
         },
         {
           "month": "2026-01",
-          "downloads": 162
+          "downloads": 186
         },
         {
           "month": "2026-02",
-          "downloads": 121
+          "downloads": 98
         },
         {
           "month": "2026-03",
-          "downloads": 120
+          "downloads": 121
         },
         {
           "month": "2026-04",
@@ -3128,10 +3128,10 @@
         },
         {
           "month": "2026-05",
-          "downloads": 166
+          "downloads": 167
         }
       ],
-      "momGrowthPct": 45.614035087719294,
+      "momGrowthPct": 46.49122807017544,
       "isGrowing": true,
       "stars": 2,
       "description": "A Flutter plugin to assess an app integrity. Uses App attest on iOS and app Integrity on Android.",
@@ -3324,15 +3324,15 @@
     },
     {
       "name": "http_cache_mmkv_store",
-      "totalDownloads": 673,
+      "totalDownloads": 674,
       "monthlyDownloads": [
         {
           "month": "2025-06",
-          "downloads": 116
+          "downloads": 109
         },
         {
           "month": "2025-07",
-          "downloads": 36
+          "downloads": 43
         },
         {
           "month": "2025-08",
@@ -3352,7 +3352,7 @@
         },
         {
           "month": "2025-12",
-          "downloads": 38
+          "downloads": 39
         },
         {
           "month": "2026-01",
@@ -3360,22 +3360,22 @@
         },
         {
           "month": "2026-02",
-          "downloads": 69
+          "downloads": 68
         },
         {
           "month": "2026-03",
-          "downloads": 104
+          "downloads": 105
         },
         {
           "month": "2026-04",
-          "downloads": 63
+          "downloads": 64
         },
         {
           "month": "2026-05",
-          "downloads": 78
+          "downloads": 77
         }
       ],
-      "momGrowthPct": 23.809523809523807,
+      "momGrowthPct": 20.3125,
       "isGrowing": true,
       "stars": 154,
       "description": "A DB cache store implementation with mmkv for dio_cache_interceptor and http_cache_client packages.",
