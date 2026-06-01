@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-01T00:25:51.406Z",
+  "generatedAt": "2026-06-01T04:36:28.210Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2775,15 +2775,15 @@
     },
     {
       "name": "riverpod_community_extensions",
-      "totalDownloads": 12245,
+      "totalDownloads": 12253,
       "monthlyDownloads": [
         {
           "month": "2025-06",
-          "downloads": 901
+          "downloads": 641
         },
         {
           "month": "2025-07",
-          "downloads": 403
+          "downloads": 663
         },
         {
           "month": "2025-08",
@@ -2803,30 +2803,30 @@
         },
         {
           "month": "2025-12",
-          "downloads": 1681
+          "downloads": 1698
         },
         {
           "month": "2026-01",
-          "downloads": 754
+          "downloads": 739
         },
         {
           "month": "2026-02",
-          "downloads": 728
+          "downloads": 726
         },
         {
           "month": "2026-03",
-          "downloads": 1127
+          "downloads": 1208
         },
         {
           "month": "2026-04",
-          "downloads": 795
+          "downloads": 717
         },
         {
           "month": "2026-05",
-          "downloads": 2264
+          "downloads": 2269
         }
       ],
-      "momGrowthPct": 184.77987421383648,
+      "momGrowthPct": 216.45746164574615,
       "isGrowing": true,
       "stars": 10,
       "description": "Extends Riverpod ref types with additional helpers, to easily add common functionalities to your providers.",
@@ -3019,7 +3019,7 @@
     },
     {
       "name": "flutter_milibris",
-      "totalDownloads": 6117,
+      "totalDownloads": 6127,
       "monthlyDownloads": [
         {
           "month": "2025-06",
@@ -3059,18 +3059,18 @@
         },
         {
           "month": "2026-03",
-          "downloads": 852
+          "downloads": 866
         },
         {
           "month": "2026-04",
-          "downloads": 2574
+          "downloads": 2560
         },
         {
           "month": "2026-05",
-          "downloads": 2691
+          "downloads": 2701
         }
       ],
-      "momGrowthPct": 4.545454545454546,
+      "momGrowthPct": 5.5078125,
       "isGrowing": false,
       "stars": 0,
       "description": "A Flutter plugin that bridges Milibris SDKs, enabling encrypted archive",
@@ -3206,11 +3206,11 @@
       "monthlyDownloads": [
         {
           "month": "2025-06",
-          "downloads": 734
+          "downloads": 490
         },
         {
           "month": "2025-07",
-          "downloads": 354
+          "downloads": 598
         },
         {
           "month": "2025-08",
@@ -3238,22 +3238,22 @@
         },
         {
           "month": "2026-02",
-          "downloads": 297
+          "downloads": 317
         },
         {
           "month": "2026-03",
-          "downloads": 393
+          "downloads": 374
         },
         {
           "month": "2026-04",
-          "downloads": 422
+          "downloads": 424
         },
         {
           "month": "2026-05",
-          "downloads": 284
+          "downloads": 281
         }
       ],
-      "momGrowthPct": -32.70142180094787,
+      "momGrowthPct": -33.72641509433962,
       "isGrowing": false,
       "stars": 3,
       "description": "This package allows you to use the methods from the reachFive android and ios native sdks in Flutter",
@@ -3267,11 +3267,11 @@
       "monthlyDownloads": [
         {
           "month": "2025-06",
-          "downloads": 665
+          "downloads": 423
         },
         {
           "month": "2025-07",
-          "downloads": 296
+          "downloads": 538
         },
         {
           "month": "2025-08",
@@ -3279,19 +3279,19 @@
         },
         {
           "month": "2025-09",
-          "downloads": 537
+          "downloads": 538
         },
         {
           "month": "2025-10",
-          "downloads": 401
+          "downloads": 400
         },
         {
           "month": "2025-11",
-          "downloads": 1509
+          "downloads": 1539
         },
         {
           "month": "2025-12",
-          "downloads": 1349
+          "downloads": 1319
         },
         {
           "month": "2026-01",
@@ -3303,18 +3303,18 @@
         },
         {
           "month": "2026-03",
-          "downloads": 652
+          "downloads": 653
         },
         {
           "month": "2026-04",
-          "downloads": 279
+          "downloads": 278
         },
         {
           "month": "2026-05",
           "downloads": 324
         }
       ],
-      "momGrowthPct": 16.129032258064516,
+      "momGrowthPct": 16.546762589928058,
       "isGrowing": true,
       "stars": 4,
       "description": "This package allows you to use the methods from the lyra android and ios native sdks in Flutter",
