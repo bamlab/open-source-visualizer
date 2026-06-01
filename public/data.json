@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-01T04:36:28.210Z",
+  "generatedAt": "2026-06-01T07:36:35.893Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
-      "totalDownloads": 3769579,
+      "totalDownloads": 3774022,
       "monthlyDownloads": [
         {
           "month": "2024-12",
@@ -75,10 +75,10 @@
         },
         {
           "month": "2026-05",
-          "downloads": 374926
+          "downloads": 379369
         }
       ],
-      "momGrowthPct": -3.3807934646754885,
+      "momGrowthPct": -2.2358231648391294,
       "isGrowing": false,
       "stars": 1663,
       "description": "Rescale local images with React Native",
@@ -87,7 +87,7 @@
     },
     {
       "name": "@bam.tech/react-navigation-visualizer-dev-plugin",
-      "totalDownloads": 1036915,
+      "totalDownloads": 1038071,
       "monthlyDownloads": [
         {
           "month": "2024-12",
@@ -159,10 +159,10 @@
         },
         {
           "month": "2026-05",
-          "downloads": 258656
+          "downloads": 259812
         }
       ],
-      "momGrowthPct": -12.805040436082674,
+      "momGrowthPct": -12.415343799407365,
       "isGrowing": false,
       "stars": 10,
       "description": "Visualization Tool based on Expo DevTools Plugin for React Navigation",
@@ -171,7 +171,7 @@
     },
     {
       "name": "@bam.tech/react-native-app-security",
-      "totalDownloads": 333549,
+      "totalDownloads": 333709,
       "monthlyDownloads": [
         {
           "month": "2024-12",
@@ -243,10 +243,10 @@
         },
         {
           "month": "2026-05",
-          "downloads": 41739
+          "downloads": 41899
         }
       ],
-      "momGrowthPct": -3.8737016650929275,
+      "momGrowthPct": -3.505216369959236,
       "isGrowing": false,
       "stars": 221,
       "description": "Easily implement usual security measures in React Native Expo apps",
@@ -255,7 +255,7 @@
     },
     {
       "name": "@bam.tech/react-native-make",
-      "totalDownloads": 348490,
+      "totalDownloads": 348843,
       "monthlyDownloads": [
         {
           "month": "2024-12",
@@ -327,10 +327,10 @@
         },
         {
           "month": "2026-05",
-          "downloads": 30001
+          "downloads": 30354
         }
       ],
-      "momGrowthPct": -30.135997391830845,
+      "momGrowthPct": -29.313958362442367,
       "isGrowing": false,
       "stars": 762,
       "description": "Everyday tools for simpler React Native development",
@@ -339,7 +339,7 @@
     },
     {
       "name": "@bam.tech/eslint-plugin",
-      "totalDownloads": 133271,
+      "totalDownloads": 133294,
       "monthlyDownloads": [
         {
           "month": "2024-12",
@@ -411,10 +411,10 @@
         },
         {
           "month": "2026-05",
-          "downloads": 6414
+          "downloads": 6437
         }
       ],
-      "momGrowthPct": -27.713287501408768,
+      "momGrowthPct": -27.454074157556636,
       "isGrowing": false,
       "stars": 9,
       "description": "eslint plugin for bam projects",
@@ -423,7 +423,7 @@
     },
     {
       "name": "@bam.tech/react-native-config",
-      "totalDownloads": 75874,
+      "totalDownloads": 75899,
       "monthlyDownloads": [
         {
           "month": "2024-12",
@@ -495,10 +495,10 @@
         },
         {
           "month": "2026-05",
-          "downloads": 3046
+          "downloads": 3071
         }
       ],
-      "momGrowthPct": -48.72053872053872,
+      "momGrowthPct": -48.2996632996633,
       "isGrowing": false,
       "stars": 3,
       "description": "Expose config variables to React Native apps",
@@ -507,7 +507,7 @@
     },
     {
       "name": "@bam.tech/react-native-keyevent-expo-config-plugin",
-      "totalDownloads": 61882,
+      "totalDownloads": 61887,
       "monthlyDownloads": [
         {
           "month": "2024-12",
@@ -579,10 +579,10 @@
         },
         {
           "month": "2026-05",
-          "downloads": 1147
+          "downloads": 1152
         }
       ],
-      "momGrowthPct": -14.210919970082273,
+      "momGrowthPct": -13.836948391922213,
       "isGrowing": false,
       "stars": 1,
       "description": "Config plugin to auto configure react-native-keyevent on prebuild",
@@ -591,7 +591,7 @@
     },
     {
       "name": "@bam.tech/lrud",
-      "totalDownloads": 66258,
+      "totalDownloads": 66899,
       "monthlyDownloads": [
         {
           "month": "2024-12",
@@ -663,10 +663,10 @@
         },
         {
           "month": "2026-05",
-          "downloads": 14816
+          "downloads": 15457
         }
       ],
-      "momGrowthPct": 58.17230703533682,
+      "momGrowthPct": 65.01547987616098,
       "isGrowing": true,
       "stars": 2,
       "description": "Left, Right, Up, Down. A spatial navigation library for devices with input via directional controls",
@@ -675,7 +675,7 @@
     },
     {
       "name": "@bam.tech/flow-navigator",
-      "totalDownloads": 96902,
+      "totalDownloads": 96924,
       "monthlyDownloads": [
         {
           "month": "2024-12",
@@ -747,10 +747,10 @@
         },
         {
           "month": "2026-05",
-          "downloads": 5758
+          "downloads": 5780
         }
       ],
-      "momGrowthPct": 39.92709599027947,
+      "momGrowthPct": 40.46172539489672,
       "isGrowing": true,
       "stars": 47,
       "description": "A flow navigator for react-navigation",
@@ -759,7 +759,7 @@
     },
     {
       "name": "@bam.tech/react-native-graphql-transformer",
-      "totalDownloads": 45613,
+      "totalDownloads": 45616,
       "monthlyDownloads": [
         {
           "month": "2024-12",
@@ -831,10 +831,10 @@
         },
         {
           "month": "2026-05",
-          "downloads": 1827
+          "downloads": 1830
         }
       ],
-      "momGrowthPct": -7.633973710819008,
+      "momGrowthPct": -7.482305358948432,
       "isGrowing": false,
       "stars": 22,
       "description": "Transform GraphQL source files with ReactNative",
@@ -927,7 +927,7 @@
     },
     {
       "name": "@bam.tech/react-native-batch",
-      "totalDownloads": 7481,
+      "totalDownloads": 7509,
       "monthlyDownloads": [
         {
           "month": "2024-12",
@@ -999,10 +999,10 @@
         },
         {
           "month": "2026-05",
-          "downloads": 286
+          "downloads": 314
         }
       ],
-      "momGrowthPct": -66.51053864168618,
+      "momGrowthPct": -63.23185011709602,
       "isGrowing": false,
       "stars": 39,
       "description": "React Native integration of Batch.com SDK",
@@ -1011,7 +1011,7 @@
     },
     {
       "name": "react-native-performance",
-      "totalDownloads": 13054549,
+      "totalDownloads": 13084937,
       "monthlyDownloads": [
         {
           "month": "2024-12",
@@ -1083,10 +1083,10 @@
         },
         {
           "month": "2026-05",
-          "downloads": 1313933
+          "downloads": 1344321
         }
       ],
-      "momGrowthPct": 37.84976966164234,
+      "momGrowthPct": 41.03789173520164,
       "isGrowing": true,
       "stars": 1048,
       "description": "Measure React Native performance",
@@ -1095,7 +1095,7 @@
     },
     {
       "name": "react-native-image-resizer",
-      "totalDownloads": 2857104,
+      "totalDownloads": 2858603,
       "monthlyDownloads": [
         {
           "month": "2024-12",
@@ -1167,10 +1167,10 @@
         },
         {
           "month": "2026-05",
-          "downloads": 135775
+          "downloads": 137274
         }
       ],
-      "momGrowthPct": -3.187969710366071,
+      "momGrowthPct": -2.1191335225247068,
       "isGrowing": false,
       "stars": 1663,
       "description": "Rescale local images with React Native",
@@ -1179,7 +1179,7 @@
     },
     {
       "name": "react-native-hide-with-keyboard",
-      "totalDownloads": 144424,
+      "totalDownloads": 144444,
       "monthlyDownloads": [
         {
           "month": "2024-12",
@@ -1251,10 +1251,10 @@
         },
         {
           "month": "2026-05",
-          "downloads": 7044
+          "downloads": 7064
         }
       ],
-      "momGrowthPct": 5.956678700361011,
+      "momGrowthPct": 6.257521058965103,
       "isGrowing": false,
       "stars": 123,
       "description": "Hide components when keyboard is shown",
@@ -1263,7 +1263,7 @@
     },
     {
       "name": "react-native-image-header-scroll-view",
-      "totalDownloads": 102954,
+      "totalDownloads": 102989,
       "monthlyDownloads": [
         {
           "month": "2024-12",
@@ -1335,10 +1335,10 @@
         },
         {
           "month": "2026-05",
-          "downloads": 6863
+          "downloads": 6898
         }
       ],
-      "momGrowthPct": 5.926840561815095,
+      "momGrowthPct": 6.467047383855533,
       "isGrowing": false,
       "stars": 1023,
       "description": "ScrollView with an image in header which become a navbar",
@@ -1347,7 +1347,7 @@
     },
     {
       "name": "generator-rn-toolbox",
-      "totalDownloads": 82806,
+      "totalDownloads": 82859,
       "monthlyDownloads": [
         {
           "month": "2024-12",
@@ -1419,10 +1419,10 @@
         },
         {
           "month": "2026-05",
-          "downloads": 7071
+          "downloads": 7124
         }
       ],
-      "momGrowthPct": 12.380801017164654,
+      "momGrowthPct": 13.223140495867769,
       "isGrowing": true,
       "stars": 1191,
       "description": "React-Native generators to kickstart your project",
@@ -1431,7 +1431,7 @@
     },
     {
       "name": "react-native-make",
-      "totalDownloads": 68566,
+      "totalDownloads": 68641,
       "monthlyDownloads": [
         {
           "month": "2024-12",
@@ -1503,10 +1503,10 @@
         },
         {
           "month": "2026-05",
-          "downloads": 4640
+          "downloads": 4715
         }
       ],
-      "momGrowthPct": 1.955614150736102,
+      "momGrowthPct": 3.6036036036036037,
       "isGrowing": false,
       "stars": 762,
       "description": "Please see [@bam.tech/react-native-make](https://github.com/bamlab/react-native-make)",
@@ -1515,7 +1515,7 @@
     },
     {
       "name": "redux-enhancer-react-native-appstate",
-      "totalDownloads": 87203,
+      "totalDownloads": 87225,
       "monthlyDownloads": [
         {
           "month": "2024-12",
@@ -1587,10 +1587,10 @@
         },
         {
           "month": "2026-05",
-          "downloads": 5937
+          "downloads": 5959
         }
       ],
-      "momGrowthPct": -22.946138870863074,
+      "momGrowthPct": -22.660609993510707,
       "isGrowing": false,
       "stars": 89,
       "description": "Connect your App State changes directly to your Redux store",
@@ -1599,7 +1599,7 @@
     },
     {
       "name": "react-tv-space-navigation",
-      "totalDownloads": 66771,
+      "totalDownloads": 67194,
       "monthlyDownloads": [
         {
           "month": "2024-12",
@@ -1671,10 +1671,10 @@
         },
         {
           "month": "2026-05",
-          "downloads": 12768
+          "downloads": 13191
         }
       ],
-      "momGrowthPct": 36.32286995515695,
+      "momGrowthPct": 40.839205637411915,
       "isGrowing": true,
       "stars": 318,
       "description": "![banner](./docs/banner.png)",
@@ -1683,7 +1683,7 @@
     },
     {
       "name": "react-native-formik",
-      "totalDownloads": 179732,
+      "totalDownloads": 179797,
       "monthlyDownloads": [
         {
           "month": "2024-12",
@@ -1755,10 +1755,10 @@
         },
         {
           "month": "2026-05",
-          "downloads": 8791
+          "downloads": 8856
         }
       ],
-      "momGrowthPct": 0.7795483205319271,
+      "momGrowthPct": 1.5247048033933281,
       "isGrowing": false,
       "stars": 398,
       "description": "Make the most of your React Native forms with Formik",
@@ -1851,7 +1851,7 @@
     },
     {
       "name": "react-native-braintree-payments-drop-in",
-      "totalDownloads": 2531,
+      "totalDownloads": 2538,
       "monthlyDownloads": [
         {
           "month": "2024-12",
@@ -1923,10 +1923,10 @@
         },
         {
           "month": "2026-05",
-          "downloads": 130
+          "downloads": 137
         }
       ],
-      "momGrowthPct": 47.72727272727273,
+      "momGrowthPct": 55.68181818181818,
       "isGrowing": true,
       "stars": 35,
       "description": "React Native integration of Braintree Drop-in",
@@ -1935,7 +1935,7 @@
     },
     {
       "name": "react-native-form-idable",
-      "totalDownloads": 1037,
+      "totalDownloads": 1038,
       "monthlyDownloads": [
         {
           "month": "2024-12",
@@ -2007,10 +2007,10 @@
         },
         {
           "month": "2026-05",
-          "downloads": 86
+          "downloads": 87
         }
       ],
-      "momGrowthPct": -31.746031746031743,
+      "momGrowthPct": -30.952380952380953,
       "isGrowing": false,
       "stars": 13,
       "description": "## Installation",
@@ -2019,7 +2019,7 @@
     },
     {
       "name": "react-redux-toolbox",
-      "totalDownloads": 38968,
+      "totalDownloads": 38972,
       "monthlyDownloads": [
         {
           "month": "2024-12",
@@ -2091,10 +2091,10 @@
         },
         {
           "month": "2026-05",
-          "downloads": 3040
+          "downloads": 3044
         }
       ],
-      "momGrowthPct": -17.570498915401302,
+      "momGrowthPct": -17.462039045553148,
       "isGrowing": false,
       "stars": 2,
       "description": "Set of utils for React and Redux development",
@@ -2103,7 +2103,7 @@
     },
     {
       "name": "react-native-debugger-utils",
-      "totalDownloads": 200,
+      "totalDownloads": 201,
       "monthlyDownloads": [
         {
           "month": "2024-12",
@@ -2175,11 +2175,11 @@
         },
         {
           "month": "2026-05",
-          "downloads": 12
+          "downloads": 13
         }
       ],
-      "momGrowthPct": 9.090909090909092,
-      "isGrowing": false,
+      "momGrowthPct": 18.181818181818183,
+      "isGrowing": true,
       "stars": 1,
       "description": "Utilities for React Native Debugger",
       "notFound": false,
@@ -2439,7 +2439,7 @@
     },
     {
       "name": "devicelab-bot",
-      "totalDownloads": 236,
+      "totalDownloads": 237,
       "monthlyDownloads": [
         {
           "month": "2024-12",
@@ -2511,10 +2511,10 @@
         },
         {
           "month": "2026-05",
-          "downloads": 22
+          "downloads": 23
         }
       ],
-      "momGrowthPct": 22.22222222222222,
+      "momGrowthPct": 27.77777777777778,
       "isGrowing": true,
       "stars": 6,
       "description": "## Installation",
@@ -2523,7 +2523,7 @@
     },
     {
       "name": "react-native-numberpicker-dialog",
-      "totalDownloads": 1518,
+      "totalDownloads": 1520,
       "monthlyDownloads": [
         {
           "month": "2024-12",
@@ -2595,10 +2595,10 @@
         },
         {
           "month": "2026-05",
-          "downloads": 87
+          "downloads": 89
         }
       ],
-      "momGrowthPct": 19.17808219178082,
+      "momGrowthPct": 21.91780821917808,
       "isGrowing": true,
       "stars": 25,
       "description": "Show a dialog on Android, allowing to choose an option using NumberPicker",
@@ -2607,7 +2607,7 @@
     },
     {
       "name": "cordova-camera-roll",
-      "totalDownloads": 179,
+      "totalDownloads": 181,
       "monthlyDownloads": [
         {
           "month": "2024-12",
@@ -2679,10 +2679,10 @@
         },
         {
           "month": "2026-05",
-          "downloads": 21
+          "downloads": 23
         }
       ],
-      "momGrowthPct": 40,
+      "momGrowthPct": 53.333333333333336,
       "isGrowing": true,
       "stars": 0,
       "description": "The Cordova Camera Roll plugin makes it easy to read from the iOS camera roll.",
@@ -2958,7 +2958,7 @@
     },
     {
       "name": "init",
-      "totalDownloads": 12210,
+      "totalDownloads": 12213,
       "monthlyDownloads": [
         {
           "month": "2025-06",
@@ -2974,42 +2974,42 @@
         },
         {
           "month": "2025-09",
-          "downloads": 386
+          "downloads": 387
         },
         {
           "month": "2025-10",
-          "downloads": 470
+          "downloads": 472
         },
         {
           "month": "2025-11",
-          "downloads": 1526
+          "downloads": 1528
         },
         {
           "month": "2025-12",
-          "downloads": 1476
+          "downloads": 1474
         },
         {
           "month": "2026-01",
-          "downloads": 509
+          "downloads": 515
         },
         {
           "month": "2026-02",
-          "downloads": 416
+          "downloads": 412
         },
         {
           "month": "2026-03",
-          "downloads": 1614
+          "downloads": 1615
         },
         {
           "month": "2026-04",
-          "downloads": 2892
+          "downloads": 2887
         },
         {
           "month": "2026-05",
-          "downloads": 2921
+          "downloads": 2923
         }
       ],
-      "momGrowthPct": 1.0027662517289073,
+      "momGrowthPct": 1.2469691721510219,
       "isGrowing": false,
       "stars": 1,
       "description": "Init widget to execute initialization methods declaratively",
@@ -3141,15 +3141,15 @@
     },
     {
       "name": "riverpod_community_mutation",
-      "totalDownloads": 4240,
+      "totalDownloads": 4218,
       "monthlyDownloads": [
         {
           "month": "2025-06",
-          "downloads": 422
+          "downloads": 366
         },
         {
           "month": "2025-07",
-          "downloads": 448
+          "downloads": 482
         },
         {
           "month": "2025-08",
@@ -3177,11 +3177,11 @@
         },
         {
           "month": "2026-02",
-          "downloads": 481
+          "downloads": 483
         },
         {
           "month": "2026-03",
-          "downloads": 243
+          "downloads": 242
         },
         {
           "month": "2026-04",
@@ -3189,10 +3189,10 @@
         },
         {
           "month": "2026-05",
-          "downloads": 150
+          "downloads": 149
         }
       ],
-      "momGrowthPct": -11.76470588235294,
+      "momGrowthPct": -12.352941176470589,
       "isGrowing": false,
       "stars": 3,
       "description": "A mutation implementation for the riverpod community - made by Theodo",
@@ -3385,19 +3385,19 @@
     },
     {
       "name": "equatable_lint",
-      "totalDownloads": 2789,
+      "totalDownloads": 2791,
       "monthlyDownloads": [
         {
           "month": "2025-06",
-          "downloads": 608
+          "downloads": 428
         },
         {
           "month": "2025-07",
-          "downloads": 476
+          "downloads": 656
         },
         {
           "month": "2025-08",
-          "downloads": 262
+          "downloads": 261
         },
         {
           "month": "2025-09",
@@ -3417,26 +3417,26 @@
         },
         {
           "month": "2026-01",
-          "downloads": 91
+          "downloads": 93
         },
         {
           "month": "2026-02",
-          "downloads": 148
+          "downloads": 146
         },
         {
           "month": "2026-03",
-          "downloads": 149
+          "downloads": 151
         },
         {
           "month": "2026-04",
-          "downloads": 96
+          "downloads": 94
         },
         {
           "month": "2026-05",
-          "downloads": 134
+          "downloads": 137
         }
       ],
-      "momGrowthPct": 39.58333333333333,
+      "momGrowthPct": 45.744680851063826,
       "isGrowing": true,
       "stars": 6,
       "description": "This is a set of rules to make classes using Equatable more maintainable. We make sure here that every fields in an Equatable class is linked to the Equatable props getter.",
