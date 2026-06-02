@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-02T13:06:33.435Z",
+  "generatedAt": "2026-06-02T19:07:27.256Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2901,54 +2901,54 @@
       "monthlyDownloads": [
         {
           "month": "2025-06",
-          "downloads": 1242
+          "downloads": 1244
         },
         {
           "month": "2025-07",
-          "downloads": 1313
+          "downloads": 1308
         },
         {
           "month": "2025-08",
-          "downloads": 557
+          "downloads": 571
         },
         {
           "month": "2025-09",
-          "downloads": 1063
+          "downloads": 715
         },
         {
           "month": "2025-10",
-          "downloads": 1460
+          "downloads": 1796
         },
         {
           "month": "2025-11",
-          "downloads": 2372
+          "downloads": 2408
         },
         {
           "month": "2025-12",
-          "downloads": 2009
+          "downloads": 1970
         },
         {
           "month": "2026-01",
-          "downloads": 662
+          "downloads": 661
         },
         {
           "month": "2026-02",
-          "downloads": 842
+          "downloads": 869
         },
         {
           "month": "2026-03",
-          "downloads": 2278
+          "downloads": 1580
         },
         {
           "month": "2026-04",
-          "downloads": 2960
+          "downloads": 3631
         },
         {
           "month": "2026-05",
-          "downloads": 2974
+          "downloads": 2979
         }
       ],
-      "momGrowthPct": 0.472972972972973,
+      "momGrowthPct": -17.956485816579455,
       "isGrowing": false,
       "stars": 2,
       "description": "Lint and dcm rules for Dart and Flutter used internally at Theodo Apps.",
@@ -3140,67 +3140,6 @@
       "publishedAt": "2025-08-25T09:43:01.189986Z"
     },
     {
-      "name": "flutter_reach_five",
-      "totalDownloads": 6547,
-      "monthlyDownloads": [
-        {
-          "month": "2025-06",
-          "downloads": 490
-        },
-        {
-          "month": "2025-07",
-          "downloads": 596
-        },
-        {
-          "month": "2025-08",
-          "downloads": 160
-        },
-        {
-          "month": "2025-09",
-          "downloads": 401
-        },
-        {
-          "month": "2025-10",
-          "downloads": 509
-        },
-        {
-          "month": "2025-11",
-          "downloads": 1437
-        },
-        {
-          "month": "2025-12",
-          "downloads": 1325
-        },
-        {
-          "month": "2026-01",
-          "downloads": 229
-        },
-        {
-          "month": "2026-02",
-          "downloads": 316
-        },
-        {
-          "month": "2026-03",
-          "downloads": 288
-        },
-        {
-          "month": "2026-04",
-          "downloads": 510
-        },
-        {
-          "month": "2026-05",
-          "downloads": 286
-        }
-      ],
-      "momGrowthPct": -43.92156862745098,
-      "isGrowing": false,
-      "stars": 3,
-      "description": "This package allows you to use the methods from the reachFive android and ios native sdks in Flutter",
-      "notFound": false,
-      "ecosystem": "pub",
-      "publishedAt": "2022-10-07T15:53:56.220179Z"
-    },
-    {
       "name": "riverpod_community_mutation",
       "totalDownloads": 4201,
       "monthlyDownloads": [
@@ -3260,6 +3199,67 @@
       "notFound": false,
       "ecosystem": "pub",
       "publishedAt": "2025-05-22T13:02:37.162979Z"
+    },
+    {
+      "name": "flutter_reach_five",
+      "totalDownloads": 6547,
+      "monthlyDownloads": [
+        {
+          "month": "2025-06",
+          "downloads": 490
+        },
+        {
+          "month": "2025-07",
+          "downloads": 596
+        },
+        {
+          "month": "2025-08",
+          "downloads": 160
+        },
+        {
+          "month": "2025-09",
+          "downloads": 401
+        },
+        {
+          "month": "2025-10",
+          "downloads": 509
+        },
+        {
+          "month": "2025-11",
+          "downloads": 1437
+        },
+        {
+          "month": "2025-12",
+          "downloads": 1325
+        },
+        {
+          "month": "2026-01",
+          "downloads": 229
+        },
+        {
+          "month": "2026-02",
+          "downloads": 316
+        },
+        {
+          "month": "2026-03",
+          "downloads": 288
+        },
+        {
+          "month": "2026-04",
+          "downloads": 510
+        },
+        {
+          "month": "2026-05",
+          "downloads": 286
+        }
+      ],
+      "momGrowthPct": -43.92156862745098,
+      "isGrowing": false,
+      "stars": 3,
+      "description": "This package allows you to use the methods from the reachFive android and ios native sdks in Flutter",
+      "notFound": false,
+      "ecosystem": "pub",
+      "publishedAt": "2022-10-07T15:53:56.220179Z"
     },
     {
       "name": "flutter_lyra",
