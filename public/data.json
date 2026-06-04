@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-04T00:35:25.578Z",
+  "generatedAt": "2026-06-04T07:30:32.279Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -3019,7 +3019,7 @@
     },
     {
       "name": "flutter_milibris",
-      "totalDownloads": 6309,
+      "totalDownloads": 6517,
       "monthlyDownloads": [
         {
           "month": "2025-06",
@@ -3059,19 +3059,19 @@
         },
         {
           "month": "2026-03",
-          "downloads": 309
+          "downloads": 369
         },
         {
           "month": "2026-04",
-          "downloads": 3218
+          "downloads": 2813
         },
         {
           "month": "2026-05",
-          "downloads": 2782
+          "downloads": 3335
         }
       ],
-      "momGrowthPct": -13.548788067122436,
-      "isGrowing": false,
+      "momGrowthPct": 18.556701030927837,
+      "isGrowing": true,
       "stars": 0,
       "description": "A Flutter plugin that bridges Milibris SDKs, enabling encrypted archive",
       "notFound": false,
@@ -3133,7 +3133,7 @@
       ],
       "momGrowthPct": 28.05755395683453,
       "isGrowing": true,
-      "stars": 2,
+      "stars": 3,
       "description": "A Flutter plugin to assess an app integrity. Uses App attest on iOS and app Integrity on Android.",
       "notFound": false,
       "ecosystem": "pub",
