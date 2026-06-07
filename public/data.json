@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T07:17:56.648Z",
+  "generatedAt": "2026-06-07T12:27:06.620Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2836,58 +2836,58 @@
     },
     {
       "name": "adaptive_test",
-      "totalDownloads": 56616,
+      "totalDownloads": 54303,
       "monthlyDownloads": [
         {
           "month": "2025-06",
-          "downloads": 2675
+          "downloads": 2725
         },
         {
           "month": "2025-07",
-          "downloads": 1689
+          "downloads": 1573
         },
         {
           "month": "2025-08",
-          "downloads": 1841
+          "downloads": 1481
         },
         {
           "month": "2025-09",
-          "downloads": 2117
+          "downloads": 2558
         },
         {
           "month": "2025-10",
-          "downloads": 2932
+          "downloads": 2889
         },
         {
           "month": "2025-11",
-          "downloads": 5358
+          "downloads": 3952
         },
         {
           "month": "2025-12",
-          "downloads": 4308
+          "downloads": 5689
         },
         {
           "month": "2026-01",
-          "downloads": 4228
+          "downloads": 4440
         },
         {
           "month": "2026-02",
-          "downloads": 5581
+          "downloads": 5439
         },
         {
           "month": "2026-03",
-          "downloads": 7819
+          "downloads": 8113
         },
         {
           "month": "2026-04",
-          "downloads": 7623
+          "downloads": 7247
         },
         {
           "month": "2026-05",
-          "downloads": 10445
+          "downloads": 8197
         }
       ],
-      "momGrowthPct": 37.0195461104552,
+      "momGrowthPct": 13.108872636953222,
       "isGrowing": true,
       "stars": 21,
       "description": "A Flutter package to generate adaptive golden files during widget tests.",
@@ -2897,59 +2897,59 @@
     },
     {
       "name": "theodo_analysis",
-      "totalDownloads": 20552,
+      "totalDownloads": 19472,
       "monthlyDownloads": [
         {
           "month": "2025-06",
-          "downloads": 1515
+          "downloads": 1574
         },
         {
           "month": "2025-07",
-          "downloads": 824
+          "downloads": 723
         },
         {
           "month": "2025-08",
-          "downloads": 626
+          "downloads": 547
         },
         {
           "month": "2025-09",
-          "downloads": 986
+          "downloads": 1073
         },
         {
           "month": "2025-10",
-          "downloads": 1471
+          "downloads": 1460
         },
         {
           "month": "2025-11",
-          "downloads": 2880
+          "downloads": 2342
         },
         {
           "month": "2025-12",
-          "downloads": 1487
+          "downloads": 2039
         },
         {
           "month": "2026-01",
-          "downloads": 650
+          "downloads": 662
         },
         {
           "month": "2026-02",
-          "downloads": 769
+          "downloads": 789
         },
         {
           "month": "2026-03",
-          "downloads": 2233
+          "downloads": 2325
         },
         {
           "month": "2026-04",
-          "downloads": 3104
+          "downloads": 2966
         },
         {
           "month": "2026-05",
-          "downloads": 4007
+          "downloads": 2972
         }
       ],
-      "momGrowthPct": 29.091494845360828,
-      "isGrowing": true,
+      "momGrowthPct": 0.20229265003371544,
+      "isGrowing": false,
       "stars": 2,
       "description": "Lint and dcm rules for Dart and Flutter used internally at Theodo Apps.",
       "notFound": false,
@@ -3019,7 +3019,7 @@
     },
     {
       "name": "flutter_milibris",
-      "totalDownloads": 6858,
+      "totalDownloads": 6117,
       "monthlyDownloads": [
         {
           "month": "2025-06",
@@ -3059,19 +3059,19 @@
         },
         {
           "month": "2026-03",
-          "downloads": 688
+          "downloads": 852
         },
         {
           "month": "2026-04",
-          "downloads": 2738
+          "downloads": 2574
         },
         {
           "month": "2026-05",
-          "downloads": 3432
+          "downloads": 2691
         }
       ],
-      "momGrowthPct": 25.346968590211834,
-      "isGrowing": true,
+      "momGrowthPct": 4.545454545454546,
+      "isGrowing": false,
       "stars": 0,
       "description": "A Flutter plugin that bridges Milibris SDKs, enabling encrypted archive",
       "notFound": false,
@@ -3080,35 +3080,35 @@
     },
     {
       "name": "flutter_reach_five",
-      "totalDownloads": 6747,
+      "totalDownloads": 6413,
       "monthlyDownloads": [
         {
           "month": "2025-06",
-          "downloads": 569
+          "downloads": 603
         },
         {
           "month": "2025-07",
-          "downloads": 404
+          "downloads": 354
         },
         {
           "month": "2025-08",
-          "downloads": 172
+          "downloads": 161
         },
         {
           "month": "2025-09",
-          "downloads": 487
+          "downloads": 504
         },
         {
           "month": "2025-10",
-          "downloads": 409
+          "downloads": 403
         },
         {
           "month": "2025-11",
-          "downloads": 1783
+          "downloads": 1438
         },
         {
           "month": "2025-12",
-          "downloads": 980
+          "downloads": 1325
         },
         {
           "month": "2026-01",
@@ -3120,19 +3120,19 @@
         },
         {
           "month": "2026-03",
-          "downloads": 389
+          "downloads": 393
         },
         {
           "month": "2026-04",
-          "downloads": 401
+          "downloads": 422
         },
         {
           "month": "2026-05",
-          "downloads": 627
+          "downloads": 284
         }
       ],
-      "momGrowthPct": 56.35910224438903,
-      "isGrowing": true,
+      "momGrowthPct": -32.70142180094787,
+      "isGrowing": false,
       "stars": 3,
       "description": "This package allows you to use the methods from the reachFive android and ios native sdks in Flutter",
       "notFound": false,
@@ -3385,58 +3385,58 @@
     },
     {
       "name": "equatable_lint",
-      "totalDownloads": 2691,
+      "totalDownloads": 2642,
       "monthlyDownloads": [
         {
           "month": "2025-06",
-          "downloads": 488
+          "downloads": 461
         },
         {
           "month": "2025-07",
-          "downloads": 452
+          "downloads": 476
         },
         {
           "month": "2025-08",
-          "downloads": 312
+          "downloads": 262
         },
         {
           "month": "2025-09",
-          "downloads": 277
+          "downloads": 306
         },
         {
           "month": "2025-10",
-          "downloads": 121
+          "downloads": 116
         },
         {
           "month": "2025-11",
-          "downloads": 159
+          "downloads": 122
         },
         {
           "month": "2025-12",
-          "downloads": 247
+          "downloads": 281
         },
         {
           "month": "2026-01",
-          "downloads": 88
+          "downloads": 91
         },
         {
           "month": "2026-02",
-          "downloads": 141
+          "downloads": 148
         },
         {
           "month": "2026-03",
-          "downloads": 159
+          "downloads": 149
         },
         {
           "month": "2026-04",
-          "downloads": 95
+          "downloads": 96
         },
         {
           "month": "2026-05",
-          "downloads": 152
+          "downloads": 134
         }
       ],
-      "momGrowthPct": 60,
+      "momGrowthPct": 39.58333333333333,
       "isGrowing": true,
       "stars": 6,
       "description": "This is a set of rules to make classes using Equatable more maintainable. We make sure here that every fields in an Equatable class is linked to the Equatable props getter.",
