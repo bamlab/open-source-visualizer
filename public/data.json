@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T13:21:05.734Z",
+  "generatedAt": "2026-06-08T18:44:49.006Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2958,7 +2958,7 @@
     },
     {
       "name": "init",
-      "totalDownloads": 12210,
+      "totalDownloads": 12213,
       "monthlyDownloads": [
         {
           "month": "2025-06",
@@ -2974,42 +2974,42 @@
         },
         {
           "month": "2025-09",
-          "downloads": 386
+          "downloads": 387
         },
         {
           "month": "2025-10",
-          "downloads": 470
+          "downloads": 472
         },
         {
           "month": "2025-11",
-          "downloads": 1526
+          "downloads": 1528
         },
         {
           "month": "2025-12",
-          "downloads": 1476
+          "downloads": 1474
         },
         {
           "month": "2026-01",
-          "downloads": 509
+          "downloads": 515
         },
         {
           "month": "2026-02",
-          "downloads": 416
+          "downloads": 412
         },
         {
           "month": "2026-03",
-          "downloads": 1614
+          "downloads": 1615
         },
         {
           "month": "2026-04",
-          "downloads": 2892
+          "downloads": 2887
         },
         {
           "month": "2026-05",
-          "downloads": 2921
+          "downloads": 2923
         }
       ],
-      "momGrowthPct": 1.0027662517289073,
+      "momGrowthPct": 1.2469691721510219,
       "isGrowing": false,
       "stars": 1,
       "description": "Init widget to execute initialization methods declaratively",
@@ -3206,11 +3206,11 @@
       "monthlyDownloads": [
         {
           "month": "2025-06",
-          "downloads": 288
+          "downloads": 254
         },
         {
           "month": "2025-07",
-          "downloads": 448
+          "downloads": 482
         },
         {
           "month": "2025-08",
@@ -3238,11 +3238,11 @@
         },
         {
           "month": "2026-02",
-          "downloads": 481
+          "downloads": 483
         },
         {
           "month": "2026-03",
-          "downloads": 243
+          "downloads": 242
         },
         {
           "month": "2026-04",
@@ -3250,10 +3250,10 @@
         },
         {
           "month": "2026-05",
-          "downloads": 150
+          "downloads": 149
         }
       ],
-      "momGrowthPct": -11.76470588235294,
+      "momGrowthPct": -12.352941176470589,
       "isGrowing": false,
       "stars": 3,
       "description": "A mutation implementation for the riverpod community - made by Theodo",
@@ -3267,11 +3267,11 @@
       "monthlyDownloads": [
         {
           "month": "2025-06",
-          "downloads": 540
+          "downloads": 298
         },
         {
           "month": "2025-07",
-          "downloads": 296
+          "downloads": 538
         },
         {
           "month": "2025-08",
@@ -3279,19 +3279,19 @@
         },
         {
           "month": "2025-09",
-          "downloads": 537
+          "downloads": 538
         },
         {
           "month": "2025-10",
-          "downloads": 401
+          "downloads": 400
         },
         {
           "month": "2025-11",
-          "downloads": 1509
+          "downloads": 1539
         },
         {
           "month": "2025-12",
-          "downloads": 1349
+          "downloads": 1319
         },
         {
           "month": "2026-01",
@@ -3303,18 +3303,18 @@
         },
         {
           "month": "2026-03",
-          "downloads": 652
+          "downloads": 653
         },
         {
           "month": "2026-04",
-          "downloads": 279
+          "downloads": 278
         },
         {
           "month": "2026-05",
           "downloads": 324
         }
       ],
-      "momGrowthPct": 16.129032258064516,
+      "momGrowthPct": 16.546762589928058,
       "isGrowing": true,
       "stars": 4,
       "description": "This package allows you to use the methods from the lyra android and ios native sdks in Flutter",
@@ -3324,15 +3324,15 @@
     },
     {
       "name": "http_cache_mmkv_store",
-      "totalDownloads": 673,
+      "totalDownloads": 674,
       "monthlyDownloads": [
         {
           "month": "2025-06",
-          "downloads": 116
+          "downloads": 109
         },
         {
           "month": "2025-07",
-          "downloads": 36
+          "downloads": 43
         },
         {
           "month": "2025-08",
@@ -3352,7 +3352,7 @@
         },
         {
           "month": "2025-12",
-          "downloads": 38
+          "downloads": 39
         },
         {
           "month": "2026-01",
@@ -3360,22 +3360,22 @@
         },
         {
           "month": "2026-02",
-          "downloads": 69
+          "downloads": 68
         },
         {
           "month": "2026-03",
-          "downloads": 104
+          "downloads": 105
         },
         {
           "month": "2026-04",
-          "downloads": 63
+          "downloads": 64
         },
         {
           "month": "2026-05",
-          "downloads": 78
+          "downloads": 77
         }
       ],
-      "momGrowthPct": 23.809523809523807,
+      "momGrowthPct": 20.3125,
       "isGrowing": true,
       "stars": 154,
       "description": "A DB cache store implementation with mmkv for dio_cache_interceptor and http_cache_client packages.",
