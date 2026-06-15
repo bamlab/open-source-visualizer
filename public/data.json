@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T00:30:05.268Z",
+  "generatedAt": "2026-06-15T04:36:10.164Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2775,15 +2775,15 @@
     },
     {
       "name": "riverpod_community_extensions",
-      "totalDownloads": 11854,
+      "totalDownloads": 11862,
       "monthlyDownloads": [
         {
           "month": "2025-06",
-          "downloads": 510
+          "downloads": 250
         },
         {
           "month": "2025-07",
-          "downloads": 403
+          "downloads": 663
         },
         {
           "month": "2025-08",
@@ -2803,30 +2803,30 @@
         },
         {
           "month": "2025-12",
-          "downloads": 1681
+          "downloads": 1698
         },
         {
           "month": "2026-01",
-          "downloads": 754
+          "downloads": 739
         },
         {
           "month": "2026-02",
-          "downloads": 728
+          "downloads": 726
         },
         {
           "month": "2026-03",
-          "downloads": 1127
+          "downloads": 1208
         },
         {
           "month": "2026-04",
-          "downloads": 795
+          "downloads": 717
         },
         {
           "month": "2026-05",
-          "downloads": 2264
+          "downloads": 2269
         }
       ],
-      "momGrowthPct": 184.77987421383648,
+      "momGrowthPct": 216.45746164574615,
       "isGrowing": true,
       "stars": 10,
       "description": "Extends Riverpod ref types with additional helpers, to easily add common functionalities to your providers.",
@@ -2958,7 +2958,7 @@
     },
     {
       "name": "init",
-      "totalDownloads": 12210,
+      "totalDownloads": 12213,
       "monthlyDownloads": [
         {
           "month": "2025-06",
@@ -2974,42 +2974,42 @@
         },
         {
           "month": "2025-09",
-          "downloads": 386
+          "downloads": 387
         },
         {
           "month": "2025-10",
-          "downloads": 470
+          "downloads": 472
         },
         {
           "month": "2025-11",
-          "downloads": 1526
+          "downloads": 1528
         },
         {
           "month": "2025-12",
-          "downloads": 1476
+          "downloads": 1474
         },
         {
           "month": "2026-01",
-          "downloads": 509
+          "downloads": 515
         },
         {
           "month": "2026-02",
-          "downloads": 416
+          "downloads": 412
         },
         {
           "month": "2026-03",
-          "downloads": 1614
+          "downloads": 1615
         },
         {
           "month": "2026-04",
-          "downloads": 2892
+          "downloads": 2887
         },
         {
           "month": "2026-05",
-          "downloads": 2921
+          "downloads": 2923
         }
       ],
-      "momGrowthPct": 1.0027662517289073,
+      "momGrowthPct": 1.2469691721510219,
       "isGrowing": false,
       "stars": 1,
       "description": "Init widget to execute initialization methods declaratively",
@@ -3202,15 +3202,15 @@
     },
     {
       "name": "riverpod_community_mutation",
-      "totalDownloads": 3990,
+      "totalDownloads": 3987,
       "monthlyDownloads": [
         {
           "month": "2025-06",
-          "downloads": 172
+          "downloads": 135
         },
         {
           "month": "2025-07",
-          "downloads": 448
+          "downloads": 482
         },
         {
           "month": "2025-08",
@@ -3238,11 +3238,11 @@
         },
         {
           "month": "2026-02",
-          "downloads": 481
+          "downloads": 483
         },
         {
           "month": "2026-03",
-          "downloads": 243
+          "downloads": 242
         },
         {
           "month": "2026-04",
@@ -3250,10 +3250,10 @@
         },
         {
           "month": "2026-05",
-          "downloads": 150
+          "downloads": 149
         }
       ],
-      "momGrowthPct": -11.76470588235294,
+      "momGrowthPct": -12.352941176470589,
       "isGrowing": false,
       "stars": 3,
       "description": "A mutation implementation for the riverpod community - made by Theodo",
@@ -3267,11 +3267,11 @@
       "monthlyDownloads": [
         {
           "month": "2025-06",
-          "downloads": 403
+          "downloads": 161
         },
         {
           "month": "2025-07",
-          "downloads": 296
+          "downloads": 538
         },
         {
           "month": "2025-08",
@@ -3279,19 +3279,19 @@
         },
         {
           "month": "2025-09",
-          "downloads": 537
+          "downloads": 538
         },
         {
           "month": "2025-10",
-          "downloads": 401
+          "downloads": 400
         },
         {
           "month": "2025-11",
-          "downloads": 1509
+          "downloads": 1539
         },
         {
           "month": "2025-12",
-          "downloads": 1349
+          "downloads": 1319
         },
         {
           "month": "2026-01",
@@ -3303,18 +3303,18 @@
         },
         {
           "month": "2026-03",
-          "downloads": 652
+          "downloads": 653
         },
         {
           "month": "2026-04",
-          "downloads": 279
+          "downloads": 278
         },
         {
           "month": "2026-05",
           "downloads": 324
         }
       ],
-      "momGrowthPct": 16.129032258064516,
+      "momGrowthPct": 16.546762589928058,
       "isGrowing": true,
       "stars": 4,
       "description": "This package allows you to use the methods from the lyra android and ios native sdks in Flutter",
@@ -3385,19 +3385,19 @@
     },
     {
       "name": "equatable_lint",
-      "totalDownloads": 2558,
+      "totalDownloads": 2559,
       "monthlyDownloads": [
         {
           "month": "2025-06",
-          "downloads": 377
+          "downloads": 196
         },
         {
           "month": "2025-07",
-          "downloads": 476
+          "downloads": 656
         },
         {
           "month": "2025-08",
-          "downloads": 262
+          "downloads": 261
         },
         {
           "month": "2025-09",
@@ -3417,26 +3417,26 @@
         },
         {
           "month": "2026-01",
-          "downloads": 91
+          "downloads": 93
         },
         {
           "month": "2026-02",
-          "downloads": 148
+          "downloads": 146
         },
         {
           "month": "2026-03",
-          "downloads": 149
+          "downloads": 151
         },
         {
           "month": "2026-04",
-          "downloads": 96
+          "downloads": 94
         },
         {
           "month": "2026-05",
-          "downloads": 134
+          "downloads": 137
         }
       ],
-      "momGrowthPct": 39.58333333333333,
+      "momGrowthPct": 45.744680851063826,
       "isGrowing": true,
       "stars": 6,
       "description": "This is a set of rules to make classes using Equatable more maintainable. We make sure here that every fields in an Equatable class is linked to the Equatable props getter.",
