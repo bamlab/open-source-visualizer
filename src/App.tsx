@@ -5,11 +5,12 @@ import { useEcosystemFilter } from './store/ecosystemFilter';
 import { HeroSection } from './components/HeroSection';
 import { LibraryCarousel } from './components/LibraryCarousel';
 import { TopNav } from './components/TopNav';
+import { LastUpdated } from './components/LastUpdated';
 import { simulatePubTimeline, estimatePub18Mo } from './lib/dataUtils';
 import type { PackageData } from './types';
 
 function App() {
-  const { packages: rawPackages, isLoading } = useAllPackageData();
+  const { packages: rawPackages, isLoading, generatedAt } = useAllPackageData();
   const { selectedPackage } = useSelectedPackage();
   const { filter } = useEcosystemFilter();
 
@@ -51,6 +52,7 @@ function App() {
   return (
     <div className="min-h-screen bg-background relative">
       <TopNav />
+      <LastUpdated generatedAt={generatedAt} />
       <HeroSection
         totalDownloads={totalDownloads}
         timeline={timeline}

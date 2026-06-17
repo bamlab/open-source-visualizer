@@ -6,6 +6,7 @@ import { LatestPrs } from '../components/LatestPrs';
 import { TopRepos } from '../components/TopRepos';
 import { PrStatusPanel } from '../components/PrStatusPanel';
 import { LoadingSkeleton } from '../components/LoadingSkeleton';
+import { LastUpdated } from '../components/LastUpdated';
 
 export function PersonPage() {
   const { data, isLoading } = usePrsData();
@@ -20,6 +21,7 @@ export function PersonPage() {
   return (
     <div className="min-h-screen bg-background relative pb-24">
       <TopNav />
+      <LastUpdated generatedAt={generatedAt} />
 
       <header className="relative w-full pt-24 pb-12">
         <div

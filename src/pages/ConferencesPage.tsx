@@ -4,6 +4,7 @@ import Globe, { type GlobeMethods } from 'react-globe.gl';
 import { TopNav } from '../components/TopNav';
 import { LoadingSkeleton } from '../components/LoadingSkeleton';
 import { useConferencesData } from '../hooks/useConferencesData';
+import { LastUpdated } from '../components/LastUpdated';
 import type { ConferenceTalk } from '../types';
 
 const BRAND = '#E63946';
@@ -233,6 +234,7 @@ export function ConferencesPage() {
   return (
     <div className="min-h-screen bg-background relative pb-24">
       <TopNav />
+      <LastUpdated generatedAt={data.generatedAt} />
 
       <header className="relative w-full pt-24 pb-10">
         <div
