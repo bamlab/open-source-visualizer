@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-06-19T18:31:40.324Z",
+  "generatedAt": "2026-06-20T00:26:48.446Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
-      "totalDownloads": 3978559,
+      "totalDownloads": 3973225,
       "monthlyDownloads": [
         {
           "month": "2024-12",
-          "downloads": 31670
+          "downloads": 26336
         },
         {
           "month": "2025-01",
@@ -87,11 +87,11 @@
     },
     {
       "name": "@bam.tech/react-navigation-visualizer-dev-plugin",
-      "totalDownloads": 1085285,
+      "totalDownloads": 1085236,
       "monthlyDownloads": [
         {
           "month": "2024-12",
-          "downloads": 169
+          "downloads": 120
         },
         {
           "month": "2025-01",
@@ -171,11 +171,11 @@
     },
     {
       "name": "@bam.tech/react-native-app-security",
-      "totalDownloads": 357133,
+      "totalDownloads": 357001,
       "monthlyDownloads": [
         {
           "month": "2024-12",
-          "downloads": 497
+          "downloads": 365
         },
         {
           "month": "2025-01",
@@ -255,11 +255,11 @@
     },
     {
       "name": "@bam.tech/react-native-make",
-      "totalDownloads": 364754,
+      "totalDownloads": 364214,
       "monthlyDownloads": [
         {
           "month": "2024-12",
-          "downloads": 4541
+          "downloads": 4001
         },
         {
           "month": "2025-01",
@@ -339,11 +339,11 @@
     },
     {
       "name": "@bam.tech/eslint-plugin",
-      "totalDownloads": 134724,
+      "totalDownloads": 134352,
       "monthlyDownloads": [
         {
           "month": "2024-12",
-          "downloads": 1257
+          "downloads": 885
         },
         {
           "month": "2025-01",
@@ -423,11 +423,11 @@
     },
     {
       "name": "@bam.tech/react-native-config",
-      "totalDownloads": 76220,
+      "totalDownloads": 76113,
       "monthlyDownloads": [
         {
           "month": "2024-12",
-          "downloads": 506
+          "downloads": 399
         },
         {
           "month": "2025-01",
@@ -507,11 +507,11 @@
     },
     {
       "name": "@bam.tech/react-native-keyevent-expo-config-plugin",
-      "totalDownloads": 60252,
+      "totalDownloads": 59935,
       "monthlyDownloads": [
         {
           "month": "2024-12",
-          "downloads": 961
+          "downloads": 644
         },
         {
           "month": "2025-01",
@@ -591,11 +591,11 @@
     },
     {
       "name": "@bam.tech/lrud",
-      "totalDownloads": 76745,
+      "totalDownloads": 76666,
       "monthlyDownloads": [
         {
           "month": "2024-12",
-          "downloads": 416
+          "downloads": 337
         },
         {
           "month": "2025-01",
@@ -675,11 +675,11 @@
     },
     {
       "name": "@bam.tech/flow-navigator",
-      "totalDownloads": 102047,
+      "totalDownloads": 102005,
       "monthlyDownloads": [
         {
           "month": "2024-12",
-          "downloads": 226
+          "downloads": 184
         },
         {
           "month": "2025-01",
@@ -759,11 +759,11 @@
     },
     {
       "name": "@bam.tech/react-native-graphql-transformer",
-      "totalDownloads": 43982,
+      "totalDownloads": 43696,
       "monthlyDownloads": [
         {
           "month": "2024-12",
-          "downloads": 1080
+          "downloads": 794
         },
         {
           "month": "2025-01",
@@ -843,11 +843,11 @@
     },
     {
       "name": "@bam.tech/tanstack-query-detect-waterfall",
-      "totalDownloads": 15864,
+      "totalDownloads": 15800,
       "monthlyDownloads": [
         {
           "month": "2024-12",
-          "downloads": 223
+          "downloads": 159
         },
         {
           "month": "2025-01",
@@ -927,11 +927,11 @@
     },
     {
       "name": "@bam.tech/react-native-batch",
-      "totalDownloads": 7607,
+      "totalDownloads": 7595,
       "monthlyDownloads": [
         {
           "month": "2024-12",
-          "downloads": 45
+          "downloads": 33
         },
         {
           "month": "2025-01",
@@ -1011,11 +1011,11 @@
     },
     {
       "name": "react-native-performance",
-      "totalDownloads": 13595572,
+      "totalDownloads": 13585306,
       "monthlyDownloads": [
         {
           "month": "2024-12",
-          "downloads": 50084
+          "downloads": 39818
         },
         {
           "month": "2025-01",
@@ -1095,11 +1095,11 @@
     },
     {
       "name": "react-native-image-resizer",
-      "totalDownloads": 2859703,
+      "totalDownloads": 2850879,
       "monthlyDownloads": [
         {
           "month": "2024-12",
-          "downloads": 36836
+          "downloads": 28012
         },
         {
           "month": "2025-01",
@@ -1179,11 +1179,11 @@
     },
     {
       "name": "react-native-hide-with-keyboard",
-      "totalDownloads": 144272,
+      "totalDownloads": 143843,
       "monthlyDownloads": [
         {
           "month": "2024-12",
-          "downloads": 1823
+          "downloads": 1394
         },
         {
           "month": "2025-01",
@@ -1263,11 +1263,11 @@
     },
     {
       "name": "react-native-image-header-scroll-view",
-      "totalDownloads": 109877,
+      "totalDownloads": 109723,
       "monthlyDownloads": [
         {
           "month": "2024-12",
-          "downloads": 829
+          "downloads": 675
         },
         {
           "month": "2025-01",
@@ -1347,11 +1347,11 @@
     },
     {
       "name": "generator-rn-toolbox",
-      "totalDownloads": 87054,
+      "totalDownloads": 87013,
       "monthlyDownloads": [
         {
           "month": "2024-12",
-          "downloads": 424
+          "downloads": 383
         },
         {
           "month": "2025-01",
@@ -1431,11 +1431,11 @@
     },
     {
       "name": "react-native-make",
-      "totalDownloads": 70341,
+      "totalDownloads": 70313,
       "monthlyDownloads": [
         {
           "month": "2024-12",
-          "downloads": 272
+          "downloads": 244
         },
         {
           "month": "2025-01",
@@ -1515,11 +1515,11 @@
     },
     {
       "name": "redux-enhancer-react-native-appstate",
-      "totalDownloads": 88254,
+      "totalDownloads": 88090,
       "monthlyDownloads": [
         {
           "month": "2024-12",
-          "downloads": 1301
+          "downloads": 1137
         },
         {
           "month": "2025-01",
@@ -1599,11 +1599,11 @@
     },
     {
       "name": "react-tv-space-navigation",
-      "totalDownloads": 74447,
+      "totalDownloads": 74361,
       "monthlyDownloads": [
         {
           "month": "2024-12",
-          "downloads": 455
+          "downloads": 369
         },
         {
           "month": "2025-01",
@@ -1683,11 +1683,11 @@
     },
     {
       "name": "react-native-formik",
-      "totalDownloads": 177082,
+      "totalDownloads": 176616,
       "monthlyDownloads": [
         {
           "month": "2024-12",
-          "downloads": 3104
+          "downloads": 2638
         },
         {
           "month": "2025-01",
@@ -1767,11 +1767,11 @@
     },
     {
       "name": "rn-camera-roll",
-      "totalDownloads": 634,
+      "totalDownloads": 632,
       "monthlyDownloads": [
         {
           "month": "2024-12",
-          "downloads": 16
+          "downloads": 14
         },
         {
           "month": "2025-01",
@@ -1851,11 +1851,11 @@
     },
     {
       "name": "react-native-braintree-payments-drop-in",
-      "totalDownloads": 2539,
+      "totalDownloads": 2538,
       "monthlyDownloads": [
         {
           "month": "2024-12",
-          "downloads": 5
+          "downloads": 4
         },
         {
           "month": "2025-01",
@@ -2019,11 +2019,11 @@
     },
     {
       "name": "react-redux-toolbox",
-      "totalDownloads": 39549,
+      "totalDownloads": 39454,
       "monthlyDownloads": [
         {
           "month": "2024-12",
-          "downloads": 609
+          "downloads": 514
         },
         {
           "month": "2025-01",
@@ -2523,11 +2523,11 @@
     },
     {
       "name": "react-native-numberpicker-dialog",
-      "totalDownloads": 1545,
+      "totalDownloads": 1543,
       "monthlyDownloads": [
         {
           "month": "2024-12",
-          "downloads": 9
+          "downloads": 7
         },
         {
           "month": "2025-01",
@@ -2691,11 +2691,11 @@
     },
     {
       "name": "react-native-text-input",
-      "totalDownloads": 435,
+      "totalDownloads": 434,
       "monthlyDownloads": [
         {
           "month": "2024-12",
-          "downloads": 7
+          "downloads": 6
         },
         {
           "month": "2025-01",
