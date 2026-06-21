@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T07:31:46.876Z",
+  "generatedAt": "2026-06-21T12:34:06.175Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -3263,35 +3263,35 @@
     },
     {
       "name": "flutter_lyra",
-      "totalDownloads": 6623,
+      "totalDownloads": 6291,
       "monthlyDownloads": [
         {
           "month": "2025-06",
-          "downloads": 301
+          "downloads": 341
         },
         {
           "month": "2025-07",
-          "downloads": 346
+          "downloads": 296
         },
         {
           "month": "2025-08",
-          "downloads": 119
+          "downloads": 115
         },
         {
           "month": "2025-09",
-          "downloads": 531
+          "downloads": 537
         },
         {
           "month": "2025-10",
-          "downloads": 403
+          "downloads": 401
         },
         {
           "month": "2025-11",
-          "downloads": 1890
+          "downloads": 1509
         },
         {
           "month": "2025-12",
-          "downloads": 968
+          "downloads": 1349
         },
         {
           "month": "2026-01",
@@ -3303,18 +3303,18 @@
         },
         {
           "month": "2026-03",
-          "downloads": 646
+          "downloads": 652
         },
         {
           "month": "2026-04",
-          "downloads": 285
+          "downloads": 279
         },
         {
           "month": "2026-05",
-          "downloads": 646
+          "downloads": 324
         }
       ],
-      "momGrowthPct": 126.66666666666666,
+      "momGrowthPct": 16.129032258064516,
       "isGrowing": true,
       "stars": 4,
       "description": "This package allows you to use the methods from the lyra android and ios native sdks in Flutter",
