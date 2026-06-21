@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T12:34:06.175Z",
+  "generatedAt": "2026-06-21T18:27:20.212Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2958,7 +2958,7 @@
     },
     {
       "name": "init",
-      "totalDownloads": 13239,
+      "totalDownloads": 12210,
       "monthlyDownloads": [
         {
           "month": "2025-06",
@@ -2974,48 +2974,109 @@
         },
         {
           "month": "2025-09",
-          "downloads": 383
+          "downloads": 386
         },
         {
           "month": "2025-10",
-          "downloads": 469
+          "downloads": 470
         },
         {
           "month": "2025-11",
-          "downloads": 1905
+          "downloads": 1526
         },
         {
           "month": "2025-12",
-          "downloads": 1095
+          "downloads": 1476
         },
         {
           "month": "2026-01",
-          "downloads": 500
+          "downloads": 509
         },
         {
           "month": "2026-02",
-          "downloads": 427
+          "downloads": 416
         },
         {
           "month": "2026-03",
-          "downloads": 1484
+          "downloads": 1614
         },
         {
           "month": "2026-04",
-          "downloads": 3026
+          "downloads": 2892
         },
         {
           "month": "2026-05",
-          "downloads": 3950
+          "downloads": 2921
         }
       ],
-      "momGrowthPct": 30.53536021150033,
-      "isGrowing": true,
+      "momGrowthPct": 1.0027662517289073,
+      "isGrowing": false,
       "stars": 1,
       "description": "Init widget to execute initialization methods declaratively",
       "notFound": false,
       "ecosystem": "pub",
       "publishedAt": "2025-09-11T15:52:07.072282Z"
+    },
+    {
+      "name": "flutter_reach_five",
+      "totalDownloads": 6186,
+      "monthlyDownloads": [
+        {
+          "month": "2025-06",
+          "downloads": 376
+        },
+        {
+          "month": "2025-07",
+          "downloads": 354
+        },
+        {
+          "month": "2025-08",
+          "downloads": 161
+        },
+        {
+          "month": "2025-09",
+          "downloads": 504
+        },
+        {
+          "month": "2025-10",
+          "downloads": 403
+        },
+        {
+          "month": "2025-11",
+          "downloads": 1438
+        },
+        {
+          "month": "2025-12",
+          "downloads": 1325
+        },
+        {
+          "month": "2026-01",
+          "downloads": 229
+        },
+        {
+          "month": "2026-02",
+          "downloads": 297
+        },
+        {
+          "month": "2026-03",
+          "downloads": 393
+        },
+        {
+          "month": "2026-04",
+          "downloads": 422
+        },
+        {
+          "month": "2026-05",
+          "downloads": 284
+        }
+      ],
+      "momGrowthPct": -32.70142180094787,
+      "isGrowing": false,
+      "stars": 3,
+      "description": "This package allows you to use the methods from the reachFive android and ios native sdks in Flutter",
+      "notFound": false,
+      "ecosystem": "pub",
+      "publishedAt": "2022-10-07T15:53:56.220179Z"
     },
     {
       "name": "flutter_milibris",
@@ -3077,67 +3138,6 @@
       "notFound": false,
       "ecosystem": "pub",
       "publishedAt": "2026-03-23T17:17:27.908343Z"
-    },
-    {
-      "name": "flutter_reach_five",
-      "totalDownloads": 6518,
-      "monthlyDownloads": [
-        {
-          "month": "2025-06",
-          "downloads": 340
-        },
-        {
-          "month": "2025-07",
-          "downloads": 404
-        },
-        {
-          "month": "2025-08",
-          "downloads": 172
-        },
-        {
-          "month": "2025-09",
-          "downloads": 487
-        },
-        {
-          "month": "2025-10",
-          "downloads": 409
-        },
-        {
-          "month": "2025-11",
-          "downloads": 1783
-        },
-        {
-          "month": "2025-12",
-          "downloads": 980
-        },
-        {
-          "month": "2026-01",
-          "downloads": 229
-        },
-        {
-          "month": "2026-02",
-          "downloads": 297
-        },
-        {
-          "month": "2026-03",
-          "downloads": 389
-        },
-        {
-          "month": "2026-04",
-          "downloads": 401
-        },
-        {
-          "month": "2026-05",
-          "downloads": 627
-        }
-      ],
-      "momGrowthPct": 56.35910224438903,
-      "isGrowing": true,
-      "stars": 3,
-      "description": "This package allows you to use the methods from the reachFive android and ios native sdks in Flutter",
-      "notFound": false,
-      "ecosystem": "pub",
-      "publishedAt": "2022-10-07T15:53:56.220179Z"
     },
     {
       "name": "app_attest_integrity",
