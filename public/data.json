@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T07:49:43.014Z",
+  "generatedAt": "2026-06-22T13:48:02.809Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2897,23 +2897,23 @@
     },
     {
       "name": "theodo_analysis",
-      "totalDownloads": 18725,
+      "totalDownloads": 18727,
       "monthlyDownloads": [
         {
           "month": "2025-06",
-          "downloads": 827
+          "downloads": 237
         },
         {
           "month": "2025-07",
-          "downloads": 723
+          "downloads": 1313
         },
         {
           "month": "2025-08",
-          "downloads": 547
+          "downloads": 557
         },
         {
           "month": "2025-09",
-          "downloads": 1073
+          "downloads": 1063
         },
         {
           "month": "2025-10",
@@ -2921,11 +2921,11 @@
         },
         {
           "month": "2025-11",
-          "downloads": 2342
+          "downloads": 2372
         },
         {
           "month": "2025-12",
-          "downloads": 2039
+          "downloads": 2009
         },
         {
           "month": "2026-01",
@@ -2933,22 +2933,22 @@
         },
         {
           "month": "2026-02",
-          "downloads": 789
+          "downloads": 842
         },
         {
           "month": "2026-03",
-          "downloads": 2325
+          "downloads": 2278
         },
         {
           "month": "2026-04",
-          "downloads": 2966
+          "downloads": 2960
         },
         {
           "month": "2026-05",
-          "downloads": 2972
+          "downloads": 2974
         }
       ],
-      "momGrowthPct": 0.20229265003371544,
+      "momGrowthPct": 0.472972972972973,
       "isGrowing": false,
       "stars": 2,
       "description": "Lint and dcm rules for Dart and Flutter used internally at Theodo Apps.",
@@ -3206,11 +3206,11 @@
       "monthlyDownloads": [
         {
           "month": "2025-06",
-          "downloads": 95
+          "downloads": 61
         },
         {
           "month": "2025-07",
-          "downloads": 448
+          "downloads": 482
         },
         {
           "month": "2025-08",
@@ -3238,11 +3238,11 @@
         },
         {
           "month": "2026-02",
-          "downloads": 481
+          "downloads": 483
         },
         {
           "month": "2026-03",
-          "downloads": 243
+          "downloads": 242
         },
         {
           "month": "2026-04",
@@ -3250,10 +3250,10 @@
         },
         {
           "month": "2026-05",
-          "downloads": 150
+          "downloads": 149
         }
       ],
-      "momGrowthPct": -11.76470588235294,
+      "momGrowthPct": -12.352941176470589,
       "isGrowing": false,
       "stars": 3,
       "description": "A mutation implementation for the riverpod community - made by Theodo",
@@ -3324,15 +3324,15 @@
     },
     {
       "name": "http_cache_mmkv_store",
-      "totalDownloads": 578,
+      "totalDownloads": 577,
       "monthlyDownloads": [
         {
           "month": "2025-06",
-          "downloads": 21
+          "downloads": 12
         },
         {
           "month": "2025-07",
-          "downloads": 36
+          "downloads": 43
         },
         {
           "month": "2025-08",
@@ -3352,7 +3352,7 @@
         },
         {
           "month": "2025-12",
-          "downloads": 38
+          "downloads": 39
         },
         {
           "month": "2026-01",
@@ -3360,22 +3360,22 @@
         },
         {
           "month": "2026-02",
-          "downloads": 69
+          "downloads": 68
         },
         {
           "month": "2026-03",
-          "downloads": 104
+          "downloads": 105
         },
         {
           "month": "2026-04",
-          "downloads": 63
+          "downloads": 64
         },
         {
           "month": "2026-05",
-          "downloads": 78
+          "downloads": 77
         }
       ],
-      "momGrowthPct": 23.809523809523807,
+      "momGrowthPct": 20.3125,
       "isGrowing": true,
       "stars": 155,
       "description": "A DB cache store implementation with mmkv for dio_cache_interceptor and http_cache_client packages.",
