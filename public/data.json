@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T13:48:02.809Z",
+  "generatedAt": "2026-06-22T19:02:46.666Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -3019,15 +3019,15 @@
     },
     {
       "name": "flutter_reach_five",
-      "totalDownloads": 6186,
+      "totalDownloads": 6183,
       "monthlyDownloads": [
         {
           "month": "2025-06",
-          "downloads": 376
+          "downloads": 129
         },
         {
           "month": "2025-07",
-          "downloads": 354
+          "downloads": 598
         },
         {
           "month": "2025-08",
@@ -3055,22 +3055,22 @@
         },
         {
           "month": "2026-02",
-          "downloads": 297
+          "downloads": 317
         },
         {
           "month": "2026-03",
-          "downloads": 393
+          "downloads": 374
         },
         {
           "month": "2026-04",
-          "downloads": 422
+          "downloads": 424
         },
         {
           "month": "2026-05",
-          "downloads": 284
+          "downloads": 281
         }
       ],
-      "momGrowthPct": -32.70142180094787,
+      "momGrowthPct": -33.72641509433962,
       "isGrowing": false,
       "stars": 3,
       "description": "This package allows you to use the methods from the reachFive android and ios native sdks in Flutter",
@@ -3141,7 +3141,7 @@
     },
     {
       "name": "app_attest_integrity",
-      "totalDownloads": 1090,
+      "totalDownloads": 1093,
       "monthlyDownloads": [
         {
           "month": "2025-06",
@@ -3157,11 +3157,11 @@
         },
         {
           "month": "2025-09",
-          "downloads": 190
+          "downloads": 191
         },
         {
           "month": "2025-10",
-          "downloads": 43
+          "downloads": 42
         },
         {
           "month": "2025-11",
@@ -3173,15 +3173,15 @@
         },
         {
           "month": "2026-01",
-          "downloads": 162
+          "downloads": 186
         },
         {
           "month": "2026-02",
-          "downloads": 121
+          "downloads": 98
         },
         {
           "month": "2026-03",
-          "downloads": 120
+          "downloads": 121
         },
         {
           "month": "2026-04",
@@ -3189,10 +3189,10 @@
         },
         {
           "month": "2026-05",
-          "downloads": 166
+          "downloads": 167
         }
       ],
-      "momGrowthPct": 45.614035087719294,
+      "momGrowthPct": 46.49122807017544,
       "isGrowing": true,
       "stars": 5,
       "description": "A Flutter plugin to assess an app integrity. Uses App attest on iOS and app Integrity on Android.",
@@ -3263,15 +3263,15 @@
     },
     {
       "name": "flutter_lyra",
-      "totalDownloads": 6291,
+      "totalDownloads": 6290,
       "monthlyDownloads": [
         {
           "month": "2025-06",
-          "downloads": 341
+          "downloads": 98
         },
         {
           "month": "2025-07",
-          "downloads": 296
+          "downloads": 538
         },
         {
           "month": "2025-08",
@@ -3279,19 +3279,19 @@
         },
         {
           "month": "2025-09",
-          "downloads": 537
+          "downloads": 538
         },
         {
           "month": "2025-10",
-          "downloads": 401
+          "downloads": 400
         },
         {
           "month": "2025-11",
-          "downloads": 1509
+          "downloads": 1539
         },
         {
           "month": "2025-12",
-          "downloads": 1349
+          "downloads": 1319
         },
         {
           "month": "2026-01",
@@ -3303,18 +3303,18 @@
         },
         {
           "month": "2026-03",
-          "downloads": 652
+          "downloads": 653
         },
         {
           "month": "2026-04",
-          "downloads": 279
+          "downloads": 278
         },
         {
           "month": "2026-05",
           "downloads": 324
         }
       ],
-      "momGrowthPct": 16.129032258064516,
+      "momGrowthPct": 16.546762589928058,
       "isGrowing": true,
       "stars": 4,
       "description": "This package allows you to use the methods from the lyra android and ios native sdks in Flutter",
@@ -3389,15 +3389,15 @@
       "monthlyDownloads": [
         {
           "month": "2025-06",
-          "downloads": 310
+          "downloads": 128
         },
         {
           "month": "2025-07",
-          "downloads": 476
+          "downloads": 656
         },
         {
           "month": "2025-08",
-          "downloads": 262
+          "downloads": 261
         },
         {
           "month": "2025-09",
@@ -3417,32 +3417,44 @@
         },
         {
           "month": "2026-01",
-          "downloads": 91
+          "downloads": 93
         },
         {
           "month": "2026-02",
-          "downloads": 148
+          "downloads": 146
         },
         {
           "month": "2026-03",
-          "downloads": 149
+          "downloads": 151
         },
         {
           "month": "2026-04",
-          "downloads": 96
+          "downloads": 94
         },
         {
           "month": "2026-05",
-          "downloads": 134
+          "downloads": 137
         }
       ],
-      "momGrowthPct": 39.58333333333333,
+      "momGrowthPct": 45.744680851063826,
       "isGrowing": true,
       "stars": 6,
       "description": "This is a set of rules to make classes using Equatable more maintainable. We make sure here that every fields in an Equatable class is linked to the Equatable props getter.",
       "notFound": false,
       "ecosystem": "pub",
       "publishedAt": "2022-10-09T10:19:32.928925Z"
+    },
+    {
+      "name": "go_router_url_watcher",
+      "totalDownloads": 0,
+      "monthlyDownloads": [],
+      "momGrowthPct": null,
+      "isGrowing": false,
+      "stars": 0,
+      "description": "Easily keep your state in the url when using go_router in Flutter",
+      "notFound": false,
+      "ecosystem": "pub",
+      "publishedAt": "2026-06-22T15:39:24.024032Z"
     }
   ]
 }
