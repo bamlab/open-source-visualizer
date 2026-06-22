@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T00:29:37.518Z",
+  "generatedAt": "2026-06-22T04:36:22.308Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -3194,7 +3194,7 @@
       ],
       "momGrowthPct": 45.614035087719294,
       "isGrowing": true,
-      "stars": 4,
+      "stars": 5,
       "description": "A Flutter plugin to assess an app integrity. Uses App attest on iOS and app Integrity on Android.",
       "notFound": false,
       "ecosystem": "pub",
