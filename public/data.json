@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T00:27:36.382Z",
+  "generatedAt": "2026-06-23T07:07:47.800Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -3447,7 +3447,56 @@
     {
       "name": "go_router_url_watcher",
       "totalDownloads": 0,
-      "monthlyDownloads": [],
+      "monthlyDownloads": [
+        {
+          "month": "2025-06",
+          "downloads": 0
+        },
+        {
+          "month": "2025-07",
+          "downloads": 0
+        },
+        {
+          "month": "2025-08",
+          "downloads": 0
+        },
+        {
+          "month": "2025-09",
+          "downloads": 0
+        },
+        {
+          "month": "2025-10",
+          "downloads": 0
+        },
+        {
+          "month": "2025-11",
+          "downloads": 0
+        },
+        {
+          "month": "2025-12",
+          "downloads": 0
+        },
+        {
+          "month": "2026-01",
+          "downloads": 0
+        },
+        {
+          "month": "2026-02",
+          "downloads": 0
+        },
+        {
+          "month": "2026-03",
+          "downloads": 0
+        },
+        {
+          "month": "2026-04",
+          "downloads": 0
+        },
+        {
+          "month": "2026-05",
+          "downloads": 0
+        }
+      ],
       "momGrowthPct": null,
       "isGrowing": false,
       "stars": 0,
