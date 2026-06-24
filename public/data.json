@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T12:38:54.173Z",
+  "generatedAt": "2026-06-24T18:31:28.018Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -3262,67 +3262,6 @@
       "publishedAt": "2025-05-22T13:02:37.162979Z"
     },
     {
-      "name": "flutter_lyra",
-      "totalDownloads": 6312,
-      "monthlyDownloads": [
-        {
-          "month": "2025-06",
-          "downloads": 81
-        },
-        {
-          "month": "2025-07",
-          "downloads": 556
-        },
-        {
-          "month": "2025-08",
-          "downloads": 94
-        },
-        {
-          "month": "2025-09",
-          "downloads": 444
-        },
-        {
-          "month": "2025-10",
-          "downloads": 497
-        },
-        {
-          "month": "2025-11",
-          "downloads": 1570
-        },
-        {
-          "month": "2025-12",
-          "downloads": 1259
-        },
-        {
-          "month": "2026-01",
-          "downloads": 274
-        },
-        {
-          "month": "2026-02",
-          "downloads": 242
-        },
-        {
-          "month": "2026-03",
-          "downloads": 543
-        },
-        {
-          "month": "2026-04",
-          "downloads": 389
-        },
-        {
-          "month": "2026-05",
-          "downloads": 363
-        }
-      ],
-      "momGrowthPct": -6.683804627249357,
-      "isGrowing": false,
-      "stars": 4,
-      "description": "This package allows you to use the methods from the lyra android and ios native sdks in Flutter",
-      "notFound": false,
-      "ecosystem": "pub",
-      "publishedAt": "2022-11-03T14:23:30.800535Z"
-    },
-    {
       "name": "http_cache_mmkv_store",
       "totalDownloads": 575,
       "monthlyDownloads": [
@@ -3382,6 +3321,67 @@
       "notFound": false,
       "ecosystem": "pub",
       "publishedAt": "2025-06-09T14:32:34.666856Z"
+    },
+    {
+      "name": "flutter_lyra",
+      "totalDownloads": 6312,
+      "monthlyDownloads": [
+        {
+          "month": "2025-06",
+          "downloads": 81
+        },
+        {
+          "month": "2025-07",
+          "downloads": 556
+        },
+        {
+          "month": "2025-08",
+          "downloads": 94
+        },
+        {
+          "month": "2025-09",
+          "downloads": 444
+        },
+        {
+          "month": "2025-10",
+          "downloads": 497
+        },
+        {
+          "month": "2025-11",
+          "downloads": 1570
+        },
+        {
+          "month": "2025-12",
+          "downloads": 1259
+        },
+        {
+          "month": "2026-01",
+          "downloads": 274
+        },
+        {
+          "month": "2026-02",
+          "downloads": 242
+        },
+        {
+          "month": "2026-03",
+          "downloads": 543
+        },
+        {
+          "month": "2026-04",
+          "downloads": 389
+        },
+        {
+          "month": "2026-05",
+          "downloads": 363
+        }
+      ],
+      "momGrowthPct": -6.683804627249357,
+      "isGrowing": false,
+      "stars": 4,
+      "description": "This package allows you to use the methods from the lyra android and ios native sdks in Flutter",
+      "notFound": false,
+      "ecosystem": "pub",
+      "publishedAt": "2022-11-03T14:23:30.800535Z"
     },
     {
       "name": "equatable_lint",
