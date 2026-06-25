@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T00:27:36.352Z",
+  "generatedAt": "2026-06-25T07:04:47.836Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2897,59 +2897,59 @@
     },
     {
       "name": "theodo_analysis",
-      "totalDownloads": 18872,
+      "totalDownloads": 19179,
       "monthlyDownloads": [
         {
           "month": "2025-06",
-          "downloads": 233
+          "downloads": 303
         },
         {
           "month": "2025-07",
-          "downloads": 1286
+          "downloads": 1158
         },
         {
           "month": "2025-08",
-          "downloads": 577
+          "downloads": 612
         },
         {
           "month": "2025-09",
-          "downloads": 721
+          "downloads": 822
         },
         {
           "month": "2025-10",
-          "downloads": 1786
+          "downloads": 1729
         },
         {
           "month": "2025-11",
-          "downloads": 2446
+          "downloads": 2555
         },
         {
           "month": "2025-12",
-          "downloads": 1848
+          "downloads": 1721
         },
         {
           "month": "2026-01",
-          "downloads": 769
+          "downloads": 775
         },
         {
           "month": "2026-02",
-          "downloads": 906
+          "downloads": 938
         },
         {
           "month": "2026-03",
-          "downloads": 1608
+          "downloads": 1599
         },
         {
           "month": "2026-04",
-          "downloads": 3624
+          "downloads": 3187
         },
         {
           "month": "2026-05",
-          "downloads": 3068
+          "downloads": 3780
         }
       ],
-      "momGrowthPct": -15.342163355408388,
-      "isGrowing": false,
+      "momGrowthPct": 18.606840288672732,
+      "isGrowing": true,
       "stars": 2,
       "description": "Lint and dcm rules for Dart and Flutter used internally at Theodo Apps.",
       "notFound": false,
