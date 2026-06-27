@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T12:22:20.864Z",
+  "generatedAt": "2026-06-27T18:21:02.840Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2958,7 +2958,7 @@
     },
     {
       "name": "init",
-      "totalDownloads": 12982,
+      "totalDownloads": 13239,
       "monthlyDownloads": [
         {
           "month": "2025-06",
@@ -2974,42 +2974,42 @@
         },
         {
           "month": "2025-09",
-          "downloads": 333
+          "downloads": 383
         },
         {
           "month": "2025-10",
-          "downloads": 517
+          "downloads": 469
         },
         {
           "month": "2025-11",
-          "downloads": 1784
+          "downloads": 1905
         },
         {
           "month": "2025-12",
-          "downloads": 1214
+          "downloads": 1095
         },
         {
           "month": "2026-01",
-          "downloads": 598
+          "downloads": 500
         },
         {
           "month": "2026-02",
-          "downloads": 456
+          "downloads": 427
         },
         {
           "month": "2026-03",
-          "downloads": 1177
+          "downloads": 1484
         },
         {
           "month": "2026-04",
-          "downloads": 3128
+          "downloads": 3026
         },
         {
           "month": "2026-05",
-          "downloads": 3775
+          "downloads": 3950
         }
       ],
-      "momGrowthPct": 20.684143222506393,
+      "momGrowthPct": 30.53536021150033,
       "isGrowing": true,
       "stars": 1,
       "description": "Init widget to execute initialization methods declaratively",
@@ -3141,7 +3141,7 @@
     },
     {
       "name": "app_attest_integrity",
-      "totalDownloads": 1125,
+      "totalDownloads": 1130,
       "monthlyDownloads": [
         {
           "month": "2025-06",
@@ -3153,15 +3153,15 @@
         },
         {
           "month": "2025-08",
-          "downloads": 115
+          "downloads": 116
         },
         {
           "month": "2025-09",
-          "downloads": 176
+          "downloads": 177
         },
         {
           "month": "2025-10",
-          "downloads": 48
+          "downloads": 46
         },
         {
           "month": "2025-11",
@@ -3169,30 +3169,30 @@
         },
         {
           "month": "2025-12",
-          "downloads": 22
+          "downloads": 23
         },
         {
           "month": "2026-01",
-          "downloads": 236
+          "downloads": 140
         },
         {
           "month": "2026-02",
-          "downloads": 51
+          "downloads": 142
         },
         {
           "month": "2026-03",
-          "downloads": 112
+          "downloads": 119
         },
         {
           "month": "2026-04",
-          "downloads": 112
+          "downloads": 113
         },
         {
           "month": "2026-05",
-          "downloads": 208
+          "downloads": 209
         }
       ],
-      "momGrowthPct": 85.71428571428571,
+      "momGrowthPct": 84.95575221238938,
       "isGrowing": true,
       "stars": 5,
       "description": "A Flutter plugin to assess an app integrity. Uses App attest on iOS and app Integrity on Android.",
@@ -3384,67 +3384,6 @@
       "publishedAt": "2022-11-03T14:23:30.800535Z"
     },
     {
-      "name": "equatable_lint",
-      "totalDownloads": 2424,
-      "monthlyDownloads": [
-        {
-          "month": "2025-06",
-          "downloads": 179
-        },
-        {
-          "month": "2025-07",
-          "downloads": 479
-        },
-        {
-          "month": "2025-08",
-          "downloads": 325
-        },
-        {
-          "month": "2025-09",
-          "downloads": 275
-        },
-        {
-          "month": "2025-10",
-          "downloads": 127
-        },
-        {
-          "month": "2025-11",
-          "downloads": 160
-        },
-        {
-          "month": "2025-12",
-          "downloads": 246
-        },
-        {
-          "month": "2026-01",
-          "downloads": 106
-        },
-        {
-          "month": "2026-02",
-          "downloads": 148
-        },
-        {
-          "month": "2026-03",
-          "downloads": 134
-        },
-        {
-          "month": "2026-04",
-          "downloads": 95
-        },
-        {
-          "month": "2026-05",
-          "downloads": 150
-        }
-      ],
-      "momGrowthPct": 57.89473684210527,
-      "isGrowing": true,
-      "stars": 6,
-      "description": "This is a set of rules to make classes using Equatable more maintainable. We make sure here that every fields in an Equatable class is linked to the Equatable props getter.",
-      "notFound": false,
-      "ecosystem": "pub",
-      "publishedAt": "2022-10-09T10:19:32.928925Z"
-    },
-    {
       "name": "go_router_url_watcher",
       "totalDownloads": 0,
       "monthlyDownloads": [
@@ -3504,6 +3443,67 @@
       "notFound": false,
       "ecosystem": "pub",
       "publishedAt": "2026-06-22T15:39:24.024032Z"
+    },
+    {
+      "name": "equatable_lint",
+      "totalDownloads": 2402,
+      "monthlyDownloads": [
+        {
+          "month": "2025-06",
+          "downloads": 199
+        },
+        {
+          "month": "2025-07",
+          "downloads": 452
+        },
+        {
+          "month": "2025-08",
+          "downloads": 312
+        },
+        {
+          "month": "2025-09",
+          "downloads": 277
+        },
+        {
+          "month": "2025-10",
+          "downloads": 121
+        },
+        {
+          "month": "2025-11",
+          "downloads": 159
+        },
+        {
+          "month": "2025-12",
+          "downloads": 247
+        },
+        {
+          "month": "2026-01",
+          "downloads": 88
+        },
+        {
+          "month": "2026-02",
+          "downloads": 141
+        },
+        {
+          "month": "2026-03",
+          "downloads": 159
+        },
+        {
+          "month": "2026-04",
+          "downloads": 95
+        },
+        {
+          "month": "2026-05",
+          "downloads": 152
+        }
+      ],
+      "momGrowthPct": 60,
+      "isGrowing": true,
+      "stars": 6,
+      "description": "This is a set of rules to make classes using Equatable more maintainable. We make sure here that every fields in an Equatable class is linked to the Equatable props getter.",
+      "notFound": false,
+      "ecosystem": "pub",
+      "publishedAt": "2022-10-09T10:19:32.928925Z"
     }
   ]
 }
