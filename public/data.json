@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T07:15:24.755Z",
+  "generatedAt": "2026-06-28T12:22:39.549Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -3141,7 +3141,7 @@
     },
     {
       "name": "app_attest_integrity",
-      "totalDownloads": 1130,
+      "totalDownloads": 1090,
       "monthlyDownloads": [
         {
           "month": "2025-06",
@@ -3153,46 +3153,46 @@
         },
         {
           "month": "2025-08",
-          "downloads": 116
+          "downloads": 106
         },
         {
           "month": "2025-09",
-          "downloads": 177
+          "downloads": 190
         },
         {
           "month": "2025-10",
-          "downloads": 46
+          "downloads": 43
         },
         {
           "month": "2025-11",
-          "downloads": 45
+          "downloads": 37
         },
         {
           "month": "2025-12",
-          "downloads": 23
+          "downloads": 31
         },
         {
           "month": "2026-01",
-          "downloads": 140
+          "downloads": 162
         },
         {
           "month": "2026-02",
-          "downloads": 142
+          "downloads": 121
         },
         {
           "month": "2026-03",
-          "downloads": 119
+          "downloads": 120
         },
         {
           "month": "2026-04",
-          "downloads": 113
+          "downloads": 114
         },
         {
           "month": "2026-05",
-          "downloads": 209
+          "downloads": 166
         }
       ],
-      "momGrowthPct": 84.95575221238938,
+      "momGrowthPct": 45.614035087719294,
       "isGrowing": true,
       "stars": 5,
       "description": "A Flutter plugin to assess an app integrity. Uses App attest on iOS and app Integrity on Android.",
@@ -3202,58 +3202,58 @@
     },
     {
       "name": "http_cache_mmkv_store",
-      "totalDownloads": 577,
+      "totalDownloads": 564,
       "monthlyDownloads": [
         {
           "month": "2025-06",
-          "downloads": 6
+          "downloads": 7
         },
         {
           "month": "2025-07",
-          "downloads": 37
+          "downloads": 36
         },
         {
           "month": "2025-08",
-          "downloads": 38
+          "downloads": 33
         },
         {
           "month": "2025-09",
-          "downloads": 38
-        },
-        {
-          "month": "2025-10",
-          "downloads": 34
-        },
-        {
-          "month": "2025-11",
           "downloads": 45
         },
         {
+          "month": "2025-10",
+          "downloads": 33
+        },
+        {
+          "month": "2025-11",
+          "downloads": 35
+        },
+        {
           "month": "2025-12",
-          "downloads": 29
+          "downloads": 38
         },
         {
           "month": "2026-01",
-          "downloads": 22
+          "downloads": 23
         },
         {
           "month": "2026-02",
-          "downloads": 67
+          "downloads": 69
         },
         {
           "month": "2026-03",
-          "downloads": 101
+          "downloads": 104
         },
         {
           "month": "2026-04",
-          "downloads": 68
+          "downloads": 63
         },
         {
           "month": "2026-05",
-          "downloads": 92
+          "downloads": 78
         }
       ],
-      "momGrowthPct": 35.294117647058826,
+      "momGrowthPct": 23.809523809523807,
       "isGrowing": true,
       "stars": 155,
       "description": "A DB cache store implementation with mmkv for dio_cache_interceptor and http_cache_client packages.",
@@ -3324,35 +3324,35 @@
     },
     {
       "name": "flutter_lyra",
-      "totalDownloads": 6519,
+      "totalDownloads": 6192,
       "monthlyDownloads": [
         {
           "month": "2025-06",
-          "downloads": 197
+          "downloads": 242
         },
         {
           "month": "2025-07",
-          "downloads": 346
+          "downloads": 296
         },
         {
           "month": "2025-08",
-          "downloads": 119
+          "downloads": 115
         },
         {
           "month": "2025-09",
-          "downloads": 531
+          "downloads": 537
         },
         {
           "month": "2025-10",
-          "downloads": 403
+          "downloads": 401
         },
         {
           "month": "2025-11",
-          "downloads": 1890
+          "downloads": 1509
         },
         {
           "month": "2025-12",
-          "downloads": 968
+          "downloads": 1349
         },
         {
           "month": "2026-01",
@@ -3364,18 +3364,18 @@
         },
         {
           "month": "2026-03",
-          "downloads": 646
+          "downloads": 652
         },
         {
           "month": "2026-04",
-          "downloads": 285
+          "downloads": 279
         },
         {
           "month": "2026-05",
-          "downloads": 646
+          "downloads": 324
         }
       ],
-      "momGrowthPct": 126.66666666666666,
+      "momGrowthPct": 16.129032258064516,
       "isGrowing": true,
       "stars": 4,
       "description": "This package allows you to use the methods from the lyra android and ios native sdks in Flutter",
