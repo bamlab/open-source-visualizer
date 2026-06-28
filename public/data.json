@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T12:22:39.549Z",
+  "generatedAt": "2026-06-28T18:20:45.851Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -1340,7 +1340,7 @@
       ],
       "momGrowthPct": 6.467047383855533,
       "isGrowing": false,
-      "stars": 1023,
+      "stars": 1024,
       "description": "ScrollView with an image in header which become a navbar",
       "notFound": false,
       "ecosystem": "npm"
