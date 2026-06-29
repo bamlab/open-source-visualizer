@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T07:32:32.154Z",
+  "generatedAt": "2026-06-29T13:20:39.821Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2832,15 +2832,11 @@
     },
     {
       "name": "riverpod_community_extensions",
-      "totalDownloads": 11604,
+      "totalDownloads": 11612,
       "monthlyDownloads": [
         {
-          "month": "2025-06",
-          "downloads": 260
-        },
-        {
           "month": "2025-07",
-          "downloads": 403
+          "downloads": 663
         },
         {
           "month": "2025-08",
@@ -2860,30 +2856,30 @@
         },
         {
           "month": "2025-12",
-          "downloads": 1681
+          "downloads": 1698
         },
         {
           "month": "2026-01",
-          "downloads": 754
+          "downloads": 739
         },
         {
           "month": "2026-02",
-          "downloads": 728
+          "downloads": 726
         },
         {
           "month": "2026-03",
-          "downloads": 1127
+          "downloads": 1208
         },
         {
           "month": "2026-04",
-          "downloads": 795
+          "downloads": 717
         },
         {
           "month": "2026-05",
-          "downloads": 2264
+          "downloads": 2269
         }
       ],
-      "momGrowthPct": 184.77987421383648,
+      "momGrowthPct": 216.45746164574615,
       "isGrowing": true,
       "stars": 10,
       "description": "Extends Riverpod ref types with additional helpers, to easily add common functionalities to your providers.",
@@ -3137,12 +3133,8 @@
     },
     {
       "name": "app_attest_integrity",
-      "totalDownloads": 1090,
+      "totalDownloads": 1093,
       "monthlyDownloads": [
-        {
-          "month": "2025-06",
-          "downloads": 0
-        },
         {
           "month": "2025-07",
           "downloads": 0
@@ -3153,11 +3145,11 @@
         },
         {
           "month": "2025-09",
-          "downloads": 190
+          "downloads": 191
         },
         {
           "month": "2025-10",
-          "downloads": 43
+          "downloads": 42
         },
         {
           "month": "2025-11",
@@ -3169,15 +3161,15 @@
         },
         {
           "month": "2026-01",
-          "downloads": 162
+          "downloads": 186
         },
         {
           "month": "2026-02",
-          "downloads": 121
+          "downloads": 98
         },
         {
           "month": "2026-03",
-          "downloads": 120
+          "downloads": 121
         },
         {
           "month": "2026-04",
@@ -3185,10 +3177,10 @@
         },
         {
           "month": "2026-05",
-          "downloads": 166
+          "downloads": 167
         }
       ],
-      "momGrowthPct": 45.614035087719294,
+      "momGrowthPct": 46.49122807017544,
       "isGrowing": true,
       "stars": 5,
       "description": "A Flutter plugin to assess an app integrity. Uses App attest on iOS and app Integrity on Android.",
