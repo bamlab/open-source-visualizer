@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T00:26:23.393Z",
+  "generatedAt": "2026-06-30T07:11:01.066Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2889,54 +2889,54 @@
     },
     {
       "name": "theodo_analysis",
-      "totalDownloads": 18490,
+      "totalDownloads": 18488,
       "monthlyDownloads": [
         {
           "month": "2025-07",
-          "downloads": 1313
+          "downloads": 1308
         },
         {
           "month": "2025-08",
-          "downloads": 557
+          "downloads": 571
         },
         {
           "month": "2025-09",
-          "downloads": 1063
+          "downloads": 715
         },
         {
           "month": "2025-10",
-          "downloads": 1460
+          "downloads": 1796
         },
         {
           "month": "2025-11",
-          "downloads": 2372
+          "downloads": 2408
         },
         {
           "month": "2025-12",
-          "downloads": 2009
+          "downloads": 1970
         },
         {
           "month": "2026-01",
-          "downloads": 662
+          "downloads": 661
         },
         {
           "month": "2026-02",
-          "downloads": 842
+          "downloads": 869
         },
         {
           "month": "2026-03",
-          "downloads": 2278
+          "downloads": 1580
         },
         {
           "month": "2026-04",
-          "downloads": 2960
+          "downloads": 3631
         },
         {
           "month": "2026-05",
-          "downloads": 2974
+          "downloads": 2979
         }
       ],
-      "momGrowthPct": 0.472972972972973,
+      "momGrowthPct": -17.956485816579455,
       "isGrowing": false,
       "stars": 2,
       "description": "Lint and dcm rules for Dart and Flutter used internally at Theodo Apps.",
@@ -3003,31 +3003,27 @@
     },
     {
       "name": "flutter_reach_five",
-      "totalDownloads": 6056,
+      "totalDownloads": 6057,
       "monthlyDownloads": [
         {
-          "month": "2025-06",
-          "downloads": 246
-        },
-        {
           "month": "2025-07",
-          "downloads": 354
+          "downloads": 596
         },
         {
           "month": "2025-08",
-          "downloads": 161
+          "downloads": 160
         },
         {
           "month": "2025-09",
-          "downloads": 504
+          "downloads": 401
         },
         {
           "month": "2025-10",
-          "downloads": 403
+          "downloads": 509
         },
         {
           "month": "2025-11",
-          "downloads": 1438
+          "downloads": 1437
         },
         {
           "month": "2025-12",
@@ -3039,22 +3035,22 @@
         },
         {
           "month": "2026-02",
-          "downloads": 297
+          "downloads": 316
         },
         {
           "month": "2026-03",
-          "downloads": 393
+          "downloads": 288
         },
         {
           "month": "2026-04",
-          "downloads": 422
+          "downloads": 510
         },
         {
           "month": "2026-05",
-          "downloads": 284
+          "downloads": 286
         }
       ],
-      "momGrowthPct": -32.70142180094787,
+      "momGrowthPct": -43.92156862745098,
       "isGrowing": false,
       "stars": 3,
       "description": "This package allows you to use the methods from the reachFive android and ios native sdks in Flutter",
@@ -3182,31 +3178,31 @@
       "monthlyDownloads": [
         {
           "month": "2025-07",
-          "downloads": 43
+          "downloads": 41
         },
         {
           "month": "2025-08",
-          "downloads": 33
+          "downloads": 32
         },
         {
           "month": "2025-09",
-          "downloads": 45
+          "downloads": 32
         },
         {
           "month": "2025-10",
-          "downloads": 33
+          "downloads": 49
         },
         {
           "month": "2025-11",
-          "downloads": 35
+          "downloads": 34
         },
         {
           "month": "2025-12",
-          "downloads": 39
+          "downloads": 40
         },
         {
           "month": "2026-01",
-          "downloads": 23
+          "downloads": 24
         },
         {
           "month": "2026-02",
@@ -3214,19 +3210,19 @@
         },
         {
           "month": "2026-03",
-          "downloads": 105
+          "downloads": 83
         },
         {
           "month": "2026-04",
-          "downloads": 64
+          "downloads": 85
         },
         {
           "month": "2026-05",
           "downloads": 77
         }
       ],
-      "momGrowthPct": 20.3125,
-      "isGrowing": true,
+      "momGrowthPct": -9.411764705882353,
+      "isGrowing": false,
       "stars": 155,
       "description": "A DB cache store implementation with mmkv for dio_cache_interceptor and http_cache_client packages.",
       "notFound": false,
@@ -3292,35 +3288,31 @@
     },
     {
       "name": "flutter_lyra",
-      "totalDownloads": 6192,
+      "totalDownloads": 6190,
       "monthlyDownloads": [
         {
-          "month": "2025-06",
-          "downloads": 242
-        },
-        {
           "month": "2025-07",
-          "downloads": 296
+          "downloads": 546
         },
         {
           "month": "2025-08",
-          "downloads": 115
+          "downloads": 104
         },
         {
           "month": "2025-09",
-          "downloads": 537
+          "downloads": 444
         },
         {
           "month": "2025-10",
-          "downloads": 401
+          "downloads": 497
         },
         {
           "month": "2025-11",
-          "downloads": 1509
+          "downloads": 1544
         },
         {
           "month": "2025-12",
-          "downloads": 1349
+          "downloads": 1313
         },
         {
           "month": "2026-01",
@@ -3328,23 +3320,23 @@
         },
         {
           "month": "2026-02",
-          "downloads": 263
+          "downloads": 262
         },
         {
           "month": "2026-03",
-          "downloads": 652
+          "downloads": 520
         },
         {
           "month": "2026-04",
-          "downloads": 279
+          "downloads": 411
         },
         {
           "month": "2026-05",
           "downloads": 324
         }
       ],
-      "momGrowthPct": 16.129032258064516,
-      "isGrowing": true,
+      "momGrowthPct": -21.16788321167883,
+      "isGrowing": false,
       "stars": 4,
       "description": "This package allows you to use the methods from the lyra android and ios native sdks in Flutter",
       "notFound": false,
@@ -3410,54 +3402,54 @@
     },
     {
       "name": "equatable_lint",
-      "totalDownloads": 2363,
+      "totalDownloads": 2352,
       "monthlyDownloads": [
         {
           "month": "2025-07",
-          "downloads": 656
+          "downloads": 642
         },
         {
           "month": "2025-08",
-          "downloads": 261
+          "downloads": 260
         },
         {
           "month": "2025-09",
-          "downloads": 306
+          "downloads": 260
         },
         {
           "month": "2025-10",
-          "downloads": 116
+          "downloads": 165
         },
         {
           "month": "2025-11",
-          "downloads": 122
+          "downloads": 121
         },
         {
           "month": "2025-12",
-          "downloads": 281
+          "downloads": 280
         },
         {
           "month": "2026-01",
-          "downloads": 93
-        },
-        {
-          "month": "2026-02",
-          "downloads": 146
-        },
-        {
-          "month": "2026-03",
-          "downloads": 151
-        },
-        {
-          "month": "2026-04",
           "downloads": 94
         },
         {
+          "month": "2026-02",
+          "downloads": 145
+        },
+        {
+          "month": "2026-03",
+          "downloads": 132
+        },
+        {
+          "month": "2026-04",
+          "downloads": 114
+        },
+        {
           "month": "2026-05",
-          "downloads": 137
+          "downloads": 139
         }
       ],
-      "momGrowthPct": 45.744680851063826,
+      "momGrowthPct": 21.929824561403507,
       "isGrowing": true,
       "stars": 6,
       "description": "This is a set of rules to make classes using Equatable more maintainable. We make sure here that every fields in an Equatable class is linked to the Equatable props getter.",
