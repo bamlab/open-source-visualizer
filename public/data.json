@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T00:23:49.318Z",
+  "generatedAt": "2026-07-03T07:00:24.682Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -1088,7 +1088,7 @@
       ],
       "momGrowthPct": -20.76007144127035,
       "isGrowing": false,
-      "stars": 1050,
+      "stars": 1051,
       "description": "Measure React Native performance",
       "notFound": false,
       "ecosystem": "npm"
@@ -2774,67 +2774,6 @@
       "ecosystem": "npm"
     },
     {
-      "name": "adaptive_test",
-      "totalDownloads": 63077,
-      "monthlyDownloads": [
-        {
-          "month": "2025-07",
-          "downloads": 2006
-        },
-        {
-          "month": "2025-08",
-          "downloads": 1790
-        },
-        {
-          "month": "2025-09",
-          "downloads": 1965
-        },
-        {
-          "month": "2025-10",
-          "downloads": 3502
-        },
-        {
-          "month": "2025-11",
-          "downloads": 4327
-        },
-        {
-          "month": "2025-12",
-          "downloads": 4968
-        },
-        {
-          "month": "2026-01",
-          "downloads": 5028
-        },
-        {
-          "month": "2026-02",
-          "downloads": 5564
-        },
-        {
-          "month": "2026-03",
-          "downloads": 6173
-        },
-        {
-          "month": "2026-04",
-          "downloads": 7852
-        },
-        {
-          "month": "2026-05",
-          "downloads": 10174
-        },
-        {
-          "month": "2026-06",
-          "downloads": 9728
-        }
-      ],
-      "momGrowthPct": -4.383723216040888,
-      "isGrowing": false,
-      "stars": 21,
-      "description": "A Flutter package to generate adaptive golden files during widget tests.",
-      "notFound": false,
-      "ecosystem": "pub",
-      "publishedAt": "2022-08-19T16:05:53.707865Z"
-    },
-    {
       "name": "riverpod_community_extensions",
       "totalDownloads": 16249,
       "monthlyDownloads": [
@@ -2894,6 +2833,67 @@
       "notFound": false,
       "ecosystem": "pub",
       "publishedAt": "2024-12-03T16:04:23.966440Z"
+    },
+    {
+      "name": "adaptive_test",
+      "totalDownloads": 63077,
+      "monthlyDownloads": [
+        {
+          "month": "2025-07",
+          "downloads": 2006
+        },
+        {
+          "month": "2025-08",
+          "downloads": 1790
+        },
+        {
+          "month": "2025-09",
+          "downloads": 1965
+        },
+        {
+          "month": "2025-10",
+          "downloads": 3502
+        },
+        {
+          "month": "2025-11",
+          "downloads": 4327
+        },
+        {
+          "month": "2025-12",
+          "downloads": 4968
+        },
+        {
+          "month": "2026-01",
+          "downloads": 5028
+        },
+        {
+          "month": "2026-02",
+          "downloads": 5564
+        },
+        {
+          "month": "2026-03",
+          "downloads": 6173
+        },
+        {
+          "month": "2026-04",
+          "downloads": 7852
+        },
+        {
+          "month": "2026-05",
+          "downloads": 10174
+        },
+        {
+          "month": "2026-06",
+          "downloads": 9728
+        }
+      ],
+      "momGrowthPct": -4.383723216040888,
+      "isGrowing": false,
+      "stars": 21,
+      "description": "A Flutter package to generate adaptive golden files during widget tests.",
+      "notFound": false,
+      "ecosystem": "pub",
+      "publishedAt": "2022-08-19T16:05:53.707865Z"
     },
     {
       "name": "theodo_analysis",
