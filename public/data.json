@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T12:21:15.518Z",
+  "generatedAt": "2026-07-04T18:17:55.563Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2836,58 +2836,58 @@
     },
     {
       "name": "adaptive_test",
-      "totalDownloads": 63615,
+      "totalDownloads": 63881,
       "monthlyDownloads": [
         {
           "month": "2025-07",
-          "downloads": 1855
+          "downloads": 1689
         },
         {
           "month": "2025-08",
-          "downloads": 1846
+          "downloads": 1841
         },
         {
           "month": "2025-09",
-          "downloads": 1964
+          "downloads": 2117
         },
         {
           "month": "2025-10",
-          "downloads": 3077
+          "downloads": 2932
         },
         {
           "month": "2025-11",
-          "downloads": 4970
+          "downloads": 5358
         },
         {
           "month": "2025-12",
-          "downloads": 4738
+          "downloads": 4308
         },
         {
           "month": "2026-01",
-          "downloads": 5157
+          "downloads": 4228
         },
         {
           "month": "2026-02",
-          "downloads": 5698
+          "downloads": 5581
         },
         {
           "month": "2026-03",
-          "downloads": 6259
+          "downloads": 7819
         },
         {
           "month": "2026-04",
-          "downloads": 7792
+          "downloads": 7623
         },
         {
           "month": "2026-05",
-          "downloads": 10329
+          "downloads": 10445
         },
         {
           "month": "2026-06",
-          "downloads": 9930
+          "downloads": 9940
         }
       ],
-      "momGrowthPct": -3.8629102526866106,
+      "momGrowthPct": -4.834849210148397,
       "isGrowing": false,
       "stars": 21,
       "description": "A Flutter package to generate adaptive golden files during widget tests.",
@@ -3080,7 +3080,7 @@
     },
     {
       "name": "flutter_milibris",
-      "totalDownloads": 9863,
+      "totalDownloads": 9901,
       "monthlyDownloads": [
         {
           "month": "2025-07",
@@ -3116,89 +3116,28 @@
         },
         {
           "month": "2026-03",
-          "downloads": 499
+          "downloads": 688
         },
         {
           "month": "2026-04",
-          "downloads": 2850
+          "downloads": 2738
         },
         {
           "month": "2026-05",
-          "downloads": 3306
+          "downloads": 3432
         },
         {
           "month": "2026-06",
-          "downloads": 3208
+          "downloads": 3043
         }
       ],
-      "momGrowthPct": -2.9643073200241985,
+      "momGrowthPct": -11.334498834498834,
       "isGrowing": false,
       "stars": 0,
       "description": "A Flutter plugin that bridges Milibris SDKs, enabling encrypted archive",
       "notFound": false,
       "ecosystem": "pub",
       "publishedAt": "2026-03-23T17:17:27.908343Z"
-    },
-    {
-      "name": "app_attest_integrity",
-      "totalDownloads": 1439,
-      "monthlyDownloads": [
-        {
-          "month": "2025-07",
-          "downloads": 0
-        },
-        {
-          "month": "2025-08",
-          "downloads": 115
-        },
-        {
-          "month": "2025-09",
-          "downloads": 176
-        },
-        {
-          "month": "2025-10",
-          "downloads": 48
-        },
-        {
-          "month": "2025-11",
-          "downloads": 45
-        },
-        {
-          "month": "2025-12",
-          "downloads": 22
-        },
-        {
-          "month": "2026-01",
-          "downloads": 236
-        },
-        {
-          "month": "2026-02",
-          "downloads": 51
-        },
-        {
-          "month": "2026-03",
-          "downloads": 112
-        },
-        {
-          "month": "2026-04",
-          "downloads": 112
-        },
-        {
-          "month": "2026-05",
-          "downloads": 208
-        },
-        {
-          "month": "2026-06",
-          "downloads": 314
-        }
-      ],
-      "momGrowthPct": 50.96153846153846,
-      "isGrowing": true,
-      "stars": 5,
-      "description": "A Flutter plugin to assess an app integrity. Uses App attest on iOS and app Integrity on Android.",
-      "notFound": false,
-      "ecosystem": "pub",
-      "publishedAt": "2025-08-25T09:43:01.189986Z"
     },
     {
       "name": "http_cache_mmkv_store",
@@ -3262,59 +3201,120 @@
       "publishedAt": "2025-06-09T14:32:34.666856Z"
     },
     {
-      "name": "riverpod_community_mutation",
-      "totalDownloads": 4048,
+      "name": "app_attest_integrity",
+      "totalDownloads": 1439,
       "monthlyDownloads": [
         {
           "month": "2025-07",
-          "downloads": 459
+          "downloads": 0
         },
         {
           "month": "2025-08",
-          "downloads": 341
+          "downloads": 115
         },
         {
           "month": "2025-09",
-          "downloads": 335
+          "downloads": 176
         },
         {
           "month": "2025-10",
-          "downloads": 576
+          "downloads": 48
         },
         {
           "month": "2025-11",
-          "downloads": 402
+          "downloads": 45
         },
         {
           "month": "2025-12",
-          "downloads": 318
+          "downloads": 22
         },
         {
           "month": "2026-01",
-          "downloads": 444
+          "downloads": 236
         },
         {
           "month": "2026-02",
-          "downloads": 453
+          "downloads": 51
         },
         {
           "month": "2026-03",
-          "downloads": 161
+          "downloads": 112
         },
         {
           "month": "2026-04",
-          "downloads": 198
+          "downloads": 112
         },
         {
           "month": "2026-05",
-          "downloads": 179
+          "downloads": 208
         },
         {
           "month": "2026-06",
-          "downloads": 182
+          "downloads": 314
         }
       ],
-      "momGrowthPct": 1.675977653631285,
+      "momGrowthPct": 50.96153846153846,
+      "isGrowing": true,
+      "stars": 5,
+      "description": "A Flutter plugin to assess an app integrity. Uses App attest on iOS and app Integrity on Android.",
+      "notFound": false,
+      "ecosystem": "pub",
+      "publishedAt": "2025-08-25T09:43:01.189986Z"
+    },
+    {
+      "name": "riverpod_community_mutation",
+      "totalDownloads": 4040,
+      "monthlyDownloads": [
+        {
+          "month": "2025-07",
+          "downloads": 453
+        },
+        {
+          "month": "2025-08",
+          "downloads": 338
+        },
+        {
+          "month": "2025-09",
+          "downloads": 393
+        },
+        {
+          "month": "2025-10",
+          "downloads": 514
+        },
+        {
+          "month": "2025-11",
+          "downloads": 439
+        },
+        {
+          "month": "2025-12",
+          "downloads": 281
+        },
+        {
+          "month": "2026-01",
+          "downloads": 339
+        },
+        {
+          "month": "2026-02",
+          "downloads": 491
+        },
+        {
+          "month": "2026-03",
+          "downloads": 239
+        },
+        {
+          "month": "2026-04",
+          "downloads": 190
+        },
+        {
+          "month": "2026-05",
+          "downloads": 182
+        },
+        {
+          "month": "2026-06",
+          "downloads": 181
+        }
+      ],
+      "momGrowthPct": -0.5494505494505495,
       "isGrowing": false,
       "stars": 3,
       "description": "A mutation implementation for the riverpod community - made by Theodo",
@@ -3324,58 +3324,58 @@
     },
     {
       "name": "flutter_lyra",
-      "totalDownloads": 7144,
+      "totalDownloads": 7207,
       "monthlyDownloads": [
         {
           "month": "2025-07",
-          "downloads": 411
+          "downloads": 346
         },
         {
           "month": "2025-08",
-          "downloads": 120
+          "downloads": 119
         },
         {
           "month": "2025-09",
-          "downloads": 484
+          "downloads": 531
         },
         {
           "month": "2025-10",
-          "downloads": 452
+          "downloads": 403
         },
         {
           "month": "2025-11",
-          "downloads": 1773
+          "downloads": 1890
         },
         {
           "month": "2025-12",
-          "downloads": 1084
+          "downloads": 968
         },
         {
           "month": "2026-01",
-          "downloads": 271
+          "downloads": 225
         },
         {
           "month": "2026-02",
-          "downloads": 313
+          "downloads": 263
         },
         {
           "month": "2026-03",
-          "downloads": 514
+          "downloads": 646
         },
         {
           "month": "2026-04",
-          "downloads": 318
+          "downloads": 285
         },
         {
           "month": "2026-05",
-          "downloads": 591
+          "downloads": 646
         },
         {
           "month": "2026-06",
-          "downloads": 813
+          "downloads": 885
         }
       ],
-      "momGrowthPct": 37.56345177664975,
+      "momGrowthPct": 36.9969040247678,
       "isGrowing": true,
       "stars": 4,
       "description": "This package allows you to use the methods from the lyra android and ios native sdks in Flutter",
@@ -3446,43 +3446,43 @@
     },
     {
       "name": "equatable_lint",
-      "totalDownloads": 2404,
+      "totalDownloads": 2359,
       "monthlyDownloads": [
         {
           "month": "2025-07",
-          "downloads": 479
+          "downloads": 452
         },
         {
           "month": "2025-08",
-          "downloads": 325
+          "downloads": 312
         },
         {
           "month": "2025-09",
-          "downloads": 275
+          "downloads": 277
         },
         {
           "month": "2025-10",
-          "downloads": 127
+          "downloads": 121
         },
         {
           "month": "2025-11",
-          "downloads": 160
+          "downloads": 159
         },
         {
           "month": "2025-12",
-          "downloads": 246
+          "downloads": 247
         },
         {
           "month": "2026-01",
-          "downloads": 106
+          "downloads": 88
         },
         {
           "month": "2026-02",
-          "downloads": 148
+          "downloads": 141
         },
         {
           "month": "2026-03",
-          "downloads": 134
+          "downloads": 159
         },
         {
           "month": "2026-04",
@@ -3490,14 +3490,14 @@
         },
         {
           "month": "2026-05",
-          "downloads": 150
+          "downloads": 152
         },
         {
           "month": "2026-06",
-          "downloads": 159
+          "downloads": 156
         }
       ],
-      "momGrowthPct": 6,
+      "momGrowthPct": 2.631578947368421,
       "isGrowing": false,
       "stars": 6,
       "description": "This is a set of rules to make classes using Equatable more maintainable. We make sure here that every fields in an Equatable class is linked to the Equatable props getter.",
