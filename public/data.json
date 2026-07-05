@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T12:24:36.268Z",
+  "generatedAt": "2026-07-05T18:19:49.460Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -1340,7 +1340,7 @@
       ],
       "momGrowthPct": 124.60133371991881,
       "isGrowing": true,
-      "stars": 1024,
+      "stars": 1025,
       "description": "ScrollView with an image in header which become a navbar",
       "notFound": false,
       "ecosystem": "npm"
@@ -2836,59 +2836,59 @@
     },
     {
       "name": "adaptive_test",
-      "totalDownloads": 63881,
+      "totalDownloads": 64492,
       "monthlyDownloads": [
         {
           "month": "2025-07",
-          "downloads": 1689
+          "downloads": 1573
         },
         {
           "month": "2025-08",
-          "downloads": 1841
+          "downloads": 1481
         },
         {
           "month": "2025-09",
-          "downloads": 2117
+          "downloads": 2558
         },
         {
           "month": "2025-10",
-          "downloads": 2932
+          "downloads": 2889
         },
         {
           "month": "2025-11",
-          "downloads": 5358
+          "downloads": 3952
         },
         {
           "month": "2025-12",
-          "downloads": 4308
+          "downloads": 5689
         },
         {
           "month": "2026-01",
-          "downloads": 4228
+          "downloads": 4440
         },
         {
           "month": "2026-02",
-          "downloads": 5581
+          "downloads": 5439
         },
         {
           "month": "2026-03",
-          "downloads": 7819
+          "downloads": 8113
         },
         {
           "month": "2026-04",
-          "downloads": 7623
+          "downloads": 7247
         },
         {
           "month": "2026-05",
-          "downloads": 10445
+          "downloads": 8197
         },
         {
           "month": "2026-06",
-          "downloads": 9940
+          "downloads": 12914
         }
       ],
-      "momGrowthPct": -4.834849210148397,
-      "isGrowing": false,
+      "momGrowthPct": 57.54544345492253,
+      "isGrowing": true,
       "stars": 21,
       "description": "A Flutter package to generate adaptive golden files during widget tests.",
       "notFound": false,
@@ -2958,7 +2958,7 @@
     },
     {
       "name": "init",
-      "totalDownloads": 16921,
+      "totalDownloads": 17057,
       "monthlyDownloads": [
         {
           "month": "2025-07",
@@ -2970,47 +2970,47 @@
         },
         {
           "month": "2025-09",
-          "downloads": 383
+          "downloads": 386
         },
         {
           "month": "2025-10",
-          "downloads": 469
+          "downloads": 470
         },
         {
           "month": "2025-11",
-          "downloads": 1905
+          "downloads": 1526
         },
         {
           "month": "2025-12",
-          "downloads": 1095
+          "downloads": 1476
         },
         {
           "month": "2026-01",
-          "downloads": 500
+          "downloads": 509
         },
         {
           "month": "2026-02",
-          "downloads": 427
+          "downloads": 416
         },
         {
           "month": "2026-03",
-          "downloads": 1484
+          "downloads": 1614
         },
         {
           "month": "2026-04",
-          "downloads": 3026
+          "downloads": 2892
         },
         {
           "month": "2026-05",
-          "downloads": 3950
+          "downloads": 2921
         },
         {
           "month": "2026-06",
-          "downloads": 3682
+          "downloads": 4847
         }
       ],
-      "momGrowthPct": -6.784810126582279,
-      "isGrowing": false,
+      "momGrowthPct": 65.93632317699418,
+      "isGrowing": true,
       "stars": 1,
       "description": "Init widget to execute initialization methods declaratively",
       "notFound": false,
@@ -3080,7 +3080,7 @@
     },
     {
       "name": "flutter_milibris",
-      "totalDownloads": 9901,
+      "totalDownloads": 9927,
       "monthlyDownloads": [
         {
           "month": "2025-07",
@@ -3116,89 +3116,28 @@
         },
         {
           "month": "2026-03",
-          "downloads": 688
+          "downloads": 852
         },
         {
           "month": "2026-04",
-          "downloads": 2738
+          "downloads": 2574
         },
         {
           "month": "2026-05",
-          "downloads": 3432
+          "downloads": 2691
         },
         {
           "month": "2026-06",
-          "downloads": 3043
+          "downloads": 3810
         }
       ],
-      "momGrowthPct": -11.334498834498834,
-      "isGrowing": false,
+      "momGrowthPct": 41.58305462653289,
+      "isGrowing": true,
       "stars": 0,
       "description": "A Flutter plugin that bridges Milibris SDKs, enabling encrypted archive",
       "notFound": false,
       "ecosystem": "pub",
       "publishedAt": "2026-03-23T17:17:27.908343Z"
-    },
-    {
-      "name": "http_cache_mmkv_store",
-      "totalDownloads": 1678,
-      "monthlyDownloads": [
-        {
-          "month": "2025-07",
-          "downloads": 36
-        },
-        {
-          "month": "2025-08",
-          "downloads": 33
-        },
-        {
-          "month": "2025-09",
-          "downloads": 45
-        },
-        {
-          "month": "2025-10",
-          "downloads": 33
-        },
-        {
-          "month": "2025-11",
-          "downloads": 35
-        },
-        {
-          "month": "2025-12",
-          "downloads": 38
-        },
-        {
-          "month": "2026-01",
-          "downloads": 23
-        },
-        {
-          "month": "2026-02",
-          "downloads": 69
-        },
-        {
-          "month": "2026-03",
-          "downloads": 104
-        },
-        {
-          "month": "2026-04",
-          "downloads": 63
-        },
-        {
-          "month": "2026-05",
-          "downloads": 78
-        },
-        {
-          "month": "2026-06",
-          "downloads": 1121
-        }
-      ],
-      "momGrowthPct": 1337.1794871794873,
-      "isGrowing": true,
-      "stars": 155,
-      "description": "A DB cache store implementation with mmkv for dio_cache_interceptor and http_cache_client packages.",
-      "notFound": false,
-      "ecosystem": "pub",
-      "publishedAt": "2025-06-09T14:32:34.666856Z"
     },
     {
       "name": "app_attest_integrity",
@@ -3260,6 +3199,67 @@
       "notFound": false,
       "ecosystem": "pub",
       "publishedAt": "2025-08-25T09:43:01.189986Z"
+    },
+    {
+      "name": "http_cache_mmkv_store",
+      "totalDownloads": 1678,
+      "monthlyDownloads": [
+        {
+          "month": "2025-07",
+          "downloads": 36
+        },
+        {
+          "month": "2025-08",
+          "downloads": 33
+        },
+        {
+          "month": "2025-09",
+          "downloads": 45
+        },
+        {
+          "month": "2025-10",
+          "downloads": 33
+        },
+        {
+          "month": "2025-11",
+          "downloads": 35
+        },
+        {
+          "month": "2025-12",
+          "downloads": 38
+        },
+        {
+          "month": "2026-01",
+          "downloads": 23
+        },
+        {
+          "month": "2026-02",
+          "downloads": 69
+        },
+        {
+          "month": "2026-03",
+          "downloads": 104
+        },
+        {
+          "month": "2026-04",
+          "downloads": 63
+        },
+        {
+          "month": "2026-05",
+          "downloads": 78
+        },
+        {
+          "month": "2026-06",
+          "downloads": 1121
+        }
+      ],
+      "momGrowthPct": 1337.1794871794873,
+      "isGrowing": true,
+      "stars": 155,
+      "description": "A DB cache store implementation with mmkv for dio_cache_interceptor and http_cache_client packages.",
+      "notFound": false,
+      "ecosystem": "pub",
+      "publishedAt": "2025-06-09T14:32:34.666856Z"
     },
     {
       "name": "riverpod_community_mutation",
@@ -3446,59 +3446,59 @@
     },
     {
       "name": "equatable_lint",
-      "totalDownloads": 2359,
+      "totalDownloads": 2354,
       "monthlyDownloads": [
         {
           "month": "2025-07",
-          "downloads": 452
+          "downloads": 476
         },
         {
           "month": "2025-08",
-          "downloads": 312
+          "downloads": 262
         },
         {
           "month": "2025-09",
-          "downloads": 277
+          "downloads": 306
         },
         {
           "month": "2025-10",
-          "downloads": 121
+          "downloads": 116
         },
         {
           "month": "2025-11",
-          "downloads": 159
+          "downloads": 122
         },
         {
           "month": "2025-12",
-          "downloads": 247
+          "downloads": 281
         },
         {
           "month": "2026-01",
-          "downloads": 88
+          "downloads": 91
         },
         {
           "month": "2026-02",
-          "downloads": 141
+          "downloads": 148
         },
         {
           "month": "2026-03",
-          "downloads": 159
+          "downloads": 149
         },
         {
           "month": "2026-04",
-          "downloads": 95
+          "downloads": 96
         },
         {
           "month": "2026-05",
-          "downloads": 152
+          "downloads": 134
         },
         {
           "month": "2026-06",
-          "downloads": 156
+          "downloads": 173
         }
       ],
-      "momGrowthPct": 2.631578947368421,
-      "isGrowing": false,
+      "momGrowthPct": 29.1044776119403,
+      "isGrowing": true,
       "stars": 6,
       "description": "This is a set of rules to make classes using Equatable more maintainable. We make sure here that every fields in an Equatable class is linked to the Equatable props getter.",
       "notFound": false,
