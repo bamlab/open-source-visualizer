@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T07:24:39.994Z",
+  "generatedAt": "2026-07-06T13:09:39.298Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -1340,7 +1340,7 @@
       ],
       "momGrowthPct": 124.60133371991881,
       "isGrowing": true,
-      "stars": 1025,
+      "stars": 1026,
       "description": "ScrollView with an image in header which become a navbar",
       "notFound": false,
       "ecosystem": "npm"
@@ -2775,7 +2775,7 @@
     },
     {
       "name": "riverpod_community_extensions",
-      "totalDownloads": 16569,
+      "totalDownloads": 16574,
       "monthlyDownloads": [
         {
           "month": "2025-07",
@@ -2799,34 +2799,34 @@
         },
         {
           "month": "2025-12",
-          "downloads": 1681
+          "downloads": 1698
         },
         {
           "month": "2026-01",
-          "downloads": 754
+          "downloads": 739
         },
         {
           "month": "2026-02",
-          "downloads": 728
+          "downloads": 726
         },
         {
           "month": "2026-03",
-          "downloads": 1127
+          "downloads": 1208
         },
         {
           "month": "2026-04",
-          "downloads": 795
+          "downloads": 717
         },
         {
           "month": "2026-05",
-          "downloads": 2264
+          "downloads": 2269
         },
         {
           "month": "2026-06",
-          "downloads": 5225
+          "downloads": 5222
         }
       ],
-      "momGrowthPct": 130.7862190812721,
+      "momGrowthPct": 130.14543851917145,
       "isGrowing": true,
       "stars": 10,
       "description": "Extends Riverpod ref types with additional helpers, to easily add common functionalities to your providers.",
@@ -2836,23 +2836,23 @@
     },
     {
       "name": "adaptive_test",
-      "totalDownloads": 64492,
+      "totalDownloads": 64540,
       "monthlyDownloads": [
         {
           "month": "2025-07",
-          "downloads": 1573
+          "downloads": 1582
         },
         {
           "month": "2025-08",
-          "downloads": 1481
+          "downloads": 1505
         },
         {
           "month": "2025-09",
-          "downloads": 2558
+          "downloads": 2526
         },
         {
           "month": "2025-10",
-          "downloads": 2889
+          "downloads": 2886
         },
         {
           "month": "2025-11",
@@ -2860,34 +2860,34 @@
         },
         {
           "month": "2025-12",
-          "downloads": 5689
+          "downloads": 5695
         },
         {
           "month": "2026-01",
-          "downloads": 4440
+          "downloads": 4458
         },
         {
           "month": "2026-02",
-          "downloads": 5439
+          "downloads": 5434
         },
         {
           "month": "2026-03",
-          "downloads": 8113
+          "downloads": 8099
         },
         {
           "month": "2026-04",
-          "downloads": 7247
+          "downloads": 7249
         },
         {
           "month": "2026-05",
-          "downloads": 8197
+          "downloads": 8204
         },
         {
           "month": "2026-06",
-          "downloads": 12914
+          "downloads": 12950
         }
       ],
-      "momGrowthPct": 57.54544345492253,
+      "momGrowthPct": 57.84982935153583,
       "isGrowing": true,
       "stars": 21,
       "description": "A Flutter package to generate adaptive golden files during widget tests.",
@@ -3051,26 +3051,26 @@
         },
         {
           "month": "2026-02",
-          "downloads": 297
+          "downloads": 317
         },
         {
           "month": "2026-03",
-          "downloads": 393
+          "downloads": 374
         },
         {
           "month": "2026-04",
-          "downloads": 422
+          "downloads": 424
         },
         {
           "month": "2026-05",
-          "downloads": 284
+          "downloads": 281
         },
         {
           "month": "2026-06",
           "downloads": 2146
         }
       ],
-      "momGrowthPct": 655.6338028169014,
+      "momGrowthPct": 663.7010676156583,
       "isGrowing": true,
       "stars": 3,
       "description": "This package allows you to use the methods from the reachFive android and ios native sdks in Flutter",
@@ -3141,7 +3141,7 @@
     },
     {
       "name": "app_attest_integrity",
-      "totalDownloads": 1469,
+      "totalDownloads": 1483,
       "monthlyDownloads": [
         {
           "month": "2025-07",
@@ -3153,11 +3153,11 @@
         },
         {
           "month": "2025-09",
-          "downloads": 190
+          "downloads": 191
         },
         {
           "month": "2025-10",
-          "downloads": 43
+          "downloads": 42
         },
         {
           "month": "2025-11",
@@ -3169,15 +3169,15 @@
         },
         {
           "month": "2026-01",
-          "downloads": 162
+          "downloads": 186
         },
         {
           "month": "2026-02",
-          "downloads": 121
+          "downloads": 98
         },
         {
           "month": "2026-03",
-          "downloads": 120
+          "downloads": 121
         },
         {
           "month": "2026-04",
@@ -3185,14 +3185,14 @@
         },
         {
           "month": "2026-05",
-          "downloads": 166
+          "downloads": 167
         },
         {
           "month": "2026-06",
-          "downloads": 379
+          "downloads": 390
         }
       ],
-      "momGrowthPct": 128.3132530120482,
+      "momGrowthPct": 133.5329341317365,
       "isGrowing": true,
       "stars": 5,
       "description": "A Flutter plugin to assess an app integrity. Uses App attest on iOS and app Integrity on Android.",
