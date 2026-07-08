@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T00:20:29.100Z",
+  "generatedAt": "2026-07-08T06:46:02.231Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -3141,7 +3141,7 @@
     },
     {
       "name": "flutter_milibris",
-      "totalDownloads": 9927,
+      "totalDownloads": 9393,
       "monthlyDownloads": [
         {
           "month": "2025-07",
@@ -3177,22 +3177,22 @@
         },
         {
           "month": "2026-03",
-          "downloads": 866
+          "downloads": 216
         },
         {
           "month": "2026-04",
-          "downloads": 2560
+          "downloads": 3212
         },
         {
           "month": "2026-05",
-          "downloads": 2701
+          "downloads": 2720
         },
         {
           "month": "2026-06",
-          "downloads": 3800
+          "downloads": 3245
         }
       ],
-      "momGrowthPct": 40.68863383931877,
+      "momGrowthPct": 19.301470588235293,
       "isGrowing": true,
       "stars": 0,
       "description": "A Flutter plugin that bridges Milibris SDKs, enabling encrypted archive",
@@ -3202,35 +3202,35 @@
     },
     {
       "name": "http_cache_mmkv_store",
-      "totalDownloads": 1678,
+      "totalDownloads": 1169,
       "monthlyDownloads": [
         {
           "month": "2025-07",
-          "downloads": 36
+          "downloads": 33
         },
         {
           "month": "2025-08",
-          "downloads": 33
+          "downloads": 32
         },
         {
           "month": "2025-09",
-          "downloads": 45
+          "downloads": 32
         },
         {
           "month": "2025-10",
-          "downloads": 33
+          "downloads": 49
         },
         {
           "month": "2025-11",
-          "downloads": 35
+          "downloads": 34
         },
         {
           "month": "2025-12",
-          "downloads": 39
+          "downloads": 40
         },
         {
           "month": "2026-01",
-          "downloads": 23
+          "downloads": 24
         },
         {
           "month": "2026-02",
@@ -3238,11 +3238,11 @@
         },
         {
           "month": "2026-03",
-          "downloads": 105
+          "downloads": 83
         },
         {
           "month": "2026-04",
-          "downloads": 64
+          "downloads": 85
         },
         {
           "month": "2026-05",
@@ -3250,10 +3250,10 @@
         },
         {
           "month": "2026-06",
-          "downloads": 1120
+          "downloads": 612
         }
       ],
-      "momGrowthPct": 1354.5454545454545,
+      "momGrowthPct": 694.8051948051949,
       "isGrowing": true,
       "stars": 155,
       "description": "A DB cache store implementation with mmkv for dio_cache_interceptor and http_cache_client packages.",
@@ -3446,7 +3446,7 @@
     },
     {
       "name": "equatable_lint",
-      "totalDownloads": 2344,
+      "totalDownloads": 2320,
       "monthlyDownloads": [
         {
           "month": "2025-07",
@@ -3454,51 +3454,51 @@
         },
         {
           "month": "2025-08",
-          "downloads": 261
+          "downloads": 260
         },
         {
           "month": "2025-09",
-          "downloads": 306
+          "downloads": 260
         },
         {
           "month": "2025-10",
-          "downloads": 116
+          "downloads": 165
         },
         {
           "month": "2025-11",
-          "downloads": 122
+          "downloads": 121
         },
         {
           "month": "2025-12",
-          "downloads": 281
+          "downloads": 280
         },
         {
           "month": "2026-01",
-          "downloads": 93
-        },
-        {
-          "month": "2026-02",
-          "downloads": 146
-        },
-        {
-          "month": "2026-03",
-          "downloads": 151
-        },
-        {
-          "month": "2026-04",
           "downloads": 94
         },
         {
+          "month": "2026-02",
+          "downloads": 145
+        },
+        {
+          "month": "2026-03",
+          "downloads": 132
+        },
+        {
+          "month": "2026-04",
+          "downloads": 114
+        },
+        {
           "month": "2026-05",
-          "downloads": 137
+          "downloads": 139
         },
         {
           "month": "2026-06",
-          "downloads": 170
+          "downloads": 143
         }
       ],
-      "momGrowthPct": 24.087591240875913,
-      "isGrowing": true,
+      "momGrowthPct": 2.877697841726619,
+      "isGrowing": false,
       "stars": 6,
       "description": "This is a set of rules to make classes using Equatable more maintainable. We make sure here that every fields in an Equatable class is linked to the Equatable props getter.",
       "notFound": false,
