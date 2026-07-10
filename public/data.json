@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:42:18.065Z",
+  "generatedAt": "2026-07-10T18:27:22.397Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2897,58 +2897,58 @@
     },
     {
       "name": "theodo_analysis",
-      "totalDownloads": 22350,
+      "totalDownloads": 22592,
       "monthlyDownloads": [
         {
           "month": "2025-07",
-          "downloads": 643
+          "downloads": 623
         },
         {
           "month": "2025-08",
-          "downloads": 612
+          "downloads": 623
         },
         {
           "month": "2025-09",
-          "downloads": 822
+          "downloads": 843
         },
         {
           "month": "2025-10",
-          "downloads": 1729
+          "downloads": 1624
         },
         {
           "month": "2025-11",
-          "downloads": 2555
+          "downloads": 2726
         },
         {
           "month": "2025-12",
-          "downloads": 1721
+          "downloads": 1640
         },
         {
           "month": "2026-01",
-          "downloads": 775
+          "downloads": 804
         },
         {
           "month": "2026-02",
-          "downloads": 938
+          "downloads": 1074
         },
         {
           "month": "2026-03",
-          "downloads": 1599
+          "downloads": 1583
         },
         {
           "month": "2026-04",
-          "downloads": 3187
+          "downloads": 3210
         },
         {
           "month": "2026-05",
-          "downloads": 3780
+          "downloads": 3817
         },
         {
           "month": "2026-06",
-          "downloads": 3989
+          "downloads": 4025
         }
       ],
-      "momGrowthPct": 5.529100529100529,
+      "momGrowthPct": 5.449305737490175,
       "isGrowing": false,
       "stars": 2,
       "description": "Lint and dcm rules for Dart and Flutter used internally at Theodo Apps.",
@@ -3140,6 +3140,67 @@
       "publishedAt": "2025-08-25T09:43:01.189986Z"
     },
     {
+      "name": "http_cache_mmkv_store",
+      "totalDownloads": 1615,
+      "monthlyDownloads": [
+        {
+          "month": "2025-07",
+          "downloads": 23
+        },
+        {
+          "month": "2025-08",
+          "downloads": 39
+        },
+        {
+          "month": "2025-09",
+          "downloads": 38
+        },
+        {
+          "month": "2025-10",
+          "downloads": 36
+        },
+        {
+          "month": "2025-11",
+          "downloads": 45
+        },
+        {
+          "month": "2025-12",
+          "downloads": 28
+        },
+        {
+          "month": "2026-01",
+          "downloads": 35
+        },
+        {
+          "month": "2026-02",
+          "downloads": 70
+        },
+        {
+          "month": "2026-03",
+          "downloads": 84
+        },
+        {
+          "month": "2026-04",
+          "downloads": 70
+        },
+        {
+          "month": "2026-05",
+          "downloads": 90
+        },
+        {
+          "month": "2026-06",
+          "downloads": 1057
+        }
+      ],
+      "momGrowthPct": 1074.4444444444443,
+      "isGrowing": true,
+      "stars": 155,
+      "description": "A DB cache store implementation with mmkv for dio_cache_interceptor and http_cache_client packages.",
+      "notFound": false,
+      "ecosystem": "pub",
+      "publishedAt": "2025-06-09T14:32:34.666856Z"
+    },
+    {
       "name": "flutter_milibris",
       "totalDownloads": 9669,
       "monthlyDownloads": [
@@ -3199,67 +3260,6 @@
       "notFound": false,
       "ecosystem": "pub",
       "publishedAt": "2026-03-23T17:17:27.908343Z"
-    },
-    {
-      "name": "http_cache_mmkv_store",
-      "totalDownloads": 1432,
-      "monthlyDownloads": [
-        {
-          "month": "2025-07",
-          "downloads": 25
-        },
-        {
-          "month": "2025-08",
-          "downloads": 37
-        },
-        {
-          "month": "2025-09",
-          "downloads": 38
-        },
-        {
-          "month": "2025-10",
-          "downloads": 43
-        },
-        {
-          "month": "2025-11",
-          "downloads": 39
-        },
-        {
-          "month": "2025-12",
-          "downloads": 29
-        },
-        {
-          "month": "2026-01",
-          "downloads": 33
-        },
-        {
-          "month": "2026-02",
-          "downloads": 69
-        },
-        {
-          "month": "2026-03",
-          "downloads": 85
-        },
-        {
-          "month": "2026-04",
-          "downloads": 70
-        },
-        {
-          "month": "2026-05",
-          "downloads": 90
-        },
-        {
-          "month": "2026-06",
-          "downloads": 874
-        }
-      ],
-      "momGrowthPct": 871.1111111111111,
-      "isGrowing": true,
-      "stars": 155,
-      "description": "A DB cache store implementation with mmkv for dio_cache_interceptor and http_cache_client packages.",
-      "notFound": false,
-      "ecosystem": "pub",
-      "publishedAt": "2025-06-09T14:32:34.666856Z"
     },
     {
       "name": "riverpod_community_mutation",
@@ -3324,31 +3324,31 @@
     },
     {
       "name": "flutter_lyra",
-      "totalDownloads": 6951,
+      "totalDownloads": 7012,
       "monthlyDownloads": [
         {
           "month": "2025-07",
-          "downloads": 283
+          "downloads": 279
         },
         {
           "month": "2025-08",
-          "downloads": 119
+          "downloads": 120
         },
         {
           "month": "2025-09",
-          "downloads": 483
+          "downloads": 484
         },
         {
           "month": "2025-10",
-          "downloads": 468
+          "downloads": 452
         },
         {
           "month": "2025-11",
-          "downloads": 1673
+          "downloads": 1773
         },
         {
           "month": "2025-12",
-          "downloads": 1170
+          "downloads": 1084
         },
         {
           "month": "2026-01",
@@ -3356,26 +3356,26 @@
         },
         {
           "month": "2026-02",
-          "downloads": 250
+          "downloads": 313
         },
         {
           "month": "2026-03",
-          "downloads": 517
+          "downloads": 514
         },
         {
           "month": "2026-04",
-          "downloads": 376
+          "downloads": 318
         },
         {
           "month": "2026-05",
-          "downloads": 498
+          "downloads": 591
         },
         {
           "month": "2026-06",
-          "downloads": 843
+          "downloads": 813
         }
       ],
-      "momGrowthPct": 69.27710843373494,
+      "momGrowthPct": 37.56345177664975,
       "isGrowing": true,
       "stars": 4,
       "description": "This package allows you to use the methods from the lyra android and ios native sdks in Flutter",
@@ -3385,7 +3385,7 @@
     },
     {
       "name": "go_router_url_watcher",
-      "totalDownloads": 111,
+      "totalDownloads": 123,
       "monthlyDownloads": [
         {
           "month": "2025-07",
@@ -3433,7 +3433,7 @@
         },
         {
           "month": "2026-06",
-          "downloads": 111
+          "downloads": 123
         }
       ],
       "momGrowthPct": null,
