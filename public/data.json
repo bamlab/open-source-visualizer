@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T12:14:37.566Z",
+  "generatedAt": "2026-07-12T18:15:31.299Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2836,59 +2836,59 @@
     },
     {
       "name": "adaptive_test",
-      "totalDownloads": 63473,
+      "totalDownloads": 64205,
       "monthlyDownloads": [
         {
           "month": "2025-07",
-          "downloads": 1281
+          "downloads": 1247
         },
         {
           "month": "2025-08",
-          "downloads": 1841
+          "downloads": 1505
         },
         {
           "month": "2025-09",
-          "downloads": 2117
+          "downloads": 2526
         },
         {
           "month": "2025-10",
-          "downloads": 2932
+          "downloads": 2886
         },
         {
           "month": "2025-11",
-          "downloads": 5358
+          "downloads": 3952
         },
         {
           "month": "2025-12",
-          "downloads": 4308
+          "downloads": 5695
         },
         {
           "month": "2026-01",
-          "downloads": 4228
+          "downloads": 4458
         },
         {
           "month": "2026-02",
-          "downloads": 5581
+          "downloads": 5434
         },
         {
           "month": "2026-03",
-          "downloads": 7819
+          "downloads": 8099
         },
         {
           "month": "2026-04",
-          "downloads": 7623
+          "downloads": 7249
         },
         {
           "month": "2026-05",
-          "downloads": 10445
+          "downloads": 8204
         },
         {
           "month": "2026-06",
-          "downloads": 9940
+          "downloads": 12950
         }
       ],
-      "momGrowthPct": -4.834849210148397,
-      "isGrowing": false,
+      "momGrowthPct": 57.84982935153583,
+      "isGrowing": true,
       "stars": 21,
       "description": "A Flutter package to generate adaptive golden files during widget tests.",
       "notFound": false,
@@ -3080,7 +3080,7 @@
     },
     {
       "name": "app_attest_integrity",
-      "totalDownloads": 1450,
+      "totalDownloads": 1483,
       "monthlyDownloads": [
         {
           "month": "2025-07",
@@ -3088,50 +3088,50 @@
         },
         {
           "month": "2025-08",
-          "downloads": 116
+          "downloads": 106
         },
         {
           "month": "2025-09",
-          "downloads": 177
+          "downloads": 191
         },
         {
           "month": "2025-10",
-          "downloads": 46
+          "downloads": 42
         },
         {
           "month": "2025-11",
-          "downloads": 45
+          "downloads": 37
         },
         {
           "month": "2025-12",
-          "downloads": 23
+          "downloads": 31
         },
         {
           "month": "2026-01",
-          "downloads": 140
+          "downloads": 186
         },
         {
           "month": "2026-02",
-          "downloads": 142
+          "downloads": 98
         },
         {
           "month": "2026-03",
-          "downloads": 119
+          "downloads": 121
         },
         {
           "month": "2026-04",
-          "downloads": 113
+          "downloads": 114
         },
         {
           "month": "2026-05",
-          "downloads": 209
+          "downloads": 167
         },
         {
           "month": "2026-06",
-          "downloads": 320
+          "downloads": 390
         }
       ],
-      "momGrowthPct": 53.110047846889955,
+      "momGrowthPct": 133.5329341317365,
       "isGrowing": true,
       "stars": 5,
       "description": "A Flutter plugin to assess an app integrity. Uses App attest on iOS and app Integrity on Android.",
@@ -3202,7 +3202,7 @@
     },
     {
       "name": "flutter_milibris",
-      "totalDownloads": 9863,
+      "totalDownloads": 9927,
       "monthlyDownloads": [
         {
           "month": "2025-07",
@@ -3238,23 +3238,23 @@
         },
         {
           "month": "2026-03",
-          "downloads": 499
+          "downloads": 866
         },
         {
           "month": "2026-04",
-          "downloads": 2850
+          "downloads": 2560
         },
         {
           "month": "2026-05",
-          "downloads": 3306
+          "downloads": 2701
         },
         {
           "month": "2026-06",
-          "downloads": 3208
+          "downloads": 3800
         }
       ],
-      "momGrowthPct": -2.9643073200241985,
-      "isGrowing": false,
+      "momGrowthPct": 40.68863383931877,
+      "isGrowing": true,
       "stars": 0,
       "description": "A Flutter plugin that bridges Milibris SDKs, enabling encrypted archive",
       "notFound": false,
@@ -3263,59 +3263,59 @@
     },
     {
       "name": "riverpod_community_mutation",
-      "totalDownloads": 3956,
+      "totalDownloads": 3886,
       "monthlyDownloads": [
         {
           "month": "2025-07",
-          "downloads": 369
+          "downloads": 296
         },
         {
           "month": "2025-08",
-          "downloads": 338
+          "downloads": 307
         },
         {
           "month": "2025-09",
-          "downloads": 393
+          "downloads": 432
         },
         {
           "month": "2025-10",
-          "downloads": 514
+          "downloads": 502
         },
         {
           "month": "2025-11",
-          "downloads": 439
+          "downloads": 368
         },
         {
           "month": "2025-12",
-          "downloads": 281
+          "downloads": 359
         },
         {
           "month": "2026-01",
-          "downloads": 339
+          "downloads": 358
         },
         {
           "month": "2026-02",
-          "downloads": 491
+          "downloads": 483
         },
         {
           "month": "2026-03",
-          "downloads": 239
+          "downloads": 242
         },
         {
           "month": "2026-04",
-          "downloads": 190
+          "downloads": 170
         },
         {
           "month": "2026-05",
-          "downloads": 182
+          "downloads": 149
         },
         {
           "month": "2026-06",
-          "downloads": 181
+          "downloads": 220
         }
       ],
-      "momGrowthPct": -0.5494505494505495,
-      "isGrowing": false,
+      "momGrowthPct": 47.651006711409394,
+      "isGrowing": true,
       "stars": 3,
       "description": "A mutation implementation for the riverpod community - made by Theodo",
       "notFound": false,
