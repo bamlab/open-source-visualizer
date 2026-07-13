@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T06:59:50.402Z",
+  "generatedAt": "2026-07-13T12:45:04.352Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -248,7 +248,7 @@
       ],
       "momGrowthPct": 5.253108666077949,
       "isGrowing": false,
-      "stars": 224,
+      "stars": 225,
       "description": "Easily implement usual security measures in React Native Expo apps",
       "notFound": false,
       "ecosystem": "npm"
@@ -2775,58 +2775,58 @@
     },
     {
       "name": "riverpod_community_extensions",
-      "totalDownloads": 16339,
+      "totalDownloads": 15553,
       "monthlyDownloads": [
         {
           "month": "2025-07",
-          "downloads": 313
+          "downloads": 287
         },
         {
           "month": "2025-08",
-          "downloads": 273
+          "downloads": 239
         },
         {
           "month": "2025-09",
-          "downloads": 791
+          "downloads": 579
         },
         {
           "month": "2025-10",
-          "downloads": 772
+          "downloads": 1016
         },
         {
           "month": "2025-11",
-          "downloads": 2185
+          "downloads": 1759
         },
         {
           "month": "2025-12",
-          "downloads": 1247
+          "downloads": 1698
         },
         {
           "month": "2026-01",
-          "downloads": 730
+          "downloads": 738
         },
         {
           "month": "2026-02",
-          "downloads": 737
+          "downloads": 728
         },
         {
           "month": "2026-03",
-          "downloads": 1094
+          "downloads": 831
         },
         {
           "month": "2026-04",
-          "downloads": 849
+          "downloads": 1090
         },
         {
           "month": "2026-05",
-          "downloads": 3295
+          "downloads": 2272
         },
         {
           "month": "2026-06",
-          "downloads": 4053
+          "downloads": 4316
         }
       ],
-      "momGrowthPct": 23.004552352048556,
+      "momGrowthPct": 89.96478873239437,
       "isGrowing": true,
       "stars": 10,
       "description": "Extends Riverpod ref types with additional helpers, to easily add common functionalities to your providers.",
@@ -2836,58 +2836,58 @@
     },
     {
       "name": "adaptive_test",
-      "totalDownloads": 64205,
+      "totalDownloads": 61205,
       "monthlyDownloads": [
         {
           "month": "2025-07",
-          "downloads": 1247
+          "downloads": 1246
         },
         {
           "month": "2025-08",
-          "downloads": 1505
+          "downloads": 1518
         },
         {
           "month": "2025-09",
-          "downloads": 2526
+          "downloads": 1892
         },
         {
           "month": "2025-10",
-          "downloads": 2886
+          "downloads": 3511
         },
         {
           "month": "2025-11",
-          "downloads": 3952
+          "downloads": 3956
         },
         {
           "month": "2025-12",
-          "downloads": 5695
+          "downloads": 5694
         },
         {
           "month": "2026-01",
-          "downloads": 4458
+          "downloads": 4457
         },
         {
           "month": "2026-02",
-          "downloads": 5434
+          "downloads": 5487
         },
         {
           "month": "2026-03",
-          "downloads": 8099
+          "downloads": 6066
         },
         {
           "month": "2026-04",
-          "downloads": 7249
+          "downloads": 9241
         },
         {
           "month": "2026-05",
-          "downloads": 8204
+          "downloads": 8194
         },
         {
           "month": "2026-06",
-          "downloads": 12950
+          "downloads": 9943
         }
       ],
-      "momGrowthPct": 57.84982935153583,
+      "momGrowthPct": 21.34488650231877,
       "isGrowing": true,
       "stars": 21,
       "description": "A Flutter package to generate adaptive golden files during widget tests.",
@@ -3141,35 +3141,35 @@
     },
     {
       "name": "http_cache_mmkv_store",
-      "totalDownloads": 1666,
+      "totalDownloads": 1159,
       "monthlyDownloads": [
         {
           "month": "2025-07",
-          "downloads": 24
+          "downloads": 23
         },
         {
           "month": "2025-08",
-          "downloads": 33
+          "downloads": 32
         },
         {
           "month": "2025-09",
-          "downloads": 45
+          "downloads": 32
         },
         {
           "month": "2025-10",
-          "downloads": 33
+          "downloads": 49
         },
         {
           "month": "2025-11",
-          "downloads": 35
+          "downloads": 34
         },
         {
           "month": "2025-12",
-          "downloads": 39
+          "downloads": 40
         },
         {
           "month": "2026-01",
-          "downloads": 23
+          "downloads": 24
         },
         {
           "month": "2026-02",
@@ -3177,11 +3177,11 @@
         },
         {
           "month": "2026-03",
-          "downloads": 105
+          "downloads": 83
         },
         {
           "month": "2026-04",
-          "downloads": 64
+          "downloads": 85
         },
         {
           "month": "2026-05",
@@ -3189,10 +3189,10 @@
         },
         {
           "month": "2026-06",
-          "downloads": 1120
+          "downloads": 612
         }
       ],
-      "momGrowthPct": 1354.5454545454545,
+      "momGrowthPct": 694.8051948051949,
       "isGrowing": true,
       "stars": 155,
       "description": "A DB cache store implementation with mmkv for dio_cache_interceptor and http_cache_client packages.",
