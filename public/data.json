@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T00:20:26.266Z",
+  "generatedAt": "2026-07-21T06:47:08.341Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -3141,35 +3141,35 @@
     },
     {
       "name": "http_cache_mmkv_store",
-      "totalDownloads": 1659,
+      "totalDownloads": 1152,
       "monthlyDownloads": [
         {
           "month": "2025-07",
-          "downloads": 17
+          "downloads": 16
         },
         {
           "month": "2025-08",
-          "downloads": 33
+          "downloads": 32
         },
         {
           "month": "2025-09",
-          "downloads": 45
+          "downloads": 32
         },
         {
           "month": "2025-10",
-          "downloads": 33
+          "downloads": 49
         },
         {
           "month": "2025-11",
-          "downloads": 35
+          "downloads": 34
         },
         {
           "month": "2025-12",
-          "downloads": 39
+          "downloads": 40
         },
         {
           "month": "2026-01",
-          "downloads": 23
+          "downloads": 24
         },
         {
           "month": "2026-02",
@@ -3177,11 +3177,11 @@
         },
         {
           "month": "2026-03",
-          "downloads": 105
+          "downloads": 83
         },
         {
           "month": "2026-04",
-          "downloads": 64
+          "downloads": 85
         },
         {
           "month": "2026-05",
@@ -3189,10 +3189,10 @@
         },
         {
           "month": "2026-06",
-          "downloads": 1120
+          "downloads": 612
         }
       ],
-      "momGrowthPct": 1354.5454545454545,
+      "momGrowthPct": 694.8051948051949,
       "isGrowing": true,
       "stars": 155,
       "description": "A DB cache store implementation with mmkv for dio_cache_interceptor and http_cache_client packages.",
@@ -3202,7 +3202,7 @@
     },
     {
       "name": "flutter_milibris",
-      "totalDownloads": 9927,
+      "totalDownloads": 9393,
       "monthlyDownloads": [
         {
           "month": "2025-07",
@@ -3238,22 +3238,22 @@
         },
         {
           "month": "2026-03",
-          "downloads": 866
+          "downloads": 216
         },
         {
           "month": "2026-04",
-          "downloads": 2560
+          "downloads": 3212
         },
         {
           "month": "2026-05",
-          "downloads": 2701
+          "downloads": 2720
         },
         {
           "month": "2026-06",
-          "downloads": 3800
+          "downloads": 3245
         }
       ],
-      "momGrowthPct": 40.68863383931877,
+      "momGrowthPct": 19.301470588235293,
       "isGrowing": true,
       "stars": 0,
       "description": "A Flutter plugin that bridges Milibris SDKs, enabling encrypted archive",
@@ -3263,31 +3263,31 @@
     },
     {
       "name": "flutter_lyra",
-      "totalDownloads": 7140,
+      "totalDownloads": 6697,
       "monthlyDownloads": [
         {
           "month": "2025-07",
-          "downloads": 124
+          "downloads": 133
         },
         {
           "month": "2025-08",
-          "downloads": 115
+          "downloads": 104
         },
         {
           "month": "2025-09",
-          "downloads": 538
+          "downloads": 444
         },
         {
           "month": "2025-10",
-          "downloads": 400
+          "downloads": 497
         },
         {
           "month": "2025-11",
-          "downloads": 1539
+          "downloads": 1544
         },
         {
           "month": "2025-12",
-          "downloads": 1319
+          "downloads": 1313
         },
         {
           "month": "2026-01",
@@ -3295,15 +3295,15 @@
         },
         {
           "month": "2026-02",
-          "downloads": 263
+          "downloads": 262
         },
         {
           "month": "2026-03",
-          "downloads": 653
+          "downloads": 520
         },
         {
           "month": "2026-04",
-          "downloads": 278
+          "downloads": 411
         },
         {
           "month": "2026-05",
@@ -3311,10 +3311,10 @@
         },
         {
           "month": "2026-06",
-          "downloads": 1362
+          "downloads": 920
         }
       ],
-      "momGrowthPct": 320.3703703703704,
+      "momGrowthPct": 183.9506172839506,
       "isGrowing": true,
       "stars": 4,
       "description": "This package allows you to use the methods from the lyra android and ios native sdks in Flutter",
@@ -3324,35 +3324,35 @@
     },
     {
       "name": "riverpod_community_mutation",
-      "totalDownloads": 3670,
+      "totalDownloads": 3635,
       "monthlyDownloads": [
         {
           "month": "2025-07",
-          "downloads": 80
+          "downloads": 79
         },
         {
           "month": "2025-08",
-          "downloads": 307
+          "downloads": 306
         },
         {
           "month": "2025-09",
-          "downloads": 432
+          "downloads": 275
         },
         {
           "month": "2025-10",
-          "downloads": 502
+          "downloads": 662
         },
         {
           "month": "2025-11",
-          "downloads": 368
+          "downloads": 367
         },
         {
           "month": "2025-12",
-          "downloads": 359
+          "downloads": 357
         },
         {
           "month": "2026-01",
-          "downloads": 358
+          "downloads": 357
         },
         {
           "month": "2026-02",
@@ -3360,22 +3360,22 @@
         },
         {
           "month": "2026-03",
-          "downloads": 242
+          "downloads": 196
         },
         {
           "month": "2026-04",
-          "downloads": 170
+          "downloads": 216
         },
         {
           "month": "2026-05",
-          "downloads": 149
+          "downloads": 152
         },
         {
           "month": "2026-06",
-          "downloads": 220
+          "downloads": 185
         }
       ],
-      "momGrowthPct": 47.651006711409394,
+      "momGrowthPct": 21.710526315789476,
       "isGrowing": true,
       "stars": 3,
       "description": "A mutation implementation for the riverpod community - made by Theodo",
