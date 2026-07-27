@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T12:58:23.394Z",
+  "generatedAt": "2026-07-27T18:28:20.002Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2958,7 +2958,7 @@
     },
     {
       "name": "init",
-      "totalDownloads": 17060,
+      "totalDownloads": 16210,
       "monthlyDownloads": [
         {
           "month": "2025-07",
@@ -2970,46 +2970,46 @@
         },
         {
           "month": "2025-09",
-          "downloads": 387
+          "downloads": 281
         },
         {
           "month": "2025-10",
-          "downloads": 472
+          "downloads": 586
         },
         {
           "month": "2025-11",
-          "downloads": 1528
+          "downloads": 1526
         },
         {
           "month": "2025-12",
-          "downloads": 1474
+          "downloads": 1471
         },
         {
           "month": "2026-01",
-          "downloads": 515
+          "downloads": 520
         },
         {
           "month": "2026-02",
-          "downloads": 412
+          "downloads": 408
         },
         {
           "month": "2026-03",
-          "downloads": 1615
+          "downloads": 938
         },
         {
           "month": "2026-04",
-          "downloads": 2887
+          "downloads": 3564
         },
         {
           "month": "2026-05",
-          "downloads": 2923
+          "downloads": 2925
         },
         {
           "month": "2026-06",
-          "downloads": 4847
+          "downloads": 3991
         }
       ],
-      "momGrowthPct": 65.82278481012658,
+      "momGrowthPct": 36.44444444444444,
       "isGrowing": true,
       "stars": 1,
       "description": "Init widget to execute initialization methods declaratively",
@@ -3080,7 +3080,7 @@
     },
     {
       "name": "flutter_reach_five",
-      "totalDownloads": 7608,
+      "totalDownloads": 7236,
       "monthlyDownloads": [
         {
           "month": "2025-07",
@@ -3088,19 +3088,19 @@
         },
         {
           "month": "2025-08",
-          "downloads": 161
+          "downloads": 160
         },
         {
           "month": "2025-09",
-          "downloads": 504
+          "downloads": 401
         },
         {
           "month": "2025-10",
-          "downloads": 403
+          "downloads": 509
         },
         {
           "month": "2025-11",
-          "downloads": 1438
+          "downloads": 1437
         },
         {
           "month": "2025-12",
@@ -3112,26 +3112,26 @@
         },
         {
           "month": "2026-02",
-          "downloads": 317
+          "downloads": 316
         },
         {
           "month": "2026-03",
-          "downloads": 374
+          "downloads": 288
         },
         {
           "month": "2026-04",
-          "downloads": 424
+          "downloads": 510
         },
         {
           "month": "2026-05",
-          "downloads": 281
+          "downloads": 286
         },
         {
           "month": "2026-06",
-          "downloads": 2146
+          "downloads": 1769
         }
       ],
-      "momGrowthPct": 663.7010676156583,
+      "momGrowthPct": 518.5314685314685,
       "isGrowing": true,
       "stars": 3,
       "description": "This package allows you to use the methods from the reachFive android and ios native sdks in Flutter",
@@ -3263,7 +3263,7 @@
     },
     {
       "name": "riverpod_community_mutation",
-      "totalDownloads": 3618,
+      "totalDownloads": 3584,
       "monthlyDownloads": [
         {
           "month": "2025-07",
@@ -3271,27 +3271,27 @@
         },
         {
           "month": "2025-08",
-          "downloads": 307
+          "downloads": 306
         },
         {
           "month": "2025-09",
-          "downloads": 432
+          "downloads": 275
         },
         {
           "month": "2025-10",
-          "downloads": 502
+          "downloads": 662
         },
         {
           "month": "2025-11",
-          "downloads": 368
+          "downloads": 367
         },
         {
           "month": "2025-12",
-          "downloads": 359
+          "downloads": 357
         },
         {
           "month": "2026-01",
-          "downloads": 358
+          "downloads": 357
         },
         {
           "month": "2026-02",
@@ -3299,22 +3299,22 @@
         },
         {
           "month": "2026-03",
-          "downloads": 242
+          "downloads": 196
         },
         {
           "month": "2026-04",
-          "downloads": 170
+          "downloads": 216
         },
         {
           "month": "2026-05",
-          "downloads": 149
+          "downloads": 152
         },
         {
           "month": "2026-06",
-          "downloads": 220
+          "downloads": 185
         }
       ],
-      "momGrowthPct": 47.651006711409394,
+      "momGrowthPct": 21.710526315789476,
       "isGrowing": true,
       "stars": 3,
       "description": "A mutation implementation for the riverpod community - made by Theodo",
