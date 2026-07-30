@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T00:19:32.916Z",
+  "generatedAt": "2026-07-30T06:48:16.414Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2836,59 +2836,55 @@
     },
     {
       "name": "adaptive_test",
-      "totalDownloads": 60589,
+      "totalDownloads": 61071,
       "monthlyDownloads": [
         {
-          "month": "2025-07",
-          "downloads": 203
-        },
-        {
           "month": "2025-08",
-          "downloads": 1574
+          "downloads": 1790
         },
         {
           "month": "2025-09",
-          "downloads": 1873
+          "downloads": 1965
         },
         {
           "month": "2025-10",
-          "downloads": 3544
+          "downloads": 3502
         },
         {
           "month": "2025-11",
-          "downloads": 4058
+          "downloads": 4327
         },
         {
           "month": "2025-12",
-          "downloads": 5170
+          "downloads": 4968
         },
         {
           "month": "2026-01",
-          "downloads": 4954
+          "downloads": 5028
         },
         {
           "month": "2026-02",
-          "downloads": 5500
+          "downloads": 5564
         },
         {
           "month": "2026-03",
-          "downloads": 6147
+          "downloads": 6173
         },
         {
           "month": "2026-04",
-          "downloads": 9387
+          "downloads": 7852
         },
         {
           "month": "2026-05",
-          "downloads": 8180
+          "downloads": 10174
         },
         {
           "month": "2026-06",
-          "downloads": 9999
+          "downloads": 9728
         }
       ],
-      "momGrowthPct": 22.23716381418093,
-      "isGrowing": true,
+      "momGrowthPct": -4.383723216040888,
+      "isGrowing": false,
       "stars": 21,
       "description": "A Flutter package to generate adaptive golden files during widget tests.",
       "notFound": false,
@@ -2958,59 +2954,55 @@
     },
     {
       "name": "init",
-      "totalDownloads": 16428,
+      "totalDownloads": 16563,
       "monthlyDownloads": [
-        {
-          "month": "2025-07",
-          "downloads": 0
-        },
         {
           "month": "2025-08",
           "downloads": 0
         },
         {
           "month": "2025-09",
-          "downloads": 287
+          "downloads": 328
         },
         {
           "month": "2025-10",
-          "downloads": 584
+          "downloads": 559
         },
         {
           "month": "2025-11",
-          "downloads": 1552
+          "downloads": 1658
         },
         {
           "month": "2025-12",
-          "downloads": 1394
+          "downloads": 1303
         },
         {
           "month": "2026-01",
-          "downloads": 589
+          "downloads": 594
         },
         {
           "month": "2026-02",
-          "downloads": 393
+          "downloads": 396
         },
         {
           "month": "2026-03",
-          "downloads": 1035
+          "downloads": 1060
         },
         {
           "month": "2026-04",
-          "downloads": 3563
+          "downloads": 3138
         },
         {
           "month": "2026-05",
-          "downloads": 3012
+          "downloads": 3719
         },
         {
           "month": "2026-06",
-          "downloads": 4019
+          "downloads": 3808
         }
       ],
-      "momGrowthPct": 33.43293492695883,
-      "isGrowing": true,
+      "momGrowthPct": 2.39311642914762,
+      "isGrowing": false,
       "stars": 1,
       "description": "Init widget to execute initialization methods declaratively",
       "notFound": false,
@@ -3019,19 +3011,15 @@
     },
     {
       "name": "app_attest_integrity",
-      "totalDownloads": 1412,
+      "totalDownloads": 1427,
       "monthlyDownloads": [
         {
-          "month": "2025-07",
-          "downloads": 0
-        },
-        {
           "month": "2025-08",
-          "downloads": 109
+          "downloads": 114
         },
         {
           "month": "2025-09",
-          "downloads": 178
+          "downloads": 175
         },
         {
           "month": "2025-10",
@@ -3039,38 +3027,38 @@
         },
         {
           "month": "2025-11",
-          "downloads": 38
+          "downloads": 37
         },
         {
           "month": "2025-12",
-          "downloads": 23
+          "downloads": 24
         },
         {
           "month": "2026-01",
-          "downloads": 225
+          "downloads": 233
         },
         {
           "month": "2026-02",
-          "downloads": 64
+          "downloads": 54
         },
         {
           "month": "2026-03",
-          "downloads": 101
+          "downloads": 104
         },
         {
           "month": "2026-04",
-          "downloads": 139
+          "downloads": 118
         },
         {
           "month": "2026-05",
-          "downloads": 178
+          "downloads": 208
         },
         {
           "month": "2026-06",
-          "downloads": 301
+          "downloads": 304
         }
       ],
-      "momGrowthPct": 69.10112359550563,
+      "momGrowthPct": 46.15384615384615,
       "isGrowing": true,
       "stars": 5,
       "description": "A Flutter plugin to assess an app integrity. Uses App attest on iOS and app Integrity on Android.",
@@ -3080,35 +3068,31 @@
     },
     {
       "name": "http_cache_mmkv_store",
-      "totalDownloads": 1318,
+      "totalDownloads": 1407,
       "monthlyDownloads": [
         {
-          "month": "2025-07",
-          "downloads": 5
-        },
-        {
           "month": "2025-08",
-          "downloads": 32
+          "downloads": 37
         },
         {
           "month": "2025-09",
-          "downloads": 35
+          "downloads": 38
         },
         {
           "month": "2025-10",
-          "downloads": 46
+          "downloads": 43
         },
         {
           "month": "2025-11",
-          "downloads": 36
+          "downloads": 39
         },
         {
           "month": "2025-12",
-          "downloads": 32
+          "downloads": 29
         },
         {
           "month": "2026-01",
-          "downloads": 30
+          "downloads": 33
         },
         {
           "month": "2026-02",
@@ -3116,22 +3100,22 @@
         },
         {
           "month": "2026-03",
-          "downloads": 84
-        },
-        {
-          "month": "2026-04",
           "downloads": 85
         },
         {
+          "month": "2026-04",
+          "downloads": 70
+        },
+        {
           "month": "2026-05",
-          "downloads": 76
+          "downloads": 90
         },
         {
           "month": "2026-06",
-          "downloads": 788
+          "downloads": 874
         }
       ],
-      "momGrowthPct": 936.8421052631579,
+      "momGrowthPct": 871.1111111111111,
       "isGrowing": true,
       "stars": 155,
       "description": "A DB cache store implementation with mmkv for dio_cache_interceptor and http_cache_client packages.",
@@ -3202,12 +3186,8 @@
     },
     {
       "name": "flutter_milibris",
-      "totalDownloads": 9573,
+      "totalDownloads": 9669,
       "monthlyDownloads": [
-        {
-          "month": "2025-07",
-          "downloads": 0
-        },
         {
           "month": "2025-08",
           "downloads": 0
@@ -3238,23 +3218,23 @@
         },
         {
           "month": "2026-03",
-          "downloads": 309
+          "downloads": 369
         },
         {
           "month": "2026-04",
-          "downloads": 3218
+          "downloads": 2813
         },
         {
           "month": "2026-05",
-          "downloads": 2782
+          "downloads": 3335
         },
         {
           "month": "2026-06",
-          "downloads": 3264
+          "downloads": 3152
         }
       ],
-      "momGrowthPct": 17.325664989216392,
-      "isGrowing": true,
+      "momGrowthPct": -5.487256371814093,
+      "isGrowing": false,
       "stars": 0,
       "description": "A Flutter plugin that bridges Milibris SDKs, enabling encrypted archive",
       "notFound": false,
@@ -3324,58 +3304,54 @@
     },
     {
       "name": "flutter_lyra",
-      "totalDownloads": 6619,
+      "totalDownloads": 6668,
       "monthlyDownloads": [
         {
-          "month": "2025-07",
-          "downloads": 25
-        },
-        {
           "month": "2025-08",
-          "downloads": 94
+          "downloads": 119
         },
         {
           "month": "2025-09",
-          "downloads": 444
+          "downloads": 483
         },
         {
           "month": "2025-10",
-          "downloads": 497
+          "downloads": 468
         },
         {
           "month": "2025-11",
-          "downloads": 1570
+          "downloads": 1673
         },
         {
           "month": "2025-12",
-          "downloads": 1259
+          "downloads": 1170
         },
         {
           "month": "2026-01",
-          "downloads": 274
+          "downloads": 271
         },
         {
           "month": "2026-02",
-          "downloads": 242
+          "downloads": 250
         },
         {
           "month": "2026-03",
-          "downloads": 543
+          "downloads": 517
         },
         {
           "month": "2026-04",
-          "downloads": 389
+          "downloads": 376
         },
         {
           "month": "2026-05",
-          "downloads": 363
+          "downloads": 498
         },
         {
           "month": "2026-06",
-          "downloads": 919
+          "downloads": 843
         }
       ],
-      "momGrowthPct": 153.168044077135,
+      "momGrowthPct": 69.27710843373494,
       "isGrowing": true,
       "stars": 4,
       "description": "This package allows you to use the methods from the lyra android and ios native sdks in Flutter",
