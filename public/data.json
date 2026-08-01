@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T00:20:11.348Z",
+  "generatedAt": "2026-08-01T06:46:11.891Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -3324,59 +3324,59 @@
     },
     {
       "name": "flutter_lyra",
-      "totalDownloads": 7701,
+      "totalDownloads": 7700,
       "monthlyDownloads": [
         {
           "month": "2025-08",
-          "downloads": 120
+          "downloads": 119
         },
         {
           "month": "2025-09",
-          "downloads": 484
+          "downloads": 531
         },
         {
           "month": "2025-10",
-          "downloads": 452
+          "downloads": 403
         },
         {
           "month": "2025-11",
-          "downloads": 1773
+          "downloads": 1890
         },
         {
           "month": "2025-12",
-          "downloads": 1084
+          "downloads": 968
         },
         {
           "month": "2026-01",
-          "downloads": 271
+          "downloads": 225
         },
         {
           "month": "2026-02",
-          "downloads": 313
+          "downloads": 263
         },
         {
           "month": "2026-03",
-          "downloads": 514
+          "downloads": 646
         },
         {
           "month": "2026-04",
-          "downloads": 318
+          "downloads": 285
         },
         {
           "month": "2026-05",
-          "downloads": 591
+          "downloads": 646
         },
         {
           "month": "2026-06",
-          "downloads": 813
+          "downloads": 885
         },
         {
           "month": "2026-07",
-          "downloads": 968
+          "downloads": 839
         }
       ],
-      "momGrowthPct": 19.06519065190652,
-      "isGrowing": true,
+      "momGrowthPct": -5.19774011299435,
+      "isGrowing": false,
       "stars": 4,
       "description": "This package allows you to use the methods from the lyra android and ios native sdks in Flutter",
       "notFound": false,
@@ -3385,7 +3385,7 @@
     },
     {
       "name": "go_router_url_watcher",
-      "totalDownloads": 146,
+      "totalDownloads": 148,
       "monthlyDownloads": [
         {
           "month": "2025-08",
@@ -3429,14 +3429,14 @@
         },
         {
           "month": "2026-06",
-          "downloads": 111
+          "downloads": 123
         },
         {
           "month": "2026-07",
-          "downloads": 35
+          "downloads": 25
         }
       ],
-      "momGrowthPct": -68.46846846846847,
+      "momGrowthPct": -79.67479674796748,
       "isGrowing": false,
       "stars": 1,
       "description": "Easily keep your state in the url when using go_router in Flutter",
