@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T04:27:06.948Z",
+  "generatedAt": "2026-08-03T04:24:10.122Z",
   "org": "bamlab",
   "prs": [
     {
@@ -500,11 +500,11 @@
     },
     {
       "author": "yleflour",
-      "repo": "terrastruct/d2-obsidian",
+      "repo": "d2lang/d2-obsidian",
       "state": "open",
       "createdAt": "2025-01-30T09:36:08Z",
       "title": "Enable \"[[Internal Link]]\" formated links",
-      "url": "https://github.com/terrastruct/d2-obsidian/pull/53"
+      "url": "https://github.com/d2lang/d2-obsidian/pull/53"
     },
     {
       "author": "thomasrebam",
@@ -1325,22 +1325,6 @@
       "url": "https://github.com/kirillzyusko/react-native-teleport/issues/65"
     },
     {
-      "author": "yleflour",
-      "repo": "mayocream/koharu",
-      "state": "closed",
-      "createdAt": "2025-12-09T08:30:11Z",
-      "title": "[ui] improve accessibility with custom fonts",
-      "url": "https://github.com/mayocream/koharu/issues/57"
-    },
-    {
-      "author": "yleflour",
-      "repo": "mayocream/koharu",
-      "state": "closed",
-      "createdAt": "2025-12-09T08:26:09Z",
-      "title": "Unknown OSX permission",
-      "url": "https://github.com/mayocream/koharu/issues/56"
-    },
-    {
       "author": "vicprz",
       "repo": "kirillzyusko/react-native-keyboard-controller",
       "state": "closed",
@@ -1550,11 +1534,11 @@
     },
     {
       "author": "yleflour",
-      "repo": "terrastruct/d2-obsidian",
+      "repo": "d2lang/d2-obsidian",
       "state": "open",
       "createdAt": "2025-01-30T00:02:24Z",
       "title": "Internal links partially working",
-      "url": "https://github.com/terrastruct/d2-obsidian/issues/52"
+      "url": "https://github.com/d2lang/d2-obsidian/issues/52"
     },
     {
       "author": "yleflour",
@@ -2130,127 +2114,127 @@
       "name": "react/react",
       "owner": "react",
       "language": "JavaScript",
-      "stars": 246736
+      "stars": 246918
     },
     {
       "name": "microsoft/TypeScript",
       "owner": "microsoft",
       "language": "TypeScript",
-      "stars": 109963
+      "stars": 110044
     },
     {
       "name": "mui/material-ui",
       "owner": "mui",
       "language": "JavaScript",
-      "stars": 98639
+      "stars": 98667
     },
     {
       "name": "storybookjs/storybook",
       "owner": "storybookjs",
       "language": "TypeScript",
-      "stars": 90677
+      "stars": 90751
     },
     {
       "name": "nestjs/nest",
       "owner": "nestjs",
       "language": "TypeScript",
-      "stars": 76215
+      "stars": 76299
     },
     {
       "name": "expo/expo",
       "owner": "expo",
       "language": "TypeScript",
-      "stars": 51051
+      "stars": 51202
     },
     {
       "name": "TanStack/query",
       "owner": "TanStack",
       "language": "TypeScript",
-      "stars": 49993
+      "stars": 50047
     },
     {
       "name": "tldraw/tldraw",
       "owner": "tldraw",
       "language": "TypeScript",
-      "stars": 49332
+      "stars": 49557
     },
     {
       "name": "slidevjs/slidev",
       "owner": "slidevjs",
       "language": "TypeScript",
-      "stars": 47855
+      "stars": 47944
     },
     {
       "name": "react-hook-form/react-hook-form",
       "owner": "react-hook-form",
       "language": "TypeScript",
-      "stars": 44801
+      "stars": 44809
     },
     {
       "name": "typeorm/typeorm",
       "owner": "typeorm",
       "language": "TypeScript",
-      "stars": 36605
+      "stars": 36613
     },
     {
       "name": "pnpm/pnpm",
       "owner": "pnpm",
       "language": "Rust",
-      "stars": 35883
+      "stars": 35940
     },
     {
       "name": "drizzle-team/drizzle-orm",
       "owner": "drizzle-team",
       "language": "TypeScript",
-      "stars": 35271
+      "stars": 35336
     },
     {
       "name": "backstage/backstage",
       "owner": "backstage",
       "language": "TypeScript",
-      "stars": 33953
+      "stars": 34004
     },
     {
       "name": "mantinedev/mantine",
       "owner": "mantinedev",
       "language": "TypeScript",
-      "stars": 31488
+      "stars": 31522
     },
     {
       "name": "TanStack/table",
       "owner": "TanStack",
       "language": "TypeScript",
-      "stars": 28231
+      "stars": 28261
     },
     {
       "name": "squidfunk/mkdocs-material",
       "owner": "squidfunk",
       "language": "Python",
-      "stars": 27157
+      "stars": 27191
     },
     {
       "name": "Kilo-Org/kilocode",
       "owner": "Kilo-Org",
       "language": "TypeScript",
-      "stars": 26535
+      "stars": 26677
     },
     {
       "name": "vercel/ai",
       "owner": "vercel",
       "language": "TypeScript",
-      "stars": 25820
+      "stars": 25970
     },
     {
       "name": "react-navigation/react-navigation",
       "owner": "react-navigation",
       "language": "TypeScript",
-      "stars": 24490
+      "stars": 24487
     },
     {
       "name": "promptfoo/promptfoo",
       "owner": "promptfoo",
       "language": "TypeScript",
-      "stars": 23635
+      "stars": 23859
     },
     {
       "name": "necolas/react-native-web",
@@ -2268,7 +2252,7 @@
       "name": "elysiajs/elysia",
       "owner": "elysiajs",
       "language": "TypeScript",
-      "stars": 18781
+      "stars": 18831
     },
     {
       "name": "emotion-js/emotion",
@@ -2280,7 +2264,7 @@
       "name": "tamagui/tamagui",
       "owner": "tamagui",
       "language": "TypeScript",
-      "stars": 14100
+      "stars": 14114
     },
     {
       "name": "invertase/react-native-firebase",
@@ -2292,67 +2276,67 @@
       "name": "reactjs/react.dev",
       "owner": "reactjs",
       "language": "JavaScript",
-      "stars": 11771
+      "stars": 11777
     },
     {
       "name": "gitkraken/vscode-gitlens",
       "owner": "gitkraken",
       "language": "TypeScript",
-      "stars": 9878
+      "stars": 9879
     },
     {
       "name": "gorhom/react-native-bottom-sheet",
       "owner": "gorhom",
       "language": "TypeScript",
-      "stars": 9039
+      "stars": 9049
     },
     {
       "name": "artilleryio/artillery",
       "owner": "artilleryio",
       "language": "JavaScript",
-      "stars": 9031
+      "stars": 9038
     },
     {
       "name": "nativewind/nativewind",
       "owner": "nativewind",
       "language": "TypeScript",
-      "stars": 8027
+      "stars": 8039
     },
     {
       "name": "software-mansion/react-native-svg",
       "owner": "software-mansion",
       "language": "TypeScript",
-      "stars": 7999
+      "stars": 8000
     },
     {
       "name": "raycast/extensions",
       "owner": "raycast",
       "language": "TypeScript",
-      "stars": 7643
+      "stars": 7655
     },
     {
       "name": "Shopify/flash-list",
       "owner": "Shopify",
       "language": "TypeScript",
-      "stars": 7150
+      "stars": 7161
     },
     {
       "name": "buildship-ai/rowy",
       "owner": "buildship-ai",
       "language": "TypeScript",
-      "stars": 6824
+      "stars": 6832
     },
     {
       "name": "software-mansion/react-native-gesture-handler",
       "owner": "software-mansion",
       "language": "TypeScript",
-      "stars": 6771
+      "stars": 6775
     },
     {
       "name": "a16z-infra/companion-app",
       "owner": "a16z-infra",
       "language": "TypeScript",
-      "stars": 5968
+      "stars": 5969
     },
     {
       "name": "APSL/react-native-keyboard-aware-scroll-view",
@@ -2364,61 +2348,55 @@
       "name": "satya164/react-native-tab-view",
       "owner": "satya164",
       "language": "TypeScript",
-      "stars": 5109
-    },
-    {
-      "name": "mayocream/koharu",
-      "owner": "mayocream",
-      "language": "Rust",
-      "stars": 4951
+      "stars": 5108
     },
     {
       "name": "nestjsx/crud",
       "owner": "nestjsx",
       "language": "TypeScript",
-      "stars": 4327
+      "stars": 4326
     },
     {
       "name": "antfu-collective/taze",
       "owner": "antfu-collective",
       "language": "TypeScript",
-      "stars": 4241
+      "stars": 4248
     },
     {
       "name": "nandorojo/solito",
       "owner": "nandorojo",
       "language": "TypeScript",
-      "stars": 4094
+      "stars": 4096
     },
     {
       "name": "kirillzyusko/react-native-keyboard-controller",
       "owner": "kirillzyusko",
       "language": "TypeScript",
-      "stars": 3662
+      "stars": 3671
     },
     {
       "name": "oblador/react-native-keychain",
       "owner": "oblador",
       "language": "Kotlin",
-      "stars": 3464
+      "stars": 3467
     },
     {
       "name": "dohooo/react-native-reanimated-carousel",
       "owner": "dohooo",
       "language": "TypeScript",
-      "stars": 3405
+      "stars": 3422
     },
     {
       "name": "callstack/react-native-testing-library",
       "owner": "callstack",
       "language": "TypeScript",
-      "stars": 3402
+      "stars": 3405
     },
     {
       "name": "callstack/react-native-pager-view",
       "owner": "callstack",
       "language": "TypeScript",
-      "stars": 3340
+      "stars": 3341
     },
     {
       "name": "pmmmwh/react-refresh-webpack-plugin",
@@ -2430,25 +2408,25 @@
       "name": "yoopta-editor/Yoopta-Editor",
       "owner": "yoopta-editor",
       "language": "TypeScript",
-      "stars": 3072
+      "stars": 3075
     },
     {
       "name": "jpudysz/react-native-unistyles",
       "owner": "jpudysz",
       "language": "TypeScript",
-      "stars": 2924
+      "stars": 2930
     },
     {
       "name": "transistorsoft/react-native-background-geolocation",
       "owner": "transistorsoft",
       "language": "TypeScript",
-      "stars": 2910
+      "stars": 2911
     },
     {
       "name": "jest-community/vscode-jest",
       "owner": "jest-community",
       "language": "TypeScript",
-      "stars": 2895
+      "stars": 2893
     },
     {
       "name": "chromaui/learnstorybook.com",
@@ -2466,7 +2444,7 @@
       "name": "color-js/color.js",
       "owner": "color-js",
       "language": "JavaScript",
-      "stars": 2276
+      "stars": 2280
     },
     {
       "name": "apache/cordova-ios",
@@ -2478,61 +2456,61 @@
       "name": "getsentry/sentry-react-native",
       "owner": "getsentry",
       "language": "TypeScript",
-      "stars": 1810
+      "stars": 1809
     },
     {
       "name": "lirantal/npq",
       "owner": "lirantal",
       "language": "JavaScript",
-      "stars": 1766
+      "stars": 1764
     },
     {
       "name": "franciscoBSalgueiro/en-croissant",
       "owner": "franciscoBSalgueiro",
       "language": "TypeScript",
-      "stars": 1749
+      "stars": 1760
     },
     {
       "name": "bamlab/flashlight",
       "owner": "bamlab",
       "language": "TypeScript",
-      "stars": 1595
+      "stars": 1597
     },
     {
       "name": "react-native-tvos/react-native-tvos",
       "owner": "react-native-tvos",
       "language": "C++",
-      "stars": 1389
+      "stars": 1393
     },
     {
       "name": "Abhinandan-Kushwaha/react-native-gifted-charts",
       "owner": "Abhinandan-Kushwaha",
       "language": "TypeScript",
-      "stars": 1361
+      "stars": 1362
     },
     {
       "name": "paralleldrive/sudolang",
       "owner": "paralleldrive",
       "language": "TypeScript",
-      "stars": 1354
+      "stars": 1352
     },
     {
       "name": "FormidableLabs/victory-native-xl",
       "owner": "FormidableLabs",
       "language": "TypeScript",
-      "stars": 1204
-    },
-    {
-      "name": "styled-components/css-to-react-native",
-      "owner": "styled-components",
-      "language": "TypeScript",
-      "stars": 1180
+      "stars": 1205
     },
     {
       "name": "astahmer/openapi-zod-client",
       "owner": "astahmer",
       "language": "TypeScript",
       "stars": 1179
+    },
+    {
+      "name": "styled-components/css-to-react-native",
+      "owner": "styled-components",
+      "language": "TypeScript",
+      "stars": 1178
     },
     {
       "name": "fsouza/prettierd",
@@ -2568,7 +2546,7 @@
       "name": "expo/orbit",
       "owner": "expo",
       "language": "TypeScript",
-      "stars": 842
+      "stars": 848
     },
     {
       "name": "tokkozhin/react-native-neomorph-shadows",
@@ -2580,31 +2558,31 @@
       "name": "kirillzyusko/react-native-teleport",
       "owner": "kirillzyusko",
       "language": "TypeScript",
-      "stars": 770
+      "stars": 776
     },
     {
       "name": "padok-team/burrito",
       "owner": "padok-team",
       "language": "Go",
-      "stars": 748
+      "stars": 750
     },
     {
       "name": "callstackincubator/rozenite",
       "owner": "callstackincubator",
       "language": "TypeScript",
-      "stars": 638
+      "stars": 640
     },
     {
       "name": "firebelley/godot-export",
       "owner": "firebelley",
       "language": "TypeScript",
-      "stars": 637
+      "stars": 639
     },
     {
       "name": "mowispace/react-native-logs",
       "owner": "mowispace",
       "language": "TypeScript",
-      "stars": 591
+      "stars": 592
     },
     {
       "name": "contentful/rich-text",
@@ -2622,7 +2600,7 @@
       "name": "Arindam200/cc-lens",
       "owner": "Arindam200",
       "language": "TypeScript",
-      "stars": 574
+      "stars": 577
     },
     {
       "name": "codegouvfr/react-dsfr",
@@ -2637,8 +2615,8 @@
       "stars": 397
     },
     {
-      "name": "terrastruct/d2-obsidian",
-      "owner": "terrastruct",
+      "name": "d2lang/d2-obsidian",
+      "owner": "d2lang",
       "language": "TypeScript",
       "stars": 306
     },
@@ -2652,7 +2630,7 @@
       "name": "mailjet/mailjet-apiv3-nodejs",
       "owner": "mailjet",
       "language": "TypeScript",
-      "stars": 254
+      "stars": 255
     },
     {
       "name": "expo/dev-plugins",
@@ -2682,7 +2660,7 @@
       "name": "Baboo7/strapi-plugin-import-export-entries",
       "owner": "Baboo7",
       "language": "JavaScript",
-      "stars": 190
+      "stars": 189
     },
     {
       "name": "imwithye/react-native-remark",
@@ -2694,7 +2672,7 @@
       "name": "DataDog/dd-sdk-reactnative",
       "owner": "DataDog",
       "language": "TypeScript",
-      "stars": 144
+      "stars": 145
     },
     {
       "name": "theowenyoung/gatsby-theme-primer-wiki",
@@ -2937,10 +2915,10 @@
     {
       "login": "yleflour",
       "prCount": 2,
-      "issueCount": 19,
+      "issueCount": 17,
       "reposCount": 2,
       "topRepos": [
-        "terrastruct/d2-obsidian",
+        "d2lang/d2-obsidian",
         "react-hook-form/react-hook-form"
       ]
     },
