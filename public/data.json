@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T00:21:17.632Z",
+  "generatedAt": "2026-08-04T06:47:49.907Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -3019,58 +3019,58 @@
     },
     {
       "name": "app_attest_integrity",
-      "totalDownloads": 2115,
+      "totalDownloads": 2147,
       "monthlyDownloads": [
         {
           "month": "2025-08",
-          "downloads": 106
+          "downloads": 107
         },
         {
           "month": "2025-09",
-          "downloads": 191
+          "downloads": 177
         },
         {
           "month": "2025-10",
-          "downloads": 42
+          "downloads": 59
         },
         {
           "month": "2025-11",
-          "downloads": 37
+          "downloads": 36
         },
         {
           "month": "2025-12",
-          "downloads": 31
+          "downloads": 32
         },
         {
           "month": "2026-01",
-          "downloads": 186
+          "downloads": 216
         },
         {
           "month": "2026-02",
-          "downloads": 98
+          "downloads": 66
         },
         {
           "month": "2026-03",
-          "downloads": 121
+          "downloads": 100
         },
         {
           "month": "2026-04",
-          "downloads": 114
+          "downloads": 138
         },
         {
           "month": "2026-05",
-          "downloads": 167
+          "downloads": 168
         },
         {
           "month": "2026-06",
-          "downloads": 390
+          "downloads": 298
         },
         {
           "month": "2026-07",
-          "downloads": 632
+          "downloads": 750
         }
       ],
-      "momGrowthPct": 62.05128205128205,
+      "momGrowthPct": 151.6778523489933,
       "isGrowing": true,
       "stars": 5,
       "description": "A Flutter plugin to assess an app integrity. Uses App attest on iOS and app Integrity on Android.",
@@ -3202,7 +3202,7 @@
     },
     {
       "name": "flutter_milibris",
-      "totalDownloads": 11813,
+      "totalDownloads": 11821,
       "monthlyDownloads": [
         {
           "month": "2025-08",
@@ -3234,26 +3234,26 @@
         },
         {
           "month": "2026-03",
-          "downloads": 866
+          "downloads": 216
         },
         {
           "month": "2026-04",
-          "downloads": 2560
+          "downloads": 3212
         },
         {
           "month": "2026-05",
-          "downloads": 2701
+          "downloads": 2720
         },
         {
           "month": "2026-06",
-          "downloads": 3800
+          "downloads": 3245
         },
         {
           "month": "2026-07",
-          "downloads": 1886
+          "downloads": 2428
         }
       ],
-      "momGrowthPct": -50.368421052631575,
+      "momGrowthPct": -25.177195685670263,
       "isGrowing": false,
       "stars": 0,
       "description": "A Flutter plugin that bridges Milibris SDKs, enabling encrypted archive",
