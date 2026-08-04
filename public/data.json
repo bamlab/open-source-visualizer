@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T12:33:24.384Z",
+  "generatedAt": "2026-08-04T18:29:23.917Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -3084,27 +3084,27 @@
       "monthlyDownloads": [
         {
           "month": "2025-08",
-          "downloads": 33
+          "downloads": 32
         },
         {
           "month": "2025-09",
-          "downloads": 45
+          "downloads": 32
         },
         {
           "month": "2025-10",
-          "downloads": 33
+          "downloads": 49
         },
         {
           "month": "2025-11",
-          "downloads": 35
+          "downloads": 34
         },
         {
           "month": "2025-12",
-          "downloads": 39
+          "downloads": 40
         },
         {
           "month": "2026-01",
-          "downloads": 23
+          "downloads": 24
         },
         {
           "month": "2026-02",
@@ -3112,11 +3112,11 @@
         },
         {
           "month": "2026-03",
-          "downloads": 105
+          "downloads": 83
         },
         {
           "month": "2026-04",
-          "downloads": 64
+          "downloads": 85
         },
         {
           "month": "2026-05",
@@ -3124,14 +3124,14 @@
         },
         {
           "month": "2026-06",
-          "downloads": 1120
+          "downloads": 612
         },
         {
           "month": "2026-07",
-          "downloads": 1868
+          "downloads": 2374
         }
       ],
-      "momGrowthPct": 66.78571428571428,
+      "momGrowthPct": 287.90849673202615,
       "isGrowing": true,
       "stars": 155,
       "description": "A DB cache store implementation with mmkv for dio_cache_interceptor and http_cache_client packages.",
@@ -3446,7 +3446,7 @@
     },
     {
       "name": "go_router_url_watcher",
-      "totalDownloads": 148,
+      "totalDownloads": 151,
       "monthlyDownloads": [
         {
           "month": "2025-08",
@@ -3490,14 +3490,14 @@
         },
         {
           "month": "2026-06",
-          "downloads": 123
+          "downloads": 107
         },
         {
           "month": "2026-07",
-          "downloads": 25
+          "downloads": 44
         }
       ],
-      "momGrowthPct": -79.67479674796748,
+      "momGrowthPct": -58.87850467289719,
       "isGrowing": false,
       "stars": 1,
       "description": "Easily keep your state in the url when using go_router in Flutter",
