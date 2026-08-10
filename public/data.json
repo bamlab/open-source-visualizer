@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T06:23:19.820Z",
+  "generatedAt": "2026-08-10T12:12:34.037Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2836,59 +2836,59 @@
     },
     {
       "name": "adaptive_test",
-      "totalDownloads": 72652,
+      "totalDownloads": 72672,
       "monthlyDownloads": [
         {
           "month": "2025-08",
-          "downloads": 1280
+          "downloads": 1284
         },
         {
           "month": "2025-09",
-          "downloads": 2526
+          "downloads": 1892
         },
         {
           "month": "2025-10",
-          "downloads": 2886
+          "downloads": 3511
         },
         {
           "month": "2025-11",
-          "downloads": 3952
+          "downloads": 3956
         },
         {
           "month": "2025-12",
-          "downloads": 5695
+          "downloads": 5694
         },
         {
           "month": "2026-01",
-          "downloads": 4458
+          "downloads": 4457
         },
         {
           "month": "2026-02",
-          "downloads": 5434
+          "downloads": 5487
         },
         {
           "month": "2026-03",
-          "downloads": 8099
+          "downloads": 6066
         },
         {
           "month": "2026-04",
-          "downloads": 7249
+          "downloads": 9241
         },
         {
           "month": "2026-05",
-          "downloads": 8204
+          "downloads": 8194
         },
         {
           "month": "2026-06",
-          "downloads": 12950
+          "downloads": 9943
         },
         {
           "month": "2026-07",
-          "downloads": 9919
+          "downloads": 12947
         }
       ],
-      "momGrowthPct": -23.405405405405403,
-      "isGrowing": false,
+      "momGrowthPct": 30.21220959468973,
+      "isGrowing": true,
       "stars": 21,
       "description": "A Flutter package to generate adaptive golden files during widget tests.",
       "notFound": false,
@@ -3384,67 +3384,6 @@
       "publishedAt": "2022-11-03T14:23:30.800535Z"
     },
     {
-      "name": "equatable_lint",
-      "totalDownloads": 1927,
-      "monthlyDownloads": [
-        {
-          "month": "2025-08",
-          "downloads": 143
-        },
-        {
-          "month": "2025-09",
-          "downloads": 306
-        },
-        {
-          "month": "2025-10",
-          "downloads": 116
-        },
-        {
-          "month": "2025-11",
-          "downloads": 122
-        },
-        {
-          "month": "2025-12",
-          "downloads": 281
-        },
-        {
-          "month": "2026-01",
-          "downloads": 93
-        },
-        {
-          "month": "2026-02",
-          "downloads": 146
-        },
-        {
-          "month": "2026-03",
-          "downloads": 151
-        },
-        {
-          "month": "2026-04",
-          "downloads": 94
-        },
-        {
-          "month": "2026-05",
-          "downloads": 137
-        },
-        {
-          "month": "2026-06",
-          "downloads": 170
-        },
-        {
-          "month": "2026-07",
-          "downloads": 168
-        }
-      ],
-      "momGrowthPct": -1.1764705882352942,
-      "isGrowing": false,
-      "stars": 6,
-      "description": "This is a set of rules to make classes using Equatable more maintainable. We make sure here that every fields in an Equatable class is linked to the Equatable props getter.",
-      "notFound": false,
-      "ecosystem": "pub",
-      "publishedAt": "2022-10-09T10:19:32.928925Z"
-    },
-    {
       "name": "go_router_url_watcher",
       "totalDownloads": 148,
       "monthlyDownloads": [
@@ -3504,6 +3443,67 @@
       "notFound": false,
       "ecosystem": "pub",
       "publishedAt": "2026-06-22T15:39:24.024032Z"
+    },
+    {
+      "name": "equatable_lint",
+      "totalDownloads": 1927,
+      "monthlyDownloads": [
+        {
+          "month": "2025-08",
+          "downloads": 143
+        },
+        {
+          "month": "2025-09",
+          "downloads": 306
+        },
+        {
+          "month": "2025-10",
+          "downloads": 116
+        },
+        {
+          "month": "2025-11",
+          "downloads": 122
+        },
+        {
+          "month": "2025-12",
+          "downloads": 281
+        },
+        {
+          "month": "2026-01",
+          "downloads": 93
+        },
+        {
+          "month": "2026-02",
+          "downloads": 146
+        },
+        {
+          "month": "2026-03",
+          "downloads": 151
+        },
+        {
+          "month": "2026-04",
+          "downloads": 94
+        },
+        {
+          "month": "2026-05",
+          "downloads": 137
+        },
+        {
+          "month": "2026-06",
+          "downloads": 170
+        },
+        {
+          "month": "2026-07",
+          "downloads": 168
+        }
+      ],
+      "momGrowthPct": -1.1764705882352942,
+      "isGrowing": false,
+      "stars": 6,
+      "description": "This is a set of rules to make classes using Equatable more maintainable. We make sure here that every fields in an Equatable class is linked to the Equatable props getter.",
+      "notFound": false,
+      "ecosystem": "pub",
+      "publishedAt": "2022-10-09T10:19:32.928925Z"
     }
   ]
 }
