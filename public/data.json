@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-11T06:14:55.596Z",
+  "generatedAt": "2026-08-11T12:13:09.264Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
-      "totalDownloads": 4573176,
+      "totalDownloads": 4593880,
       "monthlyDownloads": [
         {
           "month": "2025-02",
@@ -87,7 +87,7 @@
     },
     {
       "name": "@bam.tech/react-navigation-visualizer-dev-plugin",
-      "totalDownloads": 1178122,
+      "totalDownloads": 1180470,
       "monthlyDownloads": [
         {
           "month": "2025-02",
@@ -171,7 +171,7 @@
     },
     {
       "name": "@bam.tech/react-native-app-security",
-      "totalDownloads": 431430,
+      "totalDownloads": 436350,
       "monthlyDownloads": [
         {
           "month": "2025-02",
@@ -255,7 +255,7 @@
     },
     {
       "name": "@bam.tech/react-native-make",
-      "totalDownloads": 436096,
+      "totalDownloads": 438849,
       "monthlyDownloads": [
         {
           "month": "2025-02",
@@ -339,7 +339,7 @@
     },
     {
       "name": "@bam.tech/eslint-plugin",
-      "totalDownloads": 139859,
+      "totalDownloads": 140100,
       "monthlyDownloads": [
         {
           "month": "2025-02",
@@ -423,7 +423,7 @@
     },
     {
       "name": "@bam.tech/react-native-config",
-      "totalDownloads": 77620,
+      "totalDownloads": 77639,
       "monthlyDownloads": [
         {
           "month": "2025-02",
@@ -507,7 +507,7 @@
     },
     {
       "name": "@bam.tech/react-native-keyevent-expo-config-plugin",
-      "totalDownloads": 58473,
+      "totalDownloads": 58588,
       "monthlyDownloads": [
         {
           "month": "2025-02",
@@ -591,7 +591,7 @@
     },
     {
       "name": "@bam.tech/lrud",
-      "totalDownloads": 91795,
+      "totalDownloads": 92500,
       "monthlyDownloads": [
         {
           "month": "2025-02",
@@ -759,7 +759,7 @@
     },
     {
       "name": "@bam.tech/react-native-graphql-transformer",
-      "totalDownloads": 40619,
+      "totalDownloads": 40707,
       "monthlyDownloads": [
         {
           "month": "2025-02",
@@ -843,7 +843,7 @@
     },
     {
       "name": "@bam.tech/tanstack-query-detect-waterfall",
-      "totalDownloads": 16207,
+      "totalDownloads": 16219,
       "monthlyDownloads": [
         {
           "month": "2025-02",
@@ -927,7 +927,7 @@
     },
     {
       "name": "@bam.tech/react-native-batch",
-      "totalDownloads": 11350,
+      "totalDownloads": 11351,
       "monthlyDownloads": [
         {
           "month": "2025-02",
@@ -1011,7 +1011,7 @@
     },
     {
       "name": "react-native-performance",
-      "totalDownloads": 14565251,
+      "totalDownloads": 14599016,
       "monthlyDownloads": [
         {
           "month": "2025-02",
@@ -1095,7 +1095,7 @@
     },
     {
       "name": "react-native-image-resizer",
-      "totalDownloads": 2921027,
+      "totalDownloads": 2929246,
       "monthlyDownloads": [
         {
           "month": "2025-02",
@@ -1263,7 +1263,7 @@
     },
     {
       "name": "react-native-image-header-scroll-view",
-      "totalDownloads": 127925,
+      "totalDownloads": 128642,
       "monthlyDownloads": [
         {
           "month": "2025-02",
@@ -1347,7 +1347,7 @@
     },
     {
       "name": "generator-rn-toolbox",
-      "totalDownloads": 88962,
+      "totalDownloads": 89189,
       "monthlyDownloads": [
         {
           "month": "2025-02",
@@ -1515,7 +1515,7 @@
     },
     {
       "name": "redux-enhancer-react-native-appstate",
-      "totalDownloads": 88496,
+      "totalDownloads": 88613,
       "monthlyDownloads": [
         {
           "month": "2025-02",
@@ -1599,7 +1599,7 @@
     },
     {
       "name": "react-tv-space-navigation",
-      "totalDownloads": 88121,
+      "totalDownloads": 88843,
       "monthlyDownloads": [
         {
           "month": "2025-02",
@@ -1683,7 +1683,7 @@
     },
     {
       "name": "react-native-formik",
-      "totalDownloads": 176412,
+      "totalDownloads": 176930,
       "monthlyDownloads": [
         {
           "month": "2025-02",
@@ -2019,7 +2019,7 @@
     },
     {
       "name": "react-redux-toolbox",
-      "totalDownloads": 38410,
+      "totalDownloads": 38443,
       "monthlyDownloads": [
         {
           "month": "2025-02",
@@ -2103,7 +2103,7 @@
     },
     {
       "name": "react-native-debugger-utils",
-      "totalDownloads": 213,
+      "totalDownloads": 215,
       "monthlyDownloads": [
         {
           "month": "2025-02",
@@ -2523,7 +2523,7 @@
     },
     {
       "name": "react-native-numberpicker-dialog",
-      "totalDownloads": 1555,
+      "totalDownloads": 1557,
       "monthlyDownloads": [
         {
           "month": "2025-02",
@@ -3384,67 +3384,6 @@
       "publishedAt": "2022-11-03T14:23:30.800535Z"
     },
     {
-      "name": "go_router_url_watcher",
-      "totalDownloads": 151,
-      "monthlyDownloads": [
-        {
-          "month": "2025-08",
-          "downloads": 0
-        },
-        {
-          "month": "2025-09",
-          "downloads": 0
-        },
-        {
-          "month": "2025-10",
-          "downloads": 0
-        },
-        {
-          "month": "2025-11",
-          "downloads": 0
-        },
-        {
-          "month": "2025-12",
-          "downloads": 0
-        },
-        {
-          "month": "2026-01",
-          "downloads": 0
-        },
-        {
-          "month": "2026-02",
-          "downloads": 0
-        },
-        {
-          "month": "2026-03",
-          "downloads": 0
-        },
-        {
-          "month": "2026-04",
-          "downloads": 0
-        },
-        {
-          "month": "2026-05",
-          "downloads": 0
-        },
-        {
-          "month": "2026-06",
-          "downloads": 107
-        },
-        {
-          "month": "2026-07",
-          "downloads": 44
-        }
-      ],
-      "momGrowthPct": -58.87850467289719,
-      "isGrowing": false,
-      "stars": 1,
-      "description": "Easily keep your state in the url when using go_router in Flutter",
-      "notFound": false,
-      "ecosystem": "pub",
-      "publishedAt": "2026-06-22T15:39:24.024032Z"
-    },
-    {
       "name": "equatable_lint",
       "totalDownloads": 1927,
       "monthlyDownloads": [
@@ -3504,6 +3443,67 @@
       "notFound": false,
       "ecosystem": "pub",
       "publishedAt": "2022-10-09T10:19:32.928925Z"
+    },
+    {
+      "name": "go_router_url_watcher",
+      "totalDownloads": 151,
+      "monthlyDownloads": [
+        {
+          "month": "2025-08",
+          "downloads": 0
+        },
+        {
+          "month": "2025-09",
+          "downloads": 0
+        },
+        {
+          "month": "2025-10",
+          "downloads": 0
+        },
+        {
+          "month": "2025-11",
+          "downloads": 0
+        },
+        {
+          "month": "2025-12",
+          "downloads": 0
+        },
+        {
+          "month": "2026-01",
+          "downloads": 0
+        },
+        {
+          "month": "2026-02",
+          "downloads": 0
+        },
+        {
+          "month": "2026-03",
+          "downloads": 0
+        },
+        {
+          "month": "2026-04",
+          "downloads": 0
+        },
+        {
+          "month": "2026-05",
+          "downloads": 0
+        },
+        {
+          "month": "2026-06",
+          "downloads": 107
+        },
+        {
+          "month": "2026-07",
+          "downloads": 44
+        }
+      ],
+      "momGrowthPct": -58.87850467289719,
+      "isGrowing": false,
+      "stars": 1,
+      "description": "Easily keep your state in the url when using go_router in Flutter",
+      "notFound": false,
+      "ecosystem": "pub",
+      "publishedAt": "2026-06-22T15:39:24.024032Z"
     }
   ]
 }
