@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T12:13:14.182Z",
+  "generatedAt": "2026-08-13T18:15:24.776Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2958,9 +2958,58 @@
     },
     {
       "name": "init",
-      "totalDownloads": 0,
-      "monthlyDownloads": [],
-      "momGrowthPct": null,
+      "totalDownloads": 19721,
+      "monthlyDownloads": [
+        {
+          "month": "2025-08",
+          "downloads": 0
+        },
+        {
+          "month": "2025-09",
+          "downloads": 328
+        },
+        {
+          "month": "2025-10",
+          "downloads": 559
+        },
+        {
+          "month": "2025-11",
+          "downloads": 1658
+        },
+        {
+          "month": "2025-12",
+          "downloads": 1303
+        },
+        {
+          "month": "2026-01",
+          "downloads": 594
+        },
+        {
+          "month": "2026-02",
+          "downloads": 396
+        },
+        {
+          "month": "2026-03",
+          "downloads": 1060
+        },
+        {
+          "month": "2026-04",
+          "downloads": 3138
+        },
+        {
+          "month": "2026-05",
+          "downloads": 3719
+        },
+        {
+          "month": "2026-06",
+          "downloads": 3808
+        },
+        {
+          "month": "2026-07",
+          "downloads": 3158
+        }
+      ],
+      "momGrowthPct": -17.069327731092436,
       "isGrowing": false,
       "stars": 1,
       "description": "Init widget to execute initialization methods declaratively",
@@ -2970,15 +3019,59 @@
     },
     {
       "name": "app_attest_integrity",
-      "totalDownloads": 663,
+      "totalDownloads": 2182,
       "monthlyDownloads": [
         {
+          "month": "2025-08",
+          "downloads": 114
+        },
+        {
+          "month": "2025-09",
+          "downloads": 175
+        },
+        {
+          "month": "2025-10",
+          "downloads": 56
+        },
+        {
+          "month": "2025-11",
+          "downloads": 37
+        },
+        {
+          "month": "2025-12",
+          "downloads": 24
+        },
+        {
+          "month": "2026-01",
+          "downloads": 233
+        },
+        {
+          "month": "2026-02",
+          "downloads": 54
+        },
+        {
+          "month": "2026-03",
+          "downloads": 104
+        },
+        {
+          "month": "2026-04",
+          "downloads": 118
+        },
+        {
+          "month": "2026-05",
+          "downloads": 208
+        },
+        {
+          "month": "2026-06",
+          "downloads": 304
+        },
+        {
           "month": "2026-07",
-          "downloads": 663
+          "downloads": 755
         }
       ],
-      "momGrowthPct": null,
-      "isGrowing": false,
+      "momGrowthPct": 148.35526315789474,
+      "isGrowing": true,
       "stars": 5,
       "description": "A Flutter plugin to assess an app integrity. Uses App attest on iOS and app Integrity on Android.",
       "notFound": false,
