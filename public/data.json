@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-08-15T18:02:03.595Z",
+  "generatedAt": "2026-08-16T00:03:51.016Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
-      "totalDownloads": 4643098,
+      "totalDownloads": 4642211,
       "monthlyDownloads": [
         {
           "month": "2025-02",
-          "downloads": 66766
+          "downloads": 65879
         },
         {
           "month": "2025-03",
@@ -171,11 +171,11 @@
     },
     {
       "name": "@bam.tech/react-native-app-security",
-      "totalDownloads": 441479,
+      "totalDownloads": 441420,
       "monthlyDownloads": [
         {
           "month": "2025-02",
-          "downloads": 3699
+          "downloads": 3640
         },
         {
           "month": "2025-03",
@@ -255,11 +255,11 @@
     },
     {
       "name": "@bam.tech/react-native-make",
-      "totalDownloads": 443870,
+      "totalDownloads": 443709,
       "monthlyDownloads": [
         {
           "month": "2025-02",
-          "downloads": 7163
+          "downloads": 7002
         },
         {
           "month": "2025-03",
@@ -339,11 +339,11 @@
     },
     {
       "name": "@bam.tech/eslint-plugin",
-      "totalDownloads": 139648,
+      "totalDownloads": 139599,
       "monthlyDownloads": [
         {
           "month": "2025-02",
-          "downloads": 3263
+          "downloads": 3214
         },
         {
           "month": "2025-03",
@@ -423,11 +423,11 @@
     },
     {
       "name": "@bam.tech/react-native-config",
-      "totalDownloads": 77032,
+      "totalDownloads": 77031,
       "monthlyDownloads": [
         {
           "month": "2025-02",
-          "downloads": 1487
+          "downloads": 1486
         },
         {
           "month": "2025-03",
@@ -507,11 +507,11 @@
     },
     {
       "name": "@bam.tech/react-native-keyevent-expo-config-plugin",
-      "totalDownloads": 58509,
+      "totalDownloads": 58504,
       "monthlyDownloads": [
         {
           "month": "2025-02",
-          "downloads": 788
+          "downloads": 783
         },
         {
           "month": "2025-03",
@@ -591,11 +591,11 @@
     },
     {
       "name": "@bam.tech/lrud",
-      "totalDownloads": 94098,
+      "totalDownloads": 94092,
       "monthlyDownloads": [
         {
           "month": "2025-02",
-          "downloads": 600
+          "downloads": 594
         },
         {
           "month": "2025-03",
@@ -675,11 +675,11 @@
     },
     {
       "name": "@bam.tech/flow-navigator",
-      "totalDownloads": 112939,
+      "totalDownloads": 112938,
       "monthlyDownloads": [
         {
           "month": "2025-02",
-          "downloads": 639
+          "downloads": 638
         },
         {
           "month": "2025-03",
@@ -759,11 +759,11 @@
     },
     {
       "name": "@bam.tech/react-native-graphql-transformer",
-      "totalDownloads": 40141,
+      "totalDownloads": 40130,
       "monthlyDownloads": [
         {
           "month": "2025-02",
-          "downloads": 1829
+          "downloads": 1818
         },
         {
           "month": "2025-03",
@@ -1011,11 +1011,11 @@
     },
     {
       "name": "react-native-performance",
-      "totalDownloads": 14580020,
+      "totalDownloads": 14566987,
       "monthlyDownloads": [
         {
           "month": "2025-02",
-          "downloads": 270849
+          "downloads": 257816
         },
         {
           "month": "2025-03",
@@ -1095,11 +1095,11 @@
     },
     {
       "name": "react-native-image-resizer",
-      "totalDownloads": 2921464,
+      "totalDownloads": 2920498,
       "monthlyDownloads": [
         {
           "month": "2025-02",
-          "downloads": 72136
+          "downloads": 71170
         },
         {
           "month": "2025-03",
@@ -1179,11 +1179,11 @@
     },
     {
       "name": "react-native-hide-with-keyboard",
-      "totalDownloads": 140223,
+      "totalDownloads": 140180,
       "monthlyDownloads": [
         {
           "month": "2025-02",
-          "downloads": 4914
+          "downloads": 4871
         },
         {
           "month": "2025-03",
@@ -1263,11 +1263,11 @@
     },
     {
       "name": "react-native-image-header-scroll-view",
-      "totalDownloads": 130552,
+      "totalDownloads": 130524,
       "monthlyDownloads": [
         {
           "month": "2025-02",
-          "downloads": 2027
+          "downloads": 1999
         },
         {
           "month": "2025-03",
@@ -1347,11 +1347,11 @@
     },
     {
       "name": "generator-rn-toolbox",
-      "totalDownloads": 89182,
+      "totalDownloads": 89113,
       "monthlyDownloads": [
         {
           "month": "2025-02",
-          "downloads": 1998
+          "downloads": 1929
         },
         {
           "month": "2025-03",
@@ -1431,11 +1431,11 @@
     },
     {
       "name": "react-native-make",
-      "totalDownloads": 72973,
+      "totalDownloads": 72948,
       "monthlyDownloads": [
         {
           "month": "2025-02",
-          "downloads": 611
+          "downloads": 586
         },
         {
           "month": "2025-03",
@@ -1515,11 +1515,11 @@
     },
     {
       "name": "redux-enhancer-react-native-appstate",
-      "totalDownloads": 88138,
+      "totalDownloads": 88106,
       "monthlyDownloads": [
         {
           "month": "2025-02",
-          "downloads": 1799
+          "downloads": 1767
         },
         {
           "month": "2025-03",
@@ -1599,11 +1599,11 @@
     },
     {
       "name": "react-tv-space-navigation",
-      "totalDownloads": 90449,
+      "totalDownloads": 90435,
       "monthlyDownloads": [
         {
           "month": "2025-02",
-          "downloads": 806
+          "downloads": 792
         },
         {
           "month": "2025-03",
@@ -1683,11 +1683,11 @@
     },
     {
       "name": "react-native-formik",
-      "totalDownloads": 175021,
+      "totalDownloads": 174979,
       "monthlyDownloads": [
         {
           "month": "2025-02",
-          "downloads": 4936
+          "downloads": 4894
         },
         {
           "month": "2025-03",
@@ -2019,11 +2019,11 @@
     },
     {
       "name": "react-redux-toolbox",
-      "totalDownloads": 38076,
+      "totalDownloads": 38050,
       "monthlyDownloads": [
         {
           "month": "2025-02",
-          "downloads": 854
+          "downloads": 828
         },
         {
           "month": "2025-03",
@@ -2958,7 +2958,7 @@
     },
     {
       "name": "init",
-      "totalDownloads": 19569,
+      "totalDownloads": 19602,
       "monthlyDownloads": [
         {
           "month": "2025-08",
@@ -2966,50 +2966,50 @@
         },
         {
           "month": "2025-09",
-          "downloads": 383
+          "downloads": 386
         },
         {
           "month": "2025-10",
-          "downloads": 469
+          "downloads": 470
         },
         {
           "month": "2025-11",
-          "downloads": 1905
+          "downloads": 1526
         },
         {
           "month": "2025-12",
-          "downloads": 1095
+          "downloads": 1476
         },
         {
           "month": "2026-01",
-          "downloads": 500
+          "downloads": 509
         },
         {
           "month": "2026-02",
-          "downloads": 427
+          "downloads": 416
         },
         {
           "month": "2026-03",
-          "downloads": 1484
+          "downloads": 1614
         },
         {
           "month": "2026-04",
-          "downloads": 3026
+          "downloads": 2892
         },
         {
           "month": "2026-05",
-          "downloads": 3950
+          "downloads": 2921
         },
         {
           "month": "2026-06",
-          "downloads": 3682
+          "downloads": 4847
         },
         {
           "month": "2026-07",
-          "downloads": 2648
+          "downloads": 2545
         }
       ],
-      "momGrowthPct": -28.082563824008687,
+      "momGrowthPct": -47.493294821539095,
       "isGrowing": false,
       "stars": 1,
       "description": "Init widget to execute initialization methods declaratively",
@@ -3019,58 +3019,58 @@
     },
     {
       "name": "app_attest_integrity",
-      "totalDownloads": 2071,
+      "totalDownloads": 2098,
       "monthlyDownloads": [
         {
           "month": "2025-08",
-          "downloads": 116
+          "downloads": 106
         },
         {
           "month": "2025-09",
-          "downloads": 177
+          "downloads": 190
         },
         {
           "month": "2025-10",
-          "downloads": 46
+          "downloads": 43
         },
         {
           "month": "2025-11",
-          "downloads": 45
+          "downloads": 37
         },
         {
           "month": "2025-12",
-          "downloads": 23
+          "downloads": 31
         },
         {
           "month": "2026-01",
-          "downloads": 140
+          "downloads": 162
         },
         {
           "month": "2026-02",
-          "downloads": 142
+          "downloads": 121
         },
         {
           "month": "2026-03",
-          "downloads": 119
+          "downloads": 120
         },
         {
           "month": "2026-04",
-          "downloads": 113
+          "downloads": 114
         },
         {
           "month": "2026-05",
-          "downloads": 209
+          "downloads": 166
         },
         {
           "month": "2026-06",
-          "downloads": 320
+          "downloads": 379
         },
         {
           "month": "2026-07",
-          "downloads": 621
+          "downloads": 629
         }
       ],
-      "momGrowthPct": 94.0625,
+      "momGrowthPct": 65.96306068601582,
       "isGrowing": true,
       "stars": 5,
       "description": "A Flutter plugin to assess an app integrity. Uses App attest on iOS and app Integrity on Android.",
