@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T06:04:28.524Z",
+  "generatedAt": "2026-08-16T12:02:28.707Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2901,11 +2901,11 @@
       "monthlyDownloads": [
         {
           "month": "2025-08",
-          "downloads": 415
+          "downloads": 425
         },
         {
           "month": "2025-09",
-          "downloads": 1073
+          "downloads": 1063
         },
         {
           "month": "2025-10",
@@ -2913,11 +2913,11 @@
         },
         {
           "month": "2025-11",
-          "downloads": 2342
+          "downloads": 2372
         },
         {
           "month": "2025-12",
-          "downloads": 2039
+          "downloads": 2009
         },
         {
           "month": "2026-01",
@@ -2925,30 +2925,30 @@
         },
         {
           "month": "2026-02",
-          "downloads": 789
+          "downloads": 842
         },
         {
           "month": "2026-03",
-          "downloads": 2325
+          "downloads": 2278
         },
         {
           "month": "2026-04",
-          "downloads": 2966
+          "downloads": 2960
         },
         {
           "month": "2026-05",
-          "downloads": 2972
+          "downloads": 2974
         },
         {
           "month": "2026-06",
-          "downloads": 5015
+          "downloads": 5013
         },
         {
           "month": "2026-07",
           "downloads": 2648
         }
       ],
-      "momGrowthPct": -47.19840478564307,
+      "momGrowthPct": -47.17733891881109,
       "isGrowing": false,
       "stars": 2,
       "description": "Lint and dcm rules for Dart and Flutter used internally at Theodo Apps.",
@@ -3202,7 +3202,7 @@
     },
     {
       "name": "flutter_milibris",
-      "totalDownloads": 11812,
+      "totalDownloads": 11813,
       "monthlyDownloads": [
         {
           "month": "2025-08",
@@ -3234,26 +3234,26 @@
         },
         {
           "month": "2026-03",
-          "downloads": 852
+          "downloads": 866
         },
         {
           "month": "2026-04",
-          "downloads": 2574
+          "downloads": 2560
         },
         {
           "month": "2026-05",
-          "downloads": 2691
+          "downloads": 2701
         },
         {
           "month": "2026-06",
-          "downloads": 3810
+          "downloads": 3800
         },
         {
           "month": "2026-07",
-          "downloads": 1885
+          "downloads": 1886
         }
       ],
-      "momGrowthPct": -50.5249343832021,
+      "momGrowthPct": -50.368421052631575,
       "isGrowing": false,
       "stars": 0,
       "description": "A Flutter plugin that bridges Milibris SDKs, enabling encrypted archive",
@@ -3332,19 +3332,19 @@
         },
         {
           "month": "2025-09",
-          "downloads": 537
+          "downloads": 538
         },
         {
           "month": "2025-10",
-          "downloads": 401
+          "downloads": 400
         },
         {
           "month": "2025-11",
-          "downloads": 1509
+          "downloads": 1539
         },
         {
           "month": "2025-12",
-          "downloads": 1349
+          "downloads": 1319
         },
         {
           "month": "2026-01",
@@ -3356,11 +3356,11 @@
         },
         {
           "month": "2026-03",
-          "downloads": 652
+          "downloads": 653
         },
         {
           "month": "2026-04",
-          "downloads": 279
+          "downloads": 278
         },
         {
           "month": "2026-05",
@@ -3368,81 +3368,20 @@
         },
         {
           "month": "2026-06",
-          "downloads": 1332
+          "downloads": 1362
         },
         {
           "month": "2026-07",
-          "downloads": 714
+          "downloads": 684
         }
       ],
-      "momGrowthPct": -46.3963963963964,
+      "momGrowthPct": -49.77973568281938,
       "isGrowing": false,
       "stars": 4,
       "description": "This package allows you to use the methods from the lyra android and ios native sdks in Flutter",
       "notFound": false,
       "ecosystem": "pub",
       "publishedAt": "2022-11-03T14:23:30.800535Z"
-    },
-    {
-      "name": "equatable_lint",
-      "totalDownloads": 1867,
-      "monthlyDownloads": [
-        {
-          "month": "2025-08",
-          "downloads": 83
-        },
-        {
-          "month": "2025-09",
-          "downloads": 306
-        },
-        {
-          "month": "2025-10",
-          "downloads": 116
-        },
-        {
-          "month": "2025-11",
-          "downloads": 122
-        },
-        {
-          "month": "2025-12",
-          "downloads": 281
-        },
-        {
-          "month": "2026-01",
-          "downloads": 91
-        },
-        {
-          "month": "2026-02",
-          "downloads": 148
-        },
-        {
-          "month": "2026-03",
-          "downloads": 149
-        },
-        {
-          "month": "2026-04",
-          "downloads": 96
-        },
-        {
-          "month": "2026-05",
-          "downloads": 134
-        },
-        {
-          "month": "2026-06",
-          "downloads": 173
-        },
-        {
-          "month": "2026-07",
-          "downloads": 168
-        }
-      ],
-      "momGrowthPct": -2.8901734104046244,
-      "isGrowing": false,
-      "stars": 6,
-      "description": "This is a set of rules to make classes using Equatable more maintainable. We make sure here that every fields in an Equatable class is linked to the Equatable props getter.",
-      "notFound": false,
-      "ecosystem": "pub",
-      "publishedAt": "2022-10-09T10:19:32.928925Z"
     },
     {
       "name": "go_router_url_watcher",
@@ -3504,6 +3443,67 @@
       "notFound": false,
       "ecosystem": "pub",
       "publishedAt": "2026-06-22T15:39:24.024032Z"
+    },
+    {
+      "name": "equatable_lint",
+      "totalDownloads": 1867,
+      "monthlyDownloads": [
+        {
+          "month": "2025-08",
+          "downloads": 83
+        },
+        {
+          "month": "2025-09",
+          "downloads": 306
+        },
+        {
+          "month": "2025-10",
+          "downloads": 116
+        },
+        {
+          "month": "2025-11",
+          "downloads": 122
+        },
+        {
+          "month": "2025-12",
+          "downloads": 281
+        },
+        {
+          "month": "2026-01",
+          "downloads": 93
+        },
+        {
+          "month": "2026-02",
+          "downloads": 146
+        },
+        {
+          "month": "2026-03",
+          "downloads": 151
+        },
+        {
+          "month": "2026-04",
+          "downloads": 94
+        },
+        {
+          "month": "2026-05",
+          "downloads": 137
+        },
+        {
+          "month": "2026-06",
+          "downloads": 170
+        },
+        {
+          "month": "2026-07",
+          "downloads": 168
+        }
+      ],
+      "momGrowthPct": -1.1764705882352942,
+      "isGrowing": false,
+      "stars": 6,
+      "description": "This is a set of rules to make classes using Equatable more maintainable. We make sure here that every fields in an Equatable class is linked to the Equatable props getter.",
+      "notFound": false,
+      "ecosystem": "pub",
+      "publishedAt": "2022-10-09T10:19:32.928925Z"
     }
   ]
 }
