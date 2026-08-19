@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T00:04:19.792Z",
+  "generatedAt": "2026-08-19T06:05:26.170Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -3141,58 +3141,58 @@
     },
     {
       "name": "flutter_reach_five",
-      "totalDownloads": 8267,
+      "totalDownloads": 8272,
       "monthlyDownloads": [
         {
           "month": "2025-08",
-          "downloads": 104
+          "downloads": 77
         },
         {
           "month": "2025-09",
-          "downloads": 504
+          "downloads": 401
         },
         {
           "month": "2025-10",
-          "downloads": 403
+          "downloads": 509
         },
         {
           "month": "2025-11",
-          "downloads": 1438
+          "downloads": 1463
         },
         {
           "month": "2025-12",
-          "downloads": 1325
+          "downloads": 1269
         },
         {
           "month": "2026-01",
-          "downloads": 229
+          "downloads": 280
         },
         {
           "month": "2026-02",
-          "downloads": 317
+          "downloads": 295
         },
         {
           "month": "2026-03",
-          "downloads": 374
+          "downloads": 299
         },
         {
           "month": "2026-04",
-          "downloads": 424
+          "downloads": 501
         },
         {
           "month": "2026-05",
-          "downloads": 281
+          "downloads": 320
         },
         {
           "month": "2026-06",
-          "downloads": 2146
+          "downloads": 1805
         },
         {
           "month": "2026-07",
-          "downloads": 722
+          "downloads": 1053
         }
       ],
-      "momGrowthPct": -66.35601118359739,
+      "momGrowthPct": -41.662049861495845,
       "isGrowing": false,
       "stars": 3,
       "description": "This package allows you to use the methods from the reachFive android and ios native sdks in Flutter",
