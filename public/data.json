@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T12:05:23.699Z",
+  "generatedAt": "2026-08-20T18:05:31.246Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2775,58 +2775,58 @@
     },
     {
       "name": "riverpod_community_extensions",
-      "totalDownloads": 18883,
+      "totalDownloads": 18893,
       "monthlyDownloads": [
         {
           "month": "2025-08",
-          "downloads": 113
+          "downloads": 91
         },
         {
           "month": "2025-09",
-          "downloads": 594
+          "downloads": 662
         },
         {
           "month": "2025-10",
-          "downloads": 1009
+          "downloads": 969
         },
         {
           "month": "2025-11",
-          "downloads": 1790
+          "downloads": 1888
         },
         {
           "month": "2025-12",
-          "downloads": 1581
+          "downloads": 1476
         },
         {
           "month": "2026-01",
-          "downloads": 841
+          "downloads": 862
         },
         {
           "month": "2026-02",
-          "downloads": 719
+          "downloads": 721
         },
         {
           "month": "2026-03",
-          "downloads": 838
+          "downloads": 830
         },
         {
           "month": "2026-04",
-          "downloads": 1096
+          "downloads": 1004
         },
         {
           "month": "2026-05",
-          "downloads": 2432
+          "downloads": 2816
         },
         {
           "month": "2026-06",
-          "downloads": 4345
+          "downloads": 4154
         },
         {
           "month": "2026-07",
-          "downloads": 3525
+          "downloads": 3420
         }
       ],
-      "momGrowthPct": -18.8722669735328,
+      "momGrowthPct": -17.6697159364468,
       "isGrowing": false,
       "stars": 10,
       "description": "Extends Riverpod ref types with additional helpers, to easily add common functionalities to your providers.",
