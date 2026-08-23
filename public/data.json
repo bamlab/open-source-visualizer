@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T12:03:12.049Z",
+  "generatedAt": "2026-08-23T18:02:12.365Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -3080,7 +3080,7 @@
     },
     {
       "name": "flutter_reach_five",
-      "totalDownloads": 8198,
+      "totalDownloads": 8199,
       "monthlyDownloads": [
         {
           "month": "2025-08",
@@ -3108,19 +3108,19 @@
         },
         {
           "month": "2026-02",
-          "downloads": 297
+          "downloads": 317
         },
         {
           "month": "2026-03",
-          "downloads": 393
+          "downloads": 374
         },
         {
           "month": "2026-04",
-          "downloads": 422
+          "downloads": 424
         },
         {
           "month": "2026-05",
-          "downloads": 284
+          "downloads": 281
         },
         {
           "month": "2026-06",
@@ -3128,10 +3128,10 @@
         },
         {
           "month": "2026-07",
-          "downloads": 721
+          "downloads": 722
         }
       ],
-      "momGrowthPct": -66.40260950605779,
+      "momGrowthPct": -66.35601118359739,
       "isGrowing": false,
       "stars": 3,
       "description": "This package allows you to use the methods from the reachFive android and ios native sdks in Flutter",
@@ -3202,7 +3202,7 @@
     },
     {
       "name": "flutter_milibris",
-      "totalDownloads": 11812,
+      "totalDownloads": 11813,
       "monthlyDownloads": [
         {
           "month": "2025-08",
@@ -3234,26 +3234,26 @@
         },
         {
           "month": "2026-03",
-          "downloads": 852
+          "downloads": 866
         },
         {
           "month": "2026-04",
-          "downloads": 2574
+          "downloads": 2560
         },
         {
           "month": "2026-05",
-          "downloads": 2691
+          "downloads": 2701
         },
         {
           "month": "2026-06",
-          "downloads": 3810
+          "downloads": 3800
         },
         {
           "month": "2026-07",
-          "downloads": 1885
+          "downloads": 1886
         }
       ],
-      "momGrowthPct": -50.5249343832021,
+      "momGrowthPct": -50.368421052631575,
       "isGrowing": false,
       "stars": 0,
       "description": "A Flutter plugin that bridges Milibris SDKs, enabling encrypted archive",
