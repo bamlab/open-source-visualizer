@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T06:08:53.530Z",
+  "generatedAt": "2026-08-24T12:04:56.426Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -3019,7 +3019,7 @@
     },
     {
       "name": "app_attest_integrity",
-      "totalDownloads": 2098,
+      "totalDownloads": 2115,
       "monthlyDownloads": [
         {
           "month": "2025-08",
@@ -3027,11 +3027,11 @@
         },
         {
           "month": "2025-09",
-          "downloads": 190
+          "downloads": 191
         },
         {
           "month": "2025-10",
-          "downloads": 43
+          "downloads": 42
         },
         {
           "month": "2025-11",
@@ -3043,15 +3043,15 @@
         },
         {
           "month": "2026-01",
-          "downloads": 162
+          "downloads": 186
         },
         {
           "month": "2026-02",
-          "downloads": 121
+          "downloads": 98
         },
         {
           "month": "2026-03",
-          "downloads": 120
+          "downloads": 121
         },
         {
           "month": "2026-04",
@@ -3059,18 +3059,18 @@
         },
         {
           "month": "2026-05",
-          "downloads": 166
+          "downloads": 167
         },
         {
           "month": "2026-06",
-          "downloads": 379
+          "downloads": 390
         },
         {
           "month": "2026-07",
-          "downloads": 629
+          "downloads": 632
         }
       ],
-      "momGrowthPct": 65.96306068601582,
+      "momGrowthPct": 62.05128205128205,
       "isGrowing": true,
       "stars": 5,
       "description": "A Flutter plugin to assess an app integrity. Uses App attest on iOS and app Integrity on Android.",
@@ -3161,7 +3161,7 @@
         },
         {
           "month": "2025-12",
-          "downloads": 38
+          "downloads": 39
         },
         {
           "month": "2026-01",
@@ -3169,30 +3169,30 @@
         },
         {
           "month": "2026-02",
-          "downloads": 69
+          "downloads": 68
         },
         {
           "month": "2026-03",
-          "downloads": 104
+          "downloads": 105
         },
         {
           "month": "2026-04",
-          "downloads": 63
+          "downloads": 64
         },
         {
           "month": "2026-05",
-          "downloads": 78
+          "downloads": 77
         },
         {
           "month": "2026-06",
-          "downloads": 1121
+          "downloads": 1120
         },
         {
           "month": "2026-07",
           "downloads": 1868
         }
       ],
-      "momGrowthPct": 66.63693131132918,
+      "momGrowthPct": 66.78571428571428,
       "isGrowing": true,
       "stars": 155,
       "description": "A DB cache store implementation with mmkv for dio_cache_interceptor and http_cache_client packages.",
@@ -3263,11 +3263,11 @@
     },
     {
       "name": "riverpod_community_mutation",
-      "totalDownloads": 3531,
+      "totalDownloads": 3519,
       "monthlyDownloads": [
         {
           "month": "2025-08",
-          "downloads": 85
+          "downloads": 73
         },
         {
           "month": "2025-09",
@@ -3291,11 +3291,11 @@
         },
         {
           "month": "2026-02",
-          "downloads": 481
+          "downloads": 483
         },
         {
           "month": "2026-03",
-          "downloads": 243
+          "downloads": 242
         },
         {
           "month": "2026-04",
@@ -3303,7 +3303,7 @@
         },
         {
           "month": "2026-05",
-          "downloads": 150
+          "downloads": 149
         },
         {
           "month": "2026-06",
@@ -3332,19 +3332,19 @@
         },
         {
           "month": "2025-09",
-          "downloads": 537
+          "downloads": 538
         },
         {
           "month": "2025-10",
-          "downloads": 401
+          "downloads": 400
         },
         {
           "month": "2025-11",
-          "downloads": 1509
+          "downloads": 1539
         },
         {
           "month": "2025-12",
-          "downloads": 1349
+          "downloads": 1319
         },
         {
           "month": "2026-01",
@@ -3356,11 +3356,11 @@
         },
         {
           "month": "2026-03",
-          "downloads": 652
+          "downloads": 653
         },
         {
           "month": "2026-04",
-          "downloads": 279
+          "downloads": 278
         },
         {
           "month": "2026-05",
@@ -3368,81 +3368,20 @@
         },
         {
           "month": "2026-06",
-          "downloads": 1332
+          "downloads": 1362
         },
         {
           "month": "2026-07",
-          "downloads": 714
+          "downloads": 684
         }
       ],
-      "momGrowthPct": -46.3963963963964,
+      "momGrowthPct": -49.77973568281938,
       "isGrowing": false,
       "stars": 4,
       "description": "This package allows you to use the methods from the lyra android and ios native sdks in Flutter",
       "notFound": false,
       "ecosystem": "pub",
       "publishedAt": "2022-11-03T14:23:30.800535Z"
-    },
-    {
-      "name": "equatable_lint",
-      "totalDownloads": 1819,
-      "monthlyDownloads": [
-        {
-          "month": "2025-08",
-          "downloads": 35
-        },
-        {
-          "month": "2025-09",
-          "downloads": 306
-        },
-        {
-          "month": "2025-10",
-          "downloads": 116
-        },
-        {
-          "month": "2025-11",
-          "downloads": 122
-        },
-        {
-          "month": "2025-12",
-          "downloads": 281
-        },
-        {
-          "month": "2026-01",
-          "downloads": 93
-        },
-        {
-          "month": "2026-02",
-          "downloads": 146
-        },
-        {
-          "month": "2026-03",
-          "downloads": 151
-        },
-        {
-          "month": "2026-04",
-          "downloads": 94
-        },
-        {
-          "month": "2026-05",
-          "downloads": 137
-        },
-        {
-          "month": "2026-06",
-          "downloads": 170
-        },
-        {
-          "month": "2026-07",
-          "downloads": 168
-        }
-      ],
-      "momGrowthPct": -1.1764705882352942,
-      "isGrowing": false,
-      "stars": 6,
-      "description": "This is a set of rules to make classes using Equatable more maintainable. We make sure here that every fields in an Equatable class is linked to the Equatable props getter.",
-      "notFound": false,
-      "ecosystem": "pub",
-      "publishedAt": "2022-10-09T10:19:32.928925Z"
     },
     {
       "name": "go_router_url_watcher",
@@ -3504,6 +3443,67 @@
       "notFound": false,
       "ecosystem": "pub",
       "publishedAt": "2026-06-22T15:39:24.024032Z"
+    },
+    {
+      "name": "equatable_lint",
+      "totalDownloads": 1819,
+      "monthlyDownloads": [
+        {
+          "month": "2025-08",
+          "downloads": 35
+        },
+        {
+          "month": "2025-09",
+          "downloads": 306
+        },
+        {
+          "month": "2025-10",
+          "downloads": 116
+        },
+        {
+          "month": "2025-11",
+          "downloads": 122
+        },
+        {
+          "month": "2025-12",
+          "downloads": 281
+        },
+        {
+          "month": "2026-01",
+          "downloads": 93
+        },
+        {
+          "month": "2026-02",
+          "downloads": 146
+        },
+        {
+          "month": "2026-03",
+          "downloads": 151
+        },
+        {
+          "month": "2026-04",
+          "downloads": 94
+        },
+        {
+          "month": "2026-05",
+          "downloads": 137
+        },
+        {
+          "month": "2026-06",
+          "downloads": 170
+        },
+        {
+          "month": "2026-07",
+          "downloads": 168
+        }
+      ],
+      "momGrowthPct": -1.1764705882352942,
+      "isGrowing": false,
+      "stars": 6,
+      "description": "This is a set of rules to make classes using Equatable more maintainable. We make sure here that every fields in an Equatable class is linked to the Equatable props getter.",
+      "notFound": false,
+      "ecosystem": "pub",
+      "publishedAt": "2022-10-09T10:19:32.928925Z"
     }
   ]
 }
