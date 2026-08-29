@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T00:05:58.931Z",
+  "generatedAt": "2026-08-29T06:03:53.671Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -1036,7 +1036,7 @@
       ],
       "momGrowthPct": -14.616438188988573,
       "isGrowing": false,
-      "stars": 1055,
+      "stars": 1056,
       "description": "Measure React Native performance",
       "notFound": false,
       "ecosystem": "npm"
