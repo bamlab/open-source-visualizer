@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T06:04:04.943Z",
+  "generatedAt": "2026-08-30T12:03:09.373Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -3160,59 +3160,55 @@
     },
     {
       "name": "flutter_lyra",
-      "totalDownloads": 7583,
+      "totalDownloads": 7585,
       "monthlyDownloads": [
         {
-          "month": "2025-08",
-          "downloads": 2
-        },
-        {
           "month": "2025-09",
-          "downloads": 484
+          "downloads": 537
         },
         {
           "month": "2025-10",
-          "downloads": 452
+          "downloads": 401
         },
         {
           "month": "2025-11",
-          "downloads": 1773
+          "downloads": 1509
         },
         {
           "month": "2025-12",
-          "downloads": 1084
+          "downloads": 1349
         },
         {
           "month": "2026-01",
-          "downloads": 271
+          "downloads": 225
         },
         {
           "month": "2026-02",
-          "downloads": 313
+          "downloads": 263
         },
         {
           "month": "2026-03",
-          "downloads": 514
+          "downloads": 652
         },
         {
           "month": "2026-04",
-          "downloads": 318
+          "downloads": 279
         },
         {
           "month": "2026-05",
-          "downloads": 591
+          "downloads": 324
         },
         {
           "month": "2026-06",
-          "downloads": 813
+          "downloads": 1332
         },
         {
           "month": "2026-07",
-          "downloads": 968
+          "downloads": 714
         }
       ],
-      "momGrowthPct": 19.06519065190652,
-      "isGrowing": true,
+      "momGrowthPct": -46.3963963963964,
+      "isGrowing": false,
       "stars": 4,
       "description": "This package allows you to use the methods from the lyra android and ios native sdks in Flutter",
       "notFound": false,
@@ -3221,31 +3217,27 @@
     },
     {
       "name": "equatable_lint",
-      "totalDownloads": 1754,
+      "totalDownloads": 1784,
       "monthlyDownloads": [
         {
-          "month": "2025-08",
-          "downloads": 22
-        },
-        {
           "month": "2025-09",
-          "downloads": 275
+          "downloads": 306
         },
         {
           "month": "2025-10",
-          "downloads": 127
+          "downloads": 116
         },
         {
           "month": "2025-11",
-          "downloads": 160
+          "downloads": 122
         },
         {
           "month": "2025-12",
-          "downloads": 246
+          "downloads": 281
         },
         {
           "month": "2026-01",
-          "downloads": 106
+          "downloads": 91
         },
         {
           "month": "2026-02",
@@ -3253,26 +3245,26 @@
         },
         {
           "month": "2026-03",
-          "downloads": 134
+          "downloads": 149
         },
         {
           "month": "2026-04",
-          "downloads": 95
+          "downloads": 96
         },
         {
           "month": "2026-05",
-          "downloads": 150
+          "downloads": 134
         },
         {
           "month": "2026-06",
-          "downloads": 159
+          "downloads": 173
         },
         {
           "month": "2026-07",
-          "downloads": 132
+          "downloads": 168
         }
       ],
-      "momGrowthPct": -16.9811320754717,
+      "momGrowthPct": -2.8901734104046244,
       "isGrowing": false,
       "stars": 6,
       "description": "This is a set of rules to make classes using Equatable more maintainable. We make sure here that every fields in an Equatable class is linked to the Equatable props getter.",
