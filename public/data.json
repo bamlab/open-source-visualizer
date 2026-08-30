@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T12:03:09.373Z",
+  "generatedAt": "2026-08-30T18:02:36.482Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2814,43 +2814,43 @@
     },
     {
       "name": "init",
-      "totalDownloads": 19602,
+      "totalDownloads": 19604,
       "monthlyDownloads": [
         {
           "month": "2025-09",
-          "downloads": 386
+          "downloads": 387
         },
         {
           "month": "2025-10",
-          "downloads": 470
+          "downloads": 472
         },
         {
           "month": "2025-11",
-          "downloads": 1526
+          "downloads": 1528
         },
         {
           "month": "2025-12",
-          "downloads": 1476
+          "downloads": 1474
         },
         {
           "month": "2026-01",
-          "downloads": 509
+          "downloads": 515
         },
         {
           "month": "2026-02",
-          "downloads": 416
+          "downloads": 412
         },
         {
           "month": "2026-03",
-          "downloads": 1614
+          "downloads": 1615
         },
         {
           "month": "2026-04",
-          "downloads": 2892
+          "downloads": 2887
         },
         {
           "month": "2026-05",
-          "downloads": 2921
+          "downloads": 2923
         },
         {
           "month": "2026-06",
@@ -2858,10 +2858,10 @@
         },
         {
           "month": "2026-07",
-          "downloads": 2545
+          "downloads": 2544
         }
       ],
-      "momGrowthPct": -47.493294821539095,
+      "momGrowthPct": -47.51392613988033,
       "isGrowing": false,
       "stars": 1,
       "description": "Init widget to execute initialization methods declaratively",
@@ -2985,12 +2985,8 @@
     },
     {
       "name": "flutter_milibris",
-      "totalDownloads": 11704,
+      "totalDownloads": 11812,
       "monthlyDownloads": [
-        {
-          "month": "2025-08",
-          "downloads": 0
-        },
         {
           "month": "2025-09",
           "downloads": 0
@@ -3017,26 +3013,26 @@
         },
         {
           "month": "2026-03",
-          "downloads": 499
+          "downloads": 852
         },
         {
           "month": "2026-04",
-          "downloads": 2850
+          "downloads": 2574
         },
         {
           "month": "2026-05",
-          "downloads": 3306
+          "downloads": 2691
         },
         {
           "month": "2026-06",
-          "downloads": 3208
+          "downloads": 3810
         },
         {
           "month": "2026-07",
-          "downloads": 1841
+          "downloads": 1885
         }
       ],
-      "momGrowthPct": -42.61221945137157,
+      "momGrowthPct": -50.5249343832021,
       "isGrowing": false,
       "stars": 0,
       "description": "A Flutter plugin that bridges Milibris SDKs, enabling encrypted archive",
