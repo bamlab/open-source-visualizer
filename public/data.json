@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T00:07:48.340Z",
+  "generatedAt": "2026-09-01T06:04:28.305Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -255,7 +255,7 @@
     },
     {
       "name": "@bam.tech/react-native-make",
-      "totalDownloads": 443962,
+      "totalDownloads": 444162,
       "monthlyDownloads": [
         {
           "month": "2025-03",
@@ -327,10 +327,10 @@
         },
         {
           "month": "2026-08",
-          "downloads": 37069
+          "downloads": 37269
         }
       ],
-      "momGrowthPct": -37.42466955890545,
+      "momGrowthPct": -37.087054136632965,
       "isGrowing": false,
       "stars": 759,
       "description": "Everyday tools for simpler React Native development",
