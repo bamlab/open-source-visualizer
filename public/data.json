@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T12:03:47.806Z",
+  "generatedAt": "2026-09-01T18:03:30.755Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2897,58 +2897,58 @@
     },
     {
       "name": "theodo_analysis",
-      "totalDownloads": 26598,
+      "totalDownloads": 26585,
       "monthlyDownloads": [
         {
           "month": "2025-09",
-          "downloads": 1063
+          "downloads": 715
         },
         {
           "month": "2025-10",
-          "downloads": 1460
+          "downloads": 1796
         },
         {
           "month": "2025-11",
-          "downloads": 2372
+          "downloads": 2408
         },
         {
           "month": "2025-12",
-          "downloads": 2009
+          "downloads": 1970
         },
         {
           "month": "2026-01",
-          "downloads": 662
+          "downloads": 661
         },
         {
           "month": "2026-02",
-          "downloads": 842
+          "downloads": 869
         },
         {
           "month": "2026-03",
-          "downloads": 2278
+          "downloads": 1580
         },
         {
           "month": "2026-04",
-          "downloads": 2960
+          "downloads": 3631
         },
         {
           "month": "2026-05",
-          "downloads": 2974
+          "downloads": 2979
         },
         {
           "month": "2026-06",
-          "downloads": 5013
+          "downloads": 4132
         },
         {
           "month": "2026-07",
-          "downloads": 2648
+          "downloads": 3524
         },
         {
           "month": "2026-08",
-          "downloads": 2317
+          "downloads": 2320
         }
       ],
-      "momGrowthPct": -12.5,
+      "momGrowthPct": -34.165720771850175,
       "isGrowing": false,
       "stars": 2,
       "description": "Lint and dcm rules for Dart and Flutter used internally at Theodo Apps.",
@@ -3019,58 +3019,58 @@
     },
     {
       "name": "app_attest_integrity",
-      "totalDownloads": 2445,
+      "totalDownloads": 2454,
       "monthlyDownloads": [
         {
           "month": "2025-09",
-          "downloads": 191
+          "downloads": 177
         },
         {
           "month": "2025-10",
-          "downloads": 42
+          "downloads": 59
         },
         {
           "month": "2025-11",
-          "downloads": 37
+          "downloads": 36
         },
         {
           "month": "2025-12",
-          "downloads": 31
+          "downloads": 32
         },
         {
           "month": "2026-01",
-          "downloads": 186
+          "downloads": 216
         },
         {
           "month": "2026-02",
-          "downloads": 98
+          "downloads": 66
         },
         {
           "month": "2026-03",
-          "downloads": 121
+          "downloads": 100
         },
         {
           "month": "2026-04",
-          "downloads": 114
+          "downloads": 138
         },
         {
           "month": "2026-05",
-          "downloads": 167
+          "downloads": 168
         },
         {
           "month": "2026-06",
-          "downloads": 390
+          "downloads": 298
         },
         {
           "month": "2026-07",
-          "downloads": 632
+          "downloads": 750
         },
         {
           "month": "2026-08",
-          "downloads": 436
+          "downloads": 414
         }
       ],
-      "momGrowthPct": -31.0126582278481,
+      "momGrowthPct": -44.800000000000004,
       "isGrowing": false,
       "stars": 5,
       "description": "A Flutter plugin to assess an app integrity. Uses App attest on iOS and app Integrity on Android.",
