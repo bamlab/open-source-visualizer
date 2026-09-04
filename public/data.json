@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T12:03:42.030Z",
+  "generatedAt": "2026-09-04T18:02:53.198Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -248,7 +248,7 @@
       ],
       "momGrowthPct": 8.09777087192972,
       "isGrowing": false,
-      "stars": 226,
+      "stars": 225,
       "description": "Easily implement usual security measures in React Native Expo apps",
       "notFound": false,
       "ecosystem": "npm"
@@ -1088,7 +1088,7 @@
       ],
       "momGrowthPct": -4.848390228456394,
       "isGrowing": false,
-      "stars": 1058,
+      "stars": 1057,
       "description": "Measure React Native performance",
       "notFound": false,
       "ecosystem": "npm"
@@ -2836,59 +2836,59 @@
     },
     {
       "name": "adaptive_test",
-      "totalDownloads": 82881,
+      "totalDownloads": 83186,
       "monthlyDownloads": [
         {
           "month": "2025-09",
-          "downloads": 1965
+          "downloads": 1964
         },
         {
           "month": "2025-10",
-          "downloads": 3502
+          "downloads": 3077
         },
         {
           "month": "2025-11",
-          "downloads": 4327
+          "downloads": 4970
         },
         {
           "month": "2025-12",
-          "downloads": 4968
+          "downloads": 4738
         },
         {
           "month": "2026-01",
-          "downloads": 5028
+          "downloads": 5157
         },
         {
           "month": "2026-02",
-          "downloads": 5564
+          "downloads": 5698
         },
         {
           "month": "2026-03",
-          "downloads": 6173
+          "downloads": 6259
         },
         {
           "month": "2026-04",
-          "downloads": 7852
+          "downloads": 7792
         },
         {
           "month": "2026-05",
-          "downloads": 10174
+          "downloads": 10329
         },
         {
           "month": "2026-06",
-          "downloads": 9728
+          "downloads": 9930
         },
         {
           "month": "2026-07",
-          "downloads": 12923
+          "downloads": 10148
         },
         {
           "month": "2026-08",
-          "downloads": 10677
+          "downloads": 13124
         }
       ],
-      "momGrowthPct": -17.379865356341405,
-      "isGrowing": false,
+      "momGrowthPct": 29.325975561687034,
+      "isGrowing": true,
       "stars": 21,
       "description": "A Flutter package to generate adaptive golden files during widget tests.",
       "notFound": false,
@@ -2897,58 +2897,58 @@
     },
     {
       "name": "theodo_analysis",
-      "totalDownloads": 26881,
+      "totalDownloads": 26935,
       "monthlyDownloads": [
         {
           "month": "2025-09",
-          "downloads": 822
+          "downloads": 843
         },
         {
           "month": "2025-10",
-          "downloads": 1729
+          "downloads": 1624
         },
         {
           "month": "2025-11",
-          "downloads": 2555
+          "downloads": 2726
         },
         {
           "month": "2025-12",
-          "downloads": 1721
+          "downloads": 1640
         },
         {
           "month": "2026-01",
-          "downloads": 775
+          "downloads": 804
         },
         {
           "month": "2026-02",
-          "downloads": 938
+          "downloads": 1074
         },
         {
           "month": "2026-03",
-          "downloads": 1599
+          "downloads": 1583
         },
         {
           "month": "2026-04",
-          "downloads": 3187
+          "downloads": 3210
         },
         {
           "month": "2026-05",
-          "downloads": 3780
+          "downloads": 3817
         },
         {
           "month": "2026-06",
-          "downloads": 3989
+          "downloads": 4025
         },
         {
           "month": "2026-07",
-          "downloads": 3303
+          "downloads": 2768
         },
         {
           "month": "2026-08",
-          "downloads": 2483
+          "downloads": 2821
         }
       ],
-      "momGrowthPct": -24.82591583409022,
+      "momGrowthPct": 1.9147398843930636,
       "isGrowing": false,
       "stars": 2,
       "description": "Lint and dcm rules for Dart and Flutter used internally at Theodo Apps.",
@@ -3202,7 +3202,7 @@
     },
     {
       "name": "http_cache_mmkv_store",
-      "totalDownloads": 3975,
+      "totalDownloads": 3973,
       "monthlyDownloads": [
         {
           "month": "2025-09",
@@ -3210,27 +3210,27 @@
         },
         {
           "month": "2025-10",
-          "downloads": 43
+          "downloads": 36
         },
         {
           "month": "2025-11",
-          "downloads": 39
+          "downloads": 45
         },
         {
           "month": "2025-12",
-          "downloads": 29
+          "downloads": 28
         },
         {
           "month": "2026-01",
-          "downloads": 33
+          "downloads": 35
         },
         {
           "month": "2026-02",
-          "downloads": 69
+          "downloads": 70
         },
         {
           "month": "2026-03",
-          "downloads": 85
+          "downloads": 84
         },
         {
           "month": "2026-04",
@@ -3242,18 +3242,18 @@
         },
         {
           "month": "2026-06",
-          "downloads": 874
+          "downloads": 1057
         },
         {
           "month": "2026-07",
-          "downloads": 2212
+          "downloads": 1811
         },
         {
           "month": "2026-08",
-          "downloads": 393
+          "downloads": 609
         }
       ],
-      "momGrowthPct": -82.23327305605787,
+      "momGrowthPct": -66.37217007178354,
       "isGrowing": false,
       "stars": 155,
       "description": "A DB cache store implementation with mmkv for dio_cache_interceptor and http_cache_client packages.",
@@ -3263,58 +3263,58 @@
     },
     {
       "name": "riverpod_community_mutation",
-      "totalDownloads": 3682,
+      "totalDownloads": 3668,
       "monthlyDownloads": [
         {
           "month": "2025-09",
-          "downloads": 315
+          "downloads": 335
         },
         {
           "month": "2025-10",
-          "downloads": 652
+          "downloads": 576
         },
         {
           "month": "2025-11",
-          "downloads": 353
+          "downloads": 402
         },
         {
           "month": "2025-12",
-          "downloads": 317
+          "downloads": 318
         },
         {
           "month": "2026-01",
-          "downloads": 406
+          "downloads": 444
         },
         {
           "month": "2026-02",
-          "downloads": 487
+          "downloads": 453
         },
         {
           "month": "2026-03",
-          "downloads": 167
+          "downloads": 161
         },
         {
           "month": "2026-04",
-          "downloads": 196
+          "downloads": 198
         },
         {
           "month": "2026-05",
-          "downloads": 183
+          "downloads": 179
         },
         {
           "month": "2026-06",
-          "downloads": 185
-        },
-        {
-          "month": "2026-07",
           "downloads": 182
         },
         {
+          "month": "2026-07",
+          "downloads": 175
+        },
+        {
           "month": "2026-08",
-          "downloads": 239
+          "downloads": 245
         }
       ],
-      "momGrowthPct": 31.318681318681318,
+      "momGrowthPct": 40,
       "isGrowing": true,
       "stars": 3,
       "description": "A mutation implementation for the riverpod community - made by Theodo",
