@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06T00:07:11.809Z",
+  "generatedAt": "2026-09-06T06:03:34.012Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -1424,7 +1424,7 @@
       ],
       "momGrowthPct": 132.49911878745152,
       "isGrowing": true,
-      "stars": 1190,
+      "stars": 1189,
       "description": "React-Native generators to kickstart your project",
       "notFound": false,
       "ecosystem": "npm"
@@ -3201,6 +3201,67 @@
       "publishedAt": "2026-03-23T17:17:27.908343Z"
     },
     {
+      "name": "riverpod_community_mutation",
+      "totalDownloads": 3677,
+      "monthlyDownloads": [
+        {
+          "month": "2025-09",
+          "downloads": 393
+        },
+        {
+          "month": "2025-10",
+          "downloads": 514
+        },
+        {
+          "month": "2025-11",
+          "downloads": 439
+        },
+        {
+          "month": "2025-12",
+          "downloads": 281
+        },
+        {
+          "month": "2026-01",
+          "downloads": 339
+        },
+        {
+          "month": "2026-02",
+          "downloads": 491
+        },
+        {
+          "month": "2026-03",
+          "downloads": 239
+        },
+        {
+          "month": "2026-04",
+          "downloads": 190
+        },
+        {
+          "month": "2026-05",
+          "downloads": 182
+        },
+        {
+          "month": "2026-06",
+          "downloads": 181
+        },
+        {
+          "month": "2026-07",
+          "downloads": 170
+        },
+        {
+          "month": "2026-08",
+          "downloads": 258
+        }
+      ],
+      "momGrowthPct": 51.76470588235295,
+      "isGrowing": true,
+      "stars": 3,
+      "description": "A mutation implementation for the riverpod community - made by Theodo",
+      "notFound": false,
+      "ecosystem": "pub",
+      "publishedAt": "2025-05-22T13:02:37.162979Z"
+    },
+    {
       "name": "http_cache_mmkv_store",
       "totalDownloads": 3973,
       "monthlyDownloads": [
@@ -3260,67 +3321,6 @@
       "notFound": false,
       "ecosystem": "pub",
       "publishedAt": "2025-06-09T14:32:34.666856Z"
-    },
-    {
-      "name": "riverpod_community_mutation",
-      "totalDownloads": 3668,
-      "monthlyDownloads": [
-        {
-          "month": "2025-09",
-          "downloads": 335
-        },
-        {
-          "month": "2025-10",
-          "downloads": 576
-        },
-        {
-          "month": "2025-11",
-          "downloads": 402
-        },
-        {
-          "month": "2025-12",
-          "downloads": 318
-        },
-        {
-          "month": "2026-01",
-          "downloads": 444
-        },
-        {
-          "month": "2026-02",
-          "downloads": 453
-        },
-        {
-          "month": "2026-03",
-          "downloads": 161
-        },
-        {
-          "month": "2026-04",
-          "downloads": 198
-        },
-        {
-          "month": "2026-05",
-          "downloads": 179
-        },
-        {
-          "month": "2026-06",
-          "downloads": 182
-        },
-        {
-          "month": "2026-07",
-          "downloads": 175
-        },
-        {
-          "month": "2026-08",
-          "downloads": 245
-        }
-      ],
-      "momGrowthPct": 40,
-      "isGrowing": true,
-      "stars": 3,
-      "description": "A mutation implementation for the riverpod community - made by Theodo",
-      "notFound": false,
-      "ecosystem": "pub",
-      "publishedAt": "2025-05-22T13:02:37.162979Z"
     },
     {
       "name": "flutter_lyra",
