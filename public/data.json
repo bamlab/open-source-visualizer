@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T12:03:53.435Z",
+  "generatedAt": "2026-09-07T18:03:01.627Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -3316,7 +3316,7 @@
       ],
       "momGrowthPct": -73.55460385438973,
       "isGrowing": false,
-      "stars": 155,
+      "stars": 156,
       "description": "A DB cache store implementation with mmkv for dio_cache_interceptor and http_cache_client packages.",
       "notFound": false,
       "ecosystem": "pub",
@@ -3324,23 +3324,23 @@
     },
     {
       "name": "flutter_lyra",
-      "totalDownloads": 8689,
+      "totalDownloads": 8398,
       "monthlyDownloads": [
         {
           "month": "2025-09",
-          "downloads": 532
+          "downloads": 533
         },
         {
           "month": "2025-10",
-          "downloads": 401
+          "downloads": 400
         },
         {
           "month": "2025-11",
-          "downloads": 1509
+          "downloads": 1539
         },
         {
           "month": "2025-12",
-          "downloads": 1349
+          "downloads": 1319
         },
         {
           "month": "2026-01",
@@ -3352,11 +3352,11 @@
         },
         {
           "month": "2026-03",
-          "downloads": 652
+          "downloads": 653
         },
         {
           "month": "2026-04",
-          "downloads": 279
+          "downloads": 278
         },
         {
           "month": "2026-05",
@@ -3364,18 +3364,18 @@
         },
         {
           "month": "2026-06",
-          "downloads": 1332
+          "downloads": 1362
         },
         {
           "month": "2026-07",
-          "downloads": 714
+          "downloads": 684
         },
         {
           "month": "2026-08",
-          "downloads": 1109
+          "downloads": 818
         }
       ],
-      "momGrowthPct": 55.32212885154062,
+      "momGrowthPct": 19.5906432748538,
       "isGrowing": true,
       "stars": 4,
       "description": "This package allows you to use the methods from the lyra android and ios native sdks in Flutter",
