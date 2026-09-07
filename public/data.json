@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T03:15:22.617Z",
+  "generatedAt": "2026-09-07T06:05:10.147Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2775,7 +2775,7 @@
     },
     {
       "name": "riverpod_community_extensions",
-      "totalDownloads": 22036,
+      "totalDownloads": 21196,
       "monthlyDownloads": [
         {
           "month": "2025-09",
@@ -2791,43 +2791,43 @@
         },
         {
           "month": "2025-12",
-          "downloads": 1681
+          "downloads": 1698
         },
         {
           "month": "2026-01",
-          "downloads": 754
+          "downloads": 739
         },
         {
           "month": "2026-02",
-          "downloads": 728
+          "downloads": 726
         },
         {
           "month": "2026-03",
-          "downloads": 1127
+          "downloads": 1208
         },
         {
           "month": "2026-04",
-          "downloads": 795
+          "downloads": 717
         },
         {
           "month": "2026-05",
-          "downloads": 2264
+          "downloads": 2269
         },
         {
           "month": "2026-06",
-          "downloads": 5225
+          "downloads": 5222
         },
         {
           "month": "2026-07",
-          "downloads": 2754
+          "downloads": 2749
         },
         {
           "month": "2026-08",
-          "downloads": 3387
+          "downloads": 2547
         }
       ],
-      "momGrowthPct": 22.984749455337692,
-      "isGrowing": true,
+      "momGrowthPct": -7.348126591487814,
+      "isGrowing": false,
       "stars": 10,
       "description": "Extends Riverpod ref types with additional helpers, to easily add common functionalities to your providers.",
       "notFound": false,
@@ -3141,7 +3141,7 @@
     },
     {
       "name": "flutter_milibris",
-      "totalDownloads": 13499,
+      "totalDownloads": 13104,
       "monthlyDownloads": [
         {
           "month": "2025-09",
@@ -3169,30 +3169,30 @@
         },
         {
           "month": "2026-03",
-          "downloads": 852
+          "downloads": 866
         },
         {
           "month": "2026-04",
-          "downloads": 2574
+          "downloads": 2560
         },
         {
           "month": "2026-05",
-          "downloads": 2691
+          "downloads": 2701
         },
         {
           "month": "2026-06",
-          "downloads": 3810
+          "downloads": 3800
         },
         {
           "month": "2026-07",
-          "downloads": 1885
+          "downloads": 1886
         },
         {
           "month": "2026-08",
-          "downloads": 1687
+          "downloads": 1291
         }
       ],
-      "momGrowthPct": -10.503978779840848,
+      "momGrowthPct": -31.54825026511135,
       "isGrowing": false,
       "stars": 0,
       "description": "A Flutter plugin that bridges Milibris SDKs, enabling encrypted archive",
@@ -3385,7 +3385,7 @@
     },
     {
       "name": "go_router_url_watcher",
-      "totalDownloads": 186,
+      "totalDownloads": 179,
       "monthlyDownloads": [
         {
           "month": "2025-09",
@@ -3433,10 +3433,10 @@
         },
         {
           "month": "2026-08",
-          "downloads": 38
+          "downloads": 31
         }
       ],
-      "momGrowthPct": 52,
+      "momGrowthPct": 24,
       "isGrowing": true,
       "stars": 1,
       "description": "Easily keep your state in the url when using go_router in Flutter",
