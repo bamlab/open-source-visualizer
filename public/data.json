@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T12:03:12.563Z",
+  "generatedAt": "2026-09-13T18:02:29.197Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2836,15 +2836,15 @@
     },
     {
       "name": "adaptive_test",
-      "totalDownloads": 83602,
+      "totalDownloads": 81109,
       "monthlyDownloads": [
         {
           "month": "2025-09",
-          "downloads": 1639
+          "downloads": 1600
         },
         {
           "month": "2025-10",
-          "downloads": 2889
+          "downloads": 2886
         },
         {
           "month": "2025-11",
@@ -2852,43 +2852,43 @@
         },
         {
           "month": "2025-12",
-          "downloads": 5689
+          "downloads": 5695
         },
         {
           "month": "2026-01",
-          "downloads": 4440
+          "downloads": 4458
         },
         {
           "month": "2026-02",
-          "downloads": 5439
+          "downloads": 5434
         },
         {
           "month": "2026-03",
-          "downloads": 8113
+          "downloads": 8099
         },
         {
           "month": "2026-04",
-          "downloads": 7247
+          "downloads": 7249
         },
         {
           "month": "2026-05",
-          "downloads": 8197
+          "downloads": 8204
         },
         {
           "month": "2026-06",
-          "downloads": 12914
+          "downloads": 12950
         },
         {
           "month": "2026-07",
-          "downloads": 9966
+          "downloads": 9919
         },
         {
           "month": "2026-08",
-          "downloads": 13117
+          "downloads": 10663
         }
       ],
-      "momGrowthPct": 31.6174994982942,
-      "isGrowing": true,
+      "momGrowthPct": 7.500756124609335,
+      "isGrowing": false,
       "stars": 21,
       "description": "A Flutter package to generate adaptive golden files during widget tests.",
       "notFound": false,
@@ -2897,11 +2897,11 @@
     },
     {
       "name": "theodo_analysis",
-      "totalDownloads": 27094,
+      "totalDownloads": 26303,
       "monthlyDownloads": [
         {
           "month": "2025-09",
-          "downloads": 769
+          "downloads": 768
         },
         {
           "month": "2025-10",
@@ -2909,11 +2909,11 @@
         },
         {
           "month": "2025-11",
-          "downloads": 2342
+          "downloads": 2372
         },
         {
           "month": "2025-12",
-          "downloads": 2039
+          "downloads": 2009
         },
         {
           "month": "2026-01",
@@ -2921,23 +2921,23 @@
         },
         {
           "month": "2026-02",
-          "downloads": 789
+          "downloads": 842
         },
         {
           "month": "2026-03",
-          "downloads": 2325
+          "downloads": 2278
         },
         {
           "month": "2026-04",
-          "downloads": 2966
+          "downloads": 2960
         },
         {
           "month": "2026-05",
-          "downloads": 2972
+          "downloads": 2974
         },
         {
           "month": "2026-06",
-          "downloads": 5015
+          "downloads": 5013
         },
         {
           "month": "2026-07",
@@ -2945,11 +2945,11 @@
         },
         {
           "month": "2026-08",
-          "downloads": 3107
+          "downloads": 2317
         }
       ],
-      "momGrowthPct": 17.333836858006045,
-      "isGrowing": true,
+      "momGrowthPct": -12.5,
+      "isGrowing": false,
       "stars": 2,
       "description": "Lint and dcm rules for Dart and Flutter used internally at Theodo Apps.",
       "notFound": false,
@@ -2958,43 +2958,43 @@
     },
     {
       "name": "init",
-      "totalDownloads": 22346,
+      "totalDownloads": 21638,
       "monthlyDownloads": [
         {
           "month": "2025-09",
-          "downloads": 335
+          "downloads": 316
         },
         {
           "month": "2025-10",
-          "downloads": 470
+          "downloads": 472
         },
         {
           "month": "2025-11",
-          "downloads": 1526
+          "downloads": 1528
         },
         {
           "month": "2025-12",
-          "downloads": 1476
+          "downloads": 1474
         },
         {
           "month": "2026-01",
-          "downloads": 509
+          "downloads": 515
         },
         {
           "month": "2026-02",
-          "downloads": 416
+          "downloads": 412
         },
         {
           "month": "2026-03",
-          "downloads": 1614
+          "downloads": 1615
         },
         {
           "month": "2026-04",
-          "downloads": 2892
+          "downloads": 2887
         },
         {
           "month": "2026-05",
-          "downloads": 2921
+          "downloads": 2923
         },
         {
           "month": "2026-06",
@@ -3002,14 +3002,14 @@
         },
         {
           "month": "2026-07",
-          "downloads": 2545
+          "downloads": 2544
         },
         {
           "month": "2026-08",
-          "downloads": 2795
+          "downloads": 2105
         }
       ],
-      "momGrowthPct": 9.823182711198427,
+      "momGrowthPct": -17.2562893081761,
       "isGrowing": false,
       "stars": 1,
       "description": "Init widget to execute initialization methods declaratively",
@@ -3141,7 +3141,7 @@
     },
     {
       "name": "flutter_milibris",
-      "totalDownloads": 13499,
+      "totalDownloads": 13104,
       "monthlyDownloads": [
         {
           "month": "2025-09",
@@ -3169,30 +3169,30 @@
         },
         {
           "month": "2026-03",
-          "downloads": 852
+          "downloads": 866
         },
         {
           "month": "2026-04",
-          "downloads": 2574
+          "downloads": 2560
         },
         {
           "month": "2026-05",
-          "downloads": 2691
+          "downloads": 2701
         },
         {
           "month": "2026-06",
-          "downloads": 3810
+          "downloads": 3800
         },
         {
           "month": "2026-07",
-          "downloads": 1885
+          "downloads": 1886
         },
         {
           "month": "2026-08",
-          "downloads": 1687
+          "downloads": 1291
         }
       ],
-      "momGrowthPct": -10.503978779840848,
+      "momGrowthPct": -31.54825026511135,
       "isGrowing": false,
       "stars": 0,
       "description": "A Flutter plugin that bridges Milibris SDKs, enabling encrypted archive",
@@ -3263,23 +3263,23 @@
     },
     {
       "name": "flutter_lyra",
-      "totalDownloads": 8567,
+      "totalDownloads": 8243,
       "monthlyDownloads": [
         {
           "month": "2025-09",
-          "downloads": 410
+          "downloads": 378
         },
         {
           "month": "2025-10",
-          "downloads": 401
+          "downloads": 400
         },
         {
           "month": "2025-11",
-          "downloads": 1509
+          "downloads": 1539
         },
         {
           "month": "2025-12",
-          "downloads": 1349
+          "downloads": 1319
         },
         {
           "month": "2026-01",
@@ -3291,11 +3291,11 @@
         },
         {
           "month": "2026-03",
-          "downloads": 652
+          "downloads": 653
         },
         {
           "month": "2026-04",
-          "downloads": 279
+          "downloads": 278
         },
         {
           "month": "2026-05",
@@ -3303,18 +3303,18 @@
         },
         {
           "month": "2026-06",
-          "downloads": 1332
+          "downloads": 1362
         },
         {
           "month": "2026-07",
-          "downloads": 714
+          "downloads": 684
         },
         {
           "month": "2026-08",
-          "downloads": 1109
+          "downloads": 818
         }
       ],
-      "momGrowthPct": 55.32212885154062,
+      "momGrowthPct": 19.5906432748538,
       "isGrowing": true,
       "stars": 4,
       "description": "This package allows you to use the methods from the lyra android and ios native sdks in Flutter",
@@ -3324,11 +3324,11 @@
     },
     {
       "name": "http_cache_mmkv_store",
-      "totalDownloads": 3968,
+      "totalDownloads": 3957,
       "monthlyDownloads": [
         {
           "month": "2025-09",
-          "downloads": 32
+          "downloads": 31
         },
         {
           "month": "2025-10",
@@ -3340,7 +3340,7 @@
         },
         {
           "month": "2025-12",
-          "downloads": 38
+          "downloads": 39
         },
         {
           "month": "2026-01",
@@ -3348,23 +3348,23 @@
         },
         {
           "month": "2026-02",
-          "downloads": 69
+          "downloads": 68
         },
         {
           "month": "2026-03",
-          "downloads": 104
+          "downloads": 105
         },
         {
           "month": "2026-04",
-          "downloads": 63
+          "downloads": 64
         },
         {
           "month": "2026-05",
-          "downloads": 78
+          "downloads": 77
         },
         {
           "month": "2026-06",
-          "downloads": 1121
+          "downloads": 1120
         },
         {
           "month": "2026-07",
@@ -3372,10 +3372,10 @@
         },
         {
           "month": "2026-08",
-          "downloads": 504
+          "downloads": 494
         }
       ],
-      "momGrowthPct": -73.01927194860814,
+      "momGrowthPct": -73.55460385438973,
       "isGrowing": false,
       "stars": 156,
       "description": "A DB cache store implementation with mmkv for dio_cache_interceptor and http_cache_client packages.",
@@ -3385,7 +3385,7 @@
     },
     {
       "name": "go_router_url_watcher",
-      "totalDownloads": 186,
+      "totalDownloads": 179,
       "monthlyDownloads": [
         {
           "month": "2025-09",
@@ -3433,10 +3433,10 @@
         },
         {
           "month": "2026-08",
-          "downloads": 38
+          "downloads": 31
         }
       ],
-      "momGrowthPct": 52,
+      "momGrowthPct": 24,
       "isGrowing": true,
       "stars": 1,
       "description": "Easily keep your state in the url when using go_router in Flutter",
@@ -3446,11 +3446,11 @@
     },
     {
       "name": "equatable_lint",
-      "totalDownloads": 1727,
+      "totalDownloads": 1701,
       "monthlyDownloads": [
         {
           "month": "2025-09",
-          "downloads": 114
+          "downloads": 99
         },
         {
           "month": "2025-10",
@@ -3466,27 +3466,27 @@
         },
         {
           "month": "2026-01",
-          "downloads": 91
+          "downloads": 93
         },
         {
           "month": "2026-02",
-          "downloads": 148
+          "downloads": 146
         },
         {
           "month": "2026-03",
-          "downloads": 149
+          "downloads": 151
         },
         {
           "month": "2026-04",
-          "downloads": 96
+          "downloads": 94
         },
         {
           "month": "2026-05",
-          "downloads": 134
+          "downloads": 137
         },
         {
           "month": "2026-06",
-          "downloads": 173
+          "downloads": 170
         },
         {
           "month": "2026-07",
@@ -3494,10 +3494,10 @@
         },
         {
           "month": "2026-08",
-          "downloads": 135
+          "downloads": 124
         }
       ],
-      "momGrowthPct": -19.642857142857142,
+      "momGrowthPct": -26.190476190476193,
       "isGrowing": false,
       "stars": 6,
       "description": "This is a set of rules to make classes using Equatable more maintainable. We make sure here that every fields in an Equatable class is linked to the Equatable props getter.",
