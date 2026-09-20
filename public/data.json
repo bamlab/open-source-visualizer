@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T00:07:16.637Z",
+  "generatedAt": "2026-09-20T06:03:37.118Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -3141,7 +3141,7 @@
     },
     {
       "name": "flutter_milibris",
-      "totalDownloads": 13392,
+      "totalDownloads": 13499,
       "monthlyDownloads": [
         {
           "month": "2025-09",
@@ -3169,30 +3169,30 @@
         },
         {
           "month": "2026-03",
-          "downloads": 688
+          "downloads": 852
         },
         {
           "month": "2026-04",
-          "downloads": 2738
+          "downloads": 2574
         },
         {
           "month": "2026-05",
-          "downloads": 3432
+          "downloads": 2691
         },
         {
           "month": "2026-06",
-          "downloads": 3043
+          "downloads": 3810
         },
         {
           "month": "2026-07",
-          "downloads": 1883
+          "downloads": 1885
         },
         {
           "month": "2026-08",
-          "downloads": 1608
+          "downloads": 1687
         }
       ],
-      "momGrowthPct": -14.604354753053638,
+      "momGrowthPct": -10.503978779840848,
       "isGrowing": false,
       "stars": 0,
       "description": "A Flutter plugin that bridges Milibris SDKs, enabling encrypted archive",
