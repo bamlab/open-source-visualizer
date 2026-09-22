@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T06:04:19.787Z",
+  "generatedAt": "2026-09-22T12:03:20.252Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2775,19 +2775,19 @@
     },
     {
       "name": "riverpod_community_extensions",
-      "totalDownloads": 20942,
+      "totalDownloads": 20940,
       "monthlyDownloads": [
         {
           "month": "2025-09",
-          "downloads": 550
+          "downloads": 293
         },
         {
           "month": "2025-10",
-          "downloads": 757
+          "downloads": 1016
         },
         {
           "month": "2025-11",
-          "downloads": 1760
+          "downloads": 1759
         },
         {
           "month": "2025-12",
@@ -2795,38 +2795,38 @@
         },
         {
           "month": "2026-01",
-          "downloads": 739
+          "downloads": 738
         },
         {
           "month": "2026-02",
-          "downloads": 726
+          "downloads": 728
         },
         {
           "month": "2026-03",
-          "downloads": 1208
+          "downloads": 831
         },
         {
           "month": "2026-04",
-          "downloads": 717
+          "downloads": 1090
         },
         {
           "month": "2026-05",
-          "downloads": 2269
+          "downloads": 2272
         },
         {
           "month": "2026-06",
-          "downloads": 5222
+          "downloads": 4316
         },
         {
           "month": "2026-07",
-          "downloads": 2749
+          "downloads": 3655
         },
         {
           "month": "2026-08",
-          "downloads": 2547
+          "downloads": 2544
         }
       ],
-      "momGrowthPct": -7.348126591487814,
+      "momGrowthPct": -30.39671682626539,
       "isGrowing": false,
       "stars": 10,
       "description": "Extends Riverpod ref types with additional helpers, to easily add common functionalities to your providers.",
@@ -2958,58 +2958,58 @@
     },
     {
       "name": "init",
-      "totalDownloads": 21505,
+      "totalDownloads": 21503,
       "monthlyDownloads": [
         {
           "month": "2025-09",
-          "downloads": 183
+          "downloads": 71
         },
         {
           "month": "2025-10",
-          "downloads": 472
+          "downloads": 586
         },
         {
           "month": "2025-11",
-          "downloads": 1528
+          "downloads": 1526
         },
         {
           "month": "2025-12",
-          "downloads": 1474
+          "downloads": 1471
         },
         {
           "month": "2026-01",
-          "downloads": 515
+          "downloads": 520
         },
         {
           "month": "2026-02",
-          "downloads": 412
+          "downloads": 408
         },
         {
           "month": "2026-03",
-          "downloads": 1615
+          "downloads": 938
         },
         {
           "month": "2026-04",
-          "downloads": 2887
+          "downloads": 3564
         },
         {
           "month": "2026-05",
-          "downloads": 2923
+          "downloads": 2925
         },
         {
           "month": "2026-06",
-          "downloads": 4847
+          "downloads": 3991
         },
         {
           "month": "2026-07",
-          "downloads": 2544
+          "downloads": 3394
         },
         {
           "month": "2026-08",
-          "downloads": 2105
+          "downloads": 2109
         }
       ],
-      "momGrowthPct": -17.2562893081761,
+      "momGrowthPct": -37.86093105480259,
       "isGrowing": false,
       "stars": 1,
       "description": "Init widget to execute initialization methods declaratively",
@@ -3141,7 +3141,7 @@
     },
     {
       "name": "flutter_milibris",
-      "totalDownloads": 13104,
+      "totalDownloads": 13108,
       "monthlyDownloads": [
         {
           "month": "2025-09",
@@ -3169,30 +3169,30 @@
         },
         {
           "month": "2026-03",
-          "downloads": 866
+          "downloads": 216
         },
         {
           "month": "2026-04",
-          "downloads": 2560
+          "downloads": 3212
         },
         {
           "month": "2026-05",
-          "downloads": 2701
+          "downloads": 2720
         },
         {
           "month": "2026-06",
-          "downloads": 3800
+          "downloads": 3245
         },
         {
           "month": "2026-07",
-          "downloads": 1886
+          "downloads": 2428
         },
         {
           "month": "2026-08",
-          "downloads": 1291
+          "downloads": 1287
         }
       ],
-      "momGrowthPct": -31.54825026511135,
+      "momGrowthPct": -46.993410214168044,
       "isGrowing": false,
       "stars": 0,
       "description": "A Flutter plugin that bridges Milibris SDKs, enabling encrypted archive",
@@ -3202,27 +3202,27 @@
     },
     {
       "name": "riverpod_community_mutation",
-      "totalDownloads": 3514,
+      "totalDownloads": 3512,
       "monthlyDownloads": [
         {
           "month": "2025-09",
-          "downloads": 303
+          "downloads": 145
         },
         {
           "month": "2025-10",
-          "downloads": 502
+          "downloads": 662
         },
         {
           "month": "2025-11",
-          "downloads": 368
+          "downloads": 367
         },
         {
           "month": "2025-12",
-          "downloads": 359
+          "downloads": 357
         },
         {
           "month": "2026-01",
-          "downloads": 358
+          "downloads": 357
         },
         {
           "month": "2026-02",
@@ -3230,31 +3230,31 @@
         },
         {
           "month": "2026-03",
-          "downloads": 242
+          "downloads": 196
         },
         {
           "month": "2026-04",
-          "downloads": 170
+          "downloads": 216
         },
         {
           "month": "2026-05",
-          "downloads": 149
+          "downloads": 152
         },
         {
           "month": "2026-06",
-          "downloads": 220
+          "downloads": 185
         },
         {
           "month": "2026-07",
-          "downloads": 163
+          "downloads": 195
         },
         {
           "month": "2026-08",
           "downloads": 197
         }
       ],
-      "momGrowthPct": 20.858895705521473,
-      "isGrowing": true,
+      "momGrowthPct": 1.0256410256410255,
+      "isGrowing": false,
       "stars": 3,
       "description": "A mutation implementation for the riverpod community - made by Theodo",
       "notFound": false,
@@ -3324,27 +3324,27 @@
     },
     {
       "name": "http_cache_mmkv_store",
-      "totalDownloads": 3952,
+      "totalDownloads": 3951,
       "monthlyDownloads": [
         {
           "month": "2025-09",
-          "downloads": 26
+          "downloads": 12
         },
         {
           "month": "2025-10",
-          "downloads": 33
+          "downloads": 49
         },
         {
           "month": "2025-11",
-          "downloads": 35
+          "downloads": 34
         },
         {
           "month": "2025-12",
-          "downloads": 39
+          "downloads": 40
         },
         {
           "month": "2026-01",
-          "downloads": 23
+          "downloads": 24
         },
         {
           "month": "2026-02",
@@ -3352,11 +3352,11 @@
         },
         {
           "month": "2026-03",
-          "downloads": 105
+          "downloads": 83
         },
         {
           "month": "2026-04",
-          "downloads": 64
+          "downloads": 85
         },
         {
           "month": "2026-05",
@@ -3364,18 +3364,18 @@
         },
         {
           "month": "2026-06",
-          "downloads": 1120
+          "downloads": 612
         },
         {
           "month": "2026-07",
-          "downloads": 1868
+          "downloads": 2374
         },
         {
           "month": "2026-08",
-          "downloads": 494
+          "downloads": 493
         }
       ],
-      "momGrowthPct": -73.55460385438973,
+      "momGrowthPct": -79.23336141533277,
       "isGrowing": false,
       "stars": 156,
       "description": "A DB cache store implementation with mmkv for dio_cache_interceptor and http_cache_client packages.",
@@ -3385,7 +3385,7 @@
     },
     {
       "name": "go_router_url_watcher",
-      "totalDownloads": 179,
+      "totalDownloads": 183,
       "monthlyDownloads": [
         {
           "month": "2025-09",
@@ -3425,19 +3425,19 @@
         },
         {
           "month": "2026-06",
-          "downloads": 123
+          "downloads": 107
         },
         {
           "month": "2026-07",
-          "downloads": 25
+          "downloads": 44
         },
         {
           "month": "2026-08",
-          "downloads": 31
+          "downloads": 32
         }
       ],
-      "momGrowthPct": 24,
-      "isGrowing": true,
+      "momGrowthPct": -27.27272727272727,
+      "isGrowing": false,
       "stars": 1,
       "description": "Easily keep your state in the url when using go_router in Flutter",
       "notFound": false,
