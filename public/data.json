@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T12:04:01.129Z",
+  "generatedAt": "2026-09-23T18:03:07.821Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -3019,125 +3019,64 @@
     },
     {
       "name": "app_attest_integrity",
-      "totalDownloads": 2402,
+      "totalDownloads": 2416,
       "monthlyDownloads": [
         {
           "month": "2025-09",
-          "downloads": 125
+          "downloads": 127
         },
         {
           "month": "2025-10",
-          "downloads": 59
+          "downloads": 56
         },
         {
           "month": "2025-11",
-          "downloads": 36
+          "downloads": 38
         },
         {
           "month": "2025-12",
-          "downloads": 32
+          "downloads": 23
         },
         {
           "month": "2026-01",
-          "downloads": 216
+          "downloads": 225
         },
         {
           "month": "2026-02",
-          "downloads": 66
+          "downloads": 64
         },
         {
           "month": "2026-03",
-          "downloads": 100
+          "downloads": 101
         },
         {
           "month": "2026-04",
-          "downloads": 138
+          "downloads": 139
         },
         {
           "month": "2026-05",
-          "downloads": 168
+          "downloads": 178
         },
         {
           "month": "2026-06",
-          "downloads": 298
+          "downloads": 301
         },
         {
           "month": "2026-07",
-          "downloads": 750
+          "downloads": 748
         },
         {
           "month": "2026-08",
-          "downloads": 414
+          "downloads": 416
         }
       ],
-      "momGrowthPct": -44.800000000000004,
+      "momGrowthPct": -44.38502673796791,
       "isGrowing": false,
       "stars": 5,
       "description": "A Flutter plugin to assess an app integrity. Uses App attest on iOS and app Integrity on Android.",
       "notFound": false,
       "ecosystem": "pub",
       "publishedAt": "2025-08-25T09:43:01.189986Z"
-    },
-    {
-      "name": "flutter_reach_five",
-      "totalDownloads": 8819,
-      "monthlyDownloads": [
-        {
-          "month": "2025-09",
-          "downloads": 160
-        },
-        {
-          "month": "2025-10",
-          "downloads": 509
-        },
-        {
-          "month": "2025-11",
-          "downloads": 1463
-        },
-        {
-          "month": "2025-12",
-          "downloads": 1269
-        },
-        {
-          "month": "2026-01",
-          "downloads": 280
-        },
-        {
-          "month": "2026-02",
-          "downloads": 295
-        },
-        {
-          "month": "2026-03",
-          "downloads": 299
-        },
-        {
-          "month": "2026-04",
-          "downloads": 501
-        },
-        {
-          "month": "2026-05",
-          "downloads": 320
-        },
-        {
-          "month": "2026-06",
-          "downloads": 1805
-        },
-        {
-          "month": "2026-07",
-          "downloads": 1053
-        },
-        {
-          "month": "2026-08",
-          "downloads": 865
-        }
-      ],
-      "momGrowthPct": -17.85375118708452,
-      "isGrowing": false,
-      "stars": 3,
-      "description": "This package allows you to use the methods from the reachFive android and ios native sdks in Flutter",
-      "notFound": false,
-      "ecosystem": "pub",
-      "publishedAt": "2022-10-07T15:53:56.220179Z"
     },
     {
       "name": "flutter_milibris",
@@ -3199,6 +3138,67 @@
       "notFound": false,
       "ecosystem": "pub",
       "publishedAt": "2026-03-23T17:17:27.908343Z"
+    },
+    {
+      "name": "flutter_reach_five",
+      "totalDownloads": 8819,
+      "monthlyDownloads": [
+        {
+          "month": "2025-09",
+          "downloads": 160
+        },
+        {
+          "month": "2025-10",
+          "downloads": 509
+        },
+        {
+          "month": "2025-11",
+          "downloads": 1463
+        },
+        {
+          "month": "2025-12",
+          "downloads": 1269
+        },
+        {
+          "month": "2026-01",
+          "downloads": 280
+        },
+        {
+          "month": "2026-02",
+          "downloads": 295
+        },
+        {
+          "month": "2026-03",
+          "downloads": 299
+        },
+        {
+          "month": "2026-04",
+          "downloads": 501
+        },
+        {
+          "month": "2026-05",
+          "downloads": 320
+        },
+        {
+          "month": "2026-06",
+          "downloads": 1805
+        },
+        {
+          "month": "2026-07",
+          "downloads": 1053
+        },
+        {
+          "month": "2026-08",
+          "downloads": 865
+        }
+      ],
+      "momGrowthPct": -17.85375118708452,
+      "isGrowing": false,
+      "stars": 3,
+      "description": "This package allows you to use the methods from the reachFive android and ios native sdks in Flutter",
+      "notFound": false,
+      "ecosystem": "pub",
+      "publishedAt": "2022-10-07T15:53:56.220179Z"
     },
     {
       "name": "riverpod_community_mutation",
@@ -3263,11 +3263,11 @@
     },
     {
       "name": "flutter_lyra",
-      "totalDownloads": 8013,
+      "totalDownloads": 8005,
       "monthlyDownloads": [
         {
           "month": "2025-09",
-          "downloads": 51
+          "downloads": 25
         },
         {
           "month": "2025-10",
@@ -3275,46 +3275,46 @@
         },
         {
           "month": "2025-11",
-          "downloads": 1544
+          "downloads": 1570
         },
         {
           "month": "2025-12",
-          "downloads": 1313
+          "downloads": 1259
         },
         {
           "month": "2026-01",
-          "downloads": 225
+          "downloads": 274
         },
         {
           "month": "2026-02",
-          "downloads": 262
+          "downloads": 242
         },
         {
           "month": "2026-03",
-          "downloads": 520
+          "downloads": 543
         },
         {
           "month": "2026-04",
-          "downloads": 411
+          "downloads": 389
         },
         {
           "month": "2026-05",
-          "downloads": 324
+          "downloads": 363
         },
         {
           "month": "2026-06",
-          "downloads": 920
+          "downloads": 919
         },
         {
           "month": "2026-07",
-          "downloads": 1127
+          "downloads": 1088
         },
         {
           "month": "2026-08",
-          "downloads": 819
+          "downloads": 836
         }
       ],
-      "momGrowthPct": -27.32919254658385,
+      "momGrowthPct": -23.161764705882355,
       "isGrowing": false,
       "stars": 4,
       "description": "This package allows you to use the methods from the lyra android and ios native sdks in Flutter",
