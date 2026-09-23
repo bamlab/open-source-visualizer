@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T00:06:35.083Z",
+  "generatedAt": "2026-09-23T06:03:59.823Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2958,58 +2958,58 @@
     },
     {
       "name": "init",
-      "totalDownloads": 21503,
+      "totalDownloads": 21562,
       "monthlyDownloads": [
         {
           "month": "2025-09",
-          "downloads": 71
+          "downloads": 44
         },
         {
           "month": "2025-10",
-          "downloads": 586
+          "downloads": 584
         },
         {
           "month": "2025-11",
-          "downloads": 1526
+          "downloads": 1552
         },
         {
           "month": "2025-12",
-          "downloads": 1471
+          "downloads": 1394
         },
         {
           "month": "2026-01",
-          "downloads": 520
+          "downloads": 589
         },
         {
           "month": "2026-02",
-          "downloads": 408
+          "downloads": 393
         },
         {
           "month": "2026-03",
-          "downloads": 938
+          "downloads": 1035
         },
         {
           "month": "2026-04",
-          "downloads": 3564
+          "downloads": 3563
         },
         {
           "month": "2026-05",
-          "downloads": 2925
+          "downloads": 3012
         },
         {
           "month": "2026-06",
-          "downloads": 3991
+          "downloads": 4019
         },
         {
           "month": "2026-07",
-          "downloads": 3394
+          "downloads": 3259
         },
         {
           "month": "2026-08",
-          "downloads": 2109
+          "downloads": 2118
         }
       ],
-      "momGrowthPct": -37.86093105480259,
+      "momGrowthPct": -35.0107394906413,
       "isGrowing": false,
       "stars": 1,
       "description": "Init widget to execute initialization methods declaratively",
