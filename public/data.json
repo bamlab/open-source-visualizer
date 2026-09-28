@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-28T12:04:16.301Z",
+  "generatedAt": "2026-09-28T18:03:49.819Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
-      "totalDownloads": 5030321,
+      "totalDownloads": 5054526,
       "monthlyDownloads": [
         {
           "month": "2025-03",
@@ -87,7 +87,7 @@
     },
     {
       "name": "@bam.tech/react-navigation-visualizer-dev-plugin",
-      "totalDownloads": 1277114,
+      "totalDownloads": 1279441,
       "monthlyDownloads": [
         {
           "month": "2025-03",
@@ -675,7 +675,7 @@
     },
     {
       "name": "@bam.tech/flow-navigator",
-      "totalDownloads": 118164,
+      "totalDownloads": 118277,
       "monthlyDownloads": [
         {
           "month": "2025-03",
@@ -759,7 +759,7 @@
     },
     {
       "name": "@bam.tech/react-native-graphql-transformer",
-      "totalDownloads": 35013,
+      "totalDownloads": 35071,
       "monthlyDownloads": [
         {
           "month": "2025-03",
@@ -1095,7 +1095,7 @@
     },
     {
       "name": "react-native-image-resizer",
-      "totalDownloads": 2864889,
+      "totalDownloads": 2871419,
       "monthlyDownloads": [
         {
           "month": "2025-03",
@@ -1431,7 +1431,7 @@
     },
     {
       "name": "react-native-make",
-      "totalDownloads": 74072,
+      "totalDownloads": 74197,
       "monthlyDownloads": [
         {
           "month": "2025-03",
@@ -3266,20 +3266,16 @@
       "totalDownloads": 7962,
       "monthlyDownloads": [
         {
-          "month": "2025-09",
-          "downloads": 97
-        },
-        {
           "month": "2025-10",
-          "downloads": 400
+          "downloads": 497
         },
         {
           "month": "2025-11",
-          "downloads": 1539
+          "downloads": 1544
         },
         {
           "month": "2025-12",
-          "downloads": 1319
+          "downloads": 1313
         },
         {
           "month": "2026-01",
@@ -3287,15 +3283,15 @@
         },
         {
           "month": "2026-02",
-          "downloads": 263
+          "downloads": 262
         },
         {
           "month": "2026-03",
-          "downloads": 653
+          "downloads": 520
         },
         {
           "month": "2026-04",
-          "downloads": 278
+          "downloads": 411
         },
         {
           "month": "2026-05",
@@ -3303,19 +3299,19 @@
         },
         {
           "month": "2026-06",
-          "downloads": 1362
+          "downloads": 920
         },
         {
           "month": "2026-07",
-          "downloads": 684
+          "downloads": 1127
         },
         {
           "month": "2026-08",
-          "downloads": 818
+          "downloads": 819
         }
       ],
-      "momGrowthPct": 19.5906432748538,
-      "isGrowing": true,
+      "momGrowthPct": -27.32919254658385,
+      "isGrowing": false,
       "stars": 4,
       "description": "This package allows you to use the methods from the lyra android and ios native sdks in Flutter",
       "notFound": false,
@@ -3385,12 +3381,8 @@
     },
     {
       "name": "go_router_url_watcher",
-      "totalDownloads": 179,
+      "totalDownloads": 183,
       "monthlyDownloads": [
-        {
-          "month": "2025-09",
-          "downloads": 0
-        },
         {
           "month": "2025-10",
           "downloads": 0
@@ -3425,19 +3417,19 @@
         },
         {
           "month": "2026-06",
-          "downloads": 123
+          "downloads": 107
         },
         {
           "month": "2026-07",
-          "downloads": 25
+          "downloads": 44
         },
         {
           "month": "2026-08",
-          "downloads": 31
+          "downloads": 32
         }
       ],
-      "momGrowthPct": 24,
-      "isGrowing": true,
+      "momGrowthPct": -27.27272727272727,
+      "isGrowing": false,
       "stars": 1,
       "description": "Easily keep your state in the url when using go_router in Flutter",
       "notFound": false,
