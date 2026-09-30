@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T12:04:14.849Z",
+  "generatedAt": "2026-09-30T18:03:15.554Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2775,54 +2775,54 @@
     },
     {
       "name": "riverpod_community_extensions",
-      "totalDownloads": 20647,
+      "totalDownloads": 20776,
       "monthlyDownloads": [
         {
           "month": "2025-10",
-          "downloads": 1016
+          "downloads": 1009
         },
         {
           "month": "2025-11",
-          "downloads": 1759
+          "downloads": 1790
         },
         {
           "month": "2025-12",
-          "downloads": 1698
+          "downloads": 1581
         },
         {
           "month": "2026-01",
-          "downloads": 738
+          "downloads": 841
         },
         {
           "month": "2026-02",
-          "downloads": 728
+          "downloads": 719
         },
         {
           "month": "2026-03",
-          "downloads": 831
+          "downloads": 838
         },
         {
           "month": "2026-04",
-          "downloads": 1090
+          "downloads": 1096
         },
         {
           "month": "2026-05",
-          "downloads": 2272
+          "downloads": 2432
         },
         {
           "month": "2026-06",
-          "downloads": 4316
+          "downloads": 4345
         },
         {
           "month": "2026-07",
-          "downloads": 3655
+          "downloads": 3525
         },
         {
           "month": "2026-08",
-          "downloads": 2544
+          "downloads": 2600
         }
       ],
-      "momGrowthPct": -30.39671682626539,
+      "momGrowthPct": -26.24113475177305,
       "isGrowing": false,
       "stars": 9,
       "description": "Extends Riverpod ref types with additional helpers, to easily add common functionalities to your providers.",
@@ -2832,54 +2832,54 @@
     },
     {
       "name": "adaptive_test",
-      "totalDownloads": 80174,
+      "totalDownloads": 80529,
       "monthlyDownloads": [
         {
           "month": "2025-10",
-          "downloads": 3511
+          "downloads": 3544
         },
         {
           "month": "2025-11",
-          "downloads": 3956
+          "downloads": 4058
         },
         {
           "month": "2025-12",
-          "downloads": 5694
+          "downloads": 5170
         },
         {
           "month": "2026-01",
-          "downloads": 4457
+          "downloads": 4954
         },
         {
           "month": "2026-02",
-          "downloads": 5487
+          "downloads": 5500
         },
         {
           "month": "2026-03",
-          "downloads": 6066
+          "downloads": 6147
         },
         {
           "month": "2026-04",
-          "downloads": 9241
+          "downloads": 9387
         },
         {
           "month": "2026-05",
-          "downloads": 8194
+          "downloads": 8180
         },
         {
           "month": "2026-06",
-          "downloads": 9943
+          "downloads": 9999
         },
         {
           "month": "2026-07",
-          "downloads": 12947
+          "downloads": 12972
         },
         {
           "month": "2026-08",
-          "downloads": 10678
+          "downloads": 10618
         }
       ],
-      "momGrowthPct": -17.525295435235964,
+      "momGrowthPct": -18.14677767499229,
       "isGrowing": false,
       "stars": 21,
       "description": "A Flutter package to generate adaptive golden files during widget tests.",
@@ -3174,55 +3174,55 @@
     },
     {
       "name": "riverpod_community_mutation",
-      "totalDownloads": 3367,
+      "totalDownloads": 3383,
       "monthlyDownloads": [
         {
           "month": "2025-10",
-          "downloads": 662
+          "downloads": 658
         },
         {
           "month": "2025-11",
-          "downloads": 367
+          "downloads": 374
         },
         {
           "month": "2025-12",
-          "downloads": 357
+          "downloads": 319
         },
         {
           "month": "2026-01",
-          "downloads": 357
+          "downloads": 380
         },
         {
           "month": "2026-02",
-          "downloads": 483
+          "downloads": 495
         },
         {
           "month": "2026-03",
-          "downloads": 196
+          "downloads": 187
         },
         {
           "month": "2026-04",
-          "downloads": 216
+          "downloads": 226
         },
         {
           "month": "2026-05",
-          "downloads": 152
+          "downloads": 150
         },
         {
           "month": "2026-06",
-          "downloads": 185
+          "downloads": 178
         },
         {
           "month": "2026-07",
-          "downloads": 195
+          "downloads": 190
         },
         {
           "month": "2026-08",
-          "downloads": 197
+          "downloads": 226
         }
       ],
-      "momGrowthPct": 1.0256410256410255,
-      "isGrowing": false,
+      "momGrowthPct": 18.947368421052634,
+      "isGrowing": true,
       "stars": 3,
       "description": "A mutation implementation for the riverpod community - made by Theodo",
       "notFound": false,
@@ -3288,31 +3288,31 @@
     },
     {
       "name": "http_cache_mmkv_store",
-      "totalDownloads": 3939,
+      "totalDownloads": 3938,
       "monthlyDownloads": [
         {
           "month": "2025-10",
-          "downloads": 49
+          "downloads": 46
         },
         {
           "month": "2025-11",
-          "downloads": 34
+          "downloads": 36
         },
         {
           "month": "2025-12",
-          "downloads": 40
+          "downloads": 32
         },
         {
           "month": "2026-01",
-          "downloads": 24
+          "downloads": 30
         },
         {
           "month": "2026-02",
-          "downloads": 68
+          "downloads": 69
         },
         {
           "month": "2026-03",
-          "downloads": 83
+          "downloads": 84
         },
         {
           "month": "2026-04",
@@ -3320,22 +3320,22 @@
         },
         {
           "month": "2026-05",
-          "downloads": 77
+          "downloads": 76
         },
         {
           "month": "2026-06",
-          "downloads": 612
+          "downloads": 788
         },
         {
           "month": "2026-07",
-          "downloads": 2374
+          "downloads": 2270
         },
         {
           "month": "2026-08",
-          "downloads": 493
+          "downloads": 422
         }
       ],
-      "momGrowthPct": -79.23336141533277,
+      "momGrowthPct": -81.40969162995594,
       "isGrowing": false,
       "stars": 156,
       "description": "A DB cache store implementation with mmkv for dio_cache_interceptor and http_cache_client packages.",
