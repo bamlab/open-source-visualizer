@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T00:07:15.617Z",
+  "generatedAt": "2026-09-30T06:04:11.358Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2889,54 +2889,54 @@
     },
     {
       "name": "theodo_analysis",
-      "totalDownloads": 25870,
+      "totalDownloads": 25952,
       "monthlyDownloads": [
         {
           "month": "2025-10",
-          "downloads": 1796
+          "downloads": 1786
         },
         {
           "month": "2025-11",
-          "downloads": 2408
+          "downloads": 2446
         },
         {
           "month": "2025-12",
-          "downloads": 1970
+          "downloads": 1848
         },
         {
           "month": "2026-01",
-          "downloads": 661
+          "downloads": 769
         },
         {
           "month": "2026-02",
-          "downloads": 869
+          "downloads": 906
         },
         {
           "month": "2026-03",
-          "downloads": 1580
+          "downloads": 1608
         },
         {
           "month": "2026-04",
-          "downloads": 3631
+          "downloads": 3624
         },
         {
           "month": "2026-05",
-          "downloads": 2979
+          "downloads": 3068
         },
         {
           "month": "2026-06",
-          "downloads": 4132
+          "downloads": 4170
         },
         {
           "month": "2026-07",
-          "downloads": 3524
+          "downloads": 3414
         },
         {
           "month": "2026-08",
-          "downloads": 2320
+          "downloads": 2313
         }
       ],
-      "momGrowthPct": -34.165720771850175,
+      "momGrowthPct": -32.249560632688926,
       "isGrowing": false,
       "stars": 2,
       "description": "Lint and dcm rules for Dart and Flutter used internally at Theodo Apps.",
