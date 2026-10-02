@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T00:07:04.907Z",
+  "generatedAt": "2026-10-02T06:04:29.126Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2775,58 +2775,58 @@
     },
     {
       "name": "riverpod_community_extensions",
-      "totalDownloads": 23896,
+      "totalDownloads": 24010,
       "monthlyDownloads": [
         {
           "month": "2025-10",
-          "downloads": 969
+          "downloads": 883
         },
         {
           "month": "2025-11",
-          "downloads": 1888
+          "downloads": 2031
         },
         {
           "month": "2025-12",
-          "downloads": 1476
+          "downloads": 1397
         },
         {
           "month": "2026-01",
-          "downloads": 862
+          "downloads": 898
         },
         {
           "month": "2026-02",
-          "downloads": 721
+          "downloads": 744
         },
         {
           "month": "2026-03",
-          "downloads": 830
+          "downloads": 854
         },
         {
           "month": "2026-04",
-          "downloads": 1004
+          "downloads": 918
         },
         {
           "month": "2026-05",
-          "downloads": 2816
+          "downloads": 3030
         },
         {
           "month": "2026-06",
-          "downloads": 4154
+          "downloads": 4187
         },
         {
           "month": "2026-07",
-          "downloads": 3420
+          "downloads": 2922
         },
         {
           "month": "2026-08",
-          "downloads": 2782
+          "downloads": 3092
         },
         {
           "month": "2026-09",
-          "downloads": 2974
+          "downloads": 3054
         }
       ],
-      "momGrowthPct": 6.9015097052480225,
+      "momGrowthPct": -1.2289780077619665,
       "isGrowing": false,
       "stars": 9,
       "description": "Extends Riverpod ref types with additional helpers, to easily add common functionalities to your providers.",
@@ -2958,58 +2958,58 @@
     },
     {
       "name": "init",
-      "totalDownloads": 24484,
+      "totalDownloads": 24615,
       "monthlyDownloads": [
         {
           "month": "2025-10",
-          "downloads": 559
+          "downloads": 517
         },
         {
           "month": "2025-11",
-          "downloads": 1658
+          "downloads": 1784
         },
         {
           "month": "2025-12",
-          "downloads": 1303
+          "downloads": 1214
         },
         {
           "month": "2026-01",
-          "downloads": 594
+          "downloads": 598
         },
         {
           "month": "2026-02",
-          "downloads": 396
+          "downloads": 456
         },
         {
           "month": "2026-03",
-          "downloads": 1060
+          "downloads": 1177
         },
         {
           "month": "2026-04",
-          "downloads": 3138
+          "downloads": 3128
         },
         {
           "month": "2026-05",
-          "downloads": 3719
+          "downloads": 3775
         },
         {
           "month": "2026-06",
-          "downloads": 3808
+          "downloads": 3836
         },
         {
           "month": "2026-07",
-          "downloads": 3158
+          "downloads": 2670
         },
         {
           "month": "2026-08",
-          "downloads": 2267
+          "downloads": 2561
         },
         {
           "month": "2026-09",
-          "downloads": 2824
+          "downloads": 2899
         }
       ],
-      "momGrowthPct": 24.569916188795766,
+      "momGrowthPct": 13.19796954314721,
       "isGrowing": true,
       "stars": 1,
       "description": "Init widget to execute initialization methods declaratively",
@@ -3019,35 +3019,35 @@
     },
     {
       "name": "app_attest_integrity",
-      "totalDownloads": 2874,
+      "totalDownloads": 2900,
       "monthlyDownloads": [
         {
           "month": "2025-10",
-          "downloads": 56
+          "downloads": 48
         },
         {
           "month": "2025-11",
-          "downloads": 37
+          "downloads": 45
         },
         {
           "month": "2025-12",
-          "downloads": 24
+          "downloads": 22
         },
         {
           "month": "2026-01",
-          "downloads": 233
+          "downloads": 236
         },
         {
           "month": "2026-02",
-          "downloads": 54
+          "downloads": 51
         },
         {
           "month": "2026-03",
-          "downloads": 104
+          "downloads": 112
         },
         {
           "month": "2026-04",
-          "downloads": 118
+          "downloads": 112
         },
         {
           "month": "2026-05",
@@ -3055,23 +3055,23 @@
         },
         {
           "month": "2026-06",
-          "downloads": 304
+          "downloads": 314
         },
         {
           "month": "2026-07",
-          "downloads": 755
+          "downloads": 614
         },
         {
           "month": "2026-08",
-          "downloads": 413
+          "downloads": 560
         },
         {
           "month": "2026-09",
-          "downloads": 568
+          "downloads": 578
         }
       ],
-      "momGrowthPct": 37.530266343825666,
-      "isGrowing": true,
+      "momGrowthPct": 3.214285714285714,
+      "isGrowing": false,
       "stars": 5,
       "description": "A Flutter plugin to assess an app integrity. Uses App attest on iOS and app Integrity on Android.",
       "notFound": false,
@@ -3324,31 +3324,31 @@
     },
     {
       "name": "http_cache_mmkv_store",
-      "totalDownloads": 4087,
+      "totalDownloads": 4090,
       "monthlyDownloads": [
         {
           "month": "2025-10",
-          "downloads": 43
+          "downloads": 36
         },
         {
           "month": "2025-11",
-          "downloads": 39
+          "downloads": 45
         },
         {
           "month": "2025-12",
-          "downloads": 29
+          "downloads": 28
         },
         {
           "month": "2026-01",
-          "downloads": 33
+          "downloads": 35
         },
         {
           "month": "2026-02",
-          "downloads": 69
+          "downloads": 70
         },
         {
           "month": "2026-03",
-          "downloads": 85
+          "downloads": 84
         },
         {
           "month": "2026-04",
@@ -3360,22 +3360,22 @@
         },
         {
           "month": "2026-06",
-          "downloads": 874
+          "downloads": 1057
         },
         {
           "month": "2026-07",
-          "downloads": 2212
+          "downloads": 1811
         },
         {
           "month": "2026-08",
-          "downloads": 393
+          "downloads": 609
         },
         {
           "month": "2026-09",
-          "downloads": 150
+          "downloads": 155
         }
       ],
-      "momGrowthPct": -61.832061068702295,
+      "momGrowthPct": -74.54844006568145,
       "isGrowing": false,
       "stars": 156,
       "description": "A DB cache store implementation with mmkv for dio_cache_interceptor and http_cache_client packages.",
