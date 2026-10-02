@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T12:04:05.342Z",
+  "generatedAt": "2026-10-02T18:03:26.701Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -423,7 +423,7 @@
     },
     {
       "name": "@bam.tech/react-native-config",
-      "totalDownloads": 75905,
+      "totalDownloads": 76046,
       "monthlyDownloads": [
         {
           "month": "2025-04",
@@ -451,7 +451,7 @@
         },
         {
           "month": "2025-10",
-          "downloads": 3366
+          "downloads": 3507
         },
         {
           "month": "2025-11",
@@ -507,7 +507,7 @@
     },
     {
       "name": "@bam.tech/react-native-keyevent-expo-config-plugin",
-      "totalDownloads": 60658,
+      "totalDownloads": 60786,
       "monthlyDownloads": [
         {
           "month": "2025-04",
@@ -535,7 +535,7 @@
         },
         {
           "month": "2025-10",
-          "downloads": 4009
+          "downloads": 4137
         },
         {
           "month": "2025-11",
@@ -675,7 +675,7 @@
     },
     {
       "name": "@bam.tech/flow-navigator",
-      "totalDownloads": 119877,
+      "totalDownloads": 119989,
       "monthlyDownloads": [
         {
           "month": "2025-04",
@@ -703,7 +703,7 @@
         },
         {
           "month": "2025-10",
-          "downloads": 2854
+          "downloads": 2966
         },
         {
           "month": "2025-11",
@@ -1179,7 +1179,7 @@
     },
     {
       "name": "react-native-hide-with-keyboard",
-      "totalDownloads": 134644,
+      "totalDownloads": 134866,
       "monthlyDownloads": [
         {
           "month": "2025-04",
@@ -1207,7 +1207,7 @@
         },
         {
           "month": "2025-10",
-          "downloads": 7494
+          "downloads": 7716
         },
         {
           "month": "2025-11",
@@ -2019,7 +2019,7 @@
     },
     {
       "name": "react-redux-toolbox",
-      "totalDownloads": 36747,
+      "totalDownloads": 36829,
       "monthlyDownloads": [
         {
           "month": "2025-04",
@@ -2047,7 +2047,7 @@
         },
         {
           "month": "2025-10",
-          "downloads": 1346
+          "downloads": 1428
         },
         {
           "month": "2025-11",
@@ -2103,7 +2103,7 @@
     },
     {
       "name": "react-native-debugger-utils",
-      "totalDownloads": 239,
+      "totalDownloads": 240,
       "monthlyDownloads": [
         {
           "month": "2025-04",
@@ -2131,7 +2131,7 @@
         },
         {
           "month": "2025-10",
-          "downloads": 13
+          "downloads": 14
         },
         {
           "month": "2025-11",
@@ -2187,7 +2187,7 @@
     },
     {
       "name": "redux-async-actions-factory",
-      "totalDownloads": 310,
+      "totalDownloads": 312,
       "monthlyDownloads": [
         {
           "month": "2025-04",
@@ -2215,7 +2215,7 @@
         },
         {
           "month": "2025-10",
-          "downloads": 12
+          "downloads": 14
         },
         {
           "month": "2025-11",
@@ -2523,7 +2523,7 @@
     },
     {
       "name": "react-native-numberpicker-dialog",
-      "totalDownloads": 1680,
+      "totalDownloads": 1686,
       "monthlyDownloads": [
         {
           "month": "2025-04",
@@ -2551,7 +2551,7 @@
         },
         {
           "month": "2025-10",
-          "downloads": 49
+          "downloads": 55
         },
         {
           "month": "2025-11",
@@ -2691,7 +2691,7 @@
     },
     {
       "name": "react-native-text-input",
-      "totalDownloads": 417,
+      "totalDownloads": 422,
       "monthlyDownloads": [
         {
           "month": "2025-04",
@@ -2719,7 +2719,7 @@
         },
         {
           "month": "2025-10",
-          "downloads": 25
+          "downloads": 30
         },
         {
           "month": "2025-11",
@@ -3080,7 +3080,7 @@
     },
     {
       "name": "flutter_milibris",
-      "totalDownloads": 14811,
+      "totalDownloads": 14846,
       "monthlyDownloads": [
         {
           "month": "2025-10",
@@ -3104,35 +3104,35 @@
         },
         {
           "month": "2026-03",
-          "downloads": 369
+          "downloads": 499
         },
         {
           "month": "2026-04",
-          "downloads": 2813
+          "downloads": 2850
         },
         {
           "month": "2026-05",
-          "downloads": 3335
+          "downloads": 3306
         },
         {
           "month": "2026-06",
-          "downloads": 3152
+          "downloads": 3208
         },
         {
           "month": "2026-07",
-          "downloads": 2265
+          "downloads": 1841
         },
         {
           "month": "2026-08",
-          "downloads": 1327
+          "downloads": 1595
         },
         {
           "month": "2026-09",
-          "downloads": 1550
+          "downloads": 1547
         }
       ],
-      "momGrowthPct": 16.80482290881688,
-      "isGrowing": true,
+      "momGrowthPct": -3.0094043887147337,
+      "isGrowing": false,
       "stars": 0,
       "description": "A Flutter plugin that bridges Milibris SDKs, enabling encrypted archive",
       "notFound": false,
@@ -3202,58 +3202,58 @@
     },
     {
       "name": "riverpod_community_mutation",
-      "totalDownloads": 3588,
+      "totalDownloads": 3576,
       "monthlyDownloads": [
         {
           "month": "2025-10",
-          "downloads": 652
+          "downloads": 576
         },
         {
           "month": "2025-11",
-          "downloads": 353
+          "downloads": 402
         },
         {
           "month": "2025-12",
-          "downloads": 317
+          "downloads": 318
         },
         {
           "month": "2026-01",
-          "downloads": 406
+          "downloads": 444
         },
         {
           "month": "2026-02",
-          "downloads": 487
+          "downloads": 453
         },
         {
           "month": "2026-03",
-          "downloads": 167
+          "downloads": 161
         },
         {
           "month": "2026-04",
-          "downloads": 196
+          "downloads": 198
         },
         {
           "month": "2026-05",
-          "downloads": 183
+          "downloads": 179
         },
         {
           "month": "2026-06",
-          "downloads": 185
-        },
-        {
-          "month": "2026-07",
           "downloads": 182
         },
         {
+          "month": "2026-07",
+          "downloads": 175
+        },
+        {
           "month": "2026-08",
-          "downloads": 239
+          "downloads": 245
         },
         {
           "month": "2026-09",
-          "downloads": 221
+          "downloads": 243
         }
       ],
-      "momGrowthPct": -7.531380753138076,
+      "momGrowthPct": -0.8163265306122449,
       "isGrowing": false,
       "stars": 3,
       "description": "A mutation implementation for the riverpod community - made by Theodo",
@@ -3385,7 +3385,7 @@
     },
     {
       "name": "go_router_url_watcher",
-      "totalDownloads": 209,
+      "totalDownloads": 210,
       "monthlyDownloads": [
         {
           "month": "2025-10",
@@ -3421,22 +3421,22 @@
         },
         {
           "month": "2026-06",
-          "downloads": 111
+          "downloads": 123
         },
         {
           "month": "2026-07",
-          "downloads": 50
+          "downloads": 24
         },
         {
           "month": "2026-08",
-          "downloads": 25
+          "downloads": 39
         },
         {
           "month": "2026-09",
-          "downloads": 23
+          "downloads": 24
         }
       ],
-      "momGrowthPct": -8,
+      "momGrowthPct": -38.46153846153847,
       "isGrowing": false,
       "stars": 1,
       "description": "Easily keep your state in the url when using go_router in Flutter",
@@ -3446,27 +3446,27 @@
     },
     {
       "name": "equatable_lint",
-      "totalDownloads": 1719,
+      "totalDownloads": 1712,
       "monthlyDownloads": [
         {
           "month": "2025-10",
-          "downloads": 161
+          "downloads": 127
         },
         {
           "month": "2025-11",
-          "downloads": 131
+          "downloads": 160
         },
         {
           "month": "2025-12",
-          "downloads": 247
+          "downloads": 246
         },
         {
           "month": "2026-01",
-          "downloads": 103
+          "downloads": 106
         },
         {
           "month": "2026-02",
-          "downloads": 152
+          "downloads": 148
         },
         {
           "month": "2026-03",
@@ -3474,11 +3474,11 @@
         },
         {
           "month": "2026-04",
-          "downloads": 93
+          "downloads": 95
         },
         {
           "month": "2026-05",
-          "downloads": 152
+          "downloads": 150
         },
         {
           "month": "2026-06",
@@ -3486,18 +3486,18 @@
         },
         {
           "month": "2026-07",
-          "downloads": 188
+          "downloads": 132
         },
         {
           "month": "2026-08",
-          "downloads": 114
+          "downloads": 170
         },
         {
           "month": "2026-09",
           "downloads": 85
         }
       ],
-      "momGrowthPct": -25.438596491228072,
+      "momGrowthPct": -50,
       "isGrowing": false,
       "stars": 6,
       "description": "This is a set of rules to make classes using Equatable more maintainable. We make sure here that every fields in an Equatable class is linked to the Equatable props getter.",
