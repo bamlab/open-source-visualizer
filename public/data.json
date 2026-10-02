@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T06:04:29.126Z",
+  "generatedAt": "2026-10-02T12:04:05.342Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2836,58 +2836,58 @@
     },
     {
       "name": "adaptive_test",
-      "totalDownloads": 91005,
+      "totalDownloads": 91460,
       "monthlyDownloads": [
         {
           "month": "2025-10",
-          "downloads": 3502
+          "downloads": 3077
         },
         {
           "month": "2025-11",
-          "downloads": 4327
+          "downloads": 4970
         },
         {
           "month": "2025-12",
-          "downloads": 4968
+          "downloads": 4738
         },
         {
           "month": "2026-01",
-          "downloads": 5028
+          "downloads": 5157
         },
         {
           "month": "2026-02",
-          "downloads": 5564
+          "downloads": 5698
         },
         {
           "month": "2026-03",
-          "downloads": 6173
+          "downloads": 6259
         },
         {
           "month": "2026-04",
-          "downloads": 7852
+          "downloads": 7792
         },
         {
           "month": "2026-05",
-          "downloads": 10174
+          "downloads": 10329
         },
         {
           "month": "2026-06",
-          "downloads": 9728
+          "downloads": 9930
         },
         {
           "month": "2026-07",
-          "downloads": 12923
+          "downloads": 10148
         },
         {
           "month": "2026-08",
-          "downloads": 10677
+          "downloads": 13124
         },
         {
           "month": "2026-09",
-          "downloads": 10089
+          "downloads": 10238
         }
       ],
-      "momGrowthPct": -5.507164933970216,
+      "momGrowthPct": -21.990246875952455,
       "isGrowing": false,
       "stars": 21,
       "description": "A Flutter package to generate adaptive golden files during widget tests.",
@@ -3141,58 +3141,58 @@
     },
     {
       "name": "flutter_reach_five",
-      "totalDownloads": 9940,
+      "totalDownloads": 10022,
       "monthlyDownloads": [
         {
           "month": "2025-10",
-          "downloads": 484
+          "downloads": 460
         },
         {
           "month": "2025-11",
-          "downloads": 1562
+          "downloads": 1666
         },
         {
           "month": "2025-12",
-          "downloads": 1181
+          "downloads": 1096
         },
         {
           "month": "2026-01",
-          "downloads": 277
+          "downloads": 276
         },
         {
           "month": "2026-02",
-          "downloads": 300
+          "downloads": 358
         },
         {
           "month": "2026-03",
-          "downloads": 272
+          "downloads": 255
         },
         {
           "month": "2026-04",
-          "downloads": 466
+          "downloads": 426
         },
         {
           "month": "2026-05",
-          "downloads": 478
+          "downloads": 570
         },
         {
           "month": "2026-06",
-          "downloads": 1729
+          "downloads": 1712
         },
         {
           "month": "2026-07",
-          "downloads": 1017
+          "downloads": 895
         },
         {
           "month": "2026-08",
-          "downloads": 960
+          "downloads": 1031
         },
         {
           "month": "2026-09",
-          "downloads": 1214
+          "downloads": 1277
         }
       ],
-      "momGrowthPct": 26.458333333333332,
+      "momGrowthPct": 23.860329776915616,
       "isGrowing": true,
       "stars": 3,
       "description": "This package allows you to use the methods from the reachFive android and ios native sdks in Flutter",
