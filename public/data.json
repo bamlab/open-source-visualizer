@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T00:06:51.170Z",
+  "generatedAt": "2026-10-06T06:04:27.074Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -3141,15 +3141,15 @@
     },
     {
       "name": "flutter_reach_five",
-      "totalDownloads": 10084,
+      "totalDownloads": 10086,
       "monthlyDownloads": [
         {
           "month": "2025-10",
-          "downloads": 403
+          "downloads": 404
         },
         {
           "month": "2025-11",
-          "downloads": 1438
+          "downloads": 1437
         },
         {
           "month": "2025-12",
@@ -3161,38 +3161,38 @@
         },
         {
           "month": "2026-02",
-          "downloads": 317
+          "downloads": 316
         },
         {
           "month": "2026-03",
-          "downloads": 374
+          "downloads": 288
         },
         {
           "month": "2026-04",
-          "downloads": 424
+          "downloads": 510
         },
         {
           "month": "2026-05",
-          "downloads": 281
+          "downloads": 286
         },
         {
           "month": "2026-06",
-          "downloads": 2146
+          "downloads": 1769
         },
         {
           "month": "2026-07",
-          "downloads": 722
+          "downloads": 1095
         },
         {
           "month": "2026-08",
-          "downloads": 876
+          "downloads": 877
         },
         {
           "month": "2026-09",
-          "downloads": 1549
+          "downloads": 1550
         }
       ],
-      "momGrowthPct": 76.82648401826484,
+      "momGrowthPct": 76.73888255416192,
       "isGrowing": true,
       "stars": 3,
       "description": "This package allows you to use the methods from the reachFive android and ios native sdks in Flutter",
@@ -3324,23 +3324,23 @@
     },
     {
       "name": "http_cache_mmkv_store",
-      "totalDownloads": 4131,
+      "totalDownloads": 4128,
       "monthlyDownloads": [
         {
           "month": "2025-10",
-          "downloads": 33
+          "downloads": 34
         },
         {
           "month": "2025-11",
-          "downloads": 35
+          "downloads": 34
         },
         {
           "month": "2025-12",
-          "downloads": 39
+          "downloads": 40
         },
         {
           "month": "2026-01",
-          "downloads": 23
+          "downloads": 24
         },
         {
           "month": "2026-02",
@@ -3348,11 +3348,11 @@
         },
         {
           "month": "2026-03",
-          "downloads": 105
+          "downloads": 83
         },
         {
           "month": "2026-04",
-          "downloads": 64
+          "downloads": 85
         },
         {
           "month": "2026-05",
@@ -3360,22 +3360,22 @@
         },
         {
           "month": "2026-06",
-          "downloads": 1120
+          "downloads": 612
         },
         {
           "month": "2026-07",
-          "downloads": 1868
+          "downloads": 2374
         },
         {
           "month": "2026-08",
-          "downloads": 494
+          "downloads": 493
         },
         {
           "month": "2026-09",
-          "downloads": 205
+          "downloads": 204
         }
       ],
-      "momGrowthPct": -58.502024291497975,
+      "momGrowthPct": -58.620689655172406,
       "isGrowing": false,
       "stars": 156,
       "description": "A DB cache store implementation with mmkv for dio_cache_interceptor and http_cache_client packages.",
