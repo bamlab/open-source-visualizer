@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T06:04:27.074Z",
+  "generatedAt": "2026-10-06T12:03:58.324Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2836,58 +2836,58 @@
     },
     {
       "name": "adaptive_test",
-      "totalDownloads": 92251,
+      "totalDownloads": 92347,
       "monthlyDownloads": [
         {
           "month": "2025-10",
-          "downloads": 2886
+          "downloads": 2885
         },
         {
           "month": "2025-11",
-          "downloads": 3952
+          "downloads": 3956
         },
         {
           "month": "2025-12",
-          "downloads": 5695
+          "downloads": 5694
         },
         {
           "month": "2026-01",
-          "downloads": 4458
+          "downloads": 4457
         },
         {
           "month": "2026-02",
-          "downloads": 5434
+          "downloads": 5487
         },
         {
           "month": "2026-03",
-          "downloads": 8099
+          "downloads": 6066
         },
         {
           "month": "2026-04",
-          "downloads": 7249
+          "downloads": 9241
         },
         {
           "month": "2026-05",
-          "downloads": 8204
+          "downloads": 8194
         },
         {
           "month": "2026-06",
-          "downloads": 12950
+          "downloads": 9943
         },
         {
           "month": "2026-07",
-          "downloads": 9919
+          "downloads": 12947
         },
         {
           "month": "2026-08",
-          "downloads": 10663
+          "downloads": 10678
         },
         {
           "month": "2026-09",
-          "downloads": 12742
+          "downloads": 12799
         }
       ],
-      "momGrowthPct": 19.49732720622714,
+      "momGrowthPct": 19.86327027533246,
       "isGrowing": true,
       "stars": 21,
       "description": "A Flutter package to generate adaptive golden files during widget tests.",
@@ -2958,58 +2958,58 @@
     },
     {
       "name": "init",
-      "totalDownloads": 24764,
+      "totalDownloads": 24760,
       "monthlyDownloads": [
         {
           "month": "2025-10",
-          "downloads": 472
+          "downloads": 475
         },
         {
           "month": "2025-11",
-          "downloads": 1528
+          "downloads": 1526
         },
         {
           "month": "2025-12",
-          "downloads": 1474
+          "downloads": 1471
         },
         {
           "month": "2026-01",
-          "downloads": 515
+          "downloads": 520
         },
         {
           "month": "2026-02",
-          "downloads": 412
+          "downloads": 408
         },
         {
           "month": "2026-03",
-          "downloads": 1615
+          "downloads": 938
         },
         {
           "month": "2026-04",
-          "downloads": 2887
+          "downloads": 3564
         },
         {
           "month": "2026-05",
-          "downloads": 2923
+          "downloads": 2925
         },
         {
           "month": "2026-06",
-          "downloads": 4847
+          "downloads": 3991
         },
         {
           "month": "2026-07",
-          "downloads": 2544
+          "downloads": 3394
         },
         {
           "month": "2026-08",
-          "downloads": 2105
+          "downloads": 2109
         },
         {
           "month": "2026-09",
-          "downloads": 3442
+          "downloads": 3439
         }
       ],
-      "momGrowthPct": 63.51543942992875,
+      "momGrowthPct": 63.06306306306306,
       "isGrowing": true,
       "stars": 1,
       "description": "Init widget to execute initialization methods declaratively",
@@ -3133,7 +3133,7 @@
       ],
       "momGrowthPct": 43.37722695584818,
       "isGrowing": true,
-      "stars": 0,
+      "stars": 1,
       "description": "A Flutter plugin that bridges Milibris SDKs, enabling encrypted archive",
       "notFound": false,
       "ecosystem": "pub",
@@ -3202,23 +3202,23 @@
     },
     {
       "name": "riverpod_community_mutation",
-      "totalDownloads": 3516,
+      "totalDownloads": 3530,
       "monthlyDownloads": [
         {
           "month": "2025-10",
-          "downloads": 502
+          "downloads": 503
         },
         {
           "month": "2025-11",
-          "downloads": 368
+          "downloads": 367
         },
         {
           "month": "2025-12",
-          "downloads": 359
+          "downloads": 357
         },
         {
           "month": "2026-01",
-          "downloads": 358
+          "downloads": 357
         },
         {
           "month": "2026-02",
@@ -3226,23 +3226,23 @@
         },
         {
           "month": "2026-03",
-          "downloads": 242
+          "downloads": 196
         },
         {
           "month": "2026-04",
-          "downloads": 170
+          "downloads": 216
         },
         {
           "month": "2026-05",
-          "downloads": 149
+          "downloads": 152
         },
         {
           "month": "2026-06",
-          "downloads": 220
+          "downloads": 185
         },
         {
           "month": "2026-07",
-          "downloads": 163
+          "downloads": 195
         },
         {
           "month": "2026-08",
@@ -3250,10 +3250,10 @@
         },
         {
           "month": "2026-09",
-          "downloads": 305
+          "downloads": 322
         }
       ],
-      "momGrowthPct": 54.82233502538071,
+      "momGrowthPct": 63.45177664974619,
       "isGrowing": true,
       "stars": 3,
       "description": "A mutation implementation for the riverpod community - made by Theodo",
