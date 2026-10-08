@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T00:06:50.075Z",
+  "generatedAt": "2026-10-08T06:04:22.993Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2836,58 +2836,58 @@
     },
     {
       "name": "adaptive_test",
-      "totalDownloads": 89785,
+      "totalDownloads": 90341,
       "monthlyDownloads": [
         {
           "month": "2025-10",
-          "downloads": 2837
+          "downloads": 2838
         },
         {
           "month": "2025-11",
-          "downloads": 4058
+          "downloads": 4327
         },
         {
           "month": "2025-12",
-          "downloads": 5170
+          "downloads": 4968
         },
         {
           "month": "2026-01",
-          "downloads": 4954
+          "downloads": 5028
         },
         {
           "month": "2026-02",
-          "downloads": 5500
+          "downloads": 5564
         },
         {
           "month": "2026-03",
-          "downloads": 6147
+          "downloads": 6173
         },
         {
           "month": "2026-04",
-          "downloads": 9387
+          "downloads": 7852
         },
         {
           "month": "2026-05",
-          "downloads": 8180
+          "downloads": 10174
         },
         {
           "month": "2026-06",
-          "downloads": 9999
+          "downloads": 9728
         },
         {
           "month": "2026-07",
-          "downloads": 12972
+          "downloads": 12923
         },
         {
           "month": "2026-08",
-          "downloads": 10618
+          "downloads": 10677
         },
         {
           "month": "2026-09",
-          "downloads": 9963
+          "downloads": 10089
         }
       ],
-      "momGrowthPct": -6.168770013185157,
+      "momGrowthPct": -5.507164933970216,
       "isGrowing": false,
       "stars": 21,
       "description": "A Flutter package to generate adaptive golden files during widget tests.",
@@ -3446,58 +3446,58 @@
     },
     {
       "name": "equatable_lint",
-      "totalDownloads": 1687,
+      "totalDownloads": 1690,
       "monthlyDownloads": [
         {
           "month": "2025-10",
-          "downloads": 127
-        },
-        {
-          "month": "2025-11",
-          "downloads": 121
-        },
-        {
-          "month": "2025-12",
-          "downloads": 205
-        },
-        {
-          "month": "2026-01",
-          "downloads": 159
-        },
-        {
-          "month": "2026-02",
-          "downloads": 148
-        },
-        {
-          "month": "2026-03",
-          "downloads": 136
-        },
-        {
-          "month": "2026-04",
-          "downloads": 113
-        },
-        {
-          "month": "2026-05",
           "downloads": 132
         },
         {
+          "month": "2025-11",
+          "downloads": 131
+        },
+        {
+          "month": "2025-12",
+          "downloads": 247
+        },
+        {
+          "month": "2026-01",
+          "downloads": 103
+        },
+        {
+          "month": "2026-02",
+          "downloads": 152
+        },
+        {
+          "month": "2026-03",
+          "downloads": 134
+        },
+        {
+          "month": "2026-04",
+          "downloads": 93
+        },
+        {
+          "month": "2026-05",
+          "downloads": 152
+        },
+        {
           "month": "2026-06",
-          "downloads": 154
+          "downloads": 159
         },
         {
           "month": "2026-07",
-          "downloads": 184
+          "downloads": 188
         },
         {
           "month": "2026-08",
-          "downloads": 124
+          "downloads": 114
         },
         {
           "month": "2026-09",
-          "downloads": 84
+          "downloads": 85
         }
       ],
-      "momGrowthPct": -32.25806451612903,
+      "momGrowthPct": -25.438596491228072,
       "isGrowing": false,
       "stars": 6,
       "description": "This is a set of rules to make classes using Equatable more maintainable. We make sure here that every fields in an Equatable class is linked to the Equatable props getter.",
