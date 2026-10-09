@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T06:04:40.343Z",
+  "generatedAt": "2026-10-09T12:03:54.316Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -3140,6 +3140,67 @@
       "publishedAt": "2026-03-23T17:17:27.908343Z"
     },
     {
+      "name": "http_cache_mmkv_store",
+      "totalDownloads": 4083,
+      "monthlyDownloads": [
+        {
+          "month": "2025-10",
+          "downloads": 29
+        },
+        {
+          "month": "2025-11",
+          "downloads": 45
+        },
+        {
+          "month": "2025-12",
+          "downloads": 28
+        },
+        {
+          "month": "2026-01",
+          "downloads": 35
+        },
+        {
+          "month": "2026-02",
+          "downloads": 70
+        },
+        {
+          "month": "2026-03",
+          "downloads": 84
+        },
+        {
+          "month": "2026-04",
+          "downloads": 70
+        },
+        {
+          "month": "2026-05",
+          "downloads": 90
+        },
+        {
+          "month": "2026-06",
+          "downloads": 1057
+        },
+        {
+          "month": "2026-07",
+          "downloads": 1811
+        },
+        {
+          "month": "2026-08",
+          "downloads": 609
+        },
+        {
+          "month": "2026-09",
+          "downloads": 155
+        }
+      ],
+      "momGrowthPct": -74.54844006568145,
+      "isGrowing": false,
+      "stars": 156,
+      "description": "A DB cache store implementation with mmkv for dio_cache_interceptor and http_cache_client packages.",
+      "notFound": false,
+      "ecosystem": "pub",
+      "publishedAt": "2025-06-09T14:32:34.666856Z"
+    },
+    {
       "name": "flutter_reach_five",
       "totalDownloads": 9906,
       "monthlyDownloads": [
@@ -3199,67 +3260,6 @@
       "notFound": false,
       "ecosystem": "pub",
       "publishedAt": "2022-10-07T15:53:56.220179Z"
-    },
-    {
-      "name": "riverpod_community_mutation",
-      "totalDownloads": 3409,
-      "monthlyDownloads": [
-        {
-          "month": "2025-10",
-          "downloads": 409
-        },
-        {
-          "month": "2025-11",
-          "downloads": 402
-        },
-        {
-          "month": "2025-12",
-          "downloads": 318
-        },
-        {
-          "month": "2026-01",
-          "downloads": 444
-        },
-        {
-          "month": "2026-02",
-          "downloads": 453
-        },
-        {
-          "month": "2026-03",
-          "downloads": 161
-        },
-        {
-          "month": "2026-04",
-          "downloads": 198
-        },
-        {
-          "month": "2026-05",
-          "downloads": 179
-        },
-        {
-          "month": "2026-06",
-          "downloads": 182
-        },
-        {
-          "month": "2026-07",
-          "downloads": 175
-        },
-        {
-          "month": "2026-08",
-          "downloads": 245
-        },
-        {
-          "month": "2026-09",
-          "downloads": 243
-        }
-      ],
-      "momGrowthPct": -0.8163265306122449,
-      "isGrowing": false,
-      "stars": 3,
-      "description": "A mutation implementation for the riverpod community - made by Theodo",
-      "notFound": false,
-      "ecosystem": "pub",
-      "publishedAt": "2025-05-22T13:02:37.162979Z"
     },
     {
       "name": "flutter_lyra",
@@ -3323,65 +3323,65 @@
       "publishedAt": "2022-11-03T14:23:30.800535Z"
     },
     {
-      "name": "http_cache_mmkv_store",
-      "totalDownloads": 4083,
+      "name": "riverpod_community_mutation",
+      "totalDownloads": 3409,
       "monthlyDownloads": [
         {
           "month": "2025-10",
-          "downloads": 29
+          "downloads": 409
         },
         {
           "month": "2025-11",
-          "downloads": 45
+          "downloads": 402
         },
         {
           "month": "2025-12",
-          "downloads": 28
+          "downloads": 318
         },
         {
           "month": "2026-01",
-          "downloads": 35
+          "downloads": 444
         },
         {
           "month": "2026-02",
-          "downloads": 70
+          "downloads": 453
         },
         {
           "month": "2026-03",
-          "downloads": 84
+          "downloads": 161
         },
         {
           "month": "2026-04",
-          "downloads": 70
+          "downloads": 198
         },
         {
           "month": "2026-05",
-          "downloads": 90
+          "downloads": 179
         },
         {
           "month": "2026-06",
-          "downloads": 1057
+          "downloads": 182
         },
         {
           "month": "2026-07",
-          "downloads": 1811
+          "downloads": 175
         },
         {
           "month": "2026-08",
-          "downloads": 609
+          "downloads": 245
         },
         {
           "month": "2026-09",
-          "downloads": 155
+          "downloads": 243
         }
       ],
-      "momGrowthPct": -74.54844006568145,
+      "momGrowthPct": -0.8163265306122449,
       "isGrowing": false,
-      "stars": 156,
-      "description": "A DB cache store implementation with mmkv for dio_cache_interceptor and http_cache_client packages.",
+      "stars": 3,
+      "description": "A mutation implementation for the riverpod community - made by Theodo",
       "notFound": false,
       "ecosystem": "pub",
-      "publishedAt": "2025-06-09T14:32:34.666856Z"
+      "publishedAt": "2025-05-22T13:02:37.162979Z"
     },
     {
       "name": "go_router_url_watcher",
