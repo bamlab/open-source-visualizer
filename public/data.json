@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T00:07:53.619Z",
+  "generatedAt": "2026-10-12T03:26:19.148Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2836,11 +2836,11 @@
     },
     {
       "name": "adaptive_test",
-      "totalDownloads": 91517,
+      "totalDownloads": 91609,
       "monthlyDownloads": [
         {
           "month": "2025-10",
-          "downloads": 2294
+          "downloads": 2244
         },
         {
           "month": "2025-11",
@@ -2848,47 +2848,47 @@
         },
         {
           "month": "2025-12",
-          "downloads": 5689
+          "downloads": 5695
         },
         {
           "month": "2026-01",
-          "downloads": 4440
+          "downloads": 4458
         },
         {
           "month": "2026-02",
-          "downloads": 5439
+          "downloads": 5434
         },
         {
           "month": "2026-03",
-          "downloads": 8113
+          "downloads": 8099
         },
         {
           "month": "2026-04",
-          "downloads": 7247
+          "downloads": 7249
         },
         {
           "month": "2026-05",
-          "downloads": 8197
+          "downloads": 8204
         },
         {
           "month": "2026-06",
-          "downloads": 12914
+          "downloads": 12950
         },
         {
           "month": "2026-07",
-          "downloads": 9966
+          "downloads": 9919
         },
         {
           "month": "2026-08",
-          "downloads": 13117
+          "downloads": 10663
         },
         {
           "month": "2026-09",
-          "downloads": 10149
+          "downloads": 12742
         }
       ],
-      "momGrowthPct": -22.627125104825797,
-      "isGrowing": false,
+      "momGrowthPct": 19.49732720622714,
+      "isGrowing": true,
       "stars": 21,
       "description": "A Flutter package to generate adaptive golden files during widget tests.",
       "notFound": false,
@@ -3202,7 +3202,7 @@
     },
     {
       "name": "flutter_reach_five",
-      "totalDownloads": 9982,
+      "totalDownloads": 10017,
       "monthlyDownloads": [
         {
           "month": "2025-10",
@@ -3222,19 +3222,19 @@
         },
         {
           "month": "2026-02",
-          "downloads": 297
+          "downloads": 317
         },
         {
           "month": "2026-03",
-          "downloads": 393
+          "downloads": 374
         },
         {
           "month": "2026-04",
-          "downloads": 422
+          "downloads": 424
         },
         {
           "month": "2026-05",
-          "downloads": 284
+          "downloads": 281
         },
         {
           "month": "2026-06",
@@ -3242,19 +3242,19 @@
         },
         {
           "month": "2026-07",
-          "downloads": 721
+          "downloads": 722
         },
         {
           "month": "2026-08",
-          "downloads": 1170
+          "downloads": 876
         },
         {
           "month": "2026-09",
-          "downloads": 1221
+          "downloads": 1549
         }
       ],
-      "momGrowthPct": 4.358974358974359,
-      "isGrowing": false,
+      "momGrowthPct": 76.82648401826484,
+      "isGrowing": true,
       "stars": 3,
       "description": "This package allows you to use the methods from the reachFive android and ios native sdks in Flutter",
       "notFound": false,
@@ -3324,11 +3324,11 @@
     },
     {
       "name": "riverpod_community_mutation",
-      "totalDownloads": 3338,
+      "totalDownloads": 3316,
       "monthlyDownloads": [
         {
           "month": "2025-10",
-          "downloads": 324
+          "downloads": 302
         },
         {
           "month": "2025-11",
@@ -3344,11 +3344,11 @@
         },
         {
           "month": "2026-02",
-          "downloads": 481
+          "downloads": 483
         },
         {
           "month": "2026-03",
-          "downloads": 243
+          "downloads": 242
         },
         {
           "month": "2026-04",
@@ -3356,7 +3356,7 @@
         },
         {
           "month": "2026-05",
-          "downloads": 150
+          "downloads": 149
         },
         {
           "month": "2026-06",
@@ -3368,15 +3368,15 @@
         },
         {
           "month": "2026-08",
-          "downloads": 282
+          "downloads": 197
         },
         {
           "month": "2026-09",
-          "downloads": 220
+          "downloads": 305
         }
       ],
-      "momGrowthPct": -21.98581560283688,
-      "isGrowing": false,
+      "momGrowthPct": 54.82233502538071,
+      "isGrowing": true,
       "stars": 3,
       "description": "A mutation implementation for the riverpod community - made by Theodo",
       "notFound": false,
