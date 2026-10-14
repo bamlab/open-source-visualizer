@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T12:03:52.435Z",
+  "generatedAt": "2026-10-14T18:02:51.453Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -1760,7 +1760,7 @@
       ],
       "momGrowthPct": 25.563539718476232,
       "isGrowing": true,
-      "stars": 398,
+      "stars": 397,
       "description": "Make the most of your React Native forms with Formik",
       "notFound": false,
       "ecosystem": "npm"
