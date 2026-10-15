@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T12:03:54.039Z",
+  "generatedAt": "2026-10-15T18:03:19.890Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -80,7 +80,7 @@
       ],
       "momGrowthPct": -4.392551192875948,
       "isGrowing": false,
-      "stars": 1660,
+      "stars": 1661,
       "description": "Rescale local images with React Native",
       "notFound": false,
       "ecosystem": "npm"
@@ -1172,7 +1172,7 @@
       ],
       "momGrowthPct": 1.5655700012541283,
       "isGrowing": false,
-      "stars": 1660,
+      "stars": 1661,
       "description": "Rescale local images with React Native",
       "notFound": false,
       "ecosystem": "npm"
@@ -1256,7 +1256,7 @@
       ],
       "momGrowthPct": -29.757785467128027,
       "isGrowing": false,
-      "stars": 123,
+      "stars": 122,
       "description": "Hide components when keyboard is shown",
       "notFound": false,
       "ecosystem": "npm"
