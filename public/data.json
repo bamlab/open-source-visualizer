@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T06:03:34.124Z",
+  "generatedAt": "2026-10-17T12:03:02.761Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2836,58 +2836,58 @@
     },
     {
       "name": "adaptive_test",
-      "totalDownloads": 89921,
+      "totalDownloads": 90222,
       "monthlyDownloads": [
         {
           "month": "2025-10",
-          "downloads": 1538
+          "downloads": 1412
         },
         {
           "month": "2025-11",
-          "downloads": 4970
+          "downloads": 5358
         },
         {
           "month": "2025-12",
-          "downloads": 4738
+          "downloads": 4308
         },
         {
           "month": "2026-01",
-          "downloads": 5157
+          "downloads": 4228
         },
         {
           "month": "2026-02",
-          "downloads": 5698
+          "downloads": 5581
         },
         {
           "month": "2026-03",
-          "downloads": 6259
+          "downloads": 7819
         },
         {
           "month": "2026-04",
-          "downloads": 7792
+          "downloads": 7623
         },
         {
           "month": "2026-05",
-          "downloads": 10329
+          "downloads": 10445
         },
         {
           "month": "2026-06",
-          "downloads": 9930
+          "downloads": 9940
         },
         {
           "month": "2026-07",
-          "downloads": 10148
+          "downloads": 10257
         },
         {
           "month": "2026-08",
-          "downloads": 13124
+          "downloads": 13086
         },
         {
           "month": "2026-09",
-          "downloads": 10238
+          "downloads": 10165
         }
       ],
-      "momGrowthPct": -21.990246875952455,
+      "momGrowthPct": -22.321565031331193,
       "isGrowing": false,
       "stars": 21,
       "description": "A Flutter package to generate adaptive golden files during widget tests.",
@@ -3140,67 +3140,6 @@
       "publishedAt": "2025-06-09T14:32:34.666856Z"
     },
     {
-      "name": "flutter_milibris",
-      "totalDownloads": 14923,
-      "monthlyDownloads": [
-        {
-          "month": "2025-10",
-          "downloads": 0
-        },
-        {
-          "month": "2025-11",
-          "downloads": 0
-        },
-        {
-          "month": "2025-12",
-          "downloads": 0
-        },
-        {
-          "month": "2026-01",
-          "downloads": 0
-        },
-        {
-          "month": "2026-02",
-          "downloads": 0
-        },
-        {
-          "month": "2026-03",
-          "downloads": 688
-        },
-        {
-          "month": "2026-04",
-          "downloads": 2738
-        },
-        {
-          "month": "2026-05",
-          "downloads": 3432
-        },
-        {
-          "month": "2026-06",
-          "downloads": 3043
-        },
-        {
-          "month": "2026-07",
-          "downloads": 1883
-        },
-        {
-          "month": "2026-08",
-          "downloads": 1608
-        },
-        {
-          "month": "2026-09",
-          "downloads": 1531
-        }
-      ],
-      "momGrowthPct": -4.788557213930348,
-      "isGrowing": false,
-      "stars": 1,
-      "description": "A Flutter plugin that bridges Milibris SDKs, enabling encrypted archive",
-      "notFound": false,
-      "ecosystem": "pub",
-      "publishedAt": "2026-03-23T17:17:27.908343Z"
-    },
-    {
       "name": "flutter_reach_five",
       "totalDownloads": 9889,
       "monthlyDownloads": [
@@ -3262,59 +3201,120 @@
       "publishedAt": "2022-10-07T15:53:56.220179Z"
     },
     {
-      "name": "flutter_lyra",
-      "totalDownloads": 9211,
+      "name": "flutter_milibris",
+      "totalDownloads": 14923,
       "monthlyDownloads": [
         {
           "month": "2025-10",
-          "downloads": 302
+          "downloads": 0
         },
         {
           "month": "2025-11",
-          "downloads": 1773
+          "downloads": 0
         },
         {
           "month": "2025-12",
-          "downloads": 1084
+          "downloads": 0
         },
         {
           "month": "2026-01",
-          "downloads": 271
+          "downloads": 0
         },
         {
           "month": "2026-02",
-          "downloads": 313
+          "downloads": 0
         },
         {
           "month": "2026-03",
-          "downloads": 514
+          "downloads": 688
         },
         {
           "month": "2026-04",
-          "downloads": 318
+          "downloads": 2738
         },
         {
           "month": "2026-05",
-          "downloads": 591
+          "downloads": 3432
         },
         {
           "month": "2026-06",
-          "downloads": 813
+          "downloads": 3043
         },
         {
           "month": "2026-07",
-          "downloads": 968
+          "downloads": 1883
         },
         {
           "month": "2026-08",
-          "downloads": 971
+          "downloads": 1608
         },
         {
           "month": "2026-09",
-          "downloads": 1293
+          "downloads": 1531
         }
       ],
-      "momGrowthPct": 33.161688980432544,
+      "momGrowthPct": -4.788557213930348,
+      "isGrowing": false,
+      "stars": 1,
+      "description": "A Flutter plugin that bridges Milibris SDKs, enabling encrypted archive",
+      "notFound": false,
+      "ecosystem": "pub",
+      "publishedAt": "2026-03-23T17:17:27.908343Z"
+    },
+    {
+      "name": "flutter_lyra",
+      "totalDownloads": 9224,
+      "monthlyDownloads": [
+        {
+          "month": "2025-10",
+          "downloads": 271
+        },
+        {
+          "month": "2025-11",
+          "downloads": 1890
+        },
+        {
+          "month": "2025-12",
+          "downloads": 968
+        },
+        {
+          "month": "2026-01",
+          "downloads": 225
+        },
+        {
+          "month": "2026-02",
+          "downloads": 263
+        },
+        {
+          "month": "2026-03",
+          "downloads": 646
+        },
+        {
+          "month": "2026-04",
+          "downloads": 285
+        },
+        {
+          "month": "2026-05",
+          "downloads": 646
+        },
+        {
+          "month": "2026-06",
+          "downloads": 885
+        },
+        {
+          "month": "2026-07",
+          "downloads": 839
+        },
+        {
+          "month": "2026-08",
+          "downloads": 1058
+        },
+        {
+          "month": "2026-09",
+          "downloads": 1248
+        }
+      ],
+      "momGrowthPct": 17.958412098298677,
       "isGrowing": true,
       "stars": 4,
       "description": "This package allows you to use the methods from the lyra android and ios native sdks in Flutter",
