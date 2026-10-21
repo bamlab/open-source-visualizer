@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T00:06:20.464Z",
+  "generatedAt": "2026-10-21T06:03:52.016Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2897,58 +2897,58 @@
     },
     {
       "name": "theodo_analysis",
-      "totalDownloads": 28588,
+      "totalDownloads": 27928,
       "monthlyDownloads": [
         {
           "month": "2025-10",
-          "downloads": 734
+          "downloads": 676
         },
         {
           "month": "2025-11",
-          "downloads": 2408
+          "downloads": 2446
         },
         {
           "month": "2025-12",
-          "downloads": 1970
+          "downloads": 1848
         },
         {
           "month": "2026-01",
-          "downloads": 661
+          "downloads": 769
         },
         {
           "month": "2026-02",
-          "downloads": 869
+          "downloads": 906
         },
         {
           "month": "2026-03",
-          "downloads": 1580
+          "downloads": 1608
         },
         {
           "month": "2026-04",
-          "downloads": 3631
+          "downloads": 3624
         },
         {
           "month": "2026-05",
-          "downloads": 2979
+          "downloads": 3068
         },
         {
           "month": "2026-06",
-          "downloads": 4132
+          "downloads": 4170
         },
         {
           "month": "2026-07",
-          "downloads": 3524
+          "downloads": 3414
         },
         {
           "month": "2026-08",
-          "downloads": 2320
+          "downloads": 2313
         },
         {
           "month": "2026-09",
-          "downloads": 3780
+          "downloads": 3086
         }
       ],
-      "momGrowthPct": 62.93103448275862,
+      "momGrowthPct": 33.419801124081275,
       "isGrowing": true,
       "stars": 2,
       "description": "Lint and dcm rules for Dart and Flutter used internally at Theodo Apps.",
@@ -3262,6 +3262,67 @@
       "publishedAt": "2026-03-23T17:17:27.908343Z"
     },
     {
+      "name": "riverpod_community_mutation",
+      "totalDownloads": 3098,
+      "monthlyDownloads": [
+        {
+          "month": "2025-10",
+          "downloads": 158
+        },
+        {
+          "month": "2025-11",
+          "downloads": 374
+        },
+        {
+          "month": "2025-12",
+          "downloads": 319
+        },
+        {
+          "month": "2026-01",
+          "downloads": 380
+        },
+        {
+          "month": "2026-02",
+          "downloads": 495
+        },
+        {
+          "month": "2026-03",
+          "downloads": 187
+        },
+        {
+          "month": "2026-04",
+          "downloads": 226
+        },
+        {
+          "month": "2026-05",
+          "downloads": 150
+        },
+        {
+          "month": "2026-06",
+          "downloads": 178
+        },
+        {
+          "month": "2026-07",
+          "downloads": 190
+        },
+        {
+          "month": "2026-08",
+          "downloads": 226
+        },
+        {
+          "month": "2026-09",
+          "downloads": 215
+        }
+      ],
+      "momGrowthPct": -4.867256637168142,
+      "isGrowing": false,
+      "stars": 3,
+      "description": "A mutation implementation for the riverpod community - made by Theodo",
+      "notFound": false,
+      "ecosystem": "pub",
+      "publishedAt": "2025-05-22T13:02:37.162979Z"
+    },
+    {
       "name": "flutter_lyra",
       "totalDownloads": 9260,
       "monthlyDownloads": [
@@ -3321,67 +3382,6 @@
       "notFound": false,
       "ecosystem": "pub",
       "publishedAt": "2022-11-03T14:23:30.800535Z"
-    },
-    {
-      "name": "riverpod_community_mutation",
-      "totalDownloads": 3198,
-      "monthlyDownloads": [
-        {
-          "month": "2025-10",
-          "downloads": 171
-        },
-        {
-          "month": "2025-11",
-          "downloads": 367
-        },
-        {
-          "month": "2025-12",
-          "downloads": 357
-        },
-        {
-          "month": "2026-01",
-          "downloads": 357
-        },
-        {
-          "month": "2026-02",
-          "downloads": 483
-        },
-        {
-          "month": "2026-03",
-          "downloads": 196
-        },
-        {
-          "month": "2026-04",
-          "downloads": 216
-        },
-        {
-          "month": "2026-05",
-          "downloads": 152
-        },
-        {
-          "month": "2026-06",
-          "downloads": 185
-        },
-        {
-          "month": "2026-07",
-          "downloads": 195
-        },
-        {
-          "month": "2026-08",
-          "downloads": 197
-        },
-        {
-          "month": "2026-09",
-          "downloads": 322
-        }
-      ],
-      "momGrowthPct": 63.45177664974619,
-      "isGrowing": true,
-      "stars": 3,
-      "description": "A mutation implementation for the riverpod community - made by Theodo",
-      "notFound": false,
-      "ecosystem": "pub",
-      "publishedAt": "2025-05-22T13:02:37.162979Z"
     },
     {
       "name": "go_router_url_watcher",
