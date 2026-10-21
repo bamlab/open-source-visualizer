@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T12:03:33.358Z",
+  "generatedAt": "2026-10-21T18:03:04.970Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2836,59 +2836,59 @@
     },
     {
       "name": "adaptive_test",
-      "totalDownloads": 90717,
+      "totalDownloads": 88160,
       "monthlyDownloads": [
         {
           "month": "2025-10",
-          "downloads": 1255
+          "downloads": 1212
         },
         {
           "month": "2025-11",
-          "downloads": 3956
+          "downloads": 4058
         },
         {
           "month": "2025-12",
-          "downloads": 5694
+          "downloads": 5170
         },
         {
           "month": "2026-01",
-          "downloads": 4457
+          "downloads": 4954
         },
         {
           "month": "2026-02",
-          "downloads": 5487
+          "downloads": 5500
         },
         {
           "month": "2026-03",
-          "downloads": 6066
+          "downloads": 6147
         },
         {
           "month": "2026-04",
-          "downloads": 9241
+          "downloads": 9387
         },
         {
           "month": "2026-05",
-          "downloads": 8194
+          "downloads": 8180
         },
         {
           "month": "2026-06",
-          "downloads": 9943
+          "downloads": 9999
         },
         {
           "month": "2026-07",
-          "downloads": 12947
+          "downloads": 12972
         },
         {
           "month": "2026-08",
-          "downloads": 10678
+          "downloads": 10618
         },
         {
           "month": "2026-09",
-          "downloads": 12799
+          "downloads": 9963
         }
       ],
-      "momGrowthPct": 19.86327027533246,
-      "isGrowing": true,
+      "momGrowthPct": -6.168770013185157,
+      "isGrowing": false,
       "stars": 21,
       "description": "A Flutter package to generate adaptive golden files during widget tests.",
       "notFound": false,
@@ -2958,58 +2958,58 @@
     },
     {
       "name": "init",
-      "totalDownloads": 24591,
+      "totalDownloads": 24092,
       "monthlyDownloads": [
         {
           "month": "2025-10",
-          "downloads": 306
+          "downloads": 288
         },
         {
           "month": "2025-11",
-          "downloads": 1526
+          "downloads": 1552
         },
         {
           "month": "2025-12",
-          "downloads": 1471
+          "downloads": 1394
         },
         {
           "month": "2026-01",
-          "downloads": 520
+          "downloads": 589
         },
         {
           "month": "2026-02",
-          "downloads": 408
+          "downloads": 393
         },
         {
           "month": "2026-03",
-          "downloads": 938
+          "downloads": 1035
         },
         {
           "month": "2026-04",
-          "downloads": 3564
+          "downloads": 3563
         },
         {
           "month": "2026-05",
-          "downloads": 2925
+          "downloads": 3012
         },
         {
           "month": "2026-06",
-          "downloads": 3991
+          "downloads": 4019
         },
         {
           "month": "2026-07",
-          "downloads": 3394
+          "downloads": 3259
         },
         {
           "month": "2026-08",
-          "downloads": 2109
+          "downloads": 2118
         },
         {
           "month": "2026-09",
-          "downloads": 3439
+          "downloads": 2870
         }
       ],
-      "momGrowthPct": 63.06306306306306,
+      "momGrowthPct": 35.50519357884797,
       "isGrowing": true,
       "stars": 1,
       "description": "Init widget to execute initialization methods declaratively",
@@ -3141,58 +3141,58 @@
     },
     {
       "name": "flutter_reach_five",
-      "totalDownloads": 9961,
+      "totalDownloads": 9631,
       "monthlyDownloads": [
         {
           "month": "2025-10",
-          "downloads": 279
+          "downloads": 257
         },
         {
           "month": "2025-11",
-          "downloads": 1437
+          "downloads": 1463
         },
         {
           "month": "2025-12",
-          "downloads": 1325
+          "downloads": 1269
         },
         {
           "month": "2026-01",
-          "downloads": 229
+          "downloads": 280
         },
         {
           "month": "2026-02",
-          "downloads": 316
+          "downloads": 295
         },
         {
           "month": "2026-03",
-          "downloads": 288
+          "downloads": 299
         },
         {
           "month": "2026-04",
-          "downloads": 510
+          "downloads": 501
         },
         {
           "month": "2026-05",
-          "downloads": 286
+          "downloads": 320
         },
         {
           "month": "2026-06",
-          "downloads": 1769
+          "downloads": 1805
         },
         {
           "month": "2026-07",
-          "downloads": 1095
+          "downloads": 1053
         },
         {
           "month": "2026-08",
-          "downloads": 877
+          "downloads": 865
         },
         {
           "month": "2026-09",
-          "downloads": 1550
+          "downloads": 1224
         }
       ],
-      "momGrowthPct": 76.73888255416192,
+      "momGrowthPct": 41.50289017341041,
       "isGrowing": true,
       "stars": 3,
       "description": "This package allows you to use the methods from the reachFive android and ios native sdks in Flutter",
@@ -3202,7 +3202,7 @@
     },
     {
       "name": "flutter_milibris",
-      "totalDownloads": 14959,
+      "totalDownloads": 14776,
       "monthlyDownloads": [
         {
           "month": "2025-10",
@@ -3226,34 +3226,34 @@
         },
         {
           "month": "2026-03",
-          "downloads": 216
+          "downloads": 309
         },
         {
           "month": "2026-04",
-          "downloads": 3212
+          "downloads": 3218
         },
         {
           "month": "2026-05",
-          "downloads": 2720
+          "downloads": 2782
         },
         {
           "month": "2026-06",
-          "downloads": 3245
+          "downloads": 3264
         },
         {
           "month": "2026-07",
-          "downloads": 2428
+          "downloads": 2325
         },
         {
           "month": "2026-08",
-          "downloads": 1287
+          "downloads": 1282
         },
         {
           "month": "2026-09",
-          "downloads": 1851
+          "downloads": 1596
         }
       ],
-      "momGrowthPct": 43.82284382284382,
+      "momGrowthPct": 24.492979719188767,
       "isGrowing": true,
       "stars": 1,
       "description": "A Flutter plugin that bridges Milibris SDKs, enabling encrypted archive",
@@ -3324,58 +3324,58 @@
     },
     {
       "name": "flutter_lyra",
-      "totalDownloads": 9260,
+      "totalDownloads": 8987,
       "monthlyDownloads": [
         {
           "month": "2025-10",
-          "downloads": 269
+          "downloads": 250
         },
         {
           "month": "2025-11",
-          "downloads": 1544
+          "downloads": 1570
         },
         {
           "month": "2025-12",
-          "downloads": 1313
+          "downloads": 1259
         },
         {
           "month": "2026-01",
-          "downloads": 225
+          "downloads": 274
         },
         {
           "month": "2026-02",
-          "downloads": 262
+          "downloads": 242
         },
         {
           "month": "2026-03",
-          "downloads": 520
+          "downloads": 543
         },
         {
           "month": "2026-04",
-          "downloads": 411
+          "downloads": 389
         },
         {
           "month": "2026-05",
-          "downloads": 324
+          "downloads": 363
         },
         {
           "month": "2026-06",
-          "downloads": 920
+          "downloads": 919
         },
         {
           "month": "2026-07",
-          "downloads": 1127
+          "downloads": 1088
         },
         {
           "month": "2026-08",
-          "downloads": 819
+          "downloads": 836
         },
         {
           "month": "2026-09",
-          "downloads": 1526
+          "downloads": 1254
         }
       ],
-      "momGrowthPct": 86.32478632478633,
+      "momGrowthPct": 50,
       "isGrowing": true,
       "stars": 4,
       "description": "This package allows you to use the methods from the lyra android and ios native sdks in Flutter",
