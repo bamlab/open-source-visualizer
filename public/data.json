@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T12:02:05.959Z",
+  "generatedAt": "2026-11-04T18:01:21.571Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2836,58 +2836,58 @@
     },
     {
       "name": "adaptive_test",
-      "totalDownloads": 97787,
+      "totalDownloads": 1317,
       "monthlyDownloads": [
         {
           "month": "2025-11",
-          "downloads": 3956
+          "downloads": 0
         },
         {
           "month": "2025-12",
-          "downloads": 5694
+          "downloads": 0
         },
         {
           "month": "2026-01",
-          "downloads": 4457
+          "downloads": 0
         },
         {
           "month": "2026-02",
-          "downloads": 5487
+          "downloads": 0
         },
         {
           "month": "2026-03",
-          "downloads": 6066
+          "downloads": 0
         },
         {
           "month": "2026-04",
-          "downloads": 9241
+          "downloads": 0
         },
         {
           "month": "2026-05",
-          "downloads": 8194
+          "downloads": 0
         },
         {
           "month": "2026-06",
-          "downloads": 9943
+          "downloads": 0
         },
         {
           "month": "2026-07",
-          "downloads": 12947
+          "downloads": 0
         },
         {
           "month": "2026-08",
-          "downloads": 10678
+          "downloads": 0
         },
         {
           "month": "2026-09",
-          "downloads": 12799
+          "downloads": 0
         },
         {
           "month": "2026-10",
-          "downloads": 8325
+          "downloads": 1317
         }
       ],
-      "momGrowthPct": -34.95585592624424,
+      "momGrowthPct": null,
       "isGrowing": false,
       "stars": 21,
       "description": "A Flutter package to generate adaptive golden files during widget tests.",
@@ -3140,67 +3140,6 @@
       "publishedAt": "2025-06-09T14:32:34.666856Z"
     },
     {
-      "name": "flutter_milibris",
-      "totalDownloads": 15776,
-      "monthlyDownloads": [
-        {
-          "month": "2025-11",
-          "downloads": 0
-        },
-        {
-          "month": "2025-12",
-          "downloads": 0
-        },
-        {
-          "month": "2026-01",
-          "downloads": 0
-        },
-        {
-          "month": "2026-02",
-          "downloads": 0
-        },
-        {
-          "month": "2026-03",
-          "downloads": 216
-        },
-        {
-          "month": "2026-04",
-          "downloads": 3212
-        },
-        {
-          "month": "2026-05",
-          "downloads": 2720
-        },
-        {
-          "month": "2026-06",
-          "downloads": 3245
-        },
-        {
-          "month": "2026-07",
-          "downloads": 2428
-        },
-        {
-          "month": "2026-08",
-          "downloads": 1287
-        },
-        {
-          "month": "2026-09",
-          "downloads": 1851
-        },
-        {
-          "month": "2026-10",
-          "downloads": 817
-        }
-      ],
-      "momGrowthPct": -55.861696380334955,
-      "isGrowing": false,
-      "stars": 1,
-      "description": "A Flutter plugin that bridges Milibris SDKs, enabling encrypted archive",
-      "notFound": false,
-      "ecosystem": "pub",
-      "publishedAt": "2026-03-23T17:17:27.908343Z"
-    },
-    {
       "name": "flutter_reach_five",
       "totalDownloads": 10463,
       "monthlyDownloads": [
@@ -3262,59 +3201,120 @@
       "publishedAt": "2022-10-07T15:53:56.220179Z"
     },
     {
-      "name": "riverpod_community_mutation",
-      "totalDownloads": 3369,
+      "name": "flutter_milibris",
+      "totalDownloads": 15776,
       "monthlyDownloads": [
         {
           "month": "2025-11",
-          "downloads": 367
+          "downloads": 0
         },
         {
           "month": "2025-12",
-          "downloads": 357
+          "downloads": 0
         },
         {
           "month": "2026-01",
-          "downloads": 357
+          "downloads": 0
         },
         {
           "month": "2026-02",
-          "downloads": 483
+          "downloads": 0
         },
         {
           "month": "2026-03",
-          "downloads": 196
-        },
-        {
-          "month": "2026-04",
           "downloads": 216
         },
         {
+          "month": "2026-04",
+          "downloads": 3212
+        },
+        {
           "month": "2026-05",
-          "downloads": 152
+          "downloads": 2720
         },
         {
           "month": "2026-06",
-          "downloads": 185
+          "downloads": 3245
         },
         {
           "month": "2026-07",
-          "downloads": 195
+          "downloads": 2428
         },
         {
           "month": "2026-08",
-          "downloads": 197
+          "downloads": 1287
         },
         {
           "month": "2026-09",
-          "downloads": 322
+          "downloads": 1851
         },
         {
           "month": "2026-10",
-          "downloads": 342
+          "downloads": 817
         }
       ],
-      "momGrowthPct": 6.211180124223603,
+      "momGrowthPct": -55.861696380334955,
+      "isGrowing": false,
+      "stars": 1,
+      "description": "A Flutter plugin that bridges Milibris SDKs, enabling encrypted archive",
+      "notFound": false,
+      "ecosystem": "pub",
+      "publishedAt": "2026-03-23T17:17:27.908343Z"
+    },
+    {
+      "name": "riverpod_community_mutation",
+      "totalDownloads": 47,
+      "monthlyDownloads": [
+        {
+          "month": "2025-11",
+          "downloads": 0
+        },
+        {
+          "month": "2025-12",
+          "downloads": 0
+        },
+        {
+          "month": "2026-01",
+          "downloads": 0
+        },
+        {
+          "month": "2026-02",
+          "downloads": 0
+        },
+        {
+          "month": "2026-03",
+          "downloads": 0
+        },
+        {
+          "month": "2026-04",
+          "downloads": 0
+        },
+        {
+          "month": "2026-05",
+          "downloads": 0
+        },
+        {
+          "month": "2026-06",
+          "downloads": 0
+        },
+        {
+          "month": "2026-07",
+          "downloads": 0
+        },
+        {
+          "month": "2026-08",
+          "downloads": 0
+        },
+        {
+          "month": "2026-09",
+          "downloads": 0
+        },
+        {
+          "month": "2026-10",
+          "downloads": 47
+        }
+      ],
+      "momGrowthPct": null,
       "isGrowing": false,
       "stars": 3,
       "description": "A mutation implementation for the riverpod community - made by Theodo",
@@ -3446,58 +3446,58 @@
     },
     {
       "name": "equatable_lint",
-      "totalDownloads": 1670,
+      "totalDownloads": 21,
       "monthlyDownloads": [
         {
           "month": "2025-11",
-          "downloads": 121
+          "downloads": 0
         },
         {
           "month": "2025-12",
-          "downloads": 280
+          "downloads": 0
         },
         {
           "month": "2026-01",
-          "downloads": 94
+          "downloads": 0
         },
         {
           "month": "2026-02",
-          "downloads": 145
+          "downloads": 0
         },
         {
           "month": "2026-03",
-          "downloads": 132
+          "downloads": 0
         },
         {
           "month": "2026-04",
-          "downloads": 114
+          "downloads": 0
         },
         {
           "month": "2026-05",
-          "downloads": 139
+          "downloads": 0
         },
         {
           "month": "2026-06",
-          "downloads": 143
+          "downloads": 0
         },
         {
           "month": "2026-07",
-          "downloads": 193
+          "downloads": 0
         },
         {
           "month": "2026-08",
-          "downloads": 126
+          "downloads": 0
         },
         {
           "month": "2026-09",
-          "downloads": 98
+          "downloads": 0
         },
         {
           "month": "2026-10",
-          "downloads": 85
+          "downloads": 21
         }
       ],
-      "momGrowthPct": -13.26530612244898,
+      "momGrowthPct": null,
       "isGrowing": false,
       "stars": 6,
       "description": "This is a set of rules to make classes using Equatable more maintainable. We make sure here that every fields in an Equatable class is linked to the Equatable props getter.",
