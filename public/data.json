@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T00:03:57.667Z",
+  "generatedAt": "2026-11-05T06:03:03.731Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -1424,7 +1424,7 @@
       ],
       "momGrowthPct": 9.310731646516265,
       "isGrowing": false,
-      "stars": 1190,
+      "stars": 1189,
       "description": "React-Native generators to kickstart your project",
       "notFound": false,
       "ecosystem": "npm"
@@ -3385,7 +3385,7 @@
     },
     {
       "name": "go_router_url_watcher",
-      "totalDownloads": 229,
+      "totalDownloads": 3,
       "monthlyDownloads": [
         {
           "month": "2025-11",
@@ -3417,26 +3417,26 @@
         },
         {
           "month": "2026-06",
-          "downloads": 107
+          "downloads": 0
         },
         {
           "month": "2026-07",
-          "downloads": 44
+          "downloads": 0
         },
         {
           "month": "2026-08",
-          "downloads": 32
+          "downloads": 0
         },
         {
           "month": "2026-09",
-          "downloads": 30
+          "downloads": 0
         },
         {
           "month": "2026-10",
-          "downloads": 16
+          "downloads": 3
         }
       ],
-      "momGrowthPct": -46.666666666666664,
+      "momGrowthPct": null,
       "isGrowing": false,
       "stars": 1,
       "description": "Easily keep your state in the url when using go_router in Flutter",
