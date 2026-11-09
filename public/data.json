@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T12:02:54.770Z",
+  "generatedAt": "2026-11-09T18:02:02.488Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -80,7 +80,7 @@
       ],
       "momGrowthPct": 2.849144028529559,
       "isGrowing": false,
-      "stars": 1659,
+      "stars": 1658,
       "description": "Rescale local images with React Native",
       "notFound": false,
       "ecosystem": "npm"
@@ -1172,7 +1172,7 @@
       ],
       "momGrowthPct": -5.784956233100477,
       "isGrowing": false,
-      "stars": 1659,
+      "stars": 1658,
       "description": "Rescale local images with React Native",
       "notFound": false,
       "ecosystem": "npm"
@@ -2958,58 +2958,58 @@
     },
     {
       "name": "app_attest_integrity",
-      "totalDownloads": 4289,
+      "totalDownloads": 4326,
       "monthlyDownloads": [
         {
           "month": "2025-11",
-          "downloads": 27
+          "downloads": 25
         },
         {
           "month": "2025-12",
-          "downloads": 31
+          "downloads": 32
         },
         {
           "month": "2026-01",
-          "downloads": 186
+          "downloads": 216
         },
         {
           "month": "2026-02",
-          "downloads": 98
+          "downloads": 66
         },
         {
           "month": "2026-03",
-          "downloads": 121
+          "downloads": 100
         },
         {
           "month": "2026-04",
-          "downloads": 114
+          "downloads": 138
         },
         {
           "month": "2026-05",
-          "downloads": 167
+          "downloads": 168
         },
         {
           "month": "2026-06",
-          "downloads": 390
+          "downloads": 298
         },
         {
           "month": "2026-07",
-          "downloads": 632
+          "downloads": 750
         },
         {
           "month": "2026-08",
-          "downloads": 436
+          "downloads": 414
         },
         {
           "month": "2026-09",
-          "downloads": 746
+          "downloads": 774
         },
         {
           "month": "2026-10",
-          "downloads": 1341
+          "downloads": 1345
         }
       ],
-      "momGrowthPct": 79.75871313672923,
+      "momGrowthPct": 73.77260981912144,
       "isGrowing": true,
       "stars": 5,
       "description": "A Flutter plugin to assess an app integrity. Uses App attest on iOS and app Integrity on Android.",
@@ -3141,19 +3141,19 @@
     },
     {
       "name": "riverpod_community_mutation",
-      "totalDownloads": 3286,
+      "totalDownloads": 3284,
       "monthlyDownloads": [
         {
           "month": "2025-11",
-          "downloads": 283
+          "downloads": 282
         },
         {
           "month": "2025-12",
-          "downloads": 359
+          "downloads": 357
         },
         {
           "month": "2026-01",
-          "downloads": 358
+          "downloads": 357
         },
         {
           "month": "2026-02",
@@ -3161,23 +3161,23 @@
         },
         {
           "month": "2026-03",
-          "downloads": 242
+          "downloads": 196
         },
         {
           "month": "2026-04",
-          "downloads": 170
+          "downloads": 216
         },
         {
           "month": "2026-05",
-          "downloads": 149
+          "downloads": 152
         },
         {
           "month": "2026-06",
-          "downloads": 220
+          "downloads": 185
         },
         {
           "month": "2026-07",
-          "downloads": 163
+          "downloads": 195
         },
         {
           "month": "2026-08",
@@ -3185,15 +3185,15 @@
         },
         {
           "month": "2026-09",
-          "downloads": 305
+          "downloads": 322
         },
         {
           "month": "2026-10",
-          "downloads": 357
+          "downloads": 342
         }
       ],
-      "momGrowthPct": 17.04918032786885,
-      "isGrowing": true,
+      "momGrowthPct": 6.211180124223603,
+      "isGrowing": false,
       "stars": 3,
       "description": "A mutation implementation for the riverpod community - made by Theodo",
       "notFound": false,
@@ -3262,67 +3262,6 @@
       "publishedAt": "2022-10-07T15:53:56.220179Z"
     },
     {
-      "name": "flutter_milibris",
-      "totalDownloads": 15767,
-      "monthlyDownloads": [
-        {
-          "month": "2025-11",
-          "downloads": 0
-        },
-        {
-          "month": "2025-12",
-          "downloads": 0
-        },
-        {
-          "month": "2026-01",
-          "downloads": 0
-        },
-        {
-          "month": "2026-02",
-          "downloads": 0
-        },
-        {
-          "month": "2026-03",
-          "downloads": 866
-        },
-        {
-          "month": "2026-04",
-          "downloads": 2560
-        },
-        {
-          "month": "2026-05",
-          "downloads": 2701
-        },
-        {
-          "month": "2026-06",
-          "downloads": 3800
-        },
-        {
-          "month": "2026-07",
-          "downloads": 1886
-        },
-        {
-          "month": "2026-08",
-          "downloads": 1291
-        },
-        {
-          "month": "2026-09",
-          "downloads": 1851
-        },
-        {
-          "month": "2026-10",
-          "downloads": 812
-        }
-      ],
-      "momGrowthPct": -56.13182063749325,
-      "isGrowing": false,
-      "stars": 1,
-      "description": "A Flutter plugin that bridges Milibris SDKs, enabling encrypted archive",
-      "notFound": false,
-      "ecosystem": "pub",
-      "publishedAt": "2026-03-23T17:17:27.908343Z"
-    },
-    {
       "name": "flutter_lyra",
       "totalDownloads": 9789,
       "monthlyDownloads": [
@@ -3384,8 +3323,69 @@
       "publishedAt": "2022-11-03T14:23:30.800535Z"
     },
     {
+      "name": "flutter_milibris",
+      "totalDownloads": 15767,
+      "monthlyDownloads": [
+        {
+          "month": "2025-11",
+          "downloads": 0
+        },
+        {
+          "month": "2025-12",
+          "downloads": 0
+        },
+        {
+          "month": "2026-01",
+          "downloads": 0
+        },
+        {
+          "month": "2026-02",
+          "downloads": 0
+        },
+        {
+          "month": "2026-03",
+          "downloads": 866
+        },
+        {
+          "month": "2026-04",
+          "downloads": 2560
+        },
+        {
+          "month": "2026-05",
+          "downloads": 2701
+        },
+        {
+          "month": "2026-06",
+          "downloads": 3800
+        },
+        {
+          "month": "2026-07",
+          "downloads": 1886
+        },
+        {
+          "month": "2026-08",
+          "downloads": 1291
+        },
+        {
+          "month": "2026-09",
+          "downloads": 1851
+        },
+        {
+          "month": "2026-10",
+          "downloads": 812
+        }
+      ],
+      "momGrowthPct": -56.13182063749325,
+      "isGrowing": false,
+      "stars": 1,
+      "description": "A Flutter plugin that bridges Milibris SDKs, enabling encrypted archive",
+      "notFound": false,
+      "ecosystem": "pub",
+      "publishedAt": "2026-03-23T17:17:27.908343Z"
+    },
+    {
       "name": "go_router_url_watcher",
-      "totalDownloads": 228,
+      "totalDownloads": 229,
       "monthlyDownloads": [
         {
           "month": "2025-11",
@@ -3417,26 +3417,26 @@
         },
         {
           "month": "2026-06",
-          "downloads": 123
+          "downloads": 107
         },
         {
           "month": "2026-07",
-          "downloads": 25
+          "downloads": 44
         },
         {
           "month": "2026-08",
-          "downloads": 31
-        },
-        {
-          "month": "2026-09",
           "downloads": 32
         },
         {
+          "month": "2026-09",
+          "downloads": 30
+        },
+        {
           "month": "2026-10",
-          "downloads": 17
+          "downloads": 16
         }
       ],
-      "momGrowthPct": -46.875,
+      "momGrowthPct": -46.666666666666664,
       "isGrowing": false,
       "stars": 1,
       "description": "Easily keep your state in the url when using go_router in Flutter",
@@ -3446,58 +3446,58 @@
     },
     {
       "name": "equatable_lint",
-      "totalDownloads": 1641,
+      "totalDownloads": 1642,
       "monthlyDownloads": [
         {
           "month": "2025-11",
-          "downloads": 94
-        },
-        {
-          "month": "2025-12",
-          "downloads": 281
-        },
-        {
-          "month": "2026-01",
           "downloads": 93
         },
         {
-          "month": "2026-02",
-          "downloads": 146
+          "month": "2025-12",
+          "downloads": 280
         },
         {
-          "month": "2026-03",
-          "downloads": 151
-        },
-        {
-          "month": "2026-04",
+          "month": "2026-01",
           "downloads": 94
         },
         {
+          "month": "2026-02",
+          "downloads": 145
+        },
+        {
+          "month": "2026-03",
+          "downloads": 132
+        },
+        {
+          "month": "2026-04",
+          "downloads": 114
+        },
+        {
           "month": "2026-05",
-          "downloads": 137
+          "downloads": 139
         },
         {
           "month": "2026-06",
-          "downloads": 170
+          "downloads": 143
         },
         {
           "month": "2026-07",
-          "downloads": 168
+          "downloads": 193
         },
         {
           "month": "2026-08",
-          "downloads": 124
+          "downloads": 126
         },
         {
           "month": "2026-09",
-          "downloads": 99
+          "downloads": 98
         },
         {
           "month": "2026-10",
-          "downloads": 84
+          "downloads": 85
         }
       ],
-      "momGrowthPct": -15.151515151515152,
+      "momGrowthPct": -13.26530612244898,
       "isGrowing": false,
       "stars": 6,
       "description": "This is a set of rules to make classes using Equatable more maintainable. We make sure here that every fields in an Equatable class is linked to the Equatable props getter.",
