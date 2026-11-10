@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T12:02:03.048Z",
+  "generatedAt": "2026-11-10T18:01:29.841Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2958,58 +2958,58 @@
     },
     {
       "name": "app_attest_integrity",
-      "totalDownloads": 4326,
+      "totalDownloads": 4435,
       "monthlyDownloads": [
         {
           "month": "2025-11",
-          "downloads": 25
+          "downloads": 27
         },
         {
           "month": "2025-12",
-          "downloads": 32
+          "downloads": 23
         },
         {
           "month": "2026-01",
-          "downloads": 216
+          "downloads": 225
         },
         {
           "month": "2026-02",
-          "downloads": 66
+          "downloads": 64
         },
         {
           "month": "2026-03",
-          "downloads": 100
+          "downloads": 101
         },
         {
           "month": "2026-04",
-          "downloads": 138
+          "downloads": 139
         },
         {
           "month": "2026-05",
-          "downloads": 168
+          "downloads": 178
         },
         {
           "month": "2026-06",
-          "downloads": 298
+          "downloads": 301
         },
         {
           "month": "2026-07",
-          "downloads": 750
+          "downloads": 748
         },
         {
           "month": "2026-08",
-          "downloads": 414
+          "downloads": 416
         },
         {
           "month": "2026-09",
-          "downloads": 774
+          "downloads": 559
         },
         {
           "month": "2026-10",
-          "downloads": 1345
+          "downloads": 1654
         }
       ],
-      "momGrowthPct": 73.77260981912144,
+      "momGrowthPct": 195.88550983899822,
       "isGrowing": true,
       "stars": 5,
       "description": "A Flutter plugin to assess an app integrity. Uses App attest on iOS and app Integrity on Android.",
@@ -3080,27 +3080,27 @@
     },
     {
       "name": "http_cache_mmkv_store",
-      "totalDownloads": 4804,
+      "totalDownloads": 4851,
       "monthlyDownloads": [
         {
           "month": "2025-11",
-          "downloads": 29
+          "downloads": 30
         },
         {
           "month": "2025-12",
-          "downloads": 40
+          "downloads": 32
         },
         {
           "month": "2026-01",
-          "downloads": 24
+          "downloads": 30
         },
         {
           "month": "2026-02",
-          "downloads": 68
+          "downloads": 69
         },
         {
           "month": "2026-03",
-          "downloads": 83
+          "downloads": 84
         },
         {
           "month": "2026-04",
@@ -3108,30 +3108,30 @@
         },
         {
           "month": "2026-05",
-          "downloads": 77
+          "downloads": 76
         },
         {
           "month": "2026-06",
-          "downloads": 612
+          "downloads": 788
         },
         {
           "month": "2026-07",
-          "downloads": 2374
+          "downloads": 2270
         },
         {
           "month": "2026-08",
-          "downloads": 493
+          "downloads": 422
         },
         {
           "month": "2026-09",
-          "downloads": 204
+          "downloads": 129
         },
         {
           "month": "2026-10",
-          "downloads": 715
+          "downloads": 836
         }
       ],
-      "momGrowthPct": 250.49019607843138,
+      "momGrowthPct": 548.062015503876,
       "isGrowing": true,
       "stars": 156,
       "description": "A DB cache store implementation with mmkv for dio_cache_interceptor and http_cache_client packages.",
@@ -3262,6 +3262,67 @@
       "publishedAt": "2022-10-07T15:53:56.220179Z"
     },
     {
+      "name": "flutter_milibris",
+      "totalDownloads": 15816,
+      "monthlyDownloads": [
+        {
+          "month": "2025-11",
+          "downloads": 0
+        },
+        {
+          "month": "2025-12",
+          "downloads": 0
+        },
+        {
+          "month": "2026-01",
+          "downloads": 0
+        },
+        {
+          "month": "2026-02",
+          "downloads": 0
+        },
+        {
+          "month": "2026-03",
+          "downloads": 309
+        },
+        {
+          "month": "2026-04",
+          "downloads": 3218
+        },
+        {
+          "month": "2026-05",
+          "downloads": 2782
+        },
+        {
+          "month": "2026-06",
+          "downloads": 3264
+        },
+        {
+          "month": "2026-07",
+          "downloads": 2325
+        },
+        {
+          "month": "2026-08",
+          "downloads": 1282
+        },
+        {
+          "month": "2026-09",
+          "downloads": 1596
+        },
+        {
+          "month": "2026-10",
+          "downloads": 1040
+        }
+      ],
+      "momGrowthPct": -34.83709273182957,
+      "isGrowing": false,
+      "stars": 1,
+      "description": "A Flutter plugin that bridges Milibris SDKs, enabling encrypted archive",
+      "notFound": false,
+      "ecosystem": "pub",
+      "publishedAt": "2026-03-23T17:17:27.908343Z"
+    },
+    {
       "name": "flutter_lyra",
       "totalDownloads": 9806,
       "monthlyDownloads": [
@@ -3321,67 +3382,6 @@
       "notFound": false,
       "ecosystem": "pub",
       "publishedAt": "2022-11-03T14:23:30.800535Z"
-    },
-    {
-      "name": "flutter_milibris",
-      "totalDownloads": 15776,
-      "monthlyDownloads": [
-        {
-          "month": "2025-11",
-          "downloads": 0
-        },
-        {
-          "month": "2025-12",
-          "downloads": 0
-        },
-        {
-          "month": "2026-01",
-          "downloads": 0
-        },
-        {
-          "month": "2026-02",
-          "downloads": 0
-        },
-        {
-          "month": "2026-03",
-          "downloads": 216
-        },
-        {
-          "month": "2026-04",
-          "downloads": 3212
-        },
-        {
-          "month": "2026-05",
-          "downloads": 2720
-        },
-        {
-          "month": "2026-06",
-          "downloads": 3245
-        },
-        {
-          "month": "2026-07",
-          "downloads": 2428
-        },
-        {
-          "month": "2026-08",
-          "downloads": 1287
-        },
-        {
-          "month": "2026-09",
-          "downloads": 1851
-        },
-        {
-          "month": "2026-10",
-          "downloads": 817
-        }
-      ],
-      "momGrowthPct": -55.861696380334955,
-      "isGrowing": false,
-      "stars": 1,
-      "description": "A Flutter plugin that bridges Milibris SDKs, enabling encrypted archive",
-      "notFound": false,
-      "ecosystem": "pub",
-      "publishedAt": "2026-03-23T17:17:27.908343Z"
     },
     {
       "name": "go_router_url_watcher",
@@ -3446,59 +3446,59 @@
     },
     {
       "name": "equatable_lint",
-      "totalDownloads": 1642,
+      "totalDownloads": 1639,
       "monthlyDownloads": [
         {
           "month": "2025-11",
-          "downloads": 93
+          "downloads": 100
         },
         {
           "month": "2025-12",
-          "downloads": 280
+          "downloads": 205
         },
         {
           "month": "2026-01",
-          "downloads": 94
+          "downloads": 159
         },
         {
           "month": "2026-02",
-          "downloads": 145
+          "downloads": 148
         },
         {
           "month": "2026-03",
-          "downloads": 132
+          "downloads": 136
         },
         {
           "month": "2026-04",
-          "downloads": 114
+          "downloads": 113
         },
         {
           "month": "2026-05",
-          "downloads": 139
+          "downloads": 132
         },
         {
           "month": "2026-06",
-          "downloads": 143
+          "downloads": 154
         },
         {
           "month": "2026-07",
-          "downloads": 193
+          "downloads": 184
         },
         {
           "month": "2026-08",
-          "downloads": 126
+          "downloads": 124
         },
         {
           "month": "2026-09",
-          "downloads": 98
+          "downloads": 84
         },
         {
           "month": "2026-10",
-          "downloads": 85
+          "downloads": 100
         }
       ],
-      "momGrowthPct": -13.26530612244898,
-      "isGrowing": false,
+      "momGrowthPct": 19.047619047619047,
+      "isGrowing": true,
       "stars": 6,
       "description": "This is a set of rules to make classes using Equatable more maintainable. We make sure here that every fields in an Equatable class is linked to the Equatable props getter.",
       "notFound": false,
