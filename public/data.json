@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T12:02:20.285Z",
+  "generatedAt": "2026-11-11T18:01:33.426Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -1088,7 +1088,7 @@
       ],
       "momGrowthPct": -12.04943599145882,
       "isGrowing": false,
-      "stars": 1064,
+      "stars": 1063,
       "description": "Measure React Native performance",
       "notFound": false,
       "ecosystem": "npm"
@@ -1340,7 +1340,7 @@
       ],
       "momGrowthPct": -34.32634152618711,
       "isGrowing": false,
-      "stars": 1022,
+      "stars": 1021,
       "description": "ScrollView with an image in header which become a navbar",
       "notFound": false,
       "ecosystem": "npm"
@@ -2775,58 +2775,58 @@
     },
     {
       "name": "riverpod_community_extensions",
-      "totalDownloads": 24964,
+      "totalDownloads": 25100,
       "monthlyDownloads": [
         {
           "month": "2025-11",
-          "downloads": 1425
+          "downloads": 1551
         },
         {
           "month": "2025-12",
-          "downloads": 1581
+          "downloads": 1476
         },
         {
           "month": "2026-01",
-          "downloads": 841
+          "downloads": 862
         },
         {
           "month": "2026-02",
-          "downloads": 719
+          "downloads": 721
         },
         {
           "month": "2026-03",
-          "downloads": 838
+          "downloads": 830
         },
         {
           "month": "2026-04",
-          "downloads": 1096
+          "downloads": 1004
         },
         {
           "month": "2026-05",
-          "downloads": 2432
+          "downloads": 2816
         },
         {
           "month": "2026-06",
-          "downloads": 4345
+          "downloads": 4154
         },
         {
           "month": "2026-07",
-          "downloads": 3525
+          "downloads": 3420
         },
         {
           "month": "2026-08",
-          "downloads": 2600
+          "downloads": 2782
         },
         {
           "month": "2026-09",
-          "downloads": 3050
+          "downloads": 2974
         },
         {
           "month": "2026-10",
-          "downloads": 2512
+          "downloads": 2510
         }
       ],
-      "momGrowthPct": -17.639344262295083,
+      "momGrowthPct": -15.601882985877605,
       "isGrowing": false,
       "stars": 9,
       "description": "Extends Riverpod ref types with additional helpers, to easily add common functionalities to your providers.",
@@ -3141,7 +3141,7 @@
     },
     {
       "name": "riverpod_community_mutation",
-      "totalDownloads": 3290,
+      "totalDownloads": 3305,
       "monthlyDownloads": [
         {
           "month": "2025-11",
@@ -3149,117 +3149,56 @@
         },
         {
           "month": "2025-12",
-          "downloads": 319
+          "downloads": 317
         },
         {
           "month": "2026-01",
-          "downloads": 380
+          "downloads": 406
         },
         {
           "month": "2026-02",
-          "downloads": 495
+          "downloads": 487
         },
         {
           "month": "2026-03",
-          "downloads": 187
+          "downloads": 167
         },
         {
           "month": "2026-04",
-          "downloads": 226
+          "downloads": 196
         },
         {
           "month": "2026-05",
-          "downloads": 150
+          "downloads": 183
         },
         {
           "month": "2026-06",
-          "downloads": 178
+          "downloads": 185
         },
         {
           "month": "2026-07",
-          "downloads": 190
+          "downloads": 182
         },
         {
           "month": "2026-08",
-          "downloads": 226
+          "downloads": 239
         },
         {
           "month": "2026-09",
-          "downloads": 215
+          "downloads": 221
         },
         {
           "month": "2026-10",
-          "downloads": 435
+          "downloads": 433
         }
       ],
-      "momGrowthPct": 102.32558139534885,
+      "momGrowthPct": 95.92760180995475,
       "isGrowing": true,
       "stars": 3,
       "description": "A mutation implementation for the riverpod community - made by Theodo",
       "notFound": false,
       "ecosystem": "pub",
       "publishedAt": "2025-05-22T13:02:37.162979Z"
-    },
-    {
-      "name": "flutter_reach_five",
-      "totalDownloads": 10248,
-      "monthlyDownloads": [
-        {
-          "month": "2025-11",
-          "downloads": 1172
-        },
-        {
-          "month": "2025-12",
-          "downloads": 1269
-        },
-        {
-          "month": "2026-01",
-          "downloads": 280
-        },
-        {
-          "month": "2026-02",
-          "downloads": 295
-        },
-        {
-          "month": "2026-03",
-          "downloads": 299
-        },
-        {
-          "month": "2026-04",
-          "downloads": 501
-        },
-        {
-          "month": "2026-05",
-          "downloads": 320
-        },
-        {
-          "month": "2026-06",
-          "downloads": 1805
-        },
-        {
-          "month": "2026-07",
-          "downloads": 1053
-        },
-        {
-          "month": "2026-08",
-          "downloads": 865
-        },
-        {
-          "month": "2026-09",
-          "downloads": 1224
-        },
-        {
-          "month": "2026-10",
-          "downloads": 1165
-        }
-      ],
-      "momGrowthPct": -4.820261437908497,
-      "isGrowing": false,
-      "stars": 3,
-      "description": "This package allows you to use the methods from the reachFive android and ios native sdks in Flutter",
-      "notFound": false,
-      "ecosystem": "pub",
-      "publishedAt": "2022-10-07T15:53:56.220179Z"
     },
     {
       "name": "flutter_milibris",
@@ -3323,59 +3262,120 @@
       "publishedAt": "2026-03-23T17:17:27.908343Z"
     },
     {
-      "name": "flutter_lyra",
-      "totalDownloads": 9816,
+      "name": "flutter_reach_five",
+      "totalDownloads": 10248,
       "monthlyDownloads": [
         {
           "month": "2025-11",
-          "downloads": 1284
+          "downloads": 1172
         },
         {
           "month": "2025-12",
-          "downloads": 1259
+          "downloads": 1269
         },
         {
           "month": "2026-01",
-          "downloads": 274
+          "downloads": 280
         },
         {
           "month": "2026-02",
-          "downloads": 242
+          "downloads": 295
         },
         {
           "month": "2026-03",
-          "downloads": 543
+          "downloads": 299
         },
         {
           "month": "2026-04",
-          "downloads": 389
+          "downloads": 501
         },
         {
           "month": "2026-05",
-          "downloads": 363
+          "downloads": 320
         },
         {
           "month": "2026-06",
-          "downloads": 919
+          "downloads": 1805
         },
         {
           "month": "2026-07",
-          "downloads": 1088
+          "downloads": 1053
         },
         {
           "month": "2026-08",
-          "downloads": 836
+          "downloads": 865
         },
         {
           "month": "2026-09",
-          "downloads": 1254
+          "downloads": 1224
         },
         {
           "month": "2026-10",
-          "downloads": 1365
+          "downloads": 1165
         }
       ],
-      "momGrowthPct": 8.851674641148326,
+      "momGrowthPct": -4.820261437908497,
+      "isGrowing": false,
+      "stars": 3,
+      "description": "This package allows you to use the methods from the reachFive android and ios native sdks in Flutter",
+      "notFound": false,
+      "ecosystem": "pub",
+      "publishedAt": "2022-10-07T15:53:56.220179Z"
+    },
+    {
+      "name": "flutter_lyra",
+      "totalDownloads": 9864,
+      "monthlyDownloads": [
+        {
+          "month": "2025-11",
+          "downloads": 1397
+        },
+        {
+          "month": "2025-12",
+          "downloads": 1170
+        },
+        {
+          "month": "2026-01",
+          "downloads": 271
+        },
+        {
+          "month": "2026-02",
+          "downloads": 250
+        },
+        {
+          "month": "2026-03",
+          "downloads": 517
+        },
+        {
+          "month": "2026-04",
+          "downloads": 376
+        },
+        {
+          "month": "2026-05",
+          "downloads": 498
+        },
+        {
+          "month": "2026-06",
+          "downloads": 843
+        },
+        {
+          "month": "2026-07",
+          "downloads": 1048
+        },
+        {
+          "month": "2026-08",
+          "downloads": 933
+        },
+        {
+          "month": "2026-09",
+          "downloads": 1230
+        },
+        {
+          "month": "2026-10",
+          "downloads": 1331
+        }
+      ],
+      "momGrowthPct": 8.211382113821138,
       "isGrowing": false,
       "stars": 4,
       "description": "This package allows you to use the methods from the lyra android and ios native sdks in Flutter",
@@ -3417,26 +3417,26 @@
         },
         {
           "month": "2026-06",
-          "downloads": 109
+          "downloads": 111
         },
         {
           "month": "2026-07",
-          "downloads": 42
+          "downloads": 50
         },
         {
           "month": "2026-08",
-          "downloads": 32
-        },
-        {
-          "month": "2026-09",
           "downloads": 25
         },
         {
+          "month": "2026-09",
+          "downloads": 23
+        },
+        {
           "month": "2026-10",
-          "downloads": 22
+          "downloads": 21
         }
       ],
-      "momGrowthPct": -12,
+      "momGrowthPct": -8.695652173913043,
       "isGrowing": false,
       "stars": 1,
       "description": "Easily keep your state in the url when using go_router in Flutter",
