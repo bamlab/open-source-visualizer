@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T12:02:22.348Z",
+  "generatedAt": "2026-11-12T18:01:44.476Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2897,58 +2897,58 @@
     },
     {
       "name": "theodo_analysis",
-      "totalDownloads": 29601,
+      "totalDownloads": 29572,
       "monthlyDownloads": [
         {
           "month": "2025-11",
-          "downloads": 2093
+          "downloads": 2117
         },
         {
           "month": "2025-12",
-          "downloads": 1721
+          "downloads": 1640
         },
         {
           "month": "2026-01",
-          "downloads": 775
+          "downloads": 804
         },
         {
           "month": "2026-02",
-          "downloads": 938
+          "downloads": 1074
         },
         {
           "month": "2026-03",
-          "downloads": 1599
+          "downloads": 1583
         },
         {
           "month": "2026-04",
-          "downloads": 3187
+          "downloads": 3210
         },
         {
           "month": "2026-05",
-          "downloads": 3780
+          "downloads": 3817
         },
         {
           "month": "2026-06",
-          "downloads": 3989
+          "downloads": 4025
         },
         {
           "month": "2026-07",
-          "downloads": 3303
+          "downloads": 2768
         },
         {
           "month": "2026-08",
-          "downloads": 2483
+          "downloads": 2821
         },
         {
           "month": "2026-09",
-          "downloads": 3001
+          "downloads": 3065
         },
         {
           "month": "2026-10",
-          "downloads": 2732
+          "downloads": 2648
         }
       ],
-      "momGrowthPct": -8.963678773742085,
+      "momGrowthPct": -13.605220228384992,
       "isGrowing": false,
       "stars": 2,
       "description": "Lint and dcm rules for Dart and Flutter used internally at Theodo Apps.",
@@ -3019,58 +3019,58 @@
     },
     {
       "name": "init",
-      "totalDownloads": 25843,
+      "totalDownloads": 25858,
       "monthlyDownloads": [
         {
           "month": "2025-11",
-          "downloads": 1366
+          "downloads": 1423
         },
         {
           "month": "2025-12",
-          "downloads": 1303
+          "downloads": 1214
         },
         {
           "month": "2026-01",
-          "downloads": 594
+          "downloads": 598
         },
         {
           "month": "2026-02",
-          "downloads": 396
+          "downloads": 456
         },
         {
           "month": "2026-03",
-          "downloads": 1060
+          "downloads": 1177
         },
         {
           "month": "2026-04",
-          "downloads": 3138
+          "downloads": 3128
         },
         {
           "month": "2026-05",
-          "downloads": 3719
+          "downloads": 3775
         },
         {
           "month": "2026-06",
-          "downloads": 3808
+          "downloads": 3836
         },
         {
           "month": "2026-07",
-          "downloads": 3158
+          "downloads": 2670
         },
         {
           "month": "2026-08",
-          "downloads": 2267
+          "downloads": 2561
         },
         {
           "month": "2026-09",
-          "downloads": 2824
+          "downloads": 2899
         },
         {
           "month": "2026-10",
-          "downloads": 2210
+          "downloads": 2121
         }
       ],
-      "momGrowthPct": -21.742209631728045,
+      "momGrowthPct": -26.836840289755088,
       "isGrowing": false,
       "stars": 1,
       "description": "Init widget to execute initialization methods declaratively",
@@ -3263,58 +3263,58 @@
     },
     {
       "name": "flutter_reach_five",
-      "totalDownloads": 10292,
+      "totalDownloads": 10266,
       "monthlyDownloads": [
         {
           "month": "2025-11",
-          "downloads": 1281
+          "downloads": 1338
         },
         {
           "month": "2025-12",
-          "downloads": 1181
+          "downloads": 1096
         },
         {
           "month": "2026-01",
-          "downloads": 277
+          "downloads": 276
         },
         {
           "month": "2026-02",
-          "downloads": 300
+          "downloads": 358
         },
         {
           "month": "2026-03",
-          "downloads": 272
+          "downloads": 255
         },
         {
           "month": "2026-04",
-          "downloads": 466
+          "downloads": 426
         },
         {
           "month": "2026-05",
-          "downloads": 478
+          "downloads": 570
         },
         {
           "month": "2026-06",
-          "downloads": 1729
+          "downloads": 1712
         },
         {
           "month": "2026-07",
-          "downloads": 1017
+          "downloads": 895
         },
         {
           "month": "2026-08",
-          "downloads": 960
+          "downloads": 1031
         },
         {
           "month": "2026-09",
-          "downloads": 1214
+          "downloads": 1277
         },
         {
           "month": "2026-10",
-          "downloads": 1117
+          "downloads": 1032
         }
       ],
-      "momGrowthPct": -7.990115321252059,
+      "momGrowthPct": -19.18559122944401,
       "isGrowing": false,
       "stars": 3,
       "description": "This package allows you to use the methods from the reachFive android and ios native sdks in Flutter",
@@ -3446,23 +3446,23 @@
     },
     {
       "name": "equatable_lint",
-      "totalDownloads": 1637,
+      "totalDownloads": 1632,
       "monthlyDownloads": [
         {
           "month": "2025-11",
-          "downloads": 111
+          "downloads": 107
         },
         {
           "month": "2025-12",
-          "downloads": 247
+          "downloads": 246
         },
         {
           "month": "2026-01",
-          "downloads": 103
+          "downloads": 106
         },
         {
           "month": "2026-02",
-          "downloads": 152
+          "downloads": 148
         },
         {
           "month": "2026-03",
@@ -3470,11 +3470,11 @@
         },
         {
           "month": "2026-04",
-          "downloads": 93
+          "downloads": 95
         },
         {
           "month": "2026-05",
-          "downloads": 152
+          "downloads": 150
         },
         {
           "month": "2026-06",
@@ -3482,11 +3482,11 @@
         },
         {
           "month": "2026-07",
-          "downloads": 188
+          "downloads": 132
         },
         {
           "month": "2026-08",
-          "downloads": 114
+          "downloads": 170
         },
         {
           "month": "2026-09",
@@ -3494,10 +3494,10 @@
         },
         {
           "month": "2026-10",
-          "downloads": 99
+          "downloads": 100
         }
       ],
-      "momGrowthPct": 16.470588235294116,
+      "momGrowthPct": 17.647058823529413,
       "isGrowing": true,
       "stars": 6,
       "description": "This is a set of rules to make classes using Equatable more maintainable. We make sure here that every fields in an Equatable class is linked to the Equatable props getter.",
