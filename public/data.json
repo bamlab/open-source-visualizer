@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T12:01:59.386Z",
+  "generatedAt": "2026-11-14T18:01:16.132Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -3140,67 +3140,6 @@
       "publishedAt": "2025-06-09T14:32:34.666856Z"
     },
     {
-      "name": "riverpod_community_mutation",
-      "totalDownloads": 3231,
-      "monthlyDownloads": [
-        {
-          "month": "2025-11",
-          "downloads": 307
-        },
-        {
-          "month": "2025-12",
-          "downloads": 281
-        },
-        {
-          "month": "2026-01",
-          "downloads": 339
-        },
-        {
-          "month": "2026-02",
-          "downloads": 491
-        },
-        {
-          "month": "2026-03",
-          "downloads": 239
-        },
-        {
-          "month": "2026-04",
-          "downloads": 190
-        },
-        {
-          "month": "2026-05",
-          "downloads": 182
-        },
-        {
-          "month": "2026-06",
-          "downloads": 181
-        },
-        {
-          "month": "2026-07",
-          "downloads": 170
-        },
-        {
-          "month": "2026-08",
-          "downloads": 258
-        },
-        {
-          "month": "2026-09",
-          "downloads": 242
-        },
-        {
-          "month": "2026-10",
-          "downloads": 351
-        }
-      ],
-      "momGrowthPct": 45.04132231404959,
-      "isGrowing": true,
-      "stars": 3,
-      "description": "A mutation implementation for the riverpod community - made by Theodo",
-      "notFound": false,
-      "ecosystem": "pub",
-      "publishedAt": "2025-05-22T13:02:37.162979Z"
-    },
-    {
       "name": "flutter_milibris",
       "totalDownloads": 15745,
       "monthlyDownloads": [
@@ -3260,6 +3199,67 @@
       "notFound": false,
       "ecosystem": "pub",
       "publishedAt": "2026-03-23T17:17:27.908343Z"
+    },
+    {
+      "name": "riverpod_community_mutation",
+      "totalDownloads": 3231,
+      "monthlyDownloads": [
+        {
+          "month": "2025-11",
+          "downloads": 307
+        },
+        {
+          "month": "2025-12",
+          "downloads": 281
+        },
+        {
+          "month": "2026-01",
+          "downloads": 339
+        },
+        {
+          "month": "2026-02",
+          "downloads": 491
+        },
+        {
+          "month": "2026-03",
+          "downloads": 239
+        },
+        {
+          "month": "2026-04",
+          "downloads": 190
+        },
+        {
+          "month": "2026-05",
+          "downloads": 182
+        },
+        {
+          "month": "2026-06",
+          "downloads": 181
+        },
+        {
+          "month": "2026-07",
+          "downloads": 170
+        },
+        {
+          "month": "2026-08",
+          "downloads": 258
+        },
+        {
+          "month": "2026-09",
+          "downloads": 242
+        },
+        {
+          "month": "2026-10",
+          "downloads": 351
+        }
+      ],
+      "momGrowthPct": 45.04132231404959,
+      "isGrowing": true,
+      "stars": 3,
+      "description": "A mutation implementation for the riverpod community - made by Theodo",
+      "notFound": false,
+      "ecosystem": "pub",
+      "publishedAt": "2025-05-22T13:02:37.162979Z"
     },
     {
       "name": "flutter_reach_five",
@@ -3384,67 +3384,6 @@
       "publishedAt": "2022-11-03T14:23:30.800535Z"
     },
     {
-      "name": "go_router_url_watcher",
-      "totalDownloads": 227,
-      "monthlyDownloads": [
-        {
-          "month": "2025-11",
-          "downloads": 0
-        },
-        {
-          "month": "2025-12",
-          "downloads": 0
-        },
-        {
-          "month": "2026-01",
-          "downloads": 0
-        },
-        {
-          "month": "2026-02",
-          "downloads": 0
-        },
-        {
-          "month": "2026-03",
-          "downloads": 0
-        },
-        {
-          "month": "2026-04",
-          "downloads": 0
-        },
-        {
-          "month": "2026-05",
-          "downloads": 0
-        },
-        {
-          "month": "2026-06",
-          "downloads": 123
-        },
-        {
-          "month": "2026-07",
-          "downloads": 25
-        },
-        {
-          "month": "2026-08",
-          "downloads": 38
-        },
-        {
-          "month": "2026-09",
-          "downloads": 25
-        },
-        {
-          "month": "2026-10",
-          "downloads": 16
-        }
-      ],
-      "momGrowthPct": -36,
-      "isGrowing": false,
-      "stars": 1,
-      "description": "Easily keep your state in the url when using go_router in Flutter",
-      "notFound": false,
-      "ecosystem": "pub",
-      "publishedAt": "2026-06-22T15:39:24.024032Z"
-    },
-    {
       "name": "equatable_lint",
       "totalDownloads": 1594,
       "monthlyDownloads": [
@@ -3504,6 +3443,67 @@
       "notFound": false,
       "ecosystem": "pub",
       "publishedAt": "2022-10-09T10:19:32.928925Z"
+    },
+    {
+      "name": "go_router_url_watcher",
+      "totalDownloads": 227,
+      "monthlyDownloads": [
+        {
+          "month": "2025-11",
+          "downloads": 0
+        },
+        {
+          "month": "2025-12",
+          "downloads": 0
+        },
+        {
+          "month": "2026-01",
+          "downloads": 0
+        },
+        {
+          "month": "2026-02",
+          "downloads": 0
+        },
+        {
+          "month": "2026-03",
+          "downloads": 0
+        },
+        {
+          "month": "2026-04",
+          "downloads": 0
+        },
+        {
+          "month": "2026-05",
+          "downloads": 0
+        },
+        {
+          "month": "2026-06",
+          "downloads": 123
+        },
+        {
+          "month": "2026-07",
+          "downloads": 25
+        },
+        {
+          "month": "2026-08",
+          "downloads": 38
+        },
+        {
+          "month": "2026-09",
+          "downloads": 25
+        },
+        {
+          "month": "2026-10",
+          "downloads": 16
+        }
+      ],
+      "momGrowthPct": -36,
+      "isGrowing": false,
+      "stars": 1,
+      "description": "Easily keep your state in the url when using go_router in Flutter",
+      "notFound": false,
+      "ecosystem": "pub",
+      "publishedAt": "2026-06-22T15:39:24.024032Z"
     }
   ]
 }
