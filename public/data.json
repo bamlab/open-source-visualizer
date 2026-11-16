@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T12:03:05.333Z",
+  "generatedAt": "2026-11-16T18:01:22.865Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -332,7 +332,7 @@
       ],
       "momGrowthPct": 4.7480024585126,
       "isGrowing": false,
-      "stars": 757,
+      "stars": 758,
       "description": "Everyday tools for simpler React Native development",
       "notFound": false,
       "ecosystem": "npm"
@@ -1508,7 +1508,7 @@
       ],
       "momGrowthPct": -4.624522698345354,
       "isGrowing": false,
-      "stars": 757,
+      "stars": 758,
       "description": "Please see [@bam.tech/react-native-make](https://github.com/bamlab/react-native-make)",
       "notFound": false,
       "ecosystem": "npm"
