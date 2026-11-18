@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T00:03:51.048Z",
+  "generatedAt": "2026-11-18T06:02:56.462Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2836,59 +2836,59 @@
     },
     {
       "name": "adaptive_test",
-      "totalDownloads": 96255,
+      "totalDownloads": 96620,
       "monthlyDownloads": [
         {
           "month": "2025-11",
-          "downloads": 2424
+          "downloads": 2495
         },
         {
           "month": "2025-12",
-          "downloads": 5694
+          "downloads": 5170
         },
         {
           "month": "2026-01",
-          "downloads": 4457
+          "downloads": 4954
         },
         {
           "month": "2026-02",
-          "downloads": 5487
+          "downloads": 5500
         },
         {
           "month": "2026-03",
-          "downloads": 6066
+          "downloads": 6147
         },
         {
           "month": "2026-04",
-          "downloads": 9241
+          "downloads": 9387
         },
         {
           "month": "2026-05",
-          "downloads": 8194
+          "downloads": 8180
         },
         {
           "month": "2026-06",
-          "downloads": 9943
+          "downloads": 9999
         },
         {
           "month": "2026-07",
-          "downloads": 12947
+          "downloads": 12972
         },
         {
           "month": "2026-08",
-          "downloads": 10678
+          "downloads": 10618
         },
         {
           "month": "2026-09",
-          "downloads": 12799
+          "downloads": 9963
         },
         {
           "month": "2026-10",
-          "downloads": 8325
+          "downloads": 11235
         }
       ],
-      "momGrowthPct": -34.95585592624424,
-      "isGrowing": false,
+      "momGrowthPct": 12.767238783498946,
+      "isGrowing": true,
       "stars": 21,
       "description": "A Flutter package to generate adaptive golden files during widget tests.",
       "notFound": false,
@@ -2958,58 +2958,58 @@
     },
     {
       "name": "app_attest_integrity",
-      "totalDownloads": 4318,
+      "totalDownloads": 4427,
       "monthlyDownloads": [
         {
           "month": "2025-11",
-          "downloads": 17
+          "downloads": 19
         },
         {
           "month": "2025-12",
-          "downloads": 32
+          "downloads": 23
         },
         {
           "month": "2026-01",
-          "downloads": 216
+          "downloads": 225
         },
         {
           "month": "2026-02",
-          "downloads": 66
+          "downloads": 64
         },
         {
           "month": "2026-03",
-          "downloads": 100
+          "downloads": 101
         },
         {
           "month": "2026-04",
-          "downloads": 138
+          "downloads": 139
         },
         {
           "month": "2026-05",
-          "downloads": 168
+          "downloads": 178
         },
         {
           "month": "2026-06",
-          "downloads": 298
+          "downloads": 301
         },
         {
           "month": "2026-07",
-          "downloads": 750
+          "downloads": 748
         },
         {
           "month": "2026-08",
-          "downloads": 414
+          "downloads": 416
         },
         {
           "month": "2026-09",
-          "downloads": 774
+          "downloads": 559
         },
         {
           "month": "2026-10",
-          "downloads": 1345
+          "downloads": 1654
         }
       ],
-      "momGrowthPct": 73.77260981912144,
+      "momGrowthPct": 195.88550983899822,
       "isGrowing": true,
       "stars": 5,
       "description": "A Flutter plugin to assess an app integrity. Uses App attest on iOS and app Integrity on Android.",
@@ -3080,27 +3080,27 @@
     },
     {
       "name": "http_cache_mmkv_store",
-      "totalDownloads": 4792,
+      "totalDownloads": 4840,
       "monthlyDownloads": [
         {
           "month": "2025-11",
-          "downloads": 17
+          "downloads": 19
         },
         {
           "month": "2025-12",
-          "downloads": 40
+          "downloads": 32
         },
         {
           "month": "2026-01",
-          "downloads": 24
+          "downloads": 30
         },
         {
           "month": "2026-02",
-          "downloads": 68
+          "downloads": 69
         },
         {
           "month": "2026-03",
-          "downloads": 83
+          "downloads": 84
         },
         {
           "month": "2026-04",
@@ -3108,30 +3108,30 @@
         },
         {
           "month": "2026-05",
-          "downloads": 77
+          "downloads": 76
         },
         {
           "month": "2026-06",
-          "downloads": 612
+          "downloads": 788
         },
         {
           "month": "2026-07",
-          "downloads": 2374
+          "downloads": 2270
         },
         {
           "month": "2026-08",
-          "downloads": 493
+          "downloads": 422
         },
         {
           "month": "2026-09",
-          "downloads": 204
+          "downloads": 129
         },
         {
           "month": "2026-10",
-          "downloads": 715
+          "downloads": 836
         }
       ],
-      "momGrowthPct": 250.49019607843138,
+      "momGrowthPct": 548.062015503876,
       "isGrowing": true,
       "stars": 156,
       "description": "A DB cache store implementation with mmkv for dio_cache_interceptor and http_cache_client packages.",
@@ -3263,58 +3263,58 @@
     },
     {
       "name": "flutter_reach_five",
-      "totalDownloads": 10024,
+      "totalDownloads": 10062,
       "monthlyDownloads": [
         {
           "month": "2025-11",
-          "downloads": 998
+          "downloads": 986
         },
         {
           "month": "2025-12",
-          "downloads": 1325
+          "downloads": 1269
         },
         {
           "month": "2026-01",
-          "downloads": 229
+          "downloads": 280
         },
         {
           "month": "2026-02",
-          "downloads": 316
+          "downloads": 295
         },
         {
           "month": "2026-03",
-          "downloads": 288
+          "downloads": 299
         },
         {
           "month": "2026-04",
-          "downloads": 510
+          "downloads": 501
         },
         {
           "month": "2026-05",
-          "downloads": 286
+          "downloads": 320
         },
         {
           "month": "2026-06",
-          "downloads": 1769
+          "downloads": 1805
         },
         {
           "month": "2026-07",
-          "downloads": 1095
+          "downloads": 1053
         },
         {
           "month": "2026-08",
-          "downloads": 877
+          "downloads": 865
         },
         {
           "month": "2026-09",
-          "downloads": 1550
+          "downloads": 1224
         },
         {
           "month": "2026-10",
-          "downloads": 781
+          "downloads": 1165
         }
       ],
-      "momGrowthPct": -49.612903225806456,
+      "momGrowthPct": -4.820261437908497,
       "isGrowing": false,
       "stars": 3,
       "description": "This package allows you to use the methods from the reachFive android and ios native sdks in Flutter",
@@ -3324,58 +3324,58 @@
     },
     {
       "name": "flutter_lyra",
-      "totalDownloads": 9601,
+      "totalDownloads": 9639,
       "monthlyDownloads": [
         {
           "month": "2025-11",
-          "downloads": 1119
+          "downloads": 1107
         },
         {
           "month": "2025-12",
-          "downloads": 1313
+          "downloads": 1259
         },
         {
           "month": "2026-01",
-          "downloads": 225
+          "downloads": 274
         },
         {
           "month": "2026-02",
-          "downloads": 262
+          "downloads": 242
         },
         {
           "month": "2026-03",
-          "downloads": 520
+          "downloads": 543
         },
         {
           "month": "2026-04",
-          "downloads": 411
+          "downloads": 389
         },
         {
           "month": "2026-05",
-          "downloads": 324
+          "downloads": 363
         },
         {
           "month": "2026-06",
-          "downloads": 920
+          "downloads": 919
         },
         {
           "month": "2026-07",
-          "downloads": 1127
+          "downloads": 1088
         },
         {
           "month": "2026-08",
-          "downloads": 819
+          "downloads": 836
         },
         {
           "month": "2026-09",
-          "downloads": 1526
+          "downloads": 1254
         },
         {
           "month": "2026-10",
-          "downloads": 1035
+          "downloads": 1365
         }
       ],
-      "momGrowthPct": -32.175622542595015,
+      "momGrowthPct": 8.851674641148326,
       "isGrowing": false,
       "stars": 4,
       "description": "This package allows you to use the methods from the lyra android and ios native sdks in Flutter",
@@ -3385,59 +3385,59 @@
     },
     {
       "name": "equatable_lint",
-      "totalDownloads": 1598,
+      "totalDownloads": 1590,
       "monthlyDownloads": [
         {
           "month": "2025-11",
-          "downloads": 49
+          "downloads": 51
         },
         {
           "month": "2025-12",
-          "downloads": 280
+          "downloads": 205
         },
         {
           "month": "2026-01",
-          "downloads": 94
+          "downloads": 159
         },
         {
           "month": "2026-02",
-          "downloads": 145
+          "downloads": 148
         },
         {
           "month": "2026-03",
-          "downloads": 132
+          "downloads": 136
         },
         {
           "month": "2026-04",
-          "downloads": 114
+          "downloads": 113
         },
         {
           "month": "2026-05",
-          "downloads": 139
+          "downloads": 132
         },
         {
           "month": "2026-06",
-          "downloads": 143
+          "downloads": 154
         },
         {
           "month": "2026-07",
-          "downloads": 193
+          "downloads": 184
         },
         {
           "month": "2026-08",
-          "downloads": 126
+          "downloads": 124
         },
         {
           "month": "2026-09",
-          "downloads": 98
+          "downloads": 84
         },
         {
           "month": "2026-10",
-          "downloads": 85
+          "downloads": 100
         }
       ],
-      "momGrowthPct": -13.26530612244898,
-      "isGrowing": false,
+      "momGrowthPct": 19.047619047619047,
+      "isGrowing": true,
       "stars": 6,
       "description": "This is a set of rules to make classes using Equatable more maintainable. We make sure here that every fields in an Equatable class is linked to the Equatable props getter.",
       "notFound": false,
@@ -3446,7 +3446,7 @@
     },
     {
       "name": "go_router_url_watcher",
-      "totalDownloads": 229,
+      "totalDownloads": 230,
       "monthlyDownloads": [
         {
           "month": "2025-11",
@@ -3478,11 +3478,11 @@
         },
         {
           "month": "2026-06",
-          "downloads": 107
+          "downloads": 109
         },
         {
           "month": "2026-07",
-          "downloads": 44
+          "downloads": 42
         },
         {
           "month": "2026-08",
@@ -3490,14 +3490,14 @@
         },
         {
           "month": "2026-09",
-          "downloads": 30
+          "downloads": 25
         },
         {
           "month": "2026-10",
-          "downloads": 16
+          "downloads": 22
         }
       ],
-      "momGrowthPct": -46.666666666666664,
+      "momGrowthPct": -12,
       "isGrowing": false,
       "stars": 1,
       "description": "Easily keep your state in the url when using go_router in Flutter",
