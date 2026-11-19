@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T00:04:08.102Z",
+  "generatedAt": "2026-11-19T06:03:05.022Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -80,7 +80,7 @@
       ],
       "momGrowthPct": 5.042973966140236,
       "isGrowing": false,
-      "stars": 1657,
+      "stars": 1656,
       "description": "Rescale local images with React Native",
       "notFound": false,
       "ecosystem": "npm"
@@ -1172,7 +1172,7 @@
       ],
       "momGrowthPct": -3.8095419532237274,
       "isGrowing": false,
-      "stars": 1657,
+      "stars": 1656,
       "description": "Rescale local images with React Native",
       "notFound": false,
       "ecosystem": "npm"
@@ -3080,19 +3080,19 @@
     },
     {
       "name": "http_cache_mmkv_store",
-      "totalDownloads": 4840,
+      "totalDownloads": 4895,
       "monthlyDownloads": [
         {
           "month": "2025-11",
-          "downloads": 19
+          "downloads": 21
         },
         {
           "month": "2025-12",
-          "downloads": 32
+          "downloads": 29
         },
         {
           "month": "2026-01",
-          "downloads": 30
+          "downloads": 33
         },
         {
           "month": "2026-02",
@@ -3100,38 +3100,38 @@
         },
         {
           "month": "2026-03",
-          "downloads": 84
-        },
-        {
-          "month": "2026-04",
           "downloads": 85
         },
         {
+          "month": "2026-04",
+          "downloads": 70
+        },
+        {
           "month": "2026-05",
-          "downloads": 76
+          "downloads": 90
         },
         {
           "month": "2026-06",
-          "downloads": 788
+          "downloads": 874
         },
         {
           "month": "2026-07",
-          "downloads": 2270
+          "downloads": 2212
         },
         {
           "month": "2026-08",
-          "downloads": 422
+          "downloads": 393
         },
         {
           "month": "2026-09",
-          "downloads": 129
+          "downloads": 150
         },
         {
           "month": "2026-10",
-          "downloads": 836
+          "downloads": 869
         }
       ],
-      "momGrowthPct": 548.062015503876,
+      "momGrowthPct": 479.3333333333333,
       "isGrowing": true,
       "stars": 156,
       "description": "A DB cache store implementation with mmkv for dio_cache_interceptor and http_cache_client packages.",
@@ -3202,58 +3202,58 @@
     },
     {
       "name": "riverpod_community_mutation",
-      "totalDownloads": 3234,
+      "totalDownloads": 3217,
       "monthlyDownloads": [
         {
           "month": "2025-11",
-          "downloads": 233
+          "downloads": 201
         },
         {
           "month": "2025-12",
-          "downloads": 319
+          "downloads": 317
         },
         {
           "month": "2026-01",
-          "downloads": 380
+          "downloads": 406
         },
         {
           "month": "2026-02",
-          "downloads": 495
+          "downloads": 487
         },
         {
           "month": "2026-03",
-          "downloads": 187
+          "downloads": 167
         },
         {
           "month": "2026-04",
-          "downloads": 226
+          "downloads": 196
         },
         {
           "month": "2026-05",
-          "downloads": 150
+          "downloads": 183
         },
         {
           "month": "2026-06",
-          "downloads": 178
+          "downloads": 185
         },
         {
           "month": "2026-07",
-          "downloads": 190
+          "downloads": 182
         },
         {
           "month": "2026-08",
-          "downloads": 226
+          "downloads": 239
         },
         {
           "month": "2026-09",
-          "downloads": 215
+          "downloads": 221
         },
         {
           "month": "2026-10",
-          "downloads": 435
+          "downloads": 433
         }
       ],
-      "momGrowthPct": 102.32558139534885,
+      "momGrowthPct": 95.92760180995475,
       "isGrowing": true,
       "stars": 3,
       "description": "A mutation implementation for the riverpod community - made by Theodo",
@@ -3385,58 +3385,58 @@
     },
     {
       "name": "equatable_lint",
-      "totalDownloads": 1590,
+      "totalDownloads": 1587,
       "monthlyDownloads": [
         {
           "month": "2025-11",
-          "downloads": 51
+          "downloads": 61
         },
         {
           "month": "2025-12",
-          "downloads": 205
+          "downloads": 247
         },
         {
           "month": "2026-01",
-          "downloads": 159
+          "downloads": 103
         },
         {
           "month": "2026-02",
-          "downloads": 148
+          "downloads": 152
         },
         {
           "month": "2026-03",
-          "downloads": 136
+          "downloads": 134
         },
         {
           "month": "2026-04",
-          "downloads": 113
+          "downloads": 93
         },
         {
           "month": "2026-05",
-          "downloads": 132
+          "downloads": 152
         },
         {
           "month": "2026-06",
-          "downloads": 154
+          "downloads": 159
         },
         {
           "month": "2026-07",
-          "downloads": 184
+          "downloads": 188
         },
         {
           "month": "2026-08",
-          "downloads": 124
+          "downloads": 114
         },
         {
           "month": "2026-09",
-          "downloads": 84
+          "downloads": 85
         },
         {
           "month": "2026-10",
-          "downloads": 100
+          "downloads": 99
         }
       ],
-      "momGrowthPct": 19.047619047619047,
+      "momGrowthPct": 16.470588235294116,
       "isGrowing": true,
       "stars": 6,
       "description": "This is a set of rules to make classes using Equatable more maintainable. We make sure here that every fields in an Equatable class is linked to the Equatable props getter.",
@@ -3478,26 +3478,26 @@
         },
         {
           "month": "2026-06",
-          "downloads": 109
+          "downloads": 111
         },
         {
           "month": "2026-07",
-          "downloads": 42
+          "downloads": 50
         },
         {
           "month": "2026-08",
-          "downloads": 32
-        },
-        {
-          "month": "2026-09",
           "downloads": 25
         },
         {
+          "month": "2026-09",
+          "downloads": 23
+        },
+        {
           "month": "2026-10",
-          "downloads": 22
+          "downloads": 21
         }
       ],
-      "momGrowthPct": -12,
+      "momGrowthPct": -8.695652173913043,
       "isGrowing": false,
       "stars": 1,
       "description": "Easily keep your state in the url when using go_router in Flutter",
