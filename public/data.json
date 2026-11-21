@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T00:03:45.180Z",
+  "generatedAt": "2026-11-21T06:02:43.641Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -3080,58 +3080,58 @@
     },
     {
       "name": "http_cache_mmkv_store",
-      "totalDownloads": 4931,
+      "totalDownloads": 4772,
       "monthlyDownloads": [
         {
           "month": "2025-11",
-          "downloads": 22
+          "downloads": 21
         },
         {
           "month": "2025-12",
-          "downloads": 28
+          "downloads": 29
         },
         {
           "month": "2026-01",
-          "downloads": 35
+          "downloads": 22
         },
         {
           "month": "2026-02",
-          "downloads": 70
+          "downloads": 67
         },
         {
           "month": "2026-03",
-          "downloads": 84
+          "downloads": 101
         },
         {
           "month": "2026-04",
-          "downloads": 70
+          "downloads": 68
         },
         {
           "month": "2026-05",
-          "downloads": 90
+          "downloads": 92
         },
         {
           "month": "2026-06",
-          "downloads": 1057
+          "downloads": 1086
         },
         {
           "month": "2026-07",
-          "downloads": 1811
+          "downloads": 1861
         },
         {
           "month": "2026-08",
-          "downloads": 609
+          "downloads": 530
         },
         {
           "month": "2026-09",
-          "downloads": 155
+          "downloads": 166
         },
         {
           "month": "2026-10",
-          "downloads": 900
+          "downloads": 729
         }
       ],
-      "momGrowthPct": 480.6451612903226,
+      "momGrowthPct": 339.1566265060241,
       "isGrowing": true,
       "stars": 156,
       "description": "A DB cache store implementation with mmkv for dio_cache_interceptor and http_cache_client packages.",
