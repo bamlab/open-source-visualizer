@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T12:02:42.053Z",
+  "generatedAt": "2026-11-23T18:01:43.894Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -675,9 +675,82 @@
     },
     {
       "name": "@bam.tech/flow-navigator",
-      "totalDownloads": 0,
-      "monthlyDownloads": [],
-      "momGrowthPct": null,
+      "totalDownloads": 110837,
+      "monthlyDownloads": [
+        {
+          "month": "2025-05",
+          "downloads": 4370
+        },
+        {
+          "month": "2025-06",
+          "downloads": 17841
+        },
+        {
+          "month": "2025-07",
+          "downloads": 5543
+        },
+        {
+          "month": "2025-08",
+          "downloads": 7922
+        },
+        {
+          "month": "2025-09",
+          "downloads": 4206
+        },
+        {
+          "month": "2025-10",
+          "downloads": 3151
+        },
+        {
+          "month": "2025-11",
+          "downloads": 2166
+        },
+        {
+          "month": "2025-12",
+          "downloads": 2387
+        },
+        {
+          "month": "2026-01",
+          "downloads": 2651
+        },
+        {
+          "month": "2026-02",
+          "downloads": 2007
+        },
+        {
+          "month": "2026-03",
+          "downloads": 4441
+        },
+        {
+          "month": "2026-04",
+          "downloads": 4287
+        },
+        {
+          "month": "2026-05",
+          "downloads": 6323
+        },
+        {
+          "month": "2026-06",
+          "downloads": 8262
+        },
+        {
+          "month": "2026-07",
+          "downloads": 8692
+        },
+        {
+          "month": "2026-08",
+          "downloads": 6683
+        },
+        {
+          "month": "2026-09",
+          "downloads": 6665
+        },
+        {
+          "month": "2026-10",
+          "downloads": 6653
+        }
+      ],
+      "momGrowthPct": -0.18004501125281322,
       "isGrowing": false,
       "stars": 47,
       "description": "A flow navigator for react-navigation",
@@ -2534,82 +2607,9 @@
     },
     {
       "name": "cordova-camera-roll",
-      "totalDownloads": 239,
-      "monthlyDownloads": [
-        {
-          "month": "2025-05",
-          "downloads": 1
-        },
-        {
-          "month": "2025-06",
-          "downloads": 4
-        },
-        {
-          "month": "2025-07",
-          "downloads": 13
-        },
-        {
-          "month": "2025-08",
-          "downloads": 2
-        },
-        {
-          "month": "2025-09",
-          "downloads": 5
-        },
-        {
-          "month": "2025-10",
-          "downloads": 12
-        },
-        {
-          "month": "2025-11",
-          "downloads": 10
-        },
-        {
-          "month": "2025-12",
-          "downloads": 5
-        },
-        {
-          "month": "2026-01",
-          "downloads": 10
-        },
-        {
-          "month": "2026-02",
-          "downloads": 7
-        },
-        {
-          "month": "2026-03",
-          "downloads": 31
-        },
-        {
-          "month": "2026-04",
-          "downloads": 15
-        },
-        {
-          "month": "2026-05",
-          "downloads": 24
-        },
-        {
-          "month": "2026-06",
-          "downloads": 21
-        },
-        {
-          "month": "2026-07",
-          "downloads": 15
-        },
-        {
-          "month": "2026-08",
-          "downloads": 11
-        },
-        {
-          "month": "2026-09",
-          "downloads": 19
-        },
-        {
-          "month": "2026-10",
-          "downloads": 9
-        }
-      ],
-      "momGrowthPct": -52.63157894736842,
+      "totalDownloads": 0,
+      "monthlyDownloads": [],
+      "momGrowthPct": null,
       "isGrowing": false,
       "stars": 0,
       "description": "The Cordova Camera Roll plugin makes it easy to read from the iOS camera roll.",
