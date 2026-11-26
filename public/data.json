@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T00:03:58.114Z",
+  "generatedAt": "2026-11-26T06:02:54.845Z",
   "packages": [
     {
       "name": "@bam.tech/react-native-image-resizer",
@@ -2775,58 +2775,58 @@
     },
     {
       "name": "riverpod_community_extensions",
-      "totalDownloads": 24081,
+      "totalDownloads": 24035,
       "monthlyDownloads": [
         {
           "month": "2025-11",
-          "downloads": 542
+          "downloads": 486
         },
         {
           "month": "2025-12",
-          "downloads": 1581
+          "downloads": 1476
         },
         {
           "month": "2026-01",
-          "downloads": 841
+          "downloads": 862
         },
         {
           "month": "2026-02",
-          "downloads": 719
+          "downloads": 721
         },
         {
           "month": "2026-03",
-          "downloads": 838
+          "downloads": 830
         },
         {
           "month": "2026-04",
-          "downloads": 1096
+          "downloads": 1004
         },
         {
           "month": "2026-05",
-          "downloads": 2432
+          "downloads": 2816
         },
         {
           "month": "2026-06",
-          "downloads": 4345
+          "downloads": 4154
         },
         {
           "month": "2026-07",
-          "downloads": 3525
+          "downloads": 3420
         },
         {
           "month": "2026-08",
-          "downloads": 2600
+          "downloads": 2782
         },
         {
           "month": "2026-09",
-          "downloads": 3050
+          "downloads": 2974
         },
         {
           "month": "2026-10",
-          "downloads": 2512
+          "downloads": 2510
         }
       ],
-      "momGrowthPct": -17.639344262295083,
+      "momGrowthPct": -15.601882985877605,
       "isGrowing": false,
       "stars": 9,
       "description": "Extends Riverpod ref types with additional helpers, to easily add common functionalities to your providers.",
@@ -2897,58 +2897,58 @@
     },
     {
       "name": "theodo_analysis",
-      "totalDownloads": 28293,
+      "totalDownloads": 28231,
       "monthlyDownloads": [
         {
           "month": "2025-11",
-          "downloads": 768
+          "downloads": 723
         },
         {
           "month": "2025-12",
-          "downloads": 1848
+          "downloads": 1721
         },
         {
           "month": "2026-01",
-          "downloads": 769
+          "downloads": 775
         },
         {
           "month": "2026-02",
-          "downloads": 906
+          "downloads": 938
         },
         {
           "month": "2026-03",
-          "downloads": 1608
+          "downloads": 1599
         },
         {
           "month": "2026-04",
-          "downloads": 3624
+          "downloads": 3187
         },
         {
           "month": "2026-05",
-          "downloads": 3068
+          "downloads": 3780
         },
         {
           "month": "2026-06",
-          "downloads": 4170
+          "downloads": 3989
         },
         {
           "month": "2026-07",
-          "downloads": 3414
+          "downloads": 3303
         },
         {
           "month": "2026-08",
-          "downloads": 2313
+          "downloads": 2483
         },
         {
           "month": "2026-09",
-          "downloads": 3086
+          "downloads": 3001
         },
         {
           "month": "2026-10",
-          "downloads": 2719
+          "downloads": 2732
         }
       ],
-      "momGrowthPct": -11.892417368762151,
+      "momGrowthPct": -8.963678773742085,
       "isGrowing": false,
       "stars": 2,
       "description": "Lint and dcm rules for Dart and Flutter used internally at Theodo Apps.",
@@ -3141,58 +3141,58 @@
     },
     {
       "name": "riverpod_community_mutation",
-      "totalDownloads": 3091,
+      "totalDownloads": 3085,
       "monthlyDownloads": [
         {
           "month": "2025-11",
-          "downloads": 90
+          "downloads": 69
         },
         {
           "month": "2025-12",
-          "downloads": 319
+          "downloads": 317
         },
         {
           "month": "2026-01",
-          "downloads": 380
+          "downloads": 406
         },
         {
           "month": "2026-02",
-          "downloads": 495
+          "downloads": 487
         },
         {
           "month": "2026-03",
-          "downloads": 187
+          "downloads": 167
         },
         {
           "month": "2026-04",
-          "downloads": 226
+          "downloads": 196
         },
         {
           "month": "2026-05",
-          "downloads": 150
+          "downloads": 183
         },
         {
           "month": "2026-06",
-          "downloads": 178
+          "downloads": 185
         },
         {
           "month": "2026-07",
-          "downloads": 190
+          "downloads": 182
         },
         {
           "month": "2026-08",
-          "downloads": 226
+          "downloads": 239
         },
         {
           "month": "2026-09",
-          "downloads": 215
+          "downloads": 221
         },
         {
           "month": "2026-10",
-          "downloads": 435
+          "downloads": 433
         }
       ],
-      "momGrowthPct": 102.32558139534885,
+      "momGrowthPct": 95.92760180995475,
       "isGrowing": true,
       "stars": 3,
       "description": "A mutation implementation for the riverpod community - made by Theodo",
@@ -3263,58 +3263,58 @@
     },
     {
       "name": "flutter_reach_five",
-      "totalDownloads": 9525,
+      "totalDownloads": 9411,
       "monthlyDownloads": [
         {
           "month": "2025-11",
-          "downloads": 449
+          "downloads": 400
         },
         {
           "month": "2025-12",
-          "downloads": 1269
+          "downloads": 1181
         },
         {
           "month": "2026-01",
-          "downloads": 280
+          "downloads": 277
         },
         {
           "month": "2026-02",
-          "downloads": 295
+          "downloads": 300
         },
         {
           "month": "2026-03",
-          "downloads": 299
+          "downloads": 272
         },
         {
           "month": "2026-04",
-          "downloads": 501
+          "downloads": 466
         },
         {
           "month": "2026-05",
-          "downloads": 320
+          "downloads": 478
         },
         {
           "month": "2026-06",
-          "downloads": 1805
+          "downloads": 1729
         },
         {
           "month": "2026-07",
-          "downloads": 1053
+          "downloads": 1017
         },
         {
           "month": "2026-08",
-          "downloads": 865
+          "downloads": 960
         },
         {
           "month": "2026-09",
-          "downloads": 1224
+          "downloads": 1214
         },
         {
           "month": "2026-10",
-          "downloads": 1165
+          "downloads": 1117
         }
       ],
-      "momGrowthPct": -4.820261437908497,
+      "momGrowthPct": -7.990115321252059,
       "isGrowing": false,
       "stars": 3,
       "description": "This package allows you to use the methods from the reachFive android and ios native sdks in Flutter",
@@ -3324,58 +3324,58 @@
     },
     {
       "name": "flutter_lyra",
-      "totalDownloads": 9120,
+      "totalDownloads": 8988,
       "monthlyDownloads": [
         {
           "month": "2025-11",
-          "downloads": 588
+          "downloads": 521
         },
         {
           "month": "2025-12",
-          "downloads": 1259
+          "downloads": 1170
         },
         {
           "month": "2026-01",
-          "downloads": 274
+          "downloads": 271
         },
         {
           "month": "2026-02",
-          "downloads": 242
+          "downloads": 250
         },
         {
           "month": "2026-03",
-          "downloads": 543
+          "downloads": 517
         },
         {
           "month": "2026-04",
-          "downloads": 389
+          "downloads": 376
         },
         {
           "month": "2026-05",
-          "downloads": 363
+          "downloads": 498
         },
         {
           "month": "2026-06",
-          "downloads": 919
+          "downloads": 843
         },
         {
           "month": "2026-07",
-          "downloads": 1088
+          "downloads": 1048
         },
         {
           "month": "2026-08",
-          "downloads": 836
+          "downloads": 933
         },
         {
           "month": "2026-09",
-          "downloads": 1254
+          "downloads": 1230
         },
         {
           "month": "2026-10",
-          "downloads": 1365
+          "downloads": 1331
         }
       ],
-      "momGrowthPct": 8.851674641148326,
+      "momGrowthPct": 8.211382113821138,
       "isGrowing": false,
       "stars": 4,
       "description": "This package allows you to use the methods from the lyra android and ios native sdks in Flutter",
@@ -3385,58 +3385,58 @@
     },
     {
       "name": "equatable_lint",
-      "totalDownloads": 1563,
+      "totalDownloads": 1559,
       "monthlyDownloads": [
         {
           "month": "2025-11",
-          "downloads": 24
+          "downloads": 33
         },
         {
           "month": "2025-12",
-          "downloads": 205
+          "downloads": 247
         },
         {
           "month": "2026-01",
-          "downloads": 159
+          "downloads": 103
         },
         {
           "month": "2026-02",
-          "downloads": 148
+          "downloads": 152
         },
         {
           "month": "2026-03",
-          "downloads": 136
+          "downloads": 134
         },
         {
           "month": "2026-04",
-          "downloads": 113
+          "downloads": 93
         },
         {
           "month": "2026-05",
-          "downloads": 132
+          "downloads": 152
         },
         {
           "month": "2026-06",
-          "downloads": 154
+          "downloads": 159
         },
         {
           "month": "2026-07",
-          "downloads": 184
+          "downloads": 188
         },
         {
           "month": "2026-08",
-          "downloads": 124
+          "downloads": 114
         },
         {
           "month": "2026-09",
-          "downloads": 84
+          "downloads": 85
         },
         {
           "month": "2026-10",
-          "downloads": 100
+          "downloads": 99
         }
       ],
-      "momGrowthPct": 19.047619047619047,
+      "momGrowthPct": 16.470588235294116,
       "isGrowing": true,
       "stars": 6,
       "description": "This is a set of rules to make classes using Equatable more maintainable. We make sure here that every fields in an Equatable class is linked to the Equatable props getter.",
